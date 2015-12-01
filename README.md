@@ -6,7 +6,7 @@ Traduction de l'interface de Magento 2 en Français.
 
 Ajouter le composant dans le fichier composer.json :
 
-    composer require lalbert/magento2-fr_fr
+    composer require lalbert/magento2-fr_fr:@alpha
     
 Vider le cacher
 
