@@ -16,7 +16,7 @@ Vider le cacher
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 4746/7775 ![Progress](http://progressed.io/bar/61)
+**Progression globale** : 4755/7775 ![Progress](http://progressed.io/bar/61)
 
 ## Thèmes
 
