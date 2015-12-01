@@ -1,0 +1,14 @@
+{
+	"name" : "lalbert/magento2-fr_fr",
+	"description" : "French (France) language",
+	"license" : "MIT",
+	"require" : {
+		"magento/framework" : "100.0.*"
+	},
+	"type" : "magento2-language",
+	"autoload" : {
+		"files" : [
+			"registration.php"
+		]
+	}
+}
