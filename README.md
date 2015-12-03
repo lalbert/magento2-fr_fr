@@ -16,7 +16,7 @@ Vider le cacher
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : * 4927/7775 ![Progress](http://progressed.io/bar/63)
+**Progression globale** : * 4933/7775 ![Progress](http://progressed.io/bar/63)
 
 ## Thèmes
 
@@ -38,7 +38,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 * Magento_CatalogImportExport : 0/18 ![Progress](http://progressed.io/bar/0)
 * Magento_CatalogInventory : 30/57 ![Progress](http://progressed.io/bar/53)
 * Magento_CatalogRule : 46/76 ![Progress](http://progressed.io/bar/61)
-* Magento_CatalogSearch : 30/36 ![Progress](http://progressed.io/bar/83)
+* Magento_CatalogSearch : 36/36 ![Progress](http://progressed.io/bar/100)
 * Magento_CatalogUrlRewrite : 5/6 ![Progress](http://progressed.io/bar/83)
 * Magento_CatalogWidget : 13/20 ![Progress](http://progressed.io/bar/65)
 * Magento_Checkout : 71/135 ![Progress](http://progressed.io/bar/53)

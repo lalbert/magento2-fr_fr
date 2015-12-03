@@ -1244,6 +1244,7 @@ No,Non
 Results,Résultats
 Grid,Grille
 List,Liste
+Search Weight,Poids pour la recherche
 Relevance,Pertinence
 Search results for: '%1',Résultats de recherche pour : '%1'
 Minimum Search query length is %1,La longueur mini de requête est %1
@@ -1253,13 +1254,18 @@ up to %1,jusqu'à %1
 Category,Catégorie
 %1 and above,%1 et plus
 %1 - %2,%1 - %2
+Bucket do not exists,Le bucket n'existe pas
 Product,Produit
 Search Settings,Paramètres de recherche
 Search,Chercher
 Advanced Search,Recherche avancée
+<strong>%1 item</strong> were found using the following search criteria,<strong>%1 article</strong> trouvé avec les critères de recherche suivants
+<strong>%1 items</strong> were found using the following search criteria,<strong>%1 articles</strong> trouvés avec les critères de recherche suivants
+We can't find any items matching these search criteria.,Nous ne pouvons pas trouver tous les éléments correspondant à ces critères de recherche.
 Modify your search,Modifier votre recherche
 name,Nom
 Don't see what you're looking for?,Vous ne trouvez pas ce que vous cherchez ?
+Your search returned no results.,Votre recherche n'a donné aucun résultat.
 Popular Search Terms,Termes de recherche populaires
 Catalog Search,Recherche catalogue
 Minimal Query Length,Longueur mini de requête
