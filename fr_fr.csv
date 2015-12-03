@@ -1273,19 +1273,27 @@ Maximum Query Length,Longueur maxi de requête
 Rebuild Catalog product fulltext search index,Reconstruire l'index de recherche sur le texte complet du catalogue produit
 Create Permanent Redirect for old URL,Créer des redirections permanentes pour les anciennes URLs.
 Category URL Suffix,Suffixe d'URL des catégories
+You need to refresh the cache.,Vous devez rafrîchir le cache.
 Product URL Suffix,Suffixe d'URL de produit
 Use Categories Path for Product URLs,Utiliser le chemin des catégories pour l'URL des produits
 Create Permanent Redirect for URLs if URL Key Changed,Créer une redirection permanente pour les URLs si la clé d'URL change
 Conditions Combination,Combinaison de conditions
 Product Attribute,Attribut du produit
 SKU,Réf.
+Please choose a condition to add.,Merci de choisir une condition à ajouter.
 Add to Cart,Ajouter au panier
 In stock,En stock
 Out of stock,Épuisé
+Add to Wish List,Ajouter à la liste d'envie
 Add to Compare,Ajouter au comparateur
+Catalog Products List,Liste du catalogue produits
+List of Products,Liste des produits
 Title,Titre
+Display Page Control,Contrôle de l'affichage de la page
+Number of Products per Page,Nombre de produits par page
 Number of Products to Display,Nombre de produits à afficher
 Template,Gabarit
+Products Grid Template,Template de la grille de produits
 Cache Lifetime (Seconds),Durée de vie du cache (secondes)
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 par défaut, si non renseigné. Pour actualiser instantanément, purgez le cache des Blocs HTML de sortie."
 Conditions,Conditions
@@ -1374,6 +1382,7 @@ Disabled,Désactivé
 Show Content as,Afficher le contenu comme
 Text,Texte
 HTML,HTML
+Applied,Appliqué
 Store View,Vue magasin
 Checkbox Text,Texte de la case à cocher
 Content,Contenu
@@ -1385,9 +1394,18 @@ Sales,Ventes
 Checkout Conditions,Conditions de commande
 Checkout Terms and Conditions,Conditions générales de ventes
 This condition no longer exists.,Cette condition n'existe plus.
+You deleted the condition.,Vous avez supprimé la condition.
+Something went wrong  while deleting this condition.,Une erreur s'est produite durant la suppression de cette condition.
 Edit Condition,Éditer la condition
 New Condition,Nouvelle condition
+You saved the condition.,La condition a été sauvegardée.
+Something went wrong while saving this condition.,Une erreur s'est produite durant l'enregistrement de cette condition.
+Automatically,Automatiquement
+Manually,Manuellement
 Please agree to all the terms and conditions before placing the order.,Veuillez accepter les conditions générales de ventes avant de valider la commande.
+Unable to save checkout agreement %1,Impossible de sauvegarder la condition de vente %1
+Unable to remove checkout agreement %1,Impossible de supprimer la condition de vente %1
+"Checkout agreement with specified ID ""%1"" not found.","La condition de vente liée à l'identifiant fourni ""%1"" n'a pas été trouvée."
 Enable Terms and Conditions,Activer les conditions générales de vente
 Static Blocks,Blocs statiques
 Add New Block,Ajouter un nouveau bloc
@@ -1594,31 +1612,53 @@ Email Options,Options de mail
 Send Emails To,Envoyer les mails à
 Email Sender,Expéditeur du mail
 Email Template,Gabarit du mail
+Invalid domain name: ' .,Nom de domaine invalide : ' .
+Invalid cookie lifetime: ' .,Durée de vie du cookie invalide : ' .
+Invalid cookie path,Chemin du cookie invalide
+We use cookies to make your experience better.,Nous utilisons les cookies pour vous offrir une meilleure expérience utilisateur.
+"To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Pour se conformer à la nouvelle directive concernant la vie privée, nous devons vous demander votre consentement pour enregistrer des cookies sur votre ordinateur."
+"<a href=""%1"">Learn more</a>.","<a href=""%1"">En savoir +</a>."
+Allow Cookies,Autoriser les cookies
+Default Cookie Settings,Paramètres par défaut des cookies
 Cookie Lifetime,Durée de vie des cookies
 Cookie Path,Chemin du cookie
 Cookie Domain,Domaine du cookie
 Use HTTP Only,Utiliser uniquement HTTP
 Cookie Restriction Mode,Mode de restriction de cookie
+We can't save the cron expression.,Impossible de sauvegarder l'expression de la tâche programmée
 Daily,Quotidien
 Weekly,Hebdomadaire
 Monthly,Mensuel
+Invalid cron expression: %1,Expression de la tâche programmée invalide : %1
+"Invalid cron expression, expecting 'match/modulus': %1","Expression de la tâche programmée invalide, ""valeur/modulo"" attendu : %1"
+"Invalid cron expression, expecting numeric modulus: %1","Expression de la tâche programmée invalide, modulo numérique attendu : %1"
+"Invalid cron expression, expecting 'from-to' structure: %1","Expression de la tâche programmée invalide : structure ""de-à"" attendu : %1"
 Cron (Scheduled Tasks) - all the times are in minutes,Cron (Tâches programmées) - tous les temps sont en minutes
 For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.,"Afin que les URLs soient générées correctement lors de l'exécution de cron, assurez-vous que les URL non sécurisée et sécurisée sont correctement renseignées."
+Cron configuration options for group: ,Options de configuration pour les tâches programmées groupées :
 Generate Schedules Every,Générer les tâches programmées toutes les
 Schedule Ahead for,Programmer en avance de
 Missed if Not Run Within,Manqué si non exécuté dans les
 History Cleanup Every,Nettoyer l'historique toutes les
 Success History Lifetime,Durée de vie de l'historique des succès
 Failure History Lifetime,Durée de vie de l'historique des échecs
+Use Separate Process,Utiliser des processus séparés
 Save Currency Rates,Sauvegarder les taux de devises
 Reset,Réinitialiser
 Import,Importer
 Manage Currency Rates,Gestion des taux des devises
 Import Service,Service d'importation
 Save Currency Symbols,Enregistrer les symboles de devise
+Currency Symbols,Symboles de devise
 Use Standard,Utiliser le standard
+Please specify a correct Import Service.,Merci de renseigner un service d'importation valide.
+We can't initialize the import model.,Impossible d'initialiser le modèle d'importation.
+"Click ""Save"" to apply the rates we found.","Cliquez sur ""Enregistrer"" pour appliquer les taux trouvés"
+Currency Rates,Taux de change
+Please correct the input data for %1 => %2 rate,Merci de corriger les données renseignées pour %1 => taux %2
 All valid rates have been saved.,Tous les taux valides ont été sauvegardés.
 System,Système
+You applied the custom currency symbols.,Vous avez appliqué les symboles de devise personnalisés.
 Old rate:,Ancien taux :
 You have not set a default shipping address.,Vous n'avez pas spécifié d'adresse de livraison par défaut.
 You have not set a default billing address.,Vous n'avez pas spécifié d'adresse de facturation par défaut.
@@ -1898,9 +1938,18 @@ My Dashboard,Mon tableau de bord
 Please enter a valid email.,Veuillez saisir une adresse email valide.
 CSV,CSV
 Excel XML,XML d'Excel
+"Cannot switch into given mode ""%1""","Vous ne pouvez pas passé dans le mode désiré ""%1"""
+Format for IDE '%1' is not supported,Le format pour l'EDI '%1' n'est pas pris en charge
+Client side less compilation,Compilation less coté client
+Server side less compilation,Compilation less coté serveur
+Front-end development workflow,Automatisation de processus coté front office
+Workflow type,Type d'automatisation de processus
+Not available in production mode,Non disponible en mode production
 Developer Client Restrictions,Restrictions client développeur
 Allowed IPs (comma separated),IPs autorisées (séparées par des virgules)
 Leave empty for access from any location.,Laissez vide si vous souhaitez y accéder depuis n'importe où.
+Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.,Sélectionnez cette option pour permettre à DHL d'optimiser les frais d'expédition en divisant la commande si elle dépasse %1 %2.
+Wrong Content Type,Mauvais type de contenu
 Pounds,Livres
 Kilograms,Kilos
 Inches,Pouces
@@ -1935,8 +1984,10 @@ Customer services,Services client
 Jetline,Jetline
 Freight worldwide,Frêt monde
 Jumbo box,Jumbo box
+DHL service is not available at %s date,Le service DHL n'est pas disponible à la date du %s
 The response is in wrong format.,La réponse n'est pas dans le bon format.
 Error #%1 : %2,Erreur n°%1 : %2
+We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).,Nous avons dû ignorer la méthode DHL %1 car il était impossible d'obtenir le taux de change %2 (Devise de base).
 Zero shipping charge for '%1',Aucun frais de port pour '%1'
 DHL,DHL
 Cannot identify measure unit for %1,Impossible d'identifier l'unité de mesure pour %1
@@ -1946,9 +1997,11 @@ There is no items in this order,Il n'y a pas d'article dans cette commande
 Documents,Documents
 Non Documents,Autres que documents
 "Height, width and length should be equal or greater than %1","Hauteur, largeur et longueur devrait être supérieurs ou égaux à %1"
+Wrong Region,Mauvaise région
 Unable to retrieve tracking,Impossible de récupérer les informations de suivi
 Response is in the wrong format,La réponse n'est pas dans le bon format
 No packages for request,Pas de paquet demandé
+Unable to retrieve shipping label,Impossible de récupérer l'étiquette d'expédition
 Non documents,Autres que documents
 None,Aucun
 Enabled for Checkout,Activé pour commander
@@ -1960,13 +2013,16 @@ Account Number,Numéro de compte
 Content Type,Type de contenu
 Calculate Handling Fee,Calculer les frais de dossier
 Handling Applied,Frais de dossier appliqués
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Par commande"" => frais de traitement pour l'ensemble de la commande<br />""Par paquet"" => frais de traitement pour chaque paquet."
 Handling Fee,Frais de traitement
 Divide Order Weight,Diviser le poids de la commande
+Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.,Sélectionnez cette option pour permettre à DHL d'optimiser les frais d'expédition en divisant la commande si elle dépasse 70 Kg.
 Weight Unit,Unité de poids
 Size,Taille
 Allowed Methods,Modes de livraison autorisés
 Displayed Error Message,Message d'erreur affiché
 Free Method,Mode gratuit
+Free Shipping Amount Threshold,Montant minimum pour la livraison gratuite
 Ship to Applicable Countries,Livrer aux pays applicables
 Ship to Specific Countries,Livrer aux pays spécifiques
 Show Method if Not Applicable,Afficher le mode s'il n'est pas applicable
@@ -2077,6 +2133,8 @@ Open Links in New Window,Ouvrir les liens dans une nouvelle fenêtre
 Use Content-Disposition,Utiliser la disposition de contenu
 Disable Guest Checkout if Cart Contains Downloadable Items,Désactiver le passage de commande en tant qu'invité si le panier contient des produits téléchargeables
 Guest checkout will only work with shareable.,Le passage de commande en tant qu'invité ne fonctionnera qu'avec les partageables.
+File directory '%1' is not readable.,Le répertoire '%1' n'est pas autorisé en lecteur.
+File directory '%1' is not writable.,Le répertoire '%1' n'est pas autorisé en écriture.
 Error,Erreur
 Attribute Properties,Propriétés de l'attribut
 Default label,Libellé par défaut
@@ -2220,9 +2278,19 @@ ID,ID
 Subject,Sujet
 Template Type,Type de gabarit
 Action,Action
-Encryption Key,Clé de cryptage
+Change Encryption Key,Changer la clé de chiffrement
+Encryption Key,Clé de chiffrement
+New Encryption Key,Nouvelle clé de chiffrement
+The encryption key is used to protect passwords and other sensitive data.,La clé de chiffrement est utilisée pour protéger les mots de passe et d'autres données sensibles.
+Auto-generate a Key,Générer automatiquement une clé
 No,Non
 Yes,Oui
+The generated key will be displayed after changing.,La clé générée sera affichée après avoir été changé.
+New Key,Nouvelle clé
+Deployment configuration file is not writable.,Le fichier de configuration du déploiement n'est pas accessible en écriture.
+Please enter an encryption key.,Merci de renseigner une clé de chiffrement
+The encryption key has been changed.,La clé de chiffrement a été modifiée.
+"This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. Be sure to write it down and take good care of it!","Ceci est votre nouvelle clé de chiffrement : <span style=""font-family: monospace;"">%1</span>. Assurez-vous de l'écrire et de prendre soin d'elle !"
 Europe First Priority,Prioritaire Europe
 1 Day Freight,Frêt 1 jour
 2 Day Freight,Frêt 2 jours
@@ -2262,6 +2330,7 @@ Direct,Directe
 Indirect,Indirecte
 Pounds,Livres
 Kilograms,Kilos
+For some reason we can't retrieve tracking info right now.,Pour une raison indéterminée nous n'arrivons pas à récuperer les informations de suivi actuellement.
 status,Statut
 Empty response,Réponse vide
 None,Aucun
@@ -2274,6 +2343,8 @@ Meter Number,Numéro du compteur
 Key,Clé
 Password,Mot de passe
 Sandbox Mode,Mode Sandbox
+Web-Services URL (Production),URL du web-service (Production)
+Web-Services URL (Sandbox),URL du web-service (Développement)
 Packages Request Type,Type de requête de paquets
 Packaging,Emballage
 Dropoff,Déposer
@@ -2287,6 +2358,7 @@ Allowed Methods,Modes de livraison autorisés
 Hub ID,Identifiant de hub
 The field is applicable if the Smart Post method is selected.,Le champ est applicable si le mode Smart Post est choisi.
 Free Method,Mode gratuit
+Free Shipping Amount Threshold,Montant minimum pour la livraison gratuite
 Displayed Error Message,Message d'erreur affiché
 Ship to Applicable Countries,Livrer aux pays applicables
 Ship to Specific Countries,Livrer aux pays spécifiques
@@ -2316,7 +2388,12 @@ Enable,Activer
 Account Number,Numéro de compte
 Product View Optimization,Optimisation de vue de produit
 Page View Optimization,Optimisation de page de vue
+Google Analytics Content Experiments Code,Code Google Analytics du test de page de contenu
+Experiment Code,Code du test
+Experiment code should be added to the original page only.,Le code de test doit être ajouté uniquement sur la page originale.<br /><i>En savoir plus : https://support.google.com/analytics/answer/1745152?hl=fr</i>
 Category View Optimization,Optimisation de vue de catégorie
+Enable Content Experiments,Activer la fonctionnalité de test de page de contenu
+Grouped Products,Produits groupés
 Please specify the quantity of product(s).,Spécifiez la quantité de produit(s).
 Cannot process the item.,Impossible de traiter l'élément.
 Associated Products,Produits associés
@@ -2328,9 +2405,15 @@ Product Name,Nom du produit
 Price,Prix
 Qty,Qté
 No options of this product are available.,Aucune option n'est disponible pour ce produit.
+There are no grouped products.,Il n'y a pas de produits groupés.
 Name,Nom
 Default Qty,Qté par défaut
+Starting at,À partir de
+Availability,Disponibilité
 In stock,En stock
+Grouped product items,Articles du produit groupé
+Add Products to Group,Ajouter des produits au groupe
+Add Selected Products,Ajouter les produits sélectionnés
 Grouped Product Image,Image de produit groupé
 Export,Exporter
 Export Settings,Paramètres d'export
@@ -2408,6 +2491,7 @@ Position in Layered Navigation,Position dans la navigation par filtres
 Position of attribute in layered navigation block,Position de l'attribut dans le bloc de navigation par filtres
 item,Article
 items,Articles
+Now Shopping by,Filtre en cours
 Previous,Précédent
 Remove,Supprimer
 Remove This Item,Supprimer cet élément
@@ -2427,6 +2511,7 @@ Interval Division Limit,Limite de division d'intervalle
 Synchronize,Synchroniser
 Synchronizing %1 to %2,Synchronisation en cours de %1 vers %2
 Synchronizing...,Synchronisation en cours...
+The timeout limit for response from synchronize process was reached.,La limite du délai d'attente de la réponse du processus de synchronisation a été atteinte.
 File %1 does not exist,Le fichier %1 n'existe pas.
 File %1 is not readable,Le fichier %1 n'est pas lisible
 File System,Système de fichiers
@@ -2446,6 +2531,7 @@ Unable to save file: %1,Impossible d'enregistrer le fichier
 Storage Configuration for Media,Configuration du stockage des media
 Media Storage,Stockage des medias
 Select Media Database,Sélectionner la base de données des media
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Après la sélection d'un nouvel emplacement de stockage des médias, appuyez sur le bouton ""Synchroniser"" pour transférer tous les médias à cet endroit. Les médias ne seront pas disponibles dans le nouvel emplacement jusqu'à ce que le processus de synchronisation soit terminée."
 Environment Update Time,Temps de mise à jour de l'environnement
 "To see product price, add this item to your cart. You can always remove it later.","Pour voir le prix du produit, ajoutez cet article à votre panier. Vous pourrez toujours l'enlever plus tard."
 See price before order confirmation.,Voir le prix avant la confirmation de la commande
@@ -2456,6 +2542,7 @@ Use config,Utiliser la config
 Click for price,Cliquez pour afficher le prix
 What's this?,Qu'est-ce que c'est ?
 Order total will be displayed before you submit the order,LE TOTAL DE LA COMMANDE S'AFFICHERA AVANT LA CONFIRMATION DE COMMANDE
+You will see the order total before you submit the order.,Vous verrez le total de la commande avant de valider la commande.
 Price,Prix
 Actual Price,Prix ​​actuel
 Add to Cart,Ajouter au panier
@@ -3092,15 +3179,22 @@ Website Payments Pro Hosted Solution,Solution hébergée Website Payments Pro
 Display Express Checkout in the Payment Information step,Afficher le paiement Express dans l'étape des informations de paiement
 Credit Card Settings,Paramètres de carte de crédit
 Allowed Credit Card Types,Types de cartes de crédit autorisées
+Not you?,Ce n'est pas vous ?
+Your shopping cart has been updated with new prices.,Votre panier a été mis à jour avec les nouveaux prix.
 "Welcome, %1!","Bienvenue, %1 !"
+We cannot load the configuration from file %1.,Nous ne pouvons pas charger la configuration à partir du fichier %1.
+"Method ""%1"" is not defined in ""%2""","La méthode ""%1"" n'est pas définie dans ""%2"""
+"To check out, please sign in using your email address.","Pour commander, merci de vous connecter en utilisant votre adresse email."
 Remember Me,Se souvenir de moi
 What's this?,Qu'est-ce que c'est ?
+Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.,Cocher &quot;Se souvenir de moi&quot; pour accéder à votre panier sur cet ordinateur même si vous n'êtes pas connecté à votre compte.
 Persistent Shopping Cart,Panier persistant
 General Options,Options générales
 Enable Persistence,Activer la persistance
 Persistence Lifetime (seconds),Durée de vie de la persistance (secondes)
 "Enable ""Remember Me""","Activer ""Se souvenir de moi"""
 """Remember Me"" Default Value","Valeur par défaut de ""Se souvenir de moi"""
+Clear Persistence on Sign Out,Ne plus se souvenir de moi à la déconnexion
 Persist Shopping Cart,Panier persistant
 Alert subscription has been saved.,L'inscription à l'alerte a été sauvegardée.
 You will no longer receive price alerts for this product.,Vous ne recevrez plus d'alertes de changement de prix pour ce produit.
@@ -3382,6 +3476,7 @@ Back to Product Reviews,Retour aux commentaires
 Allow Guests to Write Reviews,Autoriser les invités à écrire des commentaires
 Active,Actif
 Inactive,Inactif
+Page not found.,Page introuvable.
 Feed,Flux
 Miscellaneous Feeds,Flux divers
 Get Feed,Récupérer le flux
@@ -3389,8 +3484,13 @@ RSS Feeds,Flux RSS
 Rss Config,Configuration RSS
 Enable RSS,Activer le RSS
 Apply,Appliquer
+Please choose a valid discount amount.,Merci de spécifier une valeur de remise valide.
+End Date must follow Start Date.,La date de fin doit être supérieure à la date de début.
+Please specify a website.,Merci de spécifier un site web.
+Please specify Customer Groups.,Merci de spécifier les groupes de client
 to,À
 by,sur
+Please choose an action to add.,Merci de choisir une action à ajouter.
 Perform following actions,Effectuer les actions suivantes
 is,est égal(e) à
 is not,est différent(e) de
@@ -3402,6 +3502,7 @@ contains,contient
 does not contain,ne contient pas
 is one of,fait partie de
 is not one of,ne fait pas partie de
+Please choose a condition to add.,Merci de choisir une condition à ajouter.
 Add,Ajouter
 Remove,Supprimer
 ALL,Tous
@@ -3413,6 +3514,9 @@ Conditions Combination,Combinaison de conditions
 Attribute Set,Jeu d'attributs
 Category,Catégorie
 Open Chooser,Ouvrir le sélecteur
+Unknown condition operator,Opérateur de condition inconnu
+"There is no information about associated entity type ""%1"".","Il n'y a pas d'information sur le type d'entité associée ""%1""."
+This won't take long . . .,Ce ne sera pas long. . .
 Credit Memos,Avoirs
 Orders,Commandes
 Invoices,Factures
@@ -4047,6 +4151,8 @@ is one of,fait partie de
 is not one of,ne fait pas partie de
 If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:,Si %1 %2 %3 pour une sous-sélection d'articles dans le panier répondant à %4 ces conditions :
 Auto Generated Specific Coupon Codes,Codes de bons de réduction spécifiques générés automatiquement
+Entity Sequence profile not added to meta active profile,Le profil de récurrence n'a pas pas été ajouté aux métadonnées du profil courant
+Not enough arguments,Pas assez d'arguments
 Search Term,Terme de recherche
 Results,Résultats
 Search Terms,Termes de recherche
@@ -4432,9 +4538,13 @@ Rate,Taux
 Zip/Post is Range,Le code postal est une tranche
 Range From,Tranche à partir de
 Range To,Tranche jusqu'à
+Tax Zones and Rates,Zones et taux des taxes
 Import and Export Tax Rates,Importer et exporter des taux de TVA
 The tax rate has been imported.,Le taux de taxe a été importé.
 Invalid file upload attempt,Import de fichier non valide
+Invalid file upload attempt.,Import de fichier non valide.
+Invalid file format.,Format de fichier non valide.
+One of the countries has invalid code.,Un des pays a un code invalide.
 Import Tax Rates,Import de taux de taxes
 Export Tax Rates,Exporter les taux
 CSV,CSV
@@ -4496,6 +4606,9 @@ Default welcome msg!,Message d'accueil par défaut
 2 columns with left bar,2 colonnes avec colonne de gauche
 2 columns with right bar,2 colonnes avec colonne de droite
 3 columns,3 colonnes
+Dictionary (Translation on Storefront side),Dictionnaire (traduction coté front office)
+Embedded (Translation on Admin side),Embarqué (traduction coté back office)
+Translation Strategy,Stratégie de la traduction
 Translations,Traductions
 Translation files.,Fichiers de traduction.
 Next,Suivant
@@ -4586,8 +4699,11 @@ Residential,Residential
 Commercial,Commercial
 Pounds,Livres
 Kilograms,Kilos
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.","Désolé, quelque chose s'est mal passé. Merci d'essayer à nouveau ou contactez-nous et nous essaierons de vous aider."
+"We can't convert a rate from ""%1-%2"".","Nous ne pouvons pas convertir un taux de ""%1-%2""."
 Cannot retrieve shipping rates,Impossible de récupérer les taux de livraison
 status,Statut
+error_message,error_message
 Empty response,Réponse vide
 Delivery Confirmation,Confirmation de livraison
 Signature Required,Signature obligatoire
@@ -4603,6 +4719,7 @@ Enabled for Checkout,Activé pour commander
 Allowed Methods,Modes de livraison autorisés
 Packages Request Type,Type de requête de paquets
 Container,Container
+Free Shipping Amount Threshold,Montant minimum pour la livraison gratuite
 Destination Type,Type de destination
 Free Method,Mode gratuit
 Gateway URL,URL de passerelle
@@ -4619,15 +4736,18 @@ Sort Order,Ordre de tri
 Title,Titre
 Tracking XML URL,URL XML de suivi
 UPS Type,UPS Type
+Live account,Compte Live
 Weight Unit,Unité de poids
 User ID,ID utilisateur
 Enable Negotiated Rates,Activer les taux négociés
 Shipper Number,Numéro du livreur
+Required for negotiated rates; 6-character UPS,Obligatoire pour les tarifs négociés; UPS 6 caractères
 Ship to Applicable Countries,Livrer aux pays applicables
 Ship to Specific Countries,Livrer aux pays spécifiques
 Show Method if Not Applicable,Afficher le mode s'il n'est pas applicable
 Displayed Error Message,Message d'erreur affiché
 Mode,Mode
+This enables or disables SSL verification of the Magento server by UPS.,Active ou désactive la vérification SSL du serveur Magento par UPS.
 Debug,Déboguage
 Add URL Rewrite for a Category,Ajoutez une réécriture d'URL pour une catégorie
 Category:,Catégorie :
@@ -4782,6 +4902,7 @@ Handling Applied,Frais de dossier appliqués
 Handling Fee,Frais de traitement
 Allowed Methods,Modes de livraison autorisés
 Free Method,Mode gratuit
+Free Shipping Amount Threshold,Montant minimum pour la livraison gratuite
 Displayed Error Message,Message d'erreur affiché
 Ship to Applicable Countries,Livrer aux pays applicables
 Ship to Specific Countries,Livrer aux pays spécifiques
@@ -4801,6 +4922,8 @@ No,Non
 Yes,Oui
 Variable HTML Value,Valeur HTML de la variable
 Variable Plain Value,Valeur texte de la variable
+You deleted the custom variable.,Vous avez supprimé la variable personnalisée.
+You saved the custom variable.,Vous avez enregistré la variable personnalisée.
 Variable Code must be unique.,Le code de variable doit être unique
 Validation has failed.,La validation a échoué.
 %1,%1
@@ -4812,9 +4935,13 @@ Message,Message
 Default Response Charset,Charset de réponse par défaut
 Web Services Configuration,Configuration des Web Services
 Add Tax,Ajouter une taxe
+Delete Tax,Supprimer la taxe
 All Websites,Tous les sites web
-Including FPT only,FPT incluses uniquement
+FPT,TFP
+"We found a duplicate of website, country and state fields for a fixed product tax","Nous avons trouvé une duplication de site web, pays et état pour une taxe fixe de produit"
+Including FPT only,TFP incluses uniquement
 Including FPT and FPT description,TFP incluses et description des TFP
+Excluding FPT. Including FPT description and final price,TFP excluses. Description et prix final des TFP incluses
 Excluding FPT,Hors TFP
 Fixed Product Tax,Taxe Fixe de Produit
 Excl. Tax,HT
@@ -4844,13 +4971,20 @@ Widget,Widget
 Widget Type,Type de widget
 -- Please Select --,-- Votre choix --
 Manage Widget Instances,Gérer les instances de widgets
+Add Widget,Ajouter un widget
 Save and Continue Edit,Sauvegarder et continuer à éditer
 "Widget ""%1""","Widget ""%1"""
 New Widget Instance,Nouvelle instance de widget
+Custom Layouts,Mises en page personnalisées
+Page Layouts,Mises en page
+Please Select Container First,Merci de sélectionner le conteneur en premier
+Storefront Properties,Propritétés du front office
 Type,Type
 Design Package/Theme,Interface/Thème de design
+Widget Title,Titre du widget
 Assign to Store Views,Assigner à la vue magasin
 Sort Order,Ordre de tri
+Sort Order of widget instances in the same container,Ordre de tri des instances de widget dans un même conteneur
 Layout Updates,Mises à jour d'agencements
 Categories,Catégories
 Anchor Categories,Catégorie ancrée
@@ -4864,13 +4998,18 @@ Add Layout Update,Ajouter une mise à jour d'agencement
 Remove Layout Update,Supprimer la mise à jour d'agencement
 Widget Options,Options du widget
 Settings,Paramétrage
+Design Theme,Thème de design
 Continue,Continuer
+Please specify a Widget Type.,Merci de spécifier un type de widget.
 CMS,CMS
+Please specify a correct widget.,Merci de spécifier un widget valide.
 The widget instance has been deleted.,L'instance de widget a bien été effacée.
+New Widget,Nouveau widget
 Widgets,Widgets
 The widget instance has been saved.,L'instance de widget a bien été sauvegardée.
 name,Nom
 description,Description
+We cannot create the widget instance because it is missing required information.,Impossible de créer l'instance du widget car il manque des informations requises.
 None,Aucun
 %1,%1
 Container,Container
@@ -4885,6 +5024,11 @@ Orders and Returns Search Form,Formulaire de recherche de commandes et retours
 Anchor Custom Title,Présenter un titre personnalisé
 CMS Page Link Block Template,Gabarit du bloc lien page CMS
 CMS Page Link Inline Template,Gabarit du bloc lien en ligne CMS
+Display a Link to Loading a Spreadsheet,Afficher un lien pour charger une feuille de calcul
+Defines whether a link to My Account,"Détermine l'affichage d'un lien vers ""Mon Compte"""
+Link Text,Texte du lien
+The text of the link to the My Account &gt; Order by SKU page,"Le texte du lien ""Mon Compte"" &gt; ""Commande par SKU"""
+Load a list of SKUs,Charge une liste de SKUs
 Product,Produit
 Select Product...,Choisir un produit...
 Conditions,Conditions
