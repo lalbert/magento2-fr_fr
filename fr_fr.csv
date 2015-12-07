@@ -63,7 +63,7 @@ Please wait...,Veuillez patienter...,lib,lib/web/mage/loader_old.js
 Loading...,En cours de chargement...,lib,lib/web/mage/loader_old.js
 Please wait...,Veuillez patienter...,lib,lib/web/mage/loader.js
 Loading...,En cours de chargement...,lib,lib/web/mage/loader.js
-All ,Tout,lib,lib/web/mage/menu.js
+All,Tout,lib,lib/web/mage/menu.js
 more,Plus,lib,lib/web/mage/menu.js
 Cancel,Annuler,lib,lib/web/mage/translate-inline-vde.js
 Save,Sauvegarder,lib,lib/web/mage/translate-inline-vde.js
@@ -107,7 +107,7 @@ notice,annonce,module,Magento_AdminNotification
 Wrong message type,Mauvais type de message.,module,Magento_AdminNotification
 Wrong notification ID specified.,Mauvais ID de notification spécifié.,module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","Il n'est pas recommandé d'utiliser la variable {{base_url}} en production pour spécifier les URLs de base (sécurisée et non-sécurisée). Il est fortement recommandé de modifier cette valeur dans la <a href=""%1"">configuration</a> de Magento. ",module,Magento_AdminNotification
-One or more of the Cache Types are invalidated: %1. ,Un ou plusieurs types de cache sont invalidés : %1,module,Magento_AdminNotification
+One or more of the Cache Types are invalidated: %1.,Un ou plusieurs types de cache sont invalidés : %1,module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Veuillez vous rendre dans <a href=""%1"">Gestion du cache</a> et rafraîchir les types de cache.",module,Magento_AdminNotification
 We were unable to synchronize one or more media files. Please refer to the log file for details.,Impossible de synchroniser un ou plusieurs fichiers médias. Veuillez vérifier le journal des logs pour obtenir plus de détails.,module,Magento_AdminNotification
 Synchronization of media storages has been completed.,Synchronisation du stockage des médias terminée.,module,Magento_AdminNotification
@@ -119,7 +119,7 @@ Critical System Messages,Messages système critiques,module,Magento_AdminNotific
 Major System Messages,Messages système majeurs,module,Magento_AdminNotification
 System messages,Messages système,module,Magento_AdminNotification
 See All (,Voir tout (,module,Magento_AdminNotification
- unread), non lu),module,Magento_AdminNotification
+unread), non lu),module,Magento_AdminNotification
 Use HTTPS to Get Feed,Utiliser HTTPS pour récupérer le flux,module,Magento_AdminNotification
 Update Frequency,Fréquence de mise à jour,module,Magento_AdminNotification
 Last Update,Dernière mise à jour,module,Magento_AdminNotification
@@ -304,7 +304,7 @@ To,À,module,Magento_Backend
 Date selector,Sélecteur de date,module,Magento_Backend
 [ deleted ],[ effacé ],module,Magento_Backend
 Select All,Sélectionner tout,module,Magento_Backend
- [deleted], [effacé],module,Magento_Backend
+[deleted],[effacé],module,Magento_Backend
 We couldn't find any records.,Aucun enregistrement trouvé.,module,Magento_Backend
 Add New,Ajouter,module,Magento_Backend
 Invalid export type supplied for grid export block,Le type d'exportation fourni est invalide,module,Magento_Backend
@@ -371,7 +371,7 @@ Before modifying the website code please make sure it is not used in index.php.,
 The store does not exist,Le magasin n'existe pas.,module,Magento_Backend
 Store view doesn't exist,La vue magasin n'existe pas,module,Magento_Backend
 Before modifying the store view code please make sure it is not used in index.php.,"Avant de modifier le code de vue magasin, assurez-vous qu'il n'est pas utilisé dans le fichier index.php.",module,Magento_Backend
-New ,Nouveau,module,Magento_Backend
+New,Nouveau,module,Magento_Backend
 You saved the website.,Vous avez sauvegardé le site web.,module,Magento_Backend
 You saved the store.,Vous avez sauvegardé le magasin.,module,Magento_Backend
 You saved the store view.,Vous avez sauvegardé la vue magasin.,module,Magento_Backend
@@ -427,7 +427,7 @@ JavaScript may be disabled in your browser.,JavaScript peut être désactivé da
 To use this website you must first enable JavaScript in your browser.,"Pour utiliser ce site dans les meilleures conditions, vous devez activer JavaScript dans votre navigateur.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.",Ceci est une boutique de démonstration. Aucune commande ne sera honorée.,module,Magento_Backend
 Report Bugs,Rapporter un bug,module,Magento_Backend
-Store View:,Vu magasin : ,module,Magento_Backend
+Store View:,Vu magasin :,module,Magento_Backend
 Stores Configuration,Configuration des magasins,module,Magento_Backend
 Please confirm scope switching. All data that hasn't been saved will be lost.,Confirmez-vous le changement de site ? Toutes les données non sauvegardées seront perdues.,module,Magento_Backend
 Additional Cache Management,Gestion étendue du cache,module,Magento_Backend
@@ -1690,7 +1690,7 @@ Invalid cron expression: %1,Expression de la tâche programmée invalide : %1,mo
 "Invalid cron expression, expecting 'from-to' structure: %1","Expression de la tâche programmée invalide : structure ""de-à"" attendu : %1",module,Magento_Cron
 Cron (Scheduled Tasks) - all the times are in minutes,Cron (Tâches programmées) - tous les temps sont en minutes,module,Magento_Cron
 For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.,"Afin que les URLs soient générées correctement lors de l'exécution de cron, assurez-vous que les URL non sécurisée et sécurisée sont correctement renseignées.",module,Magento_Cron
-Cron configuration options for group: ,Options de configuration pour les tâches programmées groupées :,module,Magento_Cron
+Cron configuration options for group:,Options de configuration pour les tâches programmées groupées :,module,Magento_Cron
 Generate Schedules Every,Générer les tâches programmées toutes les,module,Magento_Cron
 Schedule Ahead for,Programmer en avance de,module,Magento_Cron
 Missed if Not Run Within,Manqué si non exécuté dans les,module,Magento_Cron
@@ -2854,7 +2854,7 @@ Choose Store View:,Choisir la vue magasin :,module,Magento_Newsletter
 Newsletter Message Preview,Prévisualisation du message de la newsletter,module,Magento_Newsletter
 Add to Queue,Ajouter à la file,module,Magento_Newsletter
 Are you sure that you want to strip all tags?,Êtes-vous sûr(e) de vouloir supprimer tous les tags ?,module,Magento_Newsletter
- Copy, Copie,module,Magento_Newsletter
+Copy,Copie,module,Magento_Newsletter
 Sign Up for Our Newsletter:,Inscription à notre newsletter :,module,Magento_Newsletter
 Enter your email address,Saisissez votre email,module,Magento_Newsletter
 Subscribe,Inscription,module,Magento_Newsletter
@@ -3172,7 +3172,7 @@ General (Funds Transfer from PayPal Account to Another),Général (transfert de 
 General (Purchase with a credit card),Généraux (achat avec une carte de crédit),module,Magento_Paypal
 General Adjustment without businessrelated event,Ajustement général sans événement lié au marché,module,Magento_Paypal
 General Currency Conversion,Conversion de devises général,module,Magento_Paypal
-General Funding of PayPal Account ,Financement général de compte PayPal ,module,Magento_Paypal
+General Funding of PayPal Account,Financement général de compte PayPal,module,Magento_Paypal
 General Redemption,Remboursement général,module,Magento_Paypal
 General Withdrawal from PayPal Account,Retrait général de compte PayPal,module,Magento_Paypal
 General. Product no longer supported,Généralités. Ce produit n'est plus pris en charge,module,Magento_Paypal
@@ -3236,7 +3236,7 @@ Please Select,Veuillez sélectionner,module,Magento_Paypal
 Customer,Client,module,Magento_Paypal
 Created At,Créé le,module,Magento_Paypal
 Updated At,Mise à jour à,module,Magento_Paypal
-Important: ,Important : ,module,Magento_Paypal
+Important:,Important :,module,Magento_Paypal
 Agreement Information,Information de l'entente,module,Magento_Paypal
 Reference ID:,ID de réference :,module,Magento_Paypal
 Status:,Statut :,module,Magento_Paypal
@@ -3319,7 +3319,7 @@ Enable PayPal Guest Checkout,Activer le passage de commande pour invité avec Pa
 Ability for buyer to purchase without PayPal account.,Capacité pour l'acheteur d'acheter sans compte PayPal.,module,Magento_Paypal
 Require Customer's Billing Address,Nécessite l'adresse de facturation du client,module,Magento_Paypal
 This feature needs be enabled first for the merchant account through PayPal technical support.,Cette fonctionnalité doit d'abord être activée pour le compte commerçant via le support technique de PayPal.,module,Magento_Paypal
-Billing Agreement Signup,Engagement d'entente de facturation ,module,Magento_Paypal
+Billing Agreement Signup,Engagement d'entente de facturation,module,Magento_Paypal
 "Whether to create a billing agreement, if there are no active billing agreements available.","Créer une entente de facturation, s'il n'y a aucune entente de facturation active disponible.",module,Magento_Paypal
 PayPal Billing Agreement Settings,Paramètres d'entente de facturation PayPal,module,Magento_Paypal
 Enabled,Activé,module,Magento_Paypal
@@ -3838,7 +3838,7 @@ Ship,Expédier,module,Magento_Sales
 Reorder,Renouveler,module,Magento_Sales
 Order # %1 %2 | %3,Commande n°%1 %2 | %3,module,Magento_Sales
 Save Gift Message,Sauvegarder le message cadeau,module,Magento_Sales
- [deleted], [effacé],module,Magento_Sales
+[deleted],[effacé],module,Magento_Sales
 Order Credit Memos,Avoirs de la commande,module,Magento_Sales
 Credit memo #%1 created,Avoir n°%1 créé,module,Magento_Sales
 Credit memo #%1 comment added,Commentaire ajouté pour l'avoir n°%1,module,Magento_Sales
@@ -3916,8 +3916,8 @@ Orders and Returns,Commandes et retours,module,Magento_Sales
 Home,Accueil,module,Magento_Sales
 Go to Home Page,Aller à la page d'accueil,module,Magento_Sales
 There is an error in one of the option rows.,Erreur dans une des lignes d'option.,module,Magento_Sales
-Shipping Address: ,Adresse de livraison ,module,Magento_Sales
-Billing Address: ,Adresse de facturation ,module,Magento_Sales
+Shipping Address:,Adresse de livraison,module,Magento_Sales
+Billing Address:,Adresse de facturation,module,Magento_Sales
 Please specify a shipping method.,Sélectionnez un mode de livraison.,module,Magento_Sales
 Guest,Invité,module,Magento_Sales
 Please enter the first name.,Veuillez renseigner le prénom.,module,Magento_Sales
@@ -3958,8 +3958,8 @@ Payment transactions disallow storing objects.,Les transactions de paiement reje
 Set order for existing transactions not allowed,Placez la commande pour des transactions existantes non permise,module,Magento_Sales
 Order,Commande,module,Magento_Sales
 Authorization,Autorisation,module,Magento_Sales
-Order # ,Commande n° ,module,Magento_Sales
-Order Date: ,Date de commande : ,module,Magento_Sales
+Order #,Commande n°,module,Magento_Sales
+Order Date:,Date de commande :,module,Magento_Sales
 Sold to:,VENDU À :,module,Magento_Sales
 Ship to:,LIVRÉ À :,module,Magento_Sales
 Payment Method:,Mode de paiement :,module,Magento_Sales
@@ -3972,7 +3972,7 @@ Total (ex),Total (HT),module,Magento_Sales
 Qty,Qté,module,Magento_Sales
 Tax,TVA & autres taxes,module,Magento_Sales
 Total (inc),Total (TTC),module,Magento_Sales
-Invoice # ,Facture n° ,module,Magento_Sales
+Invoice #,Facture n°,module,Magento_Sales
 Excl. Tax,HT,module,Magento_Sales
 Incl. Tax,TTC,module,Magento_Sales
 title,Titre,module,Magento_Sales
@@ -4578,10 +4578,10 @@ SKU,Réf.,module,Magento_Shipping
 Tracking Number:,Numéro de suivi :,module,Magento_Shipping
 Carrier:,Transporteur :,module,Magento_Shipping
 Error:,Erreur :,module,Magento_Shipping
-Tracking information is currently not available. Please ,Les informations de suivi ne sont pas disponibles pour le moment. Vous pouvez  ,module,Magento_Shipping
+Tracking information is currently not available. Please,Les informations de suivi ne sont pas disponibles pour le moment. Vous pouvez,module,Magento_Shipping
 contact us,Contactez-nous,module,Magento_Shipping
- for more information or , pour plus d'information ou ,module,Magento_Shipping
-email us at ,nous envoyer un email à  ,module,Magento_Shipping
+for more information or,pour plus d'information ou,module,Magento_Shipping
+email us at,nous envoyer un email à,module,Magento_Shipping
 Info:,Info :,module,Magento_Shipping
 Track:,Suivre :,module,Magento_Shipping
 Status:,Statut :,module,Magento_Shipping
@@ -5195,10 +5195,10 @@ Validation has failed.,La validation a échoué.,module,Magento_Variable
 Insert Variable...,Insérer une variable...,module,Magento_Variable
 Variable ID,Identifiant de la variable,module,Magento_Variable
 Name,Nom,module,Magento_Variable
-message,Message,module,Magento_Webapi
-Message,Message,module,Magento_Webapi
-Default Response Charset,Charset de réponse par défaut,module,Magento_Webapi
-Web Services Configuration,Configuration des Web Services,module,Magento_Webapi
+Operation allowed only in HTTPS,Opération autorisée uniquement en HTTPS,module,Magento_Webapi
+Cannot perform GET operation with store code 'all',Impossible d'effectuer l'opération GET avec le code magasin 'all',module,Magento_Webapi
+Request does not match any route.,La requête de correspond à aucune route.,module,Magento_Webapi
+Authentication header format is invalid.,Le format d'en-tête d'authentification est invalide.,module,Magento_Webapi
 Add Tax,Ajouter une taxe,module,Magento_Weee
 Delete Tax,Supprimer la taxe,module,Magento_Weee
 All Websites,Tous les sites web,module,Magento_Weee
@@ -5353,3 +5353,18 @@ Action,Action,module,Magento_Wishlist
 Configure,Configurer,module,Magento_Wishlist
 Delete,Supprimer,module,Magento_Wishlist
 Product Details and Comment,Détails du produit et commentaire,module,Magento_Wishlist
+Authentication header is absent.,L'en-tête d'authentification est manquant.,module,Magento_Webapi
+Not allowed parameters: %1. Please use only %2 and %3.,Paramètres non autorisés : %1. Veuillez utiliser uniquement %2 et %3.,module,Magento_Webapi
+"Requested service is not available: ""%1""","Le service demandé n'est pas dispobible : ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","L'opération ""%1"" est introuvable.",module,Magento_Webapi
+SOAP extension is not loaded.,L'extension SOAP n'est pas chargée.,module,Magento_Webapi
+Invalid XML,XML invalide.,module,Magento_Webapi
+Invalid XML: Detected use of illegal DOCTYPE,XML invalide : Détection d'une utilisation illégale de DOCTYPE,module,Magento_Webapi
+message,message,module,Magento_Webapi
+Message,Message,module,Magento_Webapi
+Magento Web API,Web API Magento,module,Magento_Webapi
+SOAP Settings,Paramètres SOAP,module,Magento_Webapi
+Default Response Charset,Charset de réponse par défaut,module,Magento_Webapi
+"If empty, UTF-8 will be used.","Si vide, UTF-8 sera utilisé.",module,Magento_Webapi
+Web Services Configuration,Configuration des Web Services,module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file.","Configurations REST et SOAP, fichier WSDL généré.",module,Magento_Webapi
