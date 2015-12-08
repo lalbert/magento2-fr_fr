@@ -6,7 +6,7 @@ php:
 before_script:
   # Set up Composer
   - composer self-update || true
-  - composer config http-basic.repo.magento.com $magento2-repos-username $magento2-repos-password
+  - composer config http-basic.repo.magento.com $MAGE2_USERNAME $MAGE2_PASSWORD
   - composer install --prefer-dist
   
 script:
