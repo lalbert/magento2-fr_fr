@@ -1,14 +1,16 @@
 <?php
-$packagePath = realpath(__DIR__ . '/../../../..');
-define('LALBERT_FR_FR_ROOT', $packagePath . '/lalbert/fr_fr');
-$parent = realpath($packagePath . '/..');
+$packageRoot = realpath(__DIR__ . '/../..');
+define('LALBERT_FR_FR_ROOT', $packageRoot);
 
-if(file_exists($parent . '/vendor')) {
-    // Installed by composer
-    $vendorPath =  $parent . '/vendor';
-} elseif(file_exists($parent . '/i18n')) {
+if(file_exists($packageRoot . '/vendor')) {
+    // Github clone
+    $vendorPath =  $packageRoot . '/vendor';
+} elseif(file_exists($packageRoot . '/../../../vendor')) {
+    // Installed by composer or uploaded package
+    $vendorPath =  realpath($packageRoot . '/../../../vendor');
+} elseif(file_exists($packageRoot . '/../../../i18n')) {
     // Uploaded package
-    $vendorPath = realpath($parent . '/../vendor');
+    $vendorPath = realpath($packageRoot . '/../../../../vendor');
 } else {
     throw new Exception('Unable to find vendor directory');
 }
