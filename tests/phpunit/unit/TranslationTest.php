@@ -5,8 +5,6 @@ require __DIR__ . '/../CsvFileIterator.php';
 
 class TranslationTest extends \PHPUnit_Framework_TestCase
 {
-    protected $sourceCsvPath = LALBERT_FR_FR_ROOT . '/fr_fr.csv';
-
     /**
      * @dataProvider readSourceCsv
      */
@@ -85,6 +83,7 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
 
     public function readSourceCsv()
     {
-        return new \CsvFileIterator($this->sourceCsvPath);
+        $sourcePath = LALBERT_FR_FR_ROOT . '/fr_fr.csv';
+        return new \CsvFileIterator($sourcePath);
     }
 }
