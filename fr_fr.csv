@@ -2627,6 +2627,7 @@ Destination file is not writable,Le fichier de destination n'a pas les droits en
 label,libellé,module,Magento_ImportExport
 Delete,Supprimer,module,Magento_ImportExport
 Delete Entities,Effacer les entités,module,Magento_ImportExport
+URL key for specified store already exists.,La clé d'URL pour la boutique spécifiée existe déjà.,module,Magento_ImportExport
 Entity Attributes,Attributs d'entité,module,Magento_ImportExport
 Continue,Continuer,module,Magento_ImportExport
 Validation Results,Résultat de validation,module,Magento_ImportExport
@@ -4751,13 +4752,21 @@ Sitemap,Plan de site,module,Magento_Sitemap
 Filename,Nom de fichier,module,Magento_Sitemap
 example: sitemap.xml,exemple : sitemap.xml,module,Magento_Sitemap
 Path,Chemin,module,Magento_Sitemap
+"example: ""/sitemap/"" or ""/"" for base path (path must be writeable)","exemple : ""/sitemap/"" ou ""/"" pour le chemin de base (le chemin doit être accessible en écriture",module,Magento_Sitemap
 Store View,Vue magasin,module,Magento_Sitemap
 Generate,Générer,module,Magento_Sitemap
+XML Sitemap,Plan de site XML,module,Magento_Sitemap
 Add Sitemap,Ajouter un plan du site,module,Magento_Sitemap
 Catalog,Catalogue,module,Magento_Sitemap
+You deleted the sitemap.,Le plan de site a été supprimé.,module,Magento_Sitemap
+We can't find a sitemap to delete.,Impossible de trouver le plan de site à supprimer.,module,Magento_Sitemap
 This sitemap no longer exists.,Ce plan de site n'existe plus.,module,Magento_Sitemap
 Site Map,Plan du site,module,Magento_Sitemap
+New Site Map,Nouveau plan de site,module,Magento_Sitemap
 "The sitemap ""%1"" has been generated.","Le plan de site ""%1"" a bien été généré.",module,Magento_Sitemap
+We can't generate the sitemap right now.,Impossible de générer le plan de site.,module,Magento_Sitemap
+We can't find a sitemap to generate.,Impossible de trouver le plan de site à générer.,module,Magento_Sitemap
+You saved the sitemap.,Le plan de site a été sauvegardé.,module,Magento_Sitemap
 The priority must be between 0 and 1.,La priorité doit être comprise entre 0 et 1.,module,Magento_Sitemap
 Always,Toujours,module,Magento_Sitemap
 Hourly,Toutes les heures,module,Magento_Sitemap
@@ -4766,13 +4775,21 @@ Weekly,Hebdomadaire,module,Magento_Sitemap
 Monthly,Mensuel,module,Magento_Sitemap
 Yearly,Annuel,module,Magento_Sitemap
 Never,Jamais,module,Magento_Sitemap
+File handler unreachable,Gestionnaire de fichiers inaccessible,module,Magento_Sitemap
+Please define a correct path.,Merci de spécifier un chemin correct.,module,Magento_Sitemap
 "Please create the specified folder ""%1"" before saving the sitemap.","Veuillez créer le répertoire ""%1"" avant d'enregistrer le plan de site.",module,Magento_Sitemap
+"Please make sure that ""%1"" is writable by the web-server.","Merci de vérfier que ""%1"" est accessible en écriture par le serveur web.",module,Magento_Sitemap
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in the filename. No spaces or other characters are allowed.","Merci de n'utiliser que des lettres (a-z ou A-Z), des nombres (0-9) ou des underscores (_) dans le nom du fichier. Les espaces ou autres caractères ne sont pas autorisés.",module,Magento_Sitemap
 None,Aucun,module,Magento_Sitemap
+Base Only,Image de base uniquement,module,Magento_Sitemap
 All,Tous,module,Magento_Sitemap
+Sitemap Generation Warnings,Avertissements sur la génération du plan de site,module,Magento_Sitemap
 Categories Options,Options pour les catégories,module,Magento_Sitemap
 Frequency,Fréquence,module,Magento_Sitemap
 Priority,Priorité,module,Magento_Sitemap
+Valid values range from 0.0 to 1.0.,Les valeurs valides vont de 0.0 à 1.0.,module,Magento_Sitemap
 Products Options,Options pour les produits,module,Magento_Sitemap
+Add Images into Sitemap,Ajouter les images au plan de site,module,Magento_Sitemap
 CMS Pages Options,Options pour les pages CMS,module,Magento_Sitemap
 Generation Settings,Paramètres généraux,module,Magento_Sitemap
 Enabled,Activé,module,Magento_Sitemap
@@ -4781,8 +4798,15 @@ Error Email Sender,Expéditeur du mail d'erreur,module,Magento_Sitemap
 Error Email Template,Gabarit du mail d'erreur,module,Magento_Sitemap
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Sitemap
 Start Time,Heure de début,module,Magento_Sitemap
+Sitemap File Limits,Limites du fichier de plan de site,module,Magento_Sitemap
+Maximum No of URLs Per File,Nbr maximal d'URL par fichier,module,Magento_Sitemap
+Maximum File Size,Poids maximal du fichier,module,Magento_Sitemap
+File size in bytes.,Poids du fichier en octets.,module,Magento_Sitemap
+Search Engine Submission Settings,Paramètres de soumission aux moteurs de recherche,module,Magento_Sitemap
+Enable Submission to Robots.txt,Active la soumission dans le fichier robots.txt,module,Magento_Sitemap
 ID,ID,module,Magento_Sitemap
 Link for Google,Lien pour Google,module,Magento_Sitemap
+Last Generated,Dernière génération,module,Magento_Sitemap
 Action,Action,module,Magento_Sitemap
 Current store is not active.,Le magasin actuel n'est pas actif.,module,Magento_Store
 Requested store is inactive,La magasin demandé est innactif.,module,Magento_Store
