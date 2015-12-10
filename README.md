@@ -80,7 +80,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 * Magento_OfflinePayments : 23/23 ![Progress](http://progressed.io/bar/100)
 * Magento_OfflineShipping : 49/49 ![Progress](http://progressed.io/bar/100)
 * Magento_PageCache : 17/17 ![Progress](http://progressed.io/bar/100)
-* Magento_Payment : 27/49 ![Progress](http://progressed.io/bar/55)
+* Magento_Payment : 49/49 ![Progress](http://progressed.io/bar/100)
 * Magento_Paypal : 366/556 ![Progress](http://progressed.io/bar/66)
 * Magento_Persistent : 17/17 ![Progress](http://progressed.io/bar/100)
 * Magento_ProductAlert : 35/35 ![Progress](http://progressed.io/bar/100)
