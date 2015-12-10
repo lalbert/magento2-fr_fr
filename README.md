@@ -12,11 +12,15 @@ Vider le cacher
 
     bin/magento cache:clean
     
+# Contribuer à la traduction
+
+Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-fr_fr/blob/master/CONTRIBUTING.md) si vous désirez contribuer aux traductions.
+    
 # Progression de la traduction
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 5444/7775 ![Progress](http://progressed.io/bar/70)
+**Progression globale** : 5507/7775 ![Progress](http://progressed.io/bar/71)
 
 ## Thèmes
 
@@ -32,20 +36,20 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 * Magento_Backend : 426/426 ![Progress](http://progressed.io/bar/100)
 * Magento_Backup : 39/78 ![Progress](http://progressed.io/bar/50)
 * Magento_Braintree : 55/125 ![Progress](http://progressed.io/bar/44)
-* Magento_Bundle : 60/93 ![Progress](http://progressed.io/bar/65)
+* Magento_Bundle : 93/93 ![Progress](http://progressed.io/bar/100)
 * Magento_Captcha : 24/24 ![Progress](http://progressed.io/bar/100)
-* Magento_Catalog : 389/657 ![Progress](http://progressed.io/bar/59)
+* Magento_Catalog : 391/657 ![Progress](http://progressed.io/bar/60)
 * Magento_CatalogImportExport : 18/18 ![Progress](http://progressed.io/bar/100)
 * Magento_CatalogInventory : 30/57 ![Progress](http://progressed.io/bar/53)
 * Magento_CatalogRule : 47/76 ![Progress](http://progressed.io/bar/62)
 * Magento_CatalogSearch : 36/36 ![Progress](http://progressed.io/bar/100)
 * Magento_CatalogUrlRewrite : 6/6 ![Progress](http://progressed.io/bar/100)
 * Magento_CatalogWidget : 20/20 ![Progress](http://progressed.io/bar/100)
-* Magento_Checkout : 74/135 ![Progress](http://progressed.io/bar/55)
+* Magento_Checkout : 75/135 ![Progress](http://progressed.io/bar/56)
 * Magento_CheckoutAgreements : 39/39 ![Progress](http://progressed.io/bar/100)
 * Magento_Cms : 110/148 ![Progress](http://progressed.io/bar/74)
 * Magento_Config : 49/89 ![Progress](http://progressed.io/bar/55)
-* Magento_ConfigurableProduct : 47/124 ![Progress](http://progressed.io/bar/38)
+* Magento_ConfigurableProduct : 48/124 ![Progress](http://progressed.io/bar/39)
 * Magento_Contact : 23/23 ![Progress](http://progressed.io/bar/100)
 * Magento_Cookie : 13/13 ![Progress](http://progressed.io/bar/100)
 * Magento_Cron : 18/18 ![Progress](http://progressed.io/bar/100)
@@ -90,7 +94,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 * Magento_Review : 91/131 ![Progress](http://progressed.io/bar/69)
 * Magento_Rss : 7/7 ![Progress](http://progressed.io/bar/100)
 * Magento_Rule : 34/34 ![Progress](http://progressed.io/bar/100)
-* Magento_Sales : 534/754 ![Progress](http://progressed.io/bar/71)
+* Magento_Sales : 537/754 ![Progress](http://progressed.io/bar/71)
 * Magento_SalesRule : 119/149 ![Progress](http://progressed.io/bar/80)
 * Magento_SalesSequence : 2/2 ![Progress](http://progressed.io/bar/100)
 * Magento_Search : 52/52 ![Progress](http://progressed.io/bar/100)
@@ -112,6 +116,6 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 * Magento_Webapi : 19/19 ![Progress](http://progressed.io/bar/100)
 * Magento_Weee : 27/28 ![Progress](http://progressed.io/bar/96)
 * Magento_Widget : 72/72 ![Progress](http://progressed.io/bar/100)
-* Magento_Wishlist : 55/115 ![Progress](http://progressed.io/bar/48)
+* Magento_Wishlist : 56/115 ![Progress](http://progressed.io/bar/49)
 
 
