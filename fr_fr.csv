@@ -1102,6 +1102,7 @@ Unselect All,Désélectionner tout,module,Magento_Catalog
 Select Visible,Sélectionner les éléments visibles,module,Magento_Catalog
 Unselect Visible,Désélectionner les éléments visibles,module,Magento_Catalog
 Special Price,Prix spécial,module,Magento_Catalog
+Regular Price,Prix normal,module,Magento_Catalog
 Buy %1 for %2 each,Achetez-en %1 à %2 pièce,module,Magento_Catalog
 Shop By,Filtrer par,module,Magento_Catalog
 Shopping Options,Affiner la recherche,module,Magento_Catalog
@@ -1137,6 +1138,7 @@ We don't recognize or support this file extension type.,Le type de fichier n'est
 Configure Product,Configurer le produit,module,Magento_Catalog
 OK,OK,module,Magento_Catalog
 Please add rows to option.,Veuillez ajouter des lignes à l'option.,module,Magento_Catalog
+New Option,Nouvelle option,module,Magento_Catalog
 Please select items.,Sélectionnez des éléments.,module,Magento_Catalog
 unselect all,désélectionner tout,module,Magento_Catalog
 Thumbnail,Miniature,module,Magento_Catalog
@@ -1375,6 +1377,7 @@ Zip/Postal Code,Code postal,module,Magento_Checkout
 My Cart (%1 items),Mon panier (%1 articles),module,Magento_Checkout
 My Cart,Mon panier,module,Magento_Checkout
 Minimum order amount is %1,Le montant minimal de commande est %1,module,Magento_Checkout
+We can't add this item to your shopping cart right now.,Impossible d'ajouter ce produit au panier.,module,Magento_Checkout
 Out of stock,Épuisé,module,Magento_Checkout
 %1 was updated in your shopping cart.,%1 a été mis à jour dans votre panier.,module,Magento_Checkout
 Checkout,Commander,module,Magento_Checkout
@@ -1642,6 +1645,7 @@ Create New Attribute,Créer un nouvel attribut,module,Magento_ConfigurableProduc
 Summary,Résumé,module,Magento_ConfigurableProduct
 Choose an Option...,Choisissez une option...,module,Magento_ConfigurableProduct
 This attribute is used in configurable products.,Cet attribut est utilisé dans les produits configurables.,module,Magento_ConfigurableProduct
+Requested option doesn't exist,L'option demandée n'existe pas,module,Magento_ConfigurableProduct
 This attribute is used in configurable products. You cannot remove it from the attribute set.,Cet attribut est utilisé dans des produits configurables. Vous ne pouvez pas le retirer de ce jeu d'attributs.,module,Magento_ConfigurableProduct
 Associated Products,Produits associés,module,Magento_ConfigurableProduct
 Step 2: Attribute Values,Étape 2 : valeurs d'attribut,module,Magento_ConfigurableProduct
@@ -3046,20 +3050,40 @@ TTL for public content,TTL pour les contenus publiques,module,Magento_PageCache
 Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ,"Durée de vie du cache en secondes des contenus publiques. Si ce champ est vide la valeur par défaut ""86400"" sera utilisée. ",module,Magento_PageCache
 Page Cache,Cache de page,module,Magento_PageCache
 Full page caching.,Cache des pages.,module,Magento_PageCache
+We cannot retrieve the payment method model object.,Impossible de retrouver le modèle de l'objet de la méthode de paiement.,module,Magento_Payment
 Month,Mois,module,Magento_Payment
 Year,Année,module,Magento_Payment
+We cannot retrieve the payment info model object.,Impossible de retrouver le modèle de l'objet des infos du paiement.,module,Magento_Payment
 N/A,N/A,module,Magento_Payment
 Credit Card Type,Type de carte de crédit,module,Magento_Payment
 Credit Card Number,Numéro de carte bancaire,module,Magento_Payment
 Switch/Solo/Maestro Issue Number,Numéro de problème Switch/Solo/Maestro,module,Magento_Payment
 Switch/Solo/Maestro Start Date,Date de début Switch/Solo/Maestro,module,Magento_Payment
+We cannot retrieve the transparent payment method model object.,Impossible de retourver le modèle de l'objet le la méthode de paiement transparente.,module,Magento_Payment
+Command %1 does not exist.,La commande %1 n'existe pas.,module,Magento_Payment
+Wrong gateway response format.,Mauvais format de réponse de la passerelle.,module,Magento_Payment
+Validator for field %1 does not exist.,Le validateur pour le champ %1 n'existe pas.,module,Magento_Payment
 Discount,Remise,module,Magento_Payment
 Shipping,Livraison,module,Magento_Payment
 All Allowed Countries,Tous les pays autorisés,module,Magento_Payment
 Specific Countries,Certains pays,module,Magento_Payment
+The payment method you requested is not available.,La méthode de paiement demandée n'est pas disponible.,module,Magento_Payment
+The payment disallows storing objects.,Cette méthode de paiement interdit le stockage d'objets.,module,Magento_Payment
+We cannot retrieve the payment method code.,Impossible de retrouver le code de la méthode de paiement.,module,Magento_Payment
+We cannot retrieve the payment information object instance.,Impossible de retrouver l'intance de l'objet de l'information de paiement.,module,Magento_Payment
+You can't use the payment type you selected to make payments to the billing country.,Vous ne pouvez pas utiliser la méthode de paiement choisie pour ce pays de facturation.,module,Magento_Payment
+The order action is not available.,L'action de commande n'est pas disponible.,module,Magento_Payment
+The authorize action is not available.,L'action d'autorisation n'est pas disponible.,module,Magento_Payment
+The capture action is not available.,L'action de capture n'est pas disponible.,module,Magento_Payment
+The refund action is not available.,L'action de remboursement n'est pas disponible.,module,Magento_Payment
+The void action is not available.,L'action d'annulation n'est pas disponible.,module,Magento_Payment
 The payment review action is unavailable.,L'action de commentaire de paiement n'est pas disponible.,module,Magento_Payment
+The credit card number doesn't match the credit card type.,Le numéri de la carte bancaire ne correspond pas à son type.,module,Magento_Payment
 Invalid Credit Card Number,Numéro de carte bancaire invalide,module,Magento_Payment
+This credit card type is not allowed for this payment method.,Ce type de carte de crédit n'est pas autorisé pour ce mode de paiement.,module,Magento_Payment
 Please enter a valid credit card verification number.,Veuillez saisir un numéro de vérification de carte bancaire valide.,module,Magento_Payment
+Please enter a valid credit card expiration date.,Veuillez vérifier la date d'expiration de la carte bancaire.,module,Magento_Payment
+%1 class doesn't implement \Magento\Payment\Model\MethodInterface,La classe %1 n'implémente pas \Magento\Payment\Model\MethodInterface,module,Magento_Payment
 Yes,Oui,module,Magento_Payment
 No,Non,module,Magento_Payment
 Expiration Date,Date d'expiration,module,Magento_Payment
@@ -3067,7 +3091,9 @@ Card Verification Number,Numéro de vérification,module,Magento_Payment
 Switch/Solo/Maestro Only,Switch/Solo/Maestro seulement,module,Magento_Payment
 Issue Number,Numéro de problème,module,Magento_Payment
 Start Date,Date de début,module,Magento_Payment
+ is not available. You still can process offline actions., n'est pas disponible. Vous pourrez toujours effectuer ces actions hors ligne.,module,Magento_Payment
 Please Select,Veuillez sélectionner,module,Magento_Payment
+We'll ask for your payment details before you place an order.,Vous devrez renseigner vos informations de paiement avant de confirmer votre commande.,module,Magento_Payment
 --Please Select--,--Votre choix--,module,Magento_Payment
 Card Verification Number Visual Reference,Référence visuelle numérique de vérification de carte,module,Magento_Payment
 What is this?,Aide ?,module,Magento_Payment
@@ -3963,6 +3989,7 @@ About Your Invoice,À propos de votre facture,module,Magento_Sales
 Print Order # %1,Imprimer la commande n°%1,module,Magento_Sales
 Grand Total to be Charged,Total à facturer,module,Magento_Sales
 Unassign,Annuler l'assignation,module,Magento_Sales
+We can't add this item to your shopping cart right now.,Impossible d'ajouter ce produit au panier.,module,Magento_Sales
 Sales,Ventes,module,Magento_Sales
 This order no longer exists.,Cette commande n'existe plus.,module,Magento_Sales
 """%1"" coupon code is not valid.","Le bon de réduction ""%1"" n'est pas valide.",module,Magento_Sales
@@ -5440,6 +5467,7 @@ An item option with code %1 already exists.,Une option article avec le code %1 e
 Cannot specify product.,Impossible de spécifier le produit.,module,Magento_Wishlist
 Invalid item option format.,Format d'option d'élément invalide.,module,Magento_Wishlist
 "%1 for ""%2"".","%1 pour ""%2"".",module,Magento_Wishlist
+We can't add this item to your shopping cart right now.,Impossible d'ajouter ce produit au panier.,module,Magento_Wishlist
 %1 product(s) have been added to shopping cart: %2.,%1 produits ont été ajoutés à votre panier : %2.,module,Magento_Wishlist
 Comment:,Commentaire :,module,Magento_Wishlist
 %1's Wishlist,Liste d'envies de %1,module,Magento_Wishlist
