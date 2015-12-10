@@ -135,6 +135,7 @@ We can't find the role for the user you wanted.,Impossible de trouver le rôle d
 Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.,Une erreur s'est produite durant la compilation de la liste des ressources autorisées. Vous pouvez trouver plus d'informations dans le journal des exceptions.,module,Magento_Authorization
 You created the order.,La commande a été créée.,module,Magento_Authorizenet
 Order saving error: %1,Erreur lors de la sauvegarde de la commande : %1,module,Magento_Authorizenet
+Please choose a payment method.,Merci de sélectionner une méthode de paiement.,module,Magento_Authorizenet
 Credit Card: xxxx-%1,Numéro de carte bancaire : xxxx-%1,module,Magento_Authorizenet
 amount %1,montant %1,module,Magento_Authorizenet
 authorize,autoriser,module,Magento_Authorizenet
@@ -1442,6 +1443,7 @@ Shipping Address,Adresse de livraison,module,Magento_Checkout
 Save Address,Sauvegarder l'adresse,module,Magento_Checkout
 Cancel,Annuler,module,Magento_Checkout
 Payment,PAIEMENT,module,Magento_Checkout
+We received your order!,Nous avons pris en compte votre commande !,module,Magento_Checkout
 Thank you for your purchase!,Merci de votre achat !,module,Magento_Checkout
 Terms and Conditions,Conditions générales de ventes,module,Magento_CheckoutAgreements
 Add New Condition,Créer des CGV,module,Magento_CheckoutAgreements
@@ -3387,6 +3389,7 @@ Your credit card will be charged for,Votre carte de crédit sera débitée de,mo
 Shipping Method,Mode de livraison,module,Magento_Paypal
 Please select a shipping method...,Sélectionnez un mode de livraison...,module,Magento_Paypal
 Update Shipping Method,Changer de mode de livraison,module,Magento_Paypal
+"Sorry, no quotes are available for this order right now.","Désolé, aucune estimation n'est actuellement disponible pour cette commande.",module,Magento_Paypal
 Shipping Address,Adresse de livraison,module,Magento_Paypal
 Edit,Éditer,module,Magento_Paypal
 Items in Your Shopping Cart,Articles dans votre panier,module,Magento_Paypal
@@ -4048,6 +4051,7 @@ There is an error in one of the option rows.,Erreur dans une des lignes d'option
 Shipping Address: ,Adresse de livraison : ,module,Magento_Sales
 Billing Address: ,Adresse de facturation : ,module,Magento_Sales
 Please specify a shipping method.,Sélectionnez un mode de livraison.,module,Magento_Sales
+Please specify a payment method.,Merci de sélectionner une méthode de paiement.,module,Magento_Sales
 Guest,Invité,module,Magento_Sales
 Please enter the first name.,Veuillez renseigner le prénom.,module,Magento_Sales
 Please enter the last name.,Veuillez renseigner le nom de famille.,module,Magento_Sales
@@ -5172,15 +5176,23 @@ Displayed Error Message,Message d'erreur affiché,module,Magento_Ups
 Mode,Mode,module,Magento_Ups
 This enables or disables SSL verification of the Magento server by UPS.,Active ou désactive la vérification SSL du serveur Magento par UPS.,module,Magento_Ups
 Debug,Déboguage,module,Magento_Ups
-Add URL Rewrite for a Category,Ajoutez une réécriture d'URL pour une catégorie,module,Magento_UrlRewrite
+Edit URL Rewrite for a Category,Modifier une réécriture d'URL pour une catégorie,module,Magento_UrlRewrite
+Add URL Rewrite for a Category,Ajouter une réécriture d'URL pour une catégorie,module,Magento_UrlRewrite
 Category:,Catégorie :,module,Magento_UrlRewrite
-Add URL Rewrite for a Product,Ajoutez une réécriture d'URL pour un produit,module,Magento_UrlRewrite
+We can't set up a URL rewrite because the product you chose is not associated with a website.,Impossible d'ajouter une réécriture d'URL car le produit sélectionné n'est associé à aucun site web.,module,Magento_UrlRewrite
+Please assign a website to the selected category.,Merci de spécifier un site web pour la catégory sélectionnée.,module,Magento_UrlRewrite
+Edit URL Rewrite for a Product,Modifer une réécriture d'URL pour un produit,module,Magento_UrlRewrite
+Add URL Rewrite for a Product,Ajouter une réécriture d'URL pour un produit,module,Magento_UrlRewrite
 Product:,Produit :,module,Magento_UrlRewrite
 Skip Category Selection,Passer la sélection de catégorie,module,Magento_UrlRewrite
 ID,ID,module,Magento_UrlRewrite
 Name,Nom,module,Magento_UrlRewrite
 SKU,Réf.,module,Magento_UrlRewrite
 Status,Statut,module,Magento_UrlRewrite
+Edit URL Rewrite for CMS page,Modifer une réécriture d'URL pour une page CMS,module,Magento_UrlRewrite
+Add URL Rewrite for CMS page,Ajouter une réécriture d'URL pour une page CMS,module,Magento_UrlRewrite
+CMS page:,Page CMS : ,module,Magento_UrlRewrite
+Please assign a website to the selected CMS page.,Merci d'assigner un site web à la page CMS sélectionnée.,module,Magento_UrlRewrite
 Title,Titre,module,Magento_UrlRewrite
 URL Key,Clé d'URL,module,Magento_UrlRewrite
 Store View,Vue magasin,module,Magento_UrlRewrite
@@ -5195,6 +5207,7 @@ Block Information,Information,module,Magento_UrlRewrite
 URL Rewrite Information,Information sur la réécriture d'URL,module,Magento_UrlRewrite
 Request Path,Chemin de requête,module,Magento_UrlRewrite
 Target Path,Chemin cible,module,Magento_UrlRewrite
+Redirect Type,Type de redirection,module,Magento_UrlRewrite
 Description,Description,module,Magento_UrlRewrite
 Store,Magasin,module,Magento_UrlRewrite
 URL Rewrite Management,Gestion de réécriture d'URL,module,Magento_UrlRewrite
@@ -5202,12 +5215,25 @@ Add URL Rewrite,Ajouter une réécriture d'URL,module,Magento_UrlRewrite
 Custom,Personnalisé,module,Magento_UrlRewrite
 For category,Pour une catégorie,module,Magento_UrlRewrite
 For product,Pour un produit,module,Magento_UrlRewrite
+For CMS page,Pour une page CMS,module,Magento_UrlRewrite
 Create URL Rewrite:,Créer une réécriture d'URL :,module,Magento_UrlRewrite
+You deleted the URL rewrite.,La réécriture d'URL a été supprimée.,module,Magento_UrlRewrite
+We can't delete URL Rewrite right now.,Impossible de surprimer la réécriture d'URL.,module,Magento_UrlRewrite
+URL Rewrites,Réécritures d'URL,module,Magento_UrlRewrite
+The product you chose is not associated with the selected store or category.,Le produit choisi n'est pas associé à la boutique ou à la catégorie sélectionnée.,module,Magento_UrlRewrite
+The category you chose is not associated with the selected store.,La catégorie choisie n'est pas associée à la boutique sélectionnée.,module,Magento_UrlRewrite
 The URL Rewrite has been saved.,La réécriture d'URL a été sauvegardée.,module,Magento_UrlRewrite
+Something went wrong while saving URL Rewrite.,Une erreur s'est produite durant l'enregistrement de la réécriture d'URL.,module,Magento_UrlRewrite
+Do not use two or more consecutive slashes in the request path.,"Ne pas utiliser deux ou plusiuers slashes (""/"") consécutifs dans le chemin de la requête.",module,Magento_UrlRewrite
+Anchor symbol (#) is not supported in request path.,"Le symbole Ancre (""#"") n'est pas pris supporté dans le chemin de la requête.",module,Magento_UrlRewrite
+Do not use two or more consecutive slashes in the url rewrite suffix.,"Ne pas utiliser deux ou plusiuers slashes (""/"") consécutifs dans le suffixe de la réécriture d'URL.",module,Magento_UrlRewrite
+Anchor symbol (#) is not supported in url rewrite suffix.,"Le symbole Ancre (""#"") n'est pas pris supporté dans le suffixe de la réécriture d'URL.",module,Magento_UrlRewrite
 No,Non,module,Magento_UrlRewrite
 Temporary (302),Temporaire (302),module,Magento_UrlRewrite
 Permanent (301),Permanente (301),module,Magento_UrlRewrite
 Request Path for Specified Store,Chemin de requête pour le magasin spécifié,module,Magento_UrlRewrite
+URL key for specified store already exists.,La clé d'URL pour la boutique spécifiée existe déjà.,module,Magento_UrlRewrite
+Custom storage message,Custom storage message,module,Magento_UrlRewrite
 Select Category,Sélectionner une catégorie,module,Magento_UrlRewrite
 Action,Action,module,Magento_UrlRewrite
 Edit,Éditer,module,Magento_UrlRewrite
