@@ -1021,6 +1021,7 @@ Bottom/Left,En bas à gauche,module,Magento_Catalog
 Bottom/Right,En bas à droite,module,Magento_Catalog
 Center,Centrer,module,Magento_Catalog
 "Unknown EAV indexer type ""%1"".","Type d'indexer EAV inconnu : ""%1"".",module,Magento_Catalog
+We can't rebuild the index for an undefined product.,Impossible de reconstruire l'index pour un produit indéfini.,module,Magento_Catalog
 "Unsupported product type ""%1"".","Type de produit non supporté : ""%1"".",module,Magento_Catalog
 Category,Catégorie,module,Magento_Catalog
 %1 - %2,%1 - %2,module,Magento_Catalog
@@ -1041,6 +1042,7 @@ The file you uploaded is larger than %1 Megabytes allowed by server,Le fichier t
 Not Visible Individually,Non visible individuellement,module,Magento_Catalog
 Search,Chercher,module,Magento_Catalog
 "Catalog, Search","Catalogue, Recherche",module,Magento_Catalog
+"Product with SKU ""%1"" does not exist","Le produit avec la REF ""%1"" d'existe pas.",module,Magento_Catalog
 A product type is not defined for the indexer.,Aucun type de produit n'est défini pour l'indexer.,module,Magento_Catalog
 Multiple Select,Sélection multiple,module,Magento_Catalog
 Dropdown,Liste déroulante,module,Magento_Catalog
@@ -1066,6 +1068,7 @@ Maximum image height,Hauteur maximum d'image,module,Magento_Catalog
 Maximum number of characters:,Nombre maxi de caractères :,module,Magento_Catalog
 Manage Stock,Gérer les stocks,module,Magento_Catalog
 Qty,Qté,module,Magento_Catalog
+Out-of-Stock Threshold,Qté pour que le statut du produit passe à épuisé,module,Magento_Catalog
 Minimum Qty Allowed in Shopping Cart,Quantité mini autorisée dans le panier,module,Magento_Catalog
 Maximum Qty Allowed in Shopping Cart,Quantité maxi autorisée dans le panier,module,Magento_Catalog
 Qty Uses Decimals,La quantité utilise des décimales,module,Magento_Catalog
@@ -1234,14 +1237,35 @@ ALL GROUPS,TOUS LES GROUPES,module,Magento_CatalogInventory
 Customer Group,Groupe de clients,module,Magento_CatalogInventory
 Minimum Qty,Quantité mini,module,Magento_CatalogInventory
 Add Minimum Qty,Ajouter une quantité mini,module,Magento_CatalogInventory
+We can't rebuild the index for an undefined product.,Impossible de reconstruire l'index pour un produit indéfini.,module,Magento_CatalogInventory
+Could not rebuild index for empty products array,Impossible de reconstruire l'index pour un tableau de produit vide,module,Magento_CatalogInventory
 The stock item for Product is not valid.,L'article en stock pour ce produit n'est pas valide.,module,Magento_CatalogInventory
+This product is out of stock.,Ce produit est en rupture de stock.,module,Magento_CatalogInventory
+Some of the products are out of stock.,Certains de ces produits sont en rupture de stock.,module,Magento_CatalogInventory
 The stock item for Product in option is not valid.,L'article en stock pour cette option du produit n'est pas valide.,module,Magento_CatalogInventory
+Undefined product type,Type de produit indéfini,module,Magento_CatalogInventory
+%1 is not a correct comparison method.,%1 n'est pas une méthode de comparaison correct.,module,Magento_CatalogInventory
 No Backorders,Pas de commandes au delà des stocks,module,Magento_CatalogInventory
 Allow Qty Below 0,Autoriser les quantités négatives,module,Magento_CatalogInventory
 Allow Qty Below 0 and Notify Customer,Autoriser les quantités négatives et prévenir le client,module,Magento_CatalogInventory
 In Stock,En stock,module,Magento_CatalogInventory
 Out of Stock,Épuisé,module,Magento_CatalogInventory
+"Stock Item with id ""%1"" does not exist.","L'élément de stock avec l'ID ""%1"" n'existe pas.",module,Magento_CatalogInventory
+"Stock with id ""%1"" does not exist.","Le stock d'ID ""%1"" n'existe pas.",module,Magento_CatalogInventory
+Not all of your products are available in the requested quantity.,Tous vos produits ne sont pas disponibles dans la quantité demandée.,module,Magento_CatalogInventory
+"Product with SKU ""%1"" does not exist","Le produit avec la REF ""%1"" d'existe pas.",module,Magento_CatalogInventory
+The fewest you may purchase is %1.,La quantité minimale que vous pouvez acheter est de %1.,module,Magento_CatalogInventory
+Please correct the quantity for some products.,Merci de corriger la quantité de certains produits.,module,Magento_CatalogInventory
+The most you may purchase is %1.,La quantité maximale que vous pouvez acheter est de %1.,module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","Nous ne possédons pas suffisament de ""%1"" pour honorer votre demande.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Nous ne possédons pas suffisament de ""%1"" pour honorer votre demande, mais nous mettrons en réapprovisionnement les %2 restant. ",module,Magento_CatalogInventory
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Nous ne possédons pas suffisament de ""%1"" pour honorer votre demande, alors nous mettrons en réapprovisionnement les %2 restant. ",module,Magento_CatalogInventory
+You can buy %1 only in quantities of %2 at a time.,Vous pouvez acheter %1 uniquement par quantité de %2.,module,Magento_CatalogInventory
+You can buy this product only in quantities of %1 at a time.,Vous pouvez acheter ce produit uniquement par quantité de %1.,module,Magento_CatalogInventory
+Decimal qty increments is not allowed.,Les incréments de quantités ne peuvent pas être une valeur décimale.,module,Magento_CatalogInventory
+%1 is available to buy in increments of %2,%1 doit être acheté par multiple de %2.,module,Magento_CatalogInventory
 Only %1 left,Plus que %1 en stock,module,Magento_CatalogInventory
+Product availability,Disponibilité des produits,module,Magento_CatalogInventory
 Product Name,Nom du produit,module,Magento_CatalogInventory
 Qty,Qté,module,Magento_CatalogInventory
 Inventory,Inventaire,module,Magento_CatalogInventory
@@ -1249,16 +1273,24 @@ Stock Options,Options de stock,module,Magento_CatalogInventory
 Decrease Stock When Order is Placed,Décrémenter le stock quand la commande est validée,module,Magento_CatalogInventory
 Set Items' Status to be In Stock When Order is Cancelled,"Passer le statut des articles à ""Disponible"" quand une commande est annulée",module,Magento_CatalogInventory
 Display Out of Stock Products,Afficher les produits épuisés,module,Magento_CatalogInventory
+Products will still be shown by direct product URLs.,Les produits seront accessibles directement par leurs URLs.,module,Magento_CatalogInventory
 Only X left Threshold,Seuil pour afficher 'Plus que X produits restant',module,Magento_CatalogInventory
+Display products availability in stock on Storefront.,Afficher la disponiblité des produits sur le front office.,module,Magento_CatalogInventory
 Product Stock Options,Options de stock de produits,module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ",Veuillez noter que ces paramètres sont applicables aux lignes du panieret non à son emsemble.,module,Magento_CatalogInventory
 Manage Stock,Gérer les stocks,module,Magento_CatalogInventory
 Backorders,Commande en rupture de stock,module,Magento_CatalogInventory
 Maximum Qty Allowed in Shopping Cart,Quantité maxi autorisée dans le panier,module,Magento_CatalogInventory
+Out-of-Stock Threshold,Qté pour que le statut du produit passe à épuisé,module,Magento_CatalogInventory
 Minimum Qty Allowed in Shopping Cart,Quantité mini autorisée dans le panier,module,Magento_CatalogInventory
 Notify for Quantity Below,Notifier quand la quantité passe en dessous de,module,Magento_CatalogInventory
 Automatically Return Credit Memo Item to Stock,Remettre automatiquement en stock un article faisant l'objet d'un avoir,module,Magento_CatalogInventory
 Enable Qty Increments,Activer les incréments de quantités,module,Magento_CatalogInventory
 Qty Increments,Incréments de quantités,module,Magento_CatalogInventory
+Stock,Stock,module,Magento_CatalogInventory
+Index stock,Indexe du stock,module,Magento_CatalogInventory
 Quantity,Quantité,module,Magento_CatalogInventory
 Catalog Price Rule,Règle de prix catalogue,module,Magento_CatalogRule
 Add New Rule,Ajouter une nouvelle règle,module,Magento_CatalogRule
@@ -1296,6 +1328,8 @@ Edit Rule,Éditer la règle,module,Magento_CatalogRule
 Catalog,Catalogue,module,Magento_CatalogRule
 Wrong rule specified.,Mauvaise règle spécifiée.,module,Magento_CatalogRule
 Promo,Promo,module,Magento_CatalogRule
+Could not rebuild index for empty products array,Impossible de reconstruire l'index pour un tableau de produit vide,module,Magento_CatalogRule
+We can't rebuild the index for an undefined product.,Impossible de reconstruire l'index pour un produit indéfini.,module,Magento_CatalogRule
 Update the Product,Mettre à jour le produit,module,Magento_CatalogRule
 Rule price,Règle de prix,module,Magento_CatalogRule
 To Fixed Value,Nouveau prix,module,Magento_CatalogRule
