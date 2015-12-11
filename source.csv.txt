@@ -2250,106 +2250,106 @@ Continue,Continuer,module,Magento_Directory
 File directory '%1' is not readable.,Le répertoire '%1' n'est pas autorisé en lecture.,module,Magento_DownloadableImportExport
 File directory '%1' is not writable.,Le répertoire '%1' n'est pas autorisé en écriture.,module,Magento_DownloadableImportExport
 Error,Erreur,module,Magento_DownloadableImportExport
-Downloadable Information,Downloadable Information,module,Magento_Downloadable
-Add New Link,Add New Link,module,Magento_Downloadable
-Upload Files,Upload Files,module,Magento_Downloadable
-All Files,All Files,module,Magento_Downloadable
-Unlimited,Unlimited,module,Magento_Downloadable
-Something went wrong while getting the requested content.,Something went wrong while getting the requested content.,module,Magento_Downloadable
-My Downloadable Products,My Downloadable Products,module,Magento_Downloadable
-We can't find the link you requested.,We can't find the link you requested.,module,Magento_Downloadable
-"Please sign in to download your product or purchase <a href=""%1"">%2</a>.","Please sign in to download your product or purchase <a href=""%1"">%2</a>.",module,Magento_Downloadable
-Please sign in to download your product.,Please sign in to download your product.,module,Magento_Downloadable
-The link has expired.,The link has expired.,module,Magento_Downloadable
-The link is not available.,The link is not available.,module,Magento_Downloadable
-"Sorry, there was an error getting requested content. Please contact the store owner.","Sorry, there was an error getting requested content. Please contact the store owner.",module,Magento_Downloadable
-Please set resource file and link type.,Please set resource file and link type.,module,Magento_Downloadable
-Invalid download link type.,Invalid download link type.,module,Magento_Downloadable
-Something went wrong while saving the file(s).,Something went wrong while saving the file(s).,module,Magento_Downloadable
-Provided content must be valid base64 encoded data.,Provided content must be valid base64 encoded data.,module,Magento_Downloadable
-Provided file name contains forbidden characters.,Provided file name contains forbidden characters.,module,Magento_Downloadable
-Link price must have numeric positive value.,Link price must have numeric positive value.,module,Magento_Downloadable
-Number of downloads must be a positive integer.,Number of downloads must be a positive integer.,module,Magento_Downloadable
-Sort order must be a positive integer.,Sort order must be a positive integer.,module,Magento_Downloadable
-Link URL must have valid format.,Link URL must have valid format.,module,Magento_Downloadable
-Provided file content must be valid base64 encoded data.,Provided file content must be valid base64 encoded data.,module,Magento_Downloadable
-Sample URL must have valid format.,Sample URL must have valid format.,module,Magento_Downloadable
-Order id cannot be null,Order id cannot be null,module,Magento_Downloadable
-Order item id cannot be null,Order item id cannot be null,module,Magento_Downloadable
-Product type of the product must be 'downloadable'.,Product type of the product must be 'downloadable'.,module,Magento_Downloadable
-Provided link information is invalid.,Provided link information is invalid.,module,Magento_Downloadable
-Invalid link type.,Invalid link type.,module,Magento_Downloadable
-Link title cannot be empty.,Link title cannot be empty.,module,Magento_Downloadable
-There is no downloadable link with provided ID.,There is no downloadable link with provided ID.,module,Magento_Downloadable
-Provided downloadable link is not related to given product.,Provided downloadable link is not related to given product.,module,Magento_Downloadable
-Please specify product link(s).,Please specify product link(s).,module,Magento_Downloadable
-Provided sample information is invalid.,Provided sample information is invalid.,module,Magento_Downloadable
-Invalid sample type.,Invalid sample type.,module,Magento_Downloadable
-Sample title cannot be empty.,Sample title cannot be empty.,module,Magento_Downloadable
-There is no downloadable sample with provided ID.,There is no downloadable sample with provided ID.,module,Magento_Downloadable
-Provided downloadable sample is not related to given product.,Provided downloadable sample is not related to given product.,module,Magento_Downloadable
-attachment,attachment,module,Magento_Downloadable
-inline,inline,module,Magento_Downloadable
-Pending,Pending,module,Magento_Downloadable
-Invoiced,Invoiced,module,Magento_Downloadable
-sample,sample,module,Magento_Downloadable
-Is this downloadable Product?,Is this downloadable Product?,module,Magento_Downloadable
-Links,Links,module,Magento_Downloadable
-Add links to your product files here.,Add links to your product files here.,module,Magento_Downloadable
-[STORE VIEW],[STORE VIEW],module,Magento_Downloadable
-Title,Title,module,Magento_Downloadable
-Use Default Value,Use Default Value,module,Magento_Downloadable
+Downloadable Information,Informations téléchargements,module,Magento_Downloadable
+Add New Link,Ajouter un nouveau lien,module,Magento_Downloadable
+Upload Files,Télécharger les fichiers,module,Magento_Downloadable
+All Files,Tous les fichiers,module,Magento_Downloadable
+Unlimited,Illimité,module,Magento_Downloadable
+Something went wrong while getting the requested content.,Une erreur s'est produite lors de la récupération du contenu demandé.,module,Magento_Downloadable
+My Downloadable Products,Mes produits téléchargeables,module,Magento_Downloadable
+We can't find the link you requested.,Impossible de trouver le lien demandé.,module,Magento_Downloadable
+"Please sign in to download your product or purchase <a href=""%1"">%2</a>.","Merci de vous connecter pour télécharger votre produit, ou achetez <a href=""%1"">%2</a>.",module,Magento_Downloadable
+Please sign in to download your product.,Merci de vous connecter pour télécharger votre produit.,module,Magento_Downloadable
+The link has expired.,Le lien a expiré.,module,Magento_Downloadable
+The link is not available.,Le lien n'est pas disponible.,module,Magento_Downloadable
+"Sorry, there was an error getting requested content. Please contact the store owner.",Erreur lors de la récupération du contenu demandé. Veuillez contacter le magasin.,module,Magento_Downloadable
+Please set resource file and link type.,Renseignez le fichier de ressource et le type de lien.,module,Magento_Downloadable
+Invalid download link type.,Le type de lien de téléchargement est invalide.,module,Magento_Downloadable
+Something went wrong while saving the file(s).,Une erreur s'est produite lors de l'enregistrement du/des fichier(s).,module,Magento_Downloadable
+Provided content must be valid base64 encoded data.,Le contenu fourni doit être une donnée valide encodée en base64.,module,Magento_Downloadable
+Provided file name contains forbidden characters.,Le nom de fichier fourrni contient des caractères interdits.,module,Magento_Downloadable
+Link price must have numeric positive value.,Le prix du lien doit avoir une valeur numérique positive.,module,Magento_Downloadable
+Number of downloads must be a positive integer.,Le nombre de téléchargements doit être un entier positif.,module,Magento_Downloadable
+Sort order must be a positive integer.,L'ordre de tri doit être un entier positif.,module,Magento_Downloadable
+Link URL must have valid format.,L'URL du lien doit avoir un format valide.,module,Magento_Downloadable
+Provided file content must be valid base64 encoded data.,Le fichier fourni doit être une donnée valide encodée en base64.,module,Magento_Downloadable
+Sample URL must have valid format.,L'URL de l'échantillon doit avoir un format valide.,module,Magento_Downloadable
+Order id cannot be null,L'id de commande ne peut pas être null,module,Magento_Downloadable
+Order item id cannot be null,L'id d'article de commande ne peut pas être null,module,Magento_Downloadable
+Product type of the product must be 'downloadable'.,"Le type du produit doit être ""télachargeable"".",module,Magento_Downloadable
+Provided link information is invalid.,Les informations fournis pour le lien sont invalides.,module,Magento_Downloadable
+Invalid link type.,Type de lien invalide.,module,Magento_Downloadable
+Link title cannot be empty.,Le titre du lien ne peut pas être vide.,module,Magento_Downloadable
+There is no downloadable link with provided ID.,Aucun lien de téléchargement trouvé avec l'ID fourni.,module,Magento_Downloadable
+Provided downloadable link is not related to given product.,Le lien de téléchargement fourni n'est pas relié à ce produit.,module,Magento_Downloadable
+Please specify product link(s).,Spécifiez le ou les liens des produits.,module,Magento_Downloadable
+Provided sample information is invalid.,Les informations fournis pour l'échantillon sont invalides.,module,Magento_Downloadable
+Invalid sample type.,Type d'échantillon invalide.,module,Magento_Downloadable
+Sample title cannot be empty.,Le titre de l'échantillon ne peut pas être vide.,module,Magento_Downloadable
+There is no downloadable sample with provided ID.,Aucun échantillon téléchargeable avec l'ID fourni.,module,Magento_Downloadable
+Provided downloadable sample is not related to given product.,Cet échantillon n'est pas relié à ce produit.,module,Magento_Downloadable
+attachment,pièce jointe,module,Magento_Downloadable
+inline,en ligne,module,Magento_Downloadable
+Pending,En attente,module,Magento_Downloadable
+Invoiced,Facturé,module,Magento_Downloadable
+sample,échantillon,module,Magento_Downloadable
+Is this downloadable Product?,Est-ce un produit téléchargeable ?,module,Magento_Downloadable
+Links,Liens,module,Magento_Downloadable
+Add links to your product files here.,Ajouter des liens aux fichiers de votre produit ici.,module,Magento_Downloadable
+[STORE VIEW],[VUE MAGASIN],module,Magento_Downloadable
+Title,Titre,module,Magento_Downloadable
+Use Default Value,Utiliser la valeur par défaut,module,Magento_Downloadable
 [GLOBAL],[GLOBAL],module,Magento_Downloadable
-Links can be purchased separately,Links can be purchased separately,module,Magento_Downloadable
-Sort Order,Sort Order,module,Magento_Downloadable
-Price,Price,module,Magento_Downloadable
-Attach File or Enter Link,Attach File or Enter Link,module,Magento_Downloadable
-Sample,Sample,module,Magento_Downloadable
-Shareable,Shareable,module,Magento_Downloadable
-Max. Downloads,Max. Downloads,module,Magento_Downloadable
-"Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.","Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.",module,Magento_Downloadable
-Sort Variations,Sort Variations,module,Magento_Downloadable
-File,File,module,Magento_Downloadable
-Browse Files...,Browse Files...,module,Magento_Downloadable
+Links can be purchased separately,Les liens peuvent être achetés séparément,module,Magento_Downloadable
+Sort Order,Ordre de tri,module,Magento_Downloadable
+Price,Prix,module,Magento_Downloadable
+Attach File or Enter Link,Attacher un fichier ou entrer un lien,module,Magento_Downloadable
+Sample,Exemple,module,Magento_Downloadable
+Shareable,Partageable,module,Magento_Downloadable
+Max. Downloads,Téléchargements max.,module,Magento_Downloadable
+"Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.","Les caractères alphanumériques, les tirets et les underscores sont recommandés pour les noms de fichiers. Les caractères impropres seront remplacés par des underscores.",module,Magento_Downloadable
+Sort Variations,Trier les variations,module,Magento_Downloadable
+File,Fichier,module,Magento_Downloadable
+Browse Files...,Parcourir les fichiers...,module,Magento_Downloadable
 URL,URL,module,Magento_Downloadable
-Yes,Yes,module,Magento_Downloadable
-No,No,module,Magento_Downloadable
-Use config,Use config,module,Magento_Downloadable
-Delete,Delete,module,Magento_Downloadable
-Samples,Samples,module,Magento_Downloadable
-Add product preview files here.,Add product preview files here.,module,Magento_Downloadable
-SKU,SKU,module,Magento_Downloadable
+Yes,Oui,module,Magento_Downloadable
+No,Non,module,Magento_Downloadable
+Use config,Utiliser la config,module,Magento_Downloadable
+Delete,Supprimer,module,Magento_Downloadable
+Samples,Exemples,module,Magento_Downloadable
+Add product preview files here.,Ajouter un aperçu du produit ici.,module,Magento_Downloadable
+SKU,Réf.,module,Magento_Downloadable
 U,U,module,Magento_Downloadable
-Select all,Select all,module,Magento_Downloadable
-Unselect all,Unselect all,module,Magento_Downloadable
-Availability,Availability,module,Magento_Downloadable
-In stock,In stock,module,Magento_Downloadable
-Out of stock,Out of stock,module,Magento_Downloadable
-"Go to <a href=""%1"">My Downloadable Products</a>","Go to <a href=""%1"">My Downloadable Products</a>",module,Magento_Downloadable
-Downloadable Products,Downloadable Products,module,Magento_Downloadable
-Order #,Order #,module,Magento_Downloadable
+Select all,Sélectionner tout,module,Magento_Downloadable
+Unselect all,Désélectionner tout,module,Magento_Downloadable
+Availability,Disponibilité,module,Magento_Downloadable
+In stock,En stock,module,Magento_Downloadable
+Out of stock,Épuisé,module,Magento_Downloadable
+"Go to <a href=""%1"">My Downloadable Products</a>","Aller à <a href=""%1"">Mes produits téléchargeables</a>",module,Magento_Downloadable
+Downloadable Products,Produits téléchargeables,module,Magento_Downloadable
+Order #,Commande n°,module,Magento_Downloadable
 Date,Date,module,Magento_Downloadable
-Status,Status,module,Magento_Downloadable
-Remaining Downloads,Remaining Downloads,module,Magento_Downloadable
-View Order,View Order,module,Magento_Downloadable
-Start Download,Start Download,module,Magento_Downloadable
-You have not purchased any downloadable products yet.,You have not purchased any downloadable products yet.,module,Magento_Downloadable
-Back,Back,module,Magento_Downloadable
-download,download,module,Magento_Downloadable
-Gift Message,Gift Message,module,Magento_Downloadable
-From:,From:,module,Magento_Downloadable
-To:,To:,module,Magento_Downloadable
-Message:,Message:,module,Magento_Downloadable
-Product Name,Product Name,module,Magento_Downloadable
-Qty,Qty,module,Magento_Downloadable
-Subtotal,Subtotal,module,Magento_Downloadable
-Discount Amount,Discount Amount,module,Magento_Downloadable
-Row Total,Row Total,module,Magento_Downloadable
-Qty Invoiced,Qty Invoiced,module,Magento_Downloadable
-Ordered,Ordered,module,Magento_Downloadable
-Shipped,Shipped,module,Magento_Downloadable
-Canceled,Canceled,module,Magento_Downloadable
-Refunded,Refunded,module,Magento_Downloadable
+Status,Statut,module,Magento_Downloadable
+Remaining Downloads,Téléchargements restants,module,Magento_Downloadable
+View Order,Visualiser,module,Magento_Downloadable
+Start Download,Démarrage du téléchargement,module,Magento_Downloadable
+You have not purchased any downloadable products yet.,Vous n'avez pas encore commandé de produits téléchargeables.,module,Magento_Downloadable
+Back,Retour,module,Magento_Downloadable
+download,télécharger,module,Magento_Downloadable
+Gift Message,Message du cadeau,module,Magento_Downloadable
+From:,De :,module,Magento_Downloadable
+To:,À :,module,Magento_Downloadable
+Message:,Message :,module,Magento_Downloadable
+Product Name,Nom du produit,module,Magento_Downloadable
+Qty,Qté,module,Magento_Downloadable
+Subtotal,Sous-total,module,Magento_Downloadable
+Discount Amount,Remise,module,Magento_Downloadable
+Row Total,Total ligne,module,Magento_Downloadable
+Qty Invoiced,Qté facturée,module,Magento_Downloadable
+Ordered,Commandé,module,Magento_Downloadable
+Shipped,Livré,module,Magento_Downloadable
+Canceled,Annulée,module,Magento_Downloadable
+Refunded,Remboursé,module,Magento_Downloadable
 Attribute Properties,Attribute Properties,module,Magento_Eav
 Default label,Default label,module,Magento_Eav
 Attribute Code,Attribute Code,module,Magento_Eav
@@ -6178,7 +6178,7 @@ We don't recognize or support this file extension type.,We don't recognize or su
 Generate Products,Generate Products,module,Magento_ConfigurableProduct
 Are you sure you want to do this?,Are you sure you want to do this?,module,Magento_Customer
 Are you sure you want to delete this address?,Are you sure you want to delete this address?,module,Magento_Customer
-We could not detect a size.,We could not detect a size.,module,Magento_Downloadable
+We could not detect a size.,Impossible de détecter le poids du fichier.,module,Magento_Downloadable
 Add Products to Group,Ajouter des produits au groupe,module,Magento_GroupedProduct
 Add Selected Products,Ajouter les produits sélectionnés,module,Magento_GroupedProduct
 "Sorry, something went wrong. Please try again later.","Sorry, something went wrong. Please try again later.",module,Magento_Integration
@@ -6937,15 +6937,15 @@ State Options,Options des états,module,Magento_Directory
 State is Required for,L'état est obligatoire pour,module,Magento_Directory
 Allow to Choose State if It is Optional for Country,Afficher l'état s'il n'est pas obligatoire,module,Magento_Directory
 Weight Unit,Unité de poids,module,Magento_Directory
-Downloadable Product Options,Downloadable Product Options,module,Magento_Downloadable
-Order Item Status to Enable Downloads,Order Item Status to Enable Downloads,module,Magento_Downloadable
-Default Maximum Number of Downloads,Default Maximum Number of Downloads,module,Magento_Downloadable
-Default Sample Title,Default Sample Title,module,Magento_Downloadable
-Default Link Title,Default Link Title,module,Magento_Downloadable
-Open Links in New Window,Open Links in New Window,module,Magento_Downloadable
-Use Content-Disposition,Use Content-Disposition,module,Magento_Downloadable
-Disable Guest Checkout if Cart Contains Downloadable Items,Disable Guest Checkout if Cart Contains Downloadable Items,module,Magento_Downloadable
-Guest checkout will only work with shareable.,Guest checkout will only work with shareable.,module,Magento_Downloadable
+Downloadable Product Options,Options du produit téléchargeable,module,Magento_Downloadable
+Order Item Status to Enable Downloads,Statut du produit commandé pour activer le téléchargement,module,Magento_Downloadable
+Default Maximum Number of Downloads,Nombre maximum de téléchargements par défaut,module,Magento_Downloadable
+Default Sample Title,Titre de l'exemple par défaut,module,Magento_Downloadable
+Default Link Title,Titre de lien par défaut,module,Magento_Downloadable
+Open Links in New Window,Ouvrir les liens dans une nouvelle fenêtre,module,Magento_Downloadable
+Use Content-Disposition,Utiliser la disposition de contenu,module,Magento_Downloadable
+Disable Guest Checkout if Cart Contains Downloadable Items,Désactiver le passage de commande en tant qu'invité si le panier contient des produits téléchargeables,module,Magento_Downloadable
+Guest checkout will only work with shareable.,Le passage de commande en tant qu'invité ne fonctionnera qu'avec les partageables.,module,Magento_Downloadable
 EAV types and attributes,EAV types and attributes,module,Magento_Eav
 Entity types declaration cache.,Entity types declaration cache.,module,Magento_Eav
 Emails,Emails,module,Magento_Email
