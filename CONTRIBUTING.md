@@ -7,7 +7,15 @@ Toute aide à la traduction de Magento 2 en français est la bienvenue !
 1. Recherchez dans [la liste des tickets](https://github.com/lalbert/magento2-fr_fr/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3A%22A+traduire%22+-label%3A%22Traduction+en+cours%22) les modules qui ont besoin d'être traduit
 2. "Forkez" le dépôt
 3. Indiquez dans les commentaires du ticket que vous travaillez sur la traduction du module. Le label "En cours de traduction" sera ajouté
-4. Une fois la traduction effectuée, effectuez un pull-request pour l'intégration des traductions
+4. Utilisez le fichier `source.csv.txt` pour effectuer la traduction du module concerné
+5. Fusionnez vos traductions dans le fichier `fr_fr.csv`
+6. Effectuez un pull-request pour l'intégration des traductions
+
+### Recommentadions
+
+Le fichier fr_fr.csv ne doit contenir que des chaînes traduites !
+Ne traduisez qu'un module à la fois, ou séparez bien vos différentes traductions en différentes branches.
+Un pull request doit contenir obligatoirement les modifications du fichiers `source.csv.txt` et `fr_fr.csv`.
 
 ### Tests automatisés des traductions
 
