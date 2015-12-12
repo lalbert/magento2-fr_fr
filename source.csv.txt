@@ -2488,84 +2488,84 @@ AttributeSet does not exist.,AttributeSet does not exist.,module,Magento_Eav
 hello,hello,module,Magento_Eav
 Some internal exception message.,Some internal exception message.,module,Magento_Eav
 The value of attribute not valid,The value of attribute not valid,module,Magento_Eav
-Add New Template,Add New Template,module,Magento_Email
-Transactional Emails,Transactional Emails,module,Magento_Email
-Back,Back,module,Magento_Email
-Reset,Reset,module,Magento_Email
-Delete Template,Delete Template,module,Magento_Email
-Convert to Plain Text,Convert to Plain Text,module,Magento_Email
-Return Html Version,Return Html Version,module,Magento_Email
-Preview Template,Preview Template,module,Magento_Email
-Save Template,Save Template,module,Magento_Email
-Load Template,Load Template,module,Magento_Email
-Edit Email Template,Edit Email Template,module,Magento_Email
-New Email Template,New Email Template,module,Magento_Email
-Default Config,Default Config,module,Magento_Email
-Template Information,Template Information,module,Magento_Email
-Currently Used For,Currently Used For,module,Magento_Email
-Template Name,Template Name,module,Magento_Email
-Template Subject,Template Subject,module,Magento_Email
-Insert Variable...,Insert Variable...,module,Magento_Email
-Template Content,Template Content,module,Magento_Email
-Template Styles,Template Styles,module,Magento_Email
-Preview,Preview,module,Magento_Email
-Unknown,Unknown,module,Magento_Email
-You deleted the email template.,You deleted the email template.,module,Magento_Email
-The email template is currently being used.,The email template is currently being used.,module,Magento_Email
-We can't delete email template data right now. Please review log and try again.,We can't delete email template data right now. Please review log and try again.,module,Magento_Email
-We can't find an email template to delete.,We can't find an email template to delete.,module,Magento_Email
-Edit Template,Edit Template,module,Magento_Email
-Edit System Template,Edit System Template,module,Magento_Email
-New Template,New Template,module,Magento_Email
-New System Template,New System Template,module,Magento_Email
-Email Templates,Email Templates,module,Magento_Email
-Email Preview,Email Preview,module,Magento_Email
-An error occurred. The email template can not be opened for preview.,An error occurred. The email template can not be opened for preview.,module,Magento_Email
-This email template no longer exists.,This email template no longer exists.,module,Magento_Email
-You saved the email template.,You saved the email template.,module,Magento_Email
-Area is already set,Area is already set,module,Magento_Email
-Design config must have area and store.,Design config must have area and store.,module,Magento_Email
-Base Unsecure URL,Base Unsecure URL,module,Magento_Email
-Base Secure URL,Base Secure URL,module,Magento_Email
-General Contact Name,General Contact Name,module,Magento_Email
-General Contact Email,General Contact Email,module,Magento_Email
-Sales Representative Contact Name,Sales Representative Contact Name,module,Magento_Email
-Sales Representative Contact Email,Sales Representative Contact Email,module,Magento_Email
-Custom1 Contact Name,Custom1 Contact Name,module,Magento_Email
-Custom1 Contact Email,Custom1 Contact Email,module,Magento_Email
-Custom2 Contact Name,Custom2 Contact Name,module,Magento_Email
-Custom2 Contact Email,Custom2 Contact Email,module,Magento_Email
-Store Name,Store Name,module,Magento_Email
-Store Phone Number,Store Phone Number,module,Magento_Email
-Store Hours,Store Hours,module,Magento_Email
-Country,Country,module,Magento_Email
-Region/State,Region/State,module,Magento_Email
-Zip/Postal Code,Zip/Postal Code,module,Magento_Email
-City,City,module,Magento_Email
-Street Address 1,Street Address 1,module,Magento_Email
-Street Address 2,Street Address 2,module,Magento_Email
-Store Contact Information,Store Contact Information,module,Magento_Email
+Add New Template,Ajouter un nouveau gabarit,module,Magento_Email
+Transactional Emails,Emails transactionnels,module,Magento_Email
+Back,Retour,module,Magento_Email
+Reset,Réinitialiser,module,Magento_Email
+Delete Template,Supprimer le gabarit,module,Magento_Email
+Convert to Plain Text,Convertir en texte simple,module,Magento_Email
+Return Html Version,Revenir à la version HTML,module,Magento_Email
+Preview Template,Prévisualiser le gabarit,module,Magento_Email
+Save Template,Sauvegarder le gabarit,module,Magento_Email
+Load Template,Charger le gabarit,module,Magento_Email
+Edit Email Template,Éditer le gabarit d'email,module,Magento_Email
+New Email Template,Nouveau gabarit d'email,module,Magento_Email
+Default Config,Configuration par défaut,module,Magento_Email
+Template Information,Informations gabarit,module,Magento_Email
+Currently Used For,Actuellement utilisé pour,module,Magento_Email
+Template Name,Nom du gabarit,module,Magento_Email
+Template Subject,Sujet du gabarit,module,Magento_Email
+Insert Variable...,Insérer une variable...,module,Magento_Email
+Template Content,Contenu du gabarit,module,Magento_Email
+Template Styles,Styles de gabarit,module,Magento_Email
+Preview,Prévisualiser,module,Magento_Email
+Unknown,Inconnu,module,Magento_Email
+You deleted the email template.,Le gabarit d'email a été supprimé.,module,Magento_Email
+The email template is currently being used.,Le gabarit d'email est actuellement utilisé.,module,Magento_Email
+We can't delete email template data right now. Please review log and try again.,Impossible de supprimer le gabarit d'email. Veuillez consulter le journal des erreurs et essayez à nouveau.,module,Magento_Email
+We can't find an email template to delete.,Impossible de trouver le gabarit d'email à supprimer.,module,Magento_Email
+Edit Template,Éditer le gabarit,module,Magento_Email
+Edit System Template,Éditer le gabarit système,module,Magento_Email
+New Template,Nouveau gabarit,module,Magento_Email
+New System Template,Nouveau gabarit système,module,Magento_Email
+Email Templates,Gabarits d'email,module,Magento_Email
+Email Preview,Prévisualisation de l'email,module,Magento_Email
+An error occurred. The email template can not be opened for preview.,Une erreur s'esr produite. Le gabarit d'email ne peut pas être ouvert pour l'aperçu.,module,Magento_Email
+This email template no longer exists.,Ce gabarit d'email n'existe plus.,module,Magento_Email
+You saved the email template.,Gabarit d'email enregistré.,module,Magento_Email
+Area is already set,La zone est déjà initialisée,module,Magento_Email
+Design config must have area and store.,La configuration du design doit avoir une zone et un magasin.,module,Magento_Email
+Base Unsecure URL,URL de base non sécurisée,module,Magento_Email
+Base Secure URL,URL de base sécurisée,module,Magento_Email
+General Contact Name,Nom du contact général,module,Magento_Email
+General Contact Email,Email du contact général,module,Magento_Email
+Sales Representative Contact Name,Nom du contact représentant des ventes,module,Magento_Email
+Sales Representative Contact Email,Email du contact représentant des ventes,module,Magento_Email
+Custom1 Contact Name,Nom du contact personnalisé 1,module,Magento_Email
+Custom1 Contact Email,Email du contact personnalisé 1,module,Magento_Email
+Custom2 Contact Name,Nom du contact personnalisé 2,module,Magento_Email
+Custom2 Contact Email,Email du contact personnalisé 2,module,Magento_Email
+Store Name,Nom du magasin,module,Magento_Email
+Store Phone Number,N° de téléphone du magasin,module,Magento_Email
+Store Hours,Heures d'ouverture,module,Magento_Email
+Country,Pays,module,Magento_Email
+Region/State,Région/État,module,Magento_Email
+Zip/Postal Code,Code postal,module,Magento_Email
+City,Ville,module,Magento_Email
+Street Address 1,Adresse,module,Magento_Email
+Street Address 2,Complément d'adresse,module,Magento_Email
+Store Contact Information,Informations de contact du magasin,module,Magento_Email
 %1,%1,module,Magento_Email
-Template Variables,Template Variables,module,Magento_Email
-Please enter a template name.,Please enter a template name.,module,Magento_Email
-Duplicate Of Template Name,Duplicate Of Template Name,module,Magento_Email
-Invalid transactional email code: %1,Invalid transactional email code: %1,module,Magento_Email
-"Requested invalid store ""%1""","Requested invalid store ""%1""",module,Magento_Email
-"""file"" parameter must be specified","""file"" parameter must be specified",module,Magento_Email
-Contents of %s could not be loaded or is empty,Contents of %s could not be loaded or is empty,module,Magento_Email
-"""file"" parameter must be specified and must not be empty","""file"" parameter must be specified and must not be empty",module,Magento_Email
-Design params must be set before calling this method,Design params must be set before calling this method,module,Magento_Email
+Template Variables,Variables de gabarit,module,Magento_Email
+Please enter a template name.,Merci de renseigner un nom de gabarit.,module,Magento_Email
+Duplicate Of Template Name,Duplication du nom de gabarit,module,Magento_Email
+Invalid transactional email code: %1,"Le code d'email transactionnel ""%1"" est invalide",module,Magento_Email
+"Requested invalid store ""%1""","Le magasin demandé ""%1"" n'est pas valide",module,Magento_Email
+"""file"" parameter must be specified","le paramètre ""file"" doit être renseigné",module,Magento_Email
+Contents of %s could not be loaded or is empty,Le contenu de %s ne peut pas être chargé ou est vide,module,Magento_Email
+"""file"" parameter must be specified and must not be empty","Le paramètre ""file"" doit être renseigné et ne peut pas être vide",module,Magento_Email
+Design params must be set before calling this method,Les paramètres du design doivent être initialisés avant d'appeler cette méthode,module,Magento_Email
 <pre>' . . . . '</pre>,<pre>' . . . . '</pre>,module,Magento_Email
-CSS inlining error:,CSS inlining error:,module,Magento_Email
-Error filtering template: %s,Error filtering template: %s,module,Magento_Email
-"We're sorry, an error has occurred while generating this email.","We're sorry, an error has occurred while generating this email.",module,Magento_Email
-Invalid sender data,Invalid sender data,module,Magento_Email
-Title,Title,module,Magento_Email
-Load default template,Load default template,module,Magento_Email
-Template,Template,module,Magento_Email
-Are you sure you want to strip tags?,Are you sure you want to strip tags?,module,Magento_Email
-Are you sure you want to delete this template?,Are you sure you want to delete this template?,module,Magento_Email
-The template did not load. Please review the log for details.,The template did not load. Please review the log for details.,module,Magento_Email
+CSS inlining error:,Erreur sur le CSS en ligne : ,module,Magento_Email
+Error filtering template: %s,Erreur lors du traitement du gabarit : %s,module,Magento_Email
+"We're sorry, an error has occurred while generating this email.","Désolé, une erreur s'est produite durant la génération de cet email.",module,Magento_Email
+Invalid sender data,Données de l'expéditeur invalide,module,Magento_Email
+Title,Titre,module,Magento_Email
+Load default template,Charger le gabarit par défaut,module,Magento_Email
+Template,Gabarit,module,Magento_Email
+Are you sure you want to strip tags?,Êtes-vous sûr de vouloir supprimer les balises HTML ?,module,Magento_Email
+Are you sure you want to delete this template?,Êtes-vous sûr de vouloir supprimer ce gabarit ?,module,Magento_Email
+The template did not load. Please review the log for details.,Impossible de charger le gabarit. Veuillez consulter le journal des erreurs pour plus de détails.,module,Magento_Email
 Change Encryption Key,Changer la clé de chiffrement,module,Magento_EncryptionKey
 Encryption Key,Clé de chiffrement,module,Magento_EncryptionKey
 New Encryption Key,Nouvelle clé de chiffrement,module,Magento_EncryptionKey
@@ -6034,7 +6034,7 @@ There was recently a request to change the password for your account.,There was 
 The password for your account has been successfully changed.,The password for your account has been successfully changed.,module,Magento_Customer
 "If you did not request this change, please contact us.","If you did not request this change, please contact us.",module,Magento_Customer
 Currency Update Warnings,Alertes de mise à jour des devises,module,Magento_Directory
-"Thank you, %store_name","Thank you, %store_name",module,Magento_Email
+"Thank you, %store_name","Merci, %store_name",module,Magento_Email
 Thank you for subscribing to our newsletter.,Thank you for subscribing to our newsletter.,module,Magento_Newsletter
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:",module,Magento_Newsletter
 You have been successfully subscribed to our newsletter.,You have been successfully subscribed to our newsletter.,module,Magento_Newsletter
@@ -6949,21 +6949,21 @@ Guest checkout will only work with shareable.,Le passage de commande en tant qu'
 EAV types and attributes,EAV types and attributes,module,Magento_Eav
 Entity types declaration cache.,Entity types declaration cache.,module,Magento_Eav
 Emails,Emails,module,Magento_Email
-Logo Image,Logo Image,module,Magento_Email
-"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.",module,Magento_Email
-Logo Image Alt,Logo Image Alt,module,Magento_Email
-Logo Width,Logo Width,module,Magento_Email
-"Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".",module,Magento_Email
-Logo Height,Logo Height,module,Magento_Email
-Header Template,Header Template,module,Magento_Email
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Email template chosen based on theme fallback when ""Default"" option is selected.",module,Magento_Email
-Footer Template,Footer Template,module,Magento_Email
-No Templates Found,No Templates Found,module,Magento_Email
+Logo Image,Image du logo,module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Types de fichiers autorisés: JPG, JPEG, GIF, PNG. Pour optimiser le logo pour des écrans haute résolution, télécharger une image 3 fois plus grande que la taille normal, puis spécifier les dimensions de la taille normale dans les champs ""Largeur"" et ""Hauteur"" ci-dessous.",module,Magento_Email
+Logo Image Alt,Texte alternatif du logo,module,Magento_Email
+Logo Width,Largeur du logo,module,Magento_Email
+"Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Seulement nécessaire si une image est fournie. Renseignez la valeur en pixel, sans ajouter l'unité ""px"".",module,Magento_Email
+Logo Height,Hauteur du logo,module,Magento_Email
+Header Template,Gabarit de l'en-tête,module,Magento_Email
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Email
+Footer Template,Gabarit du pied de page,module,Magento_Email
+No Templates Found,Aucun gabarit trouvé,module,Magento_Email
 ID,ID,module,Magento_Email
-Added,Added,module,Magento_Email
-Updated,Updated,module,Magento_Email
-Subject,Subject,module,Magento_Email
-Template Type,Template Type,module,Magento_Email
+Added,Ajouté,module,Magento_Email
+Updated,Mis à jour,module,Magento_Email
+Subject,Sujet,module,Magento_Email
+Template Type,Type de gabarit,module,Magento_Email
 Action,Action,module,Magento_Email
 FedEx,FedEx,module,Magento_Fedex
 Enabled for Checkout,Activé pour commander,module,Magento_Fedex

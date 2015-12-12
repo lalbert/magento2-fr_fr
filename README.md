@@ -20,7 +20,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 5703/7775 ![Progress](http://progressed.io/bar/73)
+**Progression globale** : 5737/7775 ![Progress](http://progressed.io/bar/74)
 
 ## Thèmes
 
@@ -67,7 +67,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Downloadable | 110 | 110 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_DownloadableImportExport | 3 | 3 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Eav | 83 | 140 | 57 | ![Progress](http://progressed.io/bar/59) |
-| Magento_Email | 62 | 96 | 34 | ![Progress](http://progressed.io/bar/65) |
+| Magento_Email | 96 | 96 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_EncryptionKey | 13 | 13 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Fedex | 74 | 74 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_GiftMessage | 34 | 34 | 0 | ![Progress](http://progressed.io/bar/100) |
