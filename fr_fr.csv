@@ -1152,6 +1152,7 @@ Bottom/Left,En bas à gauche,module,Magento_Catalog
 Bottom/Right,En bas à droite,module,Magento_Catalog
 Center,Centrer,module,Magento_Catalog
 "Unknown EAV indexer type ""%1"".","Type d'indexer EAV inconnu : ""%1"".",module,Magento_Catalog
+We can't rebuild the index for an undefined product.,Impossible de reconstruire l'index pour un produit indéfini.,module,Magento_Catalog
 "Unsupported product type ""%1"".","Type de produit non supporté : ""%1"".",module,Magento_Catalog
 Category,Catégorie,module,Magento_Catalog
 %1 - %2,%1 - %2,module,Magento_Catalog
@@ -1172,6 +1173,7 @@ The file you uploaded is larger than %1 Megabytes allowed by server,Le fichier t
 Not Visible Individually,Non visible individuellement,module,Magento_Catalog
 Search,Chercher,module,Magento_Catalog
 "Catalog, Search","Catalogue, Recherche",module,Magento_Catalog
+"Product with SKU ""%1"" does not exist","Le produit avec la REF ""%1"" d'existe pas.",module,Magento_Catalog
 A product type is not defined for the indexer.,Aucun type de produit n'est défini pour l'indexer.,module,Magento_Catalog
 Multiple Select,Sélection multiple,module,Magento_Catalog
 Dropdown,Liste déroulante,module,Magento_Catalog
@@ -1187,7 +1189,7 @@ Use Default Value,Utiliser la valeur par défaut,module,Magento_Catalog
 Manage Options (values of your attribute),Gérer les options (valeurs de vos attributs),module,Magento_Catalog
 Is Default,Valeur par défaut,module,Magento_Catalog
 Add Option,Ajouter une option,module,Magento_Catalog
-Sort Option,Options de tri,module,Magento_Catalog
+Sort Option,Option de tri,module,Magento_Catalog
 Groups,Groupes,module,Magento_Catalog
 Unassigned Attributes,Attributs non assignés,module,Magento_Catalog
 This group contains system attributes. Please move system attributes to another group and try again.,Ce groupe contient des attributs système. Veuillez déplacer les attributs système vers un autre groupe et réessayer.,module,Magento_Catalog
@@ -1197,6 +1199,7 @@ Maximum image height,Hauteur maximum d'image,module,Magento_Catalog
 Maximum number of characters:,Nombre maxi de caractères :,module,Magento_Catalog
 Manage Stock,Gérer les stocks,module,Magento_Catalog
 Qty,Qté,module,Magento_Catalog
+Out-of-Stock Threshold,Qté pour que le statut du produit passe à épuisé,module,Magento_Catalog
 Minimum Qty Allowed in Shopping Cart,Quantité mini autorisée dans le panier,module,Magento_Catalog
 Maximum Qty Allowed in Shopping Cart,Quantité maxi autorisée dans le panier,module,Magento_Catalog
 Qty Uses Decimals,La quantité utilise des décimales,module,Magento_Catalog
@@ -1365,14 +1368,35 @@ ALL GROUPS,TOUS LES GROUPES,module,Magento_CatalogInventory
 Customer Group,Groupe de clients,module,Magento_CatalogInventory
 Minimum Qty,Quantité mini,module,Magento_CatalogInventory
 Add Minimum Qty,Ajouter une quantité mini,module,Magento_CatalogInventory
+We can't rebuild the index for an undefined product.,Impossible de reconstruire l'index pour un produit indéfini.,module,Magento_CatalogInventory
+Could not rebuild index for empty products array,Impossible de reconstruire l'index pour un tableau de produit vide,module,Magento_CatalogInventory
 The stock item for Product is not valid.,L'article en stock pour ce produit n'est pas valide.,module,Magento_CatalogInventory
+This product is out of stock.,Ce produit est en rupture de stock.,module,Magento_CatalogInventory
+Some of the products are out of stock.,Certains de ces produits sont en rupture de stock.,module,Magento_CatalogInventory
 The stock item for Product in option is not valid.,L'article en stock pour cette option du produit n'est pas valide.,module,Magento_CatalogInventory
+Undefined product type,Type de produit indéfini,module,Magento_CatalogInventory
+%1 is not a correct comparison method.,%1 n'est pas une méthode de comparaison correct.,module,Magento_CatalogInventory
 No Backorders,Pas de commandes au delà des stocks,module,Magento_CatalogInventory
 Allow Qty Below 0,Autoriser les quantités négatives,module,Magento_CatalogInventory
 Allow Qty Below 0 and Notify Customer,Autoriser les quantités négatives et prévenir le client,module,Magento_CatalogInventory
 In Stock,En stock,module,Magento_CatalogInventory
 Out of Stock,Épuisé,module,Magento_CatalogInventory
+"Stock Item with id ""%1"" does not exist.","L'élément de stock avec l'ID ""%1"" n'existe pas.",module,Magento_CatalogInventory
+"Stock with id ""%1"" does not exist.","Le stock d'ID ""%1"" n'existe pas.",module,Magento_CatalogInventory
+Not all of your products are available in the requested quantity.,Tous vos produits ne sont pas disponibles dans la quantité demandée.,module,Magento_CatalogInventory
+"Product with SKU ""%1"" does not exist","Le produit avec la REF ""%1"" d'existe pas.",module,Magento_CatalogInventory
+The fewest you may purchase is %1.,La quantité minimale que vous pouvez acheter est de %1.,module,Magento_CatalogInventory
+Please correct the quantity for some products.,Merci de corriger la quantité de certains produits.,module,Magento_CatalogInventory
+The most you may purchase is %1.,La quantité maximale que vous pouvez acheter est de %1.,module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","Nous ne possédons pas suffisament de ""%1"" pour honorer votre demande.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Nous ne possédons pas suffisament de ""%1"" pour honorer votre demande, mais nous mettrons en réapprovisionnement les %2 restant. ",module,Magento_CatalogInventory
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Nous ne possédons pas suffisament de ""%1"" pour honorer votre demande, alors nous mettrons en réapprovisionnement les %2 restant. ",module,Magento_CatalogInventory
+You can buy %1 only in quantities of %2 at a time.,Vous pouvez acheter %1 uniquement par quantité de %2.,module,Magento_CatalogInventory
+You can buy this product only in quantities of %1 at a time.,Vous pouvez acheter ce produit uniquement par quantité de %1.,module,Magento_CatalogInventory
+Decimal qty increments is not allowed.,Les incréments de quantités ne peuvent pas être une valeur décimale.,module,Magento_CatalogInventory
+%1 is available to buy in increments of %2,%1 doit être acheté par multiple de %2.,module,Magento_CatalogInventory
 Only %1 left,Plus que %1 en stock,module,Magento_CatalogInventory
+Product availability,Disponibilité des produits,module,Magento_CatalogInventory
 Product Name,Nom du produit,module,Magento_CatalogInventory
 Qty,Qté,module,Magento_CatalogInventory
 Inventory,Inventaire,module,Magento_CatalogInventory
@@ -1380,16 +1404,24 @@ Stock Options,Options de stock,module,Magento_CatalogInventory
 Decrease Stock When Order is Placed,Décrémenter le stock quand la commande est validée,module,Magento_CatalogInventory
 Set Items' Status to be In Stock When Order is Cancelled,"Passer le statut des articles à ""Disponible"" quand une commande est annulée",module,Magento_CatalogInventory
 Display Out of Stock Products,Afficher les produits épuisés,module,Magento_CatalogInventory
+Products will still be shown by direct product URLs.,Les produits seront accessibles directement par leurs URLs.,module,Magento_CatalogInventory
 Only X left Threshold,Seuil pour afficher 'Plus que X produits restant',module,Magento_CatalogInventory
+Display products availability in stock on Storefront.,Afficher la disponiblité des produits sur le front office.,module,Magento_CatalogInventory
 Product Stock Options,Options de stock de produits,module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ",Veuillez noter que ces paramètres sont applicables aux lignes du panieret non à son emsemble.,module,Magento_CatalogInventory
 Manage Stock,Gérer les stocks,module,Magento_CatalogInventory
 Backorders,Commande en rupture de stock,module,Magento_CatalogInventory
 Maximum Qty Allowed in Shopping Cart,Quantité maxi autorisée dans le panier,module,Magento_CatalogInventory
+Out-of-Stock Threshold,Qté pour que le statut du produit passe à épuisé,module,Magento_CatalogInventory
 Minimum Qty Allowed in Shopping Cart,Quantité mini autorisée dans le panier,module,Magento_CatalogInventory
 Notify for Quantity Below,Notifier quand la quantité passe en dessous de,module,Magento_CatalogInventory
 Automatically Return Credit Memo Item to Stock,Remettre automatiquement en stock un article faisant l'objet d'un avoir,module,Magento_CatalogInventory
 Enable Qty Increments,Activer les incréments de quantités,module,Magento_CatalogInventory
 Qty Increments,Incréments de quantités,module,Magento_CatalogInventory
+Stock,Stock,module,Magento_CatalogInventory
+Index stock,Indexe du stock,module,Magento_CatalogInventory
 Quantity,Quantité,module,Magento_CatalogInventory
 Catalog Price Rule,Règle de prix catalogue,module,Magento_CatalogRule
 Add New Rule,Ajouter une nouvelle règle,module,Magento_CatalogRule
@@ -1400,11 +1432,19 @@ Edit Rule '%1',Éditer la règle '%1',module,Magento_CatalogRule
 New Rule,Nouvelle règle,module,Magento_CatalogRule
 Rule Information,Informations règle,module,Magento_CatalogRule
 Actions,Actions,module,Magento_CatalogRule
+Pricing Structure Rules,Règles d'application des prix,module,Magento_CatalogRule
 Apply,Appliquer,module,Magento_CatalogRule
+Apply as percentage of original,En pourcentage du prix d'origine,module,Magento_CatalogRule
+Apply as fixed amount,Remise d'un montant fixe,module,Magento_CatalogRule
+Adjust final price to this percentage,Pourcentage du prix original,module,Magento_CatalogRule
+Adjust final price to discount value,Nouveau prix en montant fixe,module,Magento_CatalogRule
 Discount Amount,Remise,module,Magento_CatalogRule
+Subproduct discounts,Activer les remises sur les sous-produits,module,Magento_CatalogRule
 No,Non,module,Magento_CatalogRule
 Yes,Oui,module,Magento_CatalogRule
+Discard subsequent rules,Ignorer les règles suivantes,module,Magento_CatalogRule
 Conditions,Conditions,module,Magento_CatalogRule
+Conditions (don't add conditions if rule is applied to all products),Conditions (ne pas ajouter de conditions si la règle doit s'appliquer à tous les produits),module,Magento_CatalogRule
 General Information,Informations générales,module,Magento_CatalogRule
 Rule Name,Nom de la règle,module,Magento_CatalogRule
 Description,Description,module,Magento_CatalogRule
@@ -1422,11 +1462,24 @@ Attribute Set,Jeu d'attributs,module,Magento_CatalogRule
 SKU,Réf.,module,Magento_CatalogRule
 Product,Produit,module,Magento_CatalogRule
 Promotions,Promotions,module,Magento_CatalogRule
+"We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","Certaines règles mises à jour n'ont pas été appliquées. Merci de cliquer sur ""Appliquer les règles"" pour mettre à jour le catalogue.",module,Magento_CatalogRule
+We can't apply the rules.,Impossible d'appliquer les règles de promotion.,module,Magento_CatalogRule
+You deleted the rule.,Règle supprimée.,module,Magento_CatalogRule
+We can't delete this rule right now. Please review the log and try again.,Impossible de supprimer la règle. Veuillez consulter le journal des erreurs et essayer à nouveau.,module,Magento_CatalogRule
+We can't find a rule to delete.,Impossible de trouver la règle à supprimer.,module,Magento_CatalogRule
 This rule no longer exists.,Cette règle n'existe plus.,module,Magento_CatalogRule
+New Catalog Price Rule,Nouvelle règle de prix catalogue,module,Magento_CatalogRule
 Edit Rule,Éditer la règle,module,Magento_CatalogRule
 Catalog,Catalogue,module,Magento_CatalogRule
 Wrong rule specified.,Mauvaise règle spécifiée.,module,Magento_CatalogRule
+You saved the rule.,La règle a été sauvegardée.,module,Magento_CatalogRule
+Something went wrong while saving the rule data. Please review the error log.,Une erreur s'est produite durant l'enregistrement des données de la règle. Veuillez consulter le journal des erreurs.,module,Magento_CatalogRule
 Promo,Promo,module,Magento_CatalogRule
+Could not rebuild index for empty products array,Impossible de reconstruire l'index pour un tableau de produit vide,module,Magento_CatalogRule
+We can't rebuild the index for an undefined product.,Impossible de reconstruire l'index pour un produit indéfini.,module,Magento_CatalogRule
+Percentage discount should be between 0 and 100.,La réduction en pourcentage doit être comprise entre 0 et 100.,module,Magento_CatalogRule
+Discount value should be 0 or greater.,La valeur de la réduction doit être supérieure à 0.,module,Magento_CatalogRule
+Unknown action.,Action inconnue.,module,Magento_CatalogRule
 Update the Product,Mettre à jour le produit,module,Magento_CatalogRule
 Rule price,Règle de prix,module,Magento_CatalogRule
 To Fixed Value,Nouveau prix,module,Magento_CatalogRule
@@ -1436,7 +1489,15 @@ By Percentage,Remise en %%,module,Magento_CatalogRule
 Update product's %1 %2: %3,Mettre à jour le %1 du produit %2 : %3,module,Magento_CatalogRule
 Conditions Combination,Combinaison de conditions,module,Magento_CatalogRule
 Product Attribute,Attribut du produit,module,Magento_CatalogRule
+Updated rules applied.,Mise à jour des règles appliquée.,module,Magento_CatalogRule
+"You disabled %1 Catalog Price Rules based on ""%2"" attribute.","La règle de prix catalogue %1 a été désactivée car elle est basée sur l'attribut ""%2"".",module,Magento_CatalogRule
+Catalog Rule Product,Règles catalogue du produit,module,Magento_CatalogRule
+Indexed rule/product association,Indexe des associations règles catalogue/produit,module,Magento_CatalogRule
+Catalog Product Rule,Produits de la règle catalogue,module,Magento_CatalogRule
+Indexed product/rule association,Indexe des associations produits/règle catalogue,module,Magento_CatalogRule
+Rule,Règle,module,Magento_CatalogRule
 Start,Commencer,module,Magento_CatalogRule
+End,Fin,module,Magento_CatalogRule
 Web Site,Site Web,module,Magento_CatalogRule
 Home,Accueil,module,Magento_CatalogSearch
 Go to Home Page,Aller à la page d'accueil,module,Magento_CatalogSearch
@@ -1660,6 +1721,7 @@ Keywords,Mots clés,module,Magento_Cms
 Meta Keywords,Mots-clés meta,module,Magento_Cms
 Description,Description,module,Magento_Cms
 Meta Description,Méta description,module,Magento_Cms
+Created,Créée,module,Magento_Cms
 Action,Action,module,Magento_Cms
 Preview,Prévisualiser,module,Magento_Cms
 Media Storage,Stockage des medias,module,Magento_Cms
@@ -2338,24 +2400,51 @@ State is Required for,L'état est obligatoire pour,module,Magento_Directory
 Allow to Choose State if It is Optional for Country,Afficher l'état s'il n'est pas obligatoire,module,Magento_Directory
 Weight Unit,Unité de poids,module,Magento_Directory
 Downloadable Information,Informations téléchargements,module,Magento_Downloadable
+Add New Link,Ajouter un nouveau lien,module,Magento_Downloadable
 Upload Files,Télécharger les fichiers,module,Magento_Downloadable
 All Files,Tous les fichiers,module,Magento_Downloadable
 Unlimited,Illimité,module,Magento_Downloadable
+Something went wrong while getting the requested content.,Une erreur s'est produite lors de la récupération du contenu demandé.,module,Magento_Downloadable
 My Downloadable Products,Mes produits téléchargeables,module,Magento_Downloadable
+We can't find the link you requested.,Impossible de trouver le lien demandé.,module,Magento_Downloadable
+"Please sign in to download your product or purchase <a href=""%1"">%2</a>.","Merci de vous connecter pour télécharger votre produit, ou achetez <a href=""%1"">%2</a>.",module,Magento_Downloadable
+Please sign in to download your product.,Merci de vous connecter pour télécharger votre produit.,module,Magento_Downloadable
 The link has expired.,Le lien a expiré.,module,Magento_Downloadable
 The link is not available.,Le lien n'est pas disponible.,module,Magento_Downloadable
 "Sorry, there was an error getting requested content. Please contact the store owner.",Erreur lors de la récupération du contenu demandé. Veuillez contacter le magasin.,module,Magento_Downloadable
 Please set resource file and link type.,Renseignez le fichier de ressource et le type de lien.,module,Magento_Downloadable
 Invalid download link type.,Le type de lien de téléchargement est invalide.,module,Magento_Downloadable
+Something went wrong while saving the file(s).,Une erreur s'est produite lors de l'enregistrement du/des fichier(s).,module,Magento_Downloadable
+Provided content must be valid base64 encoded data.,Le contenu fourni doit être une donnée valide encodée en base64.,module,Magento_Downloadable
+Provided file name contains forbidden characters.,Le nom de fichier fourrni contient des caractères interdits.,module,Magento_Downloadable
+Link price must have numeric positive value.,Le prix du lien doit avoir une valeur numérique positive.,module,Magento_Downloadable
+Number of downloads must be a positive integer.,Le nombre de téléchargements doit être un entier positif.,module,Magento_Downloadable
+Sort order must be a positive integer.,L'ordre de tri doit être un entier positif.,module,Magento_Downloadable
+Link URL must have valid format.,L'URL du lien doit avoir un format valide.,module,Magento_Downloadable
+Provided file content must be valid base64 encoded data.,Le fichier fourni doit être une donnée valide encodée en base64.,module,Magento_Downloadable
+Sample URL must have valid format.,L'URL de l'échantillon doit avoir un format valide.,module,Magento_Downloadable
 Order id cannot be null,L'id de commande ne peut pas être null,module,Magento_Downloadable
 Order item id cannot be null,L'id d'article de commande ne peut pas être null,module,Magento_Downloadable
+Product type of the product must be 'downloadable'.,"Le type du produit doit être ""télachargeable"".",module,Magento_Downloadable
+Provided link information is invalid.,Les informations fournis pour le lien sont invalides.,module,Magento_Downloadable
+Invalid link type.,Type de lien invalide.,module,Magento_Downloadable
+Link title cannot be empty.,Le titre du lien ne peut pas être vide.,module,Magento_Downloadable
+There is no downloadable link with provided ID.,Aucun lien de téléchargement trouvé avec l'ID fourni.,module,Magento_Downloadable
+Provided downloadable link is not related to given product.,Le lien de téléchargement fourni n'est pas relié à ce produit.,module,Magento_Downloadable
 Please specify product link(s).,Spécifiez le ou les liens des produits.,module,Magento_Downloadable
+Provided sample information is invalid.,Les informations fournis pour l'échantillon sont invalides.,module,Magento_Downloadable
+Invalid sample type.,Type d'échantillon invalide.,module,Magento_Downloadable
+Sample title cannot be empty.,Le titre de l'échantillon ne peut pas être vide.,module,Magento_Downloadable
+There is no downloadable sample with provided ID.,Aucun échantillon téléchargeable avec l'ID fourni.,module,Magento_Downloadable
+Provided downloadable sample is not related to given product.,Cet échantillon n'est pas relié à ce produit.,module,Magento_Downloadable
 attachment,pièce jointe,module,Magento_Downloadable
 inline,en ligne,module,Magento_Downloadable
 Pending,En attente,module,Magento_Downloadable
 Invoiced,Facturé,module,Magento_Downloadable
 sample,échantillon,module,Magento_Downloadable
+Is this downloadable Product?,Est-ce un produit téléchargeable ?,module,Magento_Downloadable
 Links,Liens,module,Magento_Downloadable
+Add links to your product files here.,Ajouter des liens aux fichiers de votre produit ici.,module,Magento_Downloadable
 [STORE VIEW],[VUE MAGASIN],module,Magento_Downloadable
 Title,Titre,module,Magento_Downloadable
 Use Default Value,Utiliser la valeur par défaut,module,Magento_Downloadable
@@ -2363,6 +2452,7 @@ Use Default Value,Utiliser la valeur par défaut,module,Magento_Downloadable
 Links can be purchased separately,Les liens peuvent être achetés séparément,module,Magento_Downloadable
 Sort Order,Ordre de tri,module,Magento_Downloadable
 Price,Prix,module,Magento_Downloadable
+Attach File or Enter Link,Attacher un fichier ou entrer un lien,module,Magento_Downloadable
 Sample,Exemple,module,Magento_Downloadable
 Shareable,Partageable,module,Magento_Downloadable
 Max. Downloads,Téléchargements max.,module,Magento_Downloadable
@@ -2376,6 +2466,7 @@ No,Non,module,Magento_Downloadable
 Use config,Utiliser la config,module,Magento_Downloadable
 Delete,Supprimer,module,Magento_Downloadable
 Samples,Exemples,module,Magento_Downloadable
+Add product preview files here.,Ajouter un aperçu du produit ici.,module,Magento_Downloadable
 SKU,Réf.,module,Magento_Downloadable
 U,U,module,Magento_Downloadable
 Select all,Sélectionner tout,module,Magento_Downloadable
@@ -2384,6 +2475,7 @@ Availability,Disponibilité,module,Magento_Downloadable
 In stock,En stock,module,Magento_Downloadable
 Out of stock,Épuisé,module,Magento_Downloadable
 "Go to <a href=""%1"">My Downloadable Products</a>","Aller à <a href=""%1"">Mes produits téléchargeables</a>",module,Magento_Downloadable
+Downloadable Products,Produits téléchargeables,module,Magento_Downloadable
 Order #,Commande n°,module,Magento_Downloadable
 Date,Date,module,Magento_Downloadable
 Status,Statut,module,Magento_Downloadable
@@ -3079,6 +3171,7 @@ Template Styles,Styles de gabarit,module,Magento_Newsletter
 No Templates Found,Aucun gabarit trouvé,module,Magento_Newsletter
 ID,ID,module,Magento_Newsletter
 Template,Gabarit,module,Magento_Newsletter
+Added,Ajouté,module,Magento_Newsletter
 Updated,Mis à jour,module,Magento_Newsletter
 Sender,Expéditeur,module,Magento_Newsletter
 Template Type,Type de gabarit,module,Magento_Newsletter
@@ -3110,6 +3203,7 @@ Newsletter Message Preview,Prévisualisation du message de la newsletter,module,
 Add to Queue,Ajouter à la file,module,Magento_Newsletter
 Are you sure that you want to strip all tags?,Êtes-vous sûr(e) de vouloir supprimer tous les tags ?,module,Magento_Newsletter
  Copy, Copie,module,Magento_Newsletter
+Are you sure you want to delete this template?,Êtes-vous sûr de vouloir supprimer ce gabarit ?,module,Magento_Newsletter
 Sign Up for Our Newsletter:,Inscription à notre newsletter :,module,Magento_Newsletter
 Enter your email address,Saisissez votre email,module,Magento_Newsletter
 Subscribe,Inscription,module,Magento_Newsletter
@@ -3295,6 +3389,7 @@ First Name,Prénom,module,Magento_Paypal
 Last Name,Nom,module,Magento_Paypal
 Reference ID,Réference ID,module,Magento_Paypal
 Status,Statut,module,Magento_Paypal
+Created,Créée,module,Magento_Paypal
 N/A,N/A,module,Magento_Paypal
 Updated,Mis à jour,module,Magento_Paypal
 Back,Retour,module,Magento_Paypal
@@ -3763,6 +3858,7 @@ Reviews for %1,Commentaires pour %1,module,Magento_Reports
 Customer,Client,module,Magento_Reports
 Title,Titre,module,Magento_Reports
 Detail,Détail,module,Magento_Reports
+Created,Créée,module,Magento_Reports
 Products Reviews,Produits commentés,module,Magento_Reports
 Products Bestsellers Report,Rapport des meilleures ventes,module,Magento_Reports
 Coupons Usage Report,Rapport des utilisations des bons de réduction,module,Magento_Reports
@@ -3900,6 +3996,7 @@ Guest,Invité,module,Magento_Review
 Summary Rating,Aperçu des notations,module,Magento_Review
 Detailed Rating,Notation détaillée,module,Magento_Review
 ID,ID,module,Magento_Review
+Created,Créée,module,Magento_Review
 Title,Titre,module,Magento_Review
 Type,Type,module,Magento_Review
 SKU,Réf.,module,Magento_Review
@@ -4154,6 +4251,7 @@ Transactions,Transactions,module,Magento_Sales
 Order View,Vue de commande,module,Magento_Sales
 Any,Tous,module,Magento_Sales
 Specified,Spécifié,module,Magento_Sales
+Cart Price Rule,Règle de prix panier,module,Magento_Sales
 Yes,Oui,module,Magento_Sales
 No,Non,module,Magento_Sales
 Show Actual Values,Montrer les valeurs actuelles,module,Magento_Sales
@@ -4537,6 +4635,7 @@ Default Template,Gabarit par défaut,module,Magento_Sales
 Name,Nom,module,Magento_Sales
 ZIP/Post Code,Code postal,module,Magento_Sales
 Website,Site web,module,Magento_Sales
+Created,Créée,module,Magento_Sales
 Invoice Date,Date de facturation,module,Magento_Sales
 Total Quantity,Quantité totale,module,Magento_Sales
 Default Status,Statut par défaut,module,Magento_Sales
@@ -4549,12 +4648,14 @@ Print Shipping Labels,Imprimer les étiquettes de livraison,module,Magento_Sales
 Customer Email,Email du client,module,Magento_Sales
 PDF Invoices,Factures en PDF,module,Magento_Sales
 Refunds,Remboursements,module,Magento_Sales
+Cart Price Rules,Règles de prix panier,module,Magento_SalesRule
 Add New Rule,Ajouter une nouvelle règle,module,Magento_SalesRule
 Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_SalesRule
 Edit Rule '%1',Éditer la règle '%1',module,Magento_SalesRule
 New Rule,Nouvelle règle,module,Magento_SalesRule
 Rule Information,Informations règle,module,Magento_SalesRule
 Actions,Actions,module,Magento_SalesRule
+Pricing Structure Rules,Règles d'application des prix,module,Magento_SalesRule
 Apply,Appliquer,module,Magento_SalesRule
 Percent of product price discount,Remise en pourcentage du prix du produit,module,Magento_SalesRule
 Fixed amount discount,Remise d'une valeur fixe,module,Magento_SalesRule
@@ -4564,10 +4665,13 @@ Discount Amount,Remise,module,Magento_SalesRule
 Maximum Qty Discount is Applied To,Qté maxi à laquelle la remise est appliquée,module,Magento_SalesRule
 Discount Qty Step (Buy X),Quantité pour obtenir la remise (Achetez-en X),module,Magento_SalesRule
 Apply to Shipping Amount,Appliquer au montant de la livraison,module,Magento_SalesRule
+Discard subsequent rules,Ignorer les règles suivantes,module,Magento_SalesRule
 Yes,Oui,module,Magento_SalesRule
 No,Non,module,Magento_SalesRule
+Apply the rule only to cart items matching the following conditions (leave blank for all items).,Appliquer la règle uniquement aux articles du panier qui correspondant aux conditions suivantes (laisser vide pour tous les articles).,module,Magento_SalesRule
 Apply To,S'applique à,module,Magento_SalesRule
 Conditions,Conditions,module,Magento_SalesRule
+Apply the rule only if the following conditions are met (leave blank for all products).,Appliquer la règle uniquement si les conditions suivantes sont remplies (laisser vide pour tous les produits).,module,Magento_SalesRule
 Manage Coupon Codes,Gérer les codes de bons de réduction,module,Magento_SalesRule
 Coupons Information,Informations sur les bons de réduction,module,Magento_SalesRule
 Coupon Qty,Qté de bons de réduction,module,Magento_SalesRule
@@ -4580,6 +4684,7 @@ Dash Every X Characters,Ajouter un trait tous les X caractères,module,Magento_S
 If empty no separation.,"Si vide, aucune séparation.",module,Magento_SalesRule
 Generate,Générer,module,Magento_SalesRule
 Coupon Code,Code du bon de réduction,module,Magento_SalesRule
+Created,Créée,module,Magento_SalesRule
 Uses,Nombre d'utilisations,module,Magento_SalesRule
 Times Used,Nombre d'utilisations,module,Magento_SalesRule
 CSV,CSV,module,Magento_SalesRule
@@ -4603,22 +4708,41 @@ Use Auto Generation,Utiliser la génération automatique,module,Magento_SalesRul
 If you select and save the rule you will be able to generate multiple coupon codes.,"Si vous sélectionnez et enregistrez la règle, vous pourrez générer des codes de bons de réductions.",module,Magento_SalesRule
 Uses per Coupon,Nombre d'utilisations par coupon,module,Magento_SalesRule
 Uses per Customer,Nombre d'utilisations par client,module,Magento_SalesRule
+Usage limit enforced for logged in customers only.,Limite d'utilisation imposée uniquement aux clients connectés.,module,Magento_SalesRule
 From,De,module,Magento_SalesRule
 To,À,module,Magento_SalesRule
 Priority,Priorité,module,Magento_SalesRule
 Public In RSS Feed,Public dans le flux RSS,module,Magento_SalesRule
+Cart Price Rule,Règle de prix panier,module,Magento_SalesRule
 ID,ID,module,Magento_SalesRule
+Rule,Règle,module,Magento_SalesRule
 Start,Commencer,module,Magento_SalesRule
+End,Fin,module,Magento_SalesRule
 %1 - Discounts and Coupons,%1 - Remises et coupons,module,Magento_SalesRule
 Coupons/Discounts,Coupons/Réductions,module,Magento_SalesRule
 Promotions,Promotions,module,Magento_SalesRule
+You deleted the rule.,Règle supprimée.,module,Magento_SalesRule
+We can't delete the rule right now. Please review the log and try again.,Impossible de supprimer la règle. Merci de consulter le journal des erreurs et essayez à nouveau.,module,Magento_SalesRule
+We can't find a rule to delete.,Impossible de trouver la règle à supprimer.,module,Magento_SalesRule
 This rule no longer exists.,Cette règle n'existe plus.,module,Magento_SalesRule
 Edit Rule,Éditer la règle,module,Magento_SalesRule
+New Cart Price Rule,Nouvelle règle de prix panier,module,Magento_SalesRule
 Rule is not defined,La règle n'est pas définie,module,Magento_SalesRule
+Invalid data provided,Données fournies invalides,module,Magento_SalesRule
+%1 coupon(s) have been generated.,% coupon(s) ont été générés.,module,Magento_SalesRule
+Something went wrong while generating coupons. Please review the log and try again.,Une erreur s'est produite pendant la génération des coupons. Merci de consulter le journal des erreurs et essayez à nouveau.,module,Magento_SalesRule
 Catalog,Catalogue,module,Magento_SalesRule
+The wrong rule is specified.,Une mauvaise règle est spécifiée.,module,Magento_SalesRule
+You saved the rule.,La règle a été sauvegardée.,module,Magento_SalesRule
+Something went wrong while saving the rule data. Please review the error log.,Une erreur s'est produite durant l'enregistrement des données de la règle. Veuillez consulter le journal des erreurs.,module,Magento_SalesRule
 Alphanumeric,Alphanumérique,module,Magento_SalesRule
 Alphabetical,Alphabétique,module,Magento_SalesRule
 Numeric,Numérique,module,Magento_SalesRule
+We cannot create the requested Coupon Qty. Please check your settings and try again.,Impossible créer la quantité de coupon demandée. Merci de vérifier vos paramètres puis réessayez.,module,Magento_SalesRule
+Specified rule does not allow coupons,La règle spécifiée ne permet pas l'utilisation de coupons,module,Magento_SalesRule
+Specified rule only allows auto generated coupons,La règle spécifiée permet uniquement l'utilisation de coupons générés,module,Magento_SalesRule
+Specified rule does not allow auto generated coupons,La règle spécifiée ne permet pas l'utilisation de coupons générés,module,Magento_SalesRule
+Error occurred when saving coupon: %1,Une erreur s'est produite lors de l'enregistrement du coupon : %1,module,Magento_SalesRule
 Discount (%1),Remise (%1),module,Magento_SalesRule
 Discount,Remise,module,Magento_SalesRule
 Coupon with the same code,Coupon de réduction avec le même code,module,Magento_SalesRule
@@ -4666,6 +4790,11 @@ less than,est inférieur(e) à,module,Magento_SalesRule
 is one of,fait partie de,module,Magento_SalesRule
 is not one of,ne fait pas partie de,module,Magento_SalesRule
 If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:,Si %1 %2 %3 pour une sous-sélection d'articles dans le panier répondant à %4 ces conditions :,module,Magento_SalesRule
+Specified rule does not allow automatic coupon generation,La règle spécifiée ne pas pas la génération automatique de coupon,module,Magento_SalesRule
+Error occurred when generating coupons: %1,Une erreur s'est produite lors de la génération des coupons : %1,module,Magento_SalesRule
+Some coupons are invalid.,Certains coupons sont invalides.,module,Magento_SalesRule
+Item totals are not set for the rule.,Le total des articles n'est pas spécifié dans la règle.,module,Magento_SalesRule
+"%1 Cart Price Rules based on ""%2"" attribute have been disabled.","La règle de prix panier %1 basée sur l'attribut ""%2"" a été désactivée.",module,Magento_SalesRule
 Auto Generated Specific Coupon Codes,Codes de bons de réduction spécifiques générés automatiquement,module,Magento_SalesRule
 Web Site,Site Web,module,Magento_SalesRule
 Entity Sequence profile not added to meta active profile,Le profil de récurrence n'a pas pas été ajouté aux métadonnées du profil courant,module,Magento_SalesSequence
@@ -5696,6 +5825,7 @@ Product,Produit,module,Magento_Widget
 Select Product...,Choisir un produit...,module,Magento_Widget
 Conditions,Conditions,module,Magento_Widget
 Widget ID,ID de widget,module,Magento_Widget
+Wish List,Liste d'envies,module,Magento_Wishlist
 Page not found.,Page introuvable.,module,Magento_Wishlist
 Please enter a valid email address.,Saisissez un email valide.,module,Magento_Wishlist
 Can't save description %1,Impossible d'enregistrer la description %1,module,Magento_Wishlist
