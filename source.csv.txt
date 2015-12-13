@@ -47,50 +47,50 @@ Entity type model must be an instance of \Magento\CatalogImportExport\Model\Expo
 There are no product types available for export,Aucun type de produit disponible pour l'export,module,Magento_AdvancedPricingImportExport
 We can't find the role for the user you wanted.,Impossible de trouver le rôle de l'utilisateur désiré.,module,Magento_Authorization
 Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.,Une erreur s'est produite durant la compilation de la liste des ressources autorisées. Vous pouvez trouver plus d'informations dans le journal des exceptions.,module,Magento_Authorization
-You created the order.,You created the order.,module,Magento_Authorizenet
-Order saving error: %1,Order saving error: %1,module,Magento_Authorizenet
-Please choose a payment method.,Please choose a payment method.,module,Magento_Authorizenet
-We can't process your order right now. Please try again later.,We can't process your order right now. Please try again later.,module,Magento_Authorizenet
-Cannot place order.,Cannot place order.,module,Magento_Authorizenet
-Credit Card: xxxx-%1,Credit Card: xxxx-%1,module,Magento_Authorizenet
-amount %1,amount %1,module,Magento_Authorizenet
-failed.,failed.,module,Magento_Authorizenet
-successful.,successful.,module,Magento_Authorizenet
+You created the order.,La commande a été créée.,module,Magento_Authorizenet
+Order saving error: %1,Erreur lors de la sauvegarde de la commande : %1,module,Magento_Authorizenet
+Please choose a payment method.,Merci de sélectionner une méthode de paiement.,module,Magento_Authorizenet
+We can't process your order right now. Please try again later.,Nous ne pouvons pas traiter votre commande dès maintenant. Veuillez réessayer plus tard.,module,Magento_Authorizenet
+Cannot place order.,Impossible de passer votre commande.,module,Magento_Authorizenet
+Credit Card: xxxx-%1,Numéro de carte bancaire : xxxx-%1,module,Magento_Authorizenet
+amount %1,montant %1,module,Magento_Authorizenet
+failed.,échoué.,module,Magento_Authorizenet
+successful.,réussi.,module,Magento_Authorizenet
 Authorize.Net Transaction ID %1.,Authorize.Net Transaction ID %1.,module,Magento_Authorizenet
-authorize,authorize,module,Magento_Authorizenet
-authorize and capture,authorize and capture,module,Magento_Authorizenet
-capture,capture,module,Magento_Authorizenet
-refund,refund,module,Magento_Authorizenet
-void,void,module,Magento_Authorizenet
-Gateway error: %1,Gateway error: %1,module,Magento_Authorizenet
-Something went wrong in the payment gateway.,Something went wrong in the payment gateway.,module,Magento_Authorizenet
-Invalid amount for capture.,Invalid amount for capture.,module,Magento_Authorizenet
-Payment capturing error.,Payment capturing error.,module,Magento_Authorizenet
-Invalid transaction ID.,Invalid transaction ID.,module,Magento_Authorizenet
-Payment voiding error.,Payment voiding error.,module,Magento_Authorizenet
-Invalid amount for refund.,Invalid amount for refund.,module,Magento_Authorizenet
-Payment refunding error.,Payment refunding error.,module,Magento_Authorizenet
-The transaction was declined because the response hash validation failed.,The transaction was declined because the response hash validation failed.,module,Magento_Authorizenet
-This payment didn't work out because we can't find this order.,This payment didn't work out because we can't find this order.,module,Magento_Authorizenet
-There was a payment authorization error.,There was a payment authorization error.,module,Magento_Authorizenet
-Please enter a transaction ID to authorize this payment.,Please enter a transaction ID to authorize this payment.,module,Magento_Authorizenet
-Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.,Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.,module,Magento_Authorizenet
-"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaction %1 has been approved. Amount %2. Transaction status is ""%3""",module,Magento_Authorizenet
-"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.",module,Magento_Authorizenet
-Authorize Only,Authorize Only,module,Magento_Authorizenet
-Authorize and Capture,Authorize and Capture,module,Magento_Authorizenet
-Unable to get transaction details. Try again later.,Unable to get transaction details. Try again later.,module,Magento_Authorizenet
-Gateway error: ' .,Gateway error: ' .,module,Magento_Authorizenet
-Credit Card Type,Credit Card Type,module,Magento_Authorizenet
-Credit Card Number,Credit Card Number,module,Magento_Authorizenet
-Expiration Date,Expiration Date,module,Magento_Authorizenet
-Card Verification Number,Card Verification Number,module,Magento_Authorizenet
-Fraud Detection ,Fraud Detection ,module,Magento_Authorizenet
-FDS Filter Action,FDS Filter Action,module,Magento_Authorizenet
-AVS Response,AVS Response,module,Magento_Authorizenet
-Card Code Response,Card Code Response,module,Magento_Authorizenet
-CAVV Response,CAVV Response,module,Magento_Authorizenet
-Fraud Filters,Fraud Filters,module,Magento_Authorizenet
+authorize,autoriser,module,Magento_Authorizenet
+authorize and capture,autoriser et collecter,module,Magento_Authorizenet
+capture,collecter,module,Magento_Authorizenet
+refund,rembourser,module,Magento_Authorizenet
+void,annulé,module,Magento_Authorizenet
+Gateway error: %1,Erreur de la passerelle : %1,module,Magento_Authorizenet
+Something went wrong in the payment gateway.,Quelque chose c'est mal passé sur la passerelle de paiement.,module,Magento_Authorizenet
+Invalid amount for capture.,Montant de collecte invalide.,module,Magento_Authorizenet
+Payment capturing error.,Erreur de collecte de paiement.,module,Magento_Authorizenet
+Invalid transaction ID.,Identifiant de transaction invalide.,module,Magento_Authorizenet
+Payment voiding error.,Erreur lors de l'annulation de paiement.,module,Magento_Authorizenet
+Invalid amount for refund.,Montant invalide pour le remboursement.,module,Magento_Authorizenet
+Payment refunding error.,Erreur de remboursement du paiement.,module,Magento_Authorizenet
+The transaction was declined because the response hash validation failed.,La transaction a été refusée parce que la réponse de validation du hachage a échoué.,module,Magento_Authorizenet
+This payment didn't work out because we can't find this order.,Ce paiement n'a pas fonctionné parce que nous ne pouvons trouver cette commande.,module,Magento_Authorizenet
+There was a payment authorization error.,Il y a une erreur sur l'autorisation du paiement.,module,Magento_Authorizenet
+Please enter a transaction ID to authorize this payment.,Veuillez entrer un ID de transaction pour autoriser ce paiement.,module,Magento_Authorizenet
+Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.,Quelque chose c'est mal passé: le montant payé ne correspond pas au montant de la commande. S'il vous plaît corriger cela et essayer à nouveau.,module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaction %1 a été approuvé. Montant %2. Le statut de la transaction est ""3%""",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaction %1 a été annulée/refusée. Le status de la transaction est ""%2"". Montant %3.",module,Magento_Authorizenet
+Authorize Only,Autorisation seulement,module,Magento_Authorizenet
+Authorize and Capture,Autorisation et collecte,module,Magento_Authorizenet
+Unable to get transaction details. Try again later.,Impossible d'obtenir les détails de la transaction. Veuillez réessayer plus tard.,module,Magento_Authorizenet
+Gateway error: ' .,Erreur passerelle: ' .,module,Magento_Authorizenet
+Credit Card Type,Type de carte de crédit,module,Magento_Authorizenet
+Credit Card Number,Numéro de carte bancaire,module,Magento_Authorizenet
+Expiration Date,Date d'expiration,module,Magento_Authorizenet
+Card Verification Number,Numéro de cryptogramme (CCV),module,Magento_Authorizenet
+Fraud Detection ,Détection de fraude ,module,Magento_Authorizenet
+FDS Filter Action,Filtre d'action FDS (Suite de détection de fraude),module,Magento_Authorizenet
+AVS Response,Réponse AVS (Système de vérification d'adresse),module,Magento_Authorizenet
+Card Code Response,Réponse du code carte,module,Magento_Authorizenet
+CAVV Response,Réponse CAVV (Vérification de la valeur d'authentification du titulaire de la carte),module,Magento_Authorizenet
+Fraud Filters,Filtres de fraude,module,Magento_Authorizenet
 Invalid Form Key. Please refresh the page.,Clé de formulaire invalide. Veuillez actualiser la page.,module,Magento_Backend
 You entered an invalid Secret Key. Please refresh the page.,La clé secrète fournie est invalide. Merci de recharger la page.,module,Magento_Backend
 Cache Storage Management,Gestion du cache,module,Magento_Backend
@@ -377,157 +377,157 @@ Changes have been made to this section that have not been saved.,Des modificatio
 This tab contains invalid data. Please resolve this before saving.,Cet onglet contient des données invalides. Merci de les corriger avant d'enregistrer.,module,Magento_Backend
 The information in this tab has been changed.,Les informations contenues dans cet onglet ont été changées.,module,Magento_Backend
 Loading...,En cours de chargement...,module,Magento_Backend
-System Backup,System Backup,module,Magento_Backup
-Database and Media Backup,Database and Media Backup,module,Magento_Backup
-Database Backup,Database Backup,module,Magento_Backup
-"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.",module,Magento_Backup
-You need more permissions to activate maintenance mode right now.,You need more permissions to activate maintenance mode right now.,module,Magento_Backup
-"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.",module,Magento_Backup
-Something went wrong while putting your store into maintenance mode.,Something went wrong while putting your store into maintenance mode.,module,Magento_Backup
-You need more free space to create a backup.,You need more free space to create a backup.,module,Magento_Backup
-You need more permissions to create a backup.,You need more permissions to create a backup.,module,Magento_Backup
-We can't create the backup right now.,We can't create the backup right now.,module,Magento_Backup
-Backups,Backups,module,Magento_Backup
-System,System,module,Magento_Backup
-Tools,Tools,module,Magento_Backup
-Backup,Backup,module,Magento_Backup
-We can't delete one or more backups.,We can't delete one or more backups.,module,Magento_Backup
-failed,failed,module,Magento_Backup
-successful,successful,module,Magento_Backup
-You deleted the selected backup(s).,You deleted the selected backup(s).,module,Magento_Backup
-Can't load snapshot archive,Can't load snapshot archive,module,Magento_Backup
-Please correct the password.,Please correct the password.,module,Magento_Backup
-"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.",module,Magento_Backup
-We can't find the backup file.,We can't find the backup file.,module,Magento_Backup
-We can't connect to the FTP right now.,We can't connect to the FTP right now.,module,Magento_Backup
-Failed to validate FTP.,Failed to validate FTP.,module,Magento_Backup
-You need more permissions to perform a rollback.,You need more permissions to perform a rollback.,module,Magento_Backup
-Failed to rollback.,Failed to rollback.,module,Magento_Backup
-Database,Database,module,Magento_Backup
-Database and Media,Database and Media,module,Magento_Backup
-System (excluding Media),System (excluding Media),module,Magento_Backup
-You created the system backup.,You created the system backup.,module,Magento_Backup
-You created the system backup (excluding media).,You created the system backup (excluding media).,module,Magento_Backup
-You created the database and media backup.,You created the database and media backup.,module,Magento_Backup
-You created the database backup.,You created the database backup.,module,Magento_Backup
-Please correct the order of creation for a new backup.,Please correct the order of creation for a new backup.,module,Magento_Backup
-The backup file does not exist.,The backup file does not exist.,module,Magento_Backup
-The backup file path was not specified.,The backup file path was not specified.,module,Magento_Backup
-"The backup file ""%1"" does not exist.","The backup file ""%1"" does not exist.",module,Magento_Backup
-"Sorry, but we cannot read from or write to backup file ""%1"".","Sorry, but we cannot read from or write to backup file ""%1"".",module,Magento_Backup
-The backup file handler was unspecified.,The backup file handler was unspecified.,module,Magento_Backup
-"Something went wrong while writing to the backup file ""%1"".","Something went wrong while writing to the backup file ""%1"".",module,Magento_Backup
-We can't save the Cron expression.,We can't save the Cron expression.,module,Magento_Backup
-"You will lose any data created since the backup was made, including admin users, customers and orders.","You will lose any data created since the backup was made, including admin users, customers and orders.",module,Magento_Backup
-Are you sure you want to continue?,Are you sure you want to continue?,module,Magento_Backup
-This may take a few moments.,This may take a few moments.,module,Magento_Backup
-Be sure your store is in maintenance mode during backup.,Be sure your store is in maintenance mode during backup.,module,Magento_Backup
-Backup Name,Backup Name,module,Magento_Backup
-"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.",module,Magento_Backup
-Maintenance mode,Maintenance mode,module,Magento_Backup
-Please put your store into maintenance mode during backup.,Please put your store into maintenance mode during backup.,module,Magento_Backup
-Exclude,Exclude,module,Magento_Backup
-Exclude media folder from backup,Exclude media folder from backup,module,Magento_Backup
-Please enter the password to confirm rollback.,Please enter the password to confirm rollback.,module,Magento_Backup
-This action cannot be undone.,This action cannot be undone.,module,Magento_Backup
-User Password,User Password,module,Magento_Backup
-Please put your store into maintenance mode during rollback processing.,Please put your store into maintenance mode during rollback processing.,module,Magento_Backup
+System Backup,Sauvegarde du système,module,Magento_Backup
+Database and Media Backup,Sauvegarde base de données et media,module,Magento_Backup
+Database Backup,Sauvegarde de la base de données,module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","L'archive peut être décompressé avec <a href=""%1"">%2</a> sur les systèmes Windows.",module,Magento_Backup
+You need more permissions to activate maintenance mode right now.,Vous avez besoin de plus d'autorisations pour activer le mode de maintenance actuellement.,module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Pour créer la sauvegarde, Veuillez décocher la case ""Mettre le magasin en mode de maintenance"" ou bien veuillez mettre à jour vos autorisations.",module,Magento_Backup
+Something went wrong while putting your store into maintenance mode.,Une erreur est survenue en mettant votre magasin en mode de maintenance.,module,Magento_Backup
+You need more free space to create a backup.,Vous avez besoin de plus d'espace disque de libre afin de pouvoir créer une sauvegarde.,module,Magento_Backup
+You need more permissions to create a backup.,Vous avez besoin de plus d'autorisations pour créer une sauvegarde.,module,Magento_Backup
+We can't create the backup right now.,Nous ne pouvons pas créer la sauvegarde dès maintenant.,module,Magento_Backup
+Backups,Sauvegardes,module,Magento_Backup
+System,Système,module,Magento_Backup
+Tools,Outils,module,Magento_Backup
+Backup,Sauvegarde,module,Magento_Backup
+We can't delete one or more backups.,Nous ne pouvons pas supprimer une ou plusieurs sauvegardes.,module,Magento_Backup
+failed,échec,module,Magento_Backup
+successful,réussi,module,Magento_Backup
+You deleted the selected backup(s).,Vous avez supprimé la ou les sauvegardes sélectionné.,module,Magento_Backup
+Can't load snapshot archive,Vous ne pouvez pas charger les archives de cliché (Snapshot),module,Magento_Backup
+Please correct the password.,Veuillez corriger le mot de passe.,module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","Pour terminer la restauration, veuillez décocher la case ""Mettre le magasin en mode de maintenance"" ou bien veuillez mettre à jour vos autorisations.",module,Magento_Backup
+We can't find the backup file.,Nous ne pouvons pas trouver le fichier de sauvegarde.,module,Magento_Backup
+We can't connect to the FTP right now.,Nous ne pouvons pas vous connecter au FTP dès maintenant.,module,Magento_Backup
+Failed to validate FTP.,Echec de la validation FTP.,module,Magento_Backup
+You need more permissions to perform a rollback.,Vous avez besoin de plus d'autorisations pour effectuer une restauration.,module,Magento_Backup
+Failed to rollback.,Échec de la restauration.,module,Magento_Backup
+Database,Base de données,module,Magento_Backup
+Database and Media,Base de données et Média,module,Magento_Backup
+System (excluding Media),Système (sans les médias),module,Magento_Backup
+You created the system backup.,Vous avez créé la sauvegarde du système.,module,Magento_Backup
+You created the system backup (excluding media).,Vous avez créé la sauvegarde du système. (sans les médias),module,Magento_Backup
+You created the database and media backup.,Vous avez créé la sauvegarde de la base de données et des médias.,module,Magento_Backup
+You created the database backup.,Vous avez créé la sauvegarde de la base de données.,module,Magento_Backup
+Please correct the order of creation for a new backup.,S'il vous plaît corriger l'ordre de la création pour une nouvelle sauvegarde.,module,Magento_Backup
+The backup file does not exist.,Il n'existe pas le fichier de sauvegarde.,module,Magento_Backup
+The backup file path was not specified.,Le chemin de sauvegarde du fichier n'a pas été spécifié.,module,Magento_Backup
+"The backup file ""%1"" does not exist.","Le fichier de sauvegarde ""%1"" n'existe pas.",module,Magento_Backup
+"Sorry, but we cannot read from or write to backup file ""%1"".","Désolé, mais nous ne pouvons pas lire ou écrire dans le fichier de sauvegarde ""%1"".",module,Magento_Backup
+The backup file handler was unspecified.,Le gestionnaire de fichier de sauvegarde n'a pas été précisée.,module,Magento_Backup
+"Something went wrong while writing to the backup file ""%1"".","Quelque chose a mal tourné lors de l'écriture du fichier de sauvegarde ""%1"".",module,Magento_Backup
+We can't save the Cron expression.,Impossible de sauvegarder l'expression de la tâche programmée.,module,Magento_Backup
+"You will lose any data created since the backup was made, including admin users, customers and orders.","Vous perdrez toutes les données créées depuis la sauvegarde qui a été effectuée, y compris les utilisateurs d'administration, les clients et les commandes.",module,Magento_Backup
+Are you sure you want to continue?,Êtes vous sur de vouloir continuer?,module,Magento_Backup
+This may take a few moments.,Ceci peut prendre quelques instants.,module,Magento_Backup
+Be sure your store is in maintenance mode during backup.,Soyez sûr que votre magasin est en mode de maintenance lors de la sauvegarde.,module,Magento_Backup
+Backup Name,Nom de la sauvegarde,module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","Veuillez utiliser uniquement des lettres (a-z), des chiffres (0-9) ou des espaces dans ce champ.",module,Magento_Backup
+Maintenance mode,Mode de maintenance,module,Magento_Backup
+Please put your store into maintenance mode during backup.,S'il vous plaît mettez votre magasin en mode de maintenance lors de la sauvegarde.,module,Magento_Backup
+Exclude,Exclure,module,Magento_Backup
+Exclude media folder from backup,Exclure le dossier media de la sauvegarde,module,Magento_Backup
+Please enter the password to confirm rollback.,S'il vous plaît entrez le mot de passe pour confirmer le retour en arrière (rollback).,module,Magento_Backup
+This action cannot be undone.,Cette action ne peut pas être annulée.,module,Magento_Backup
+User Password,Mot de passe utilisateur,module,Magento_Backup
+Please put your store into maintenance mode during rollback processing.,S'il vous plaît mettez votre magasin en mode de maintenance au cours du traitement de retour en arrière.,module,Magento_Backup
 FTP,FTP,module,Magento_Backup
-Use FTP Connection,Use FTP Connection,module,Magento_Backup
-FTP credentials,FTP credentials,module,Magento_Backup
-FTP Host,FTP Host,module,Magento_Backup
-FTP Login,FTP Login,module,Magento_Backup
-FTP Password,FTP Password,module,Magento_Backup
-Magento root directory,Magento root directory,module,Magento_Backup
-Create Backup,Create Backup,module,Magento_Backup
-Country,Country,module,Magento_Braintree
-Allowed Credit Card Types,Allowed Credit Card Types,module,Magento_Braintree
-Add Rule,Add Rule,module,Magento_Braintree
-Month,Month,module,Magento_Braintree
-Year,Year,module,Magento_Braintree
-Stored Card,Stored Card,module,Magento_Braintree
-Credit Card Type,Credit Card Type,module,Magento_Braintree
-Credit Card Number,Credit Card Number,module,Magento_Braintree
-Credit card successfully added,Credit card successfully added,module,Magento_Braintree
-Something went wrong while saving the card.,Something went wrong while saving the card.,module,Magento_Braintree
-Credit card does not exist,Credit card does not exist,module,Magento_Braintree
-Delete Credit Card,Delete Credit Card,module,Magento_Braintree
-There was error deleting the credit card,There was error deleting the credit card,module,Magento_Braintree
-Credit card successfully deleted,Credit card successfully deleted,module,Magento_Braintree
-Edit Credit Card,Edit Credit Card,module,Magento_Braintree
-My Credit Cards,My Credit Cards,module,Magento_Braintree
-New Credit Card,New Credit Card,module,Magento_Braintree
-There was error during saving card data,There was error during saving card data,module,Magento_Braintree
-We can't initialize checkout.,We can't initialize checkout.,module,Magento_Braintree
-Please agree to all the terms and conditions before placing the order.,Please agree to all the terms and conditions before placing the order.,module,Magento_Braintree
-We can't place the order.,We can't place the order.,module,Magento_Braintree
-Incorrect payment method.,Incorrect payment method.,module,Magento_Braintree
-We can't initialize checkout review.,We can't initialize checkout review.,module,Magento_Braintree
-We can't update shipping method.,We can't update shipping method.,module,Magento_Braintree
-"The processor declined your transaction, please re-enter your payment information","The processor declined your transaction, please re-enter your payment information",module,Magento_Braintree
-Transaction declined by gateway: Check card details or try another card,Transaction declined by gateway: Check card details or try another card,module,Magento_Braintree
-Transaction declined: ,Transaction declined: ,module,Magento_Braintree
+Use FTP Connection,Utiliser une connexion FTP,module,Magento_Backup
+FTP credentials,Informations de connexion FTP,module,Magento_Backup
+FTP Host,Hôte FTP,module,Magento_Backup
+FTP Login,Login FTP,module,Magento_Backup
+FTP Password,Mot de passe FTP,module,Magento_Backup
+Magento root directory,Répertoire racine de Magento,module,Magento_Backup
+Create Backup,Créer une sauvegarde,module,Magento_Backup
+Country,Pays,module,Magento_Braintree
+Allowed Credit Card Types,Types de cartes bancaire autorisées,module,Magento_Braintree
+Add Rule,Ajouter un règle,module,Magento_Braintree
+Month,Mois,module,Magento_Braintree
+Year,Année,module,Magento_Braintree
+Stored Card,Carte bancaire stockée,module,Magento_Braintree
+Credit Card Type,Type de carte de bancaire,module,Magento_Braintree
+Credit Card Number,Numéro de carte bancaire,module,Magento_Braintree
+Credit card successfully added,Carte bancaire ajouté avec succès,module,Magento_Braintree
+Something went wrong while saving the card.,Quelque chose n'allait pas lors de l'enregistrement de la carte.,module,Magento_Braintree
+Credit card does not exist,Carte bancaire non existante,module,Magento_Braintree
+Delete Credit Card,Supprimer la carte bancaire,module,Magento_Braintree
+There was error deleting the credit card,Il y a eu une erreur lors de la suppression de la carte bancaire,module,Magento_Braintree
+Credit card successfully deleted,Carte bancaire supprimé avec succès,module,Magento_Braintree
+Edit Credit Card,Modifier la carte bancaire,module,Magento_Braintree
+My Credit Cards,Mes cartes bancaires,module,Magento_Braintree
+New Credit Card,Nouvelle carte bancaire,module,Magento_Braintree
+There was error during saving card data,Il y avait une erreur lors de la sauvegarde des données de(s) carte(s),module,Magento_Braintree
+We can't initialize checkout.,Nous ne pouvons pas initialiser la vérification.,module,Magento_Braintree
+Please agree to all the terms and conditions before placing the order.,Veuillez accepter les conditions générales de ventes avant de valider la commande.,module,Magento_Braintree
+We can't place the order.,Nous ne pouvons pas passer la commande.,module,Magento_Braintree
+Incorrect payment method.,Méthode de paiement incorrecte.,module,Magento_Braintree
+We can't initialize checkout review.,Nous ne pouvons pas initialiser l'examen de vérification.,module,Magento_Braintree
+We can't update shipping method.,Nous ne pouvons pas mettre à jour la méthode d'expédition.,module,Magento_Braintree
+"The processor declined your transaction, please re-enter your payment information","Le processus a refusé votre transaction, s'il vous plaît entrer de nouveau vos informations de paiement",module,Magento_Braintree
+Transaction declined by gateway: Check card details or try another card,Transaction refusée par la passerelle: Voir détails de la carte ou essayez une autre carte,module,Magento_Braintree
+Transaction declined: ,Transaction refusée : ,module,Magento_Braintree
 .,.,module,Magento_Braintree
-The processor responded with an unknown error,The processor responded with an unknown error,module,Magento_Braintree
-Credit card type is not allowed for your country.,Credit card type is not allowed for your country.,module,Magento_Braintree
-Credit card type is not allowed for this payment method.,Credit card type is not allowed for this payment method.,module,Magento_Braintree
-Selected payment type is not allowed for billing country.,Selected payment type is not allowed for billing country.,module,Magento_Braintree
-Incomplete payment information.,Incomplete payment information.,module,Magento_Braintree
-Please try again later,Please try again later,module,Magento_Braintree
-Can not find original authorization transaction for partial capture,Can not find original authorization transaction for partial capture,module,Magento_Braintree
-There was an error capturing the transaction: %1.,There was an error capturing the transaction: %1.,module,Magento_Braintree
-This refund is for a partial amount but the Transaction has not settled.,This refund is for a partial amount but the Transaction has not settled.,module,Magento_Braintree
-Please wait 24 hours before trying to issue a partial refund.,Please wait 24 hours before trying to issue a partial refund.,module,Magento_Braintree
-There was an error refunding the transaction: %1.,There was an error refunding the transaction: %1.,module,Magento_Braintree
-Some transactions are already settled or voided and cannot be voided.,Some transactions are already settled or voided and cannot be voided.,module,Magento_Braintree
-Voided capture.,Voided capture.,module,Magento_Braintree
-There was an error voiding the transaction: %1.,There was an error voiding the transaction: %1.,module,Magento_Braintree
-Invoice,Invoice,module,Magento_Braintree
-Shipment,Shipment,module,Magento_Braintree
-Authorize,Authorize,module,Magento_Braintree
-Authorize and Capture,Authorize and Capture,module,Magento_Braintree
---Please Select--,--Please Select--,module,Magento_Braintree
-Invalid Customer ID provided,Invalid Customer ID provided,module,Magento_Braintree
-some error,some error,module,Magento_Braintree
+The processor responded with an unknown error,Le processus a répondu avec une erreur inconnue,module,Magento_Braintree
+Credit card type is not allowed for your country.,Type de carte bancaire non autorisés pour votre pays.,module,Magento_Braintree
+Credit card type is not allowed for this payment method.,Type de carte bancaire non autorisée pour cette méthode de paiement.,module,Magento_Braintree
+Selected payment type is not allowed for billing country.,Le type de paiement sélectionnée n'est pas autorisé pour ce pays en facturation.,module,Magento_Braintree
+Incomplete payment information.,Informations de paiement incomplet.,module,Magento_Braintree
+Please try again later,S'il vous plaît réessayer plus tard,module,Magento_Braintree
+Can not find original authorization transaction for partial capture,Impossible de trouver la transaction autorisé initialement pour la capture partielle,module,Magento_Braintree
+There was an error capturing the transaction: %1.,Erreur capture de la transaction: %1.,module,Magento_Braintree
+This refund is for a partial amount but the Transaction has not settled.,"Ce remboursement est pour un montant partiel, mais la transaction n'a pas établi.",module,Magento_Braintree
+Please wait 24 hours before trying to issue a partial refund.,Veuillez attendre 24 heures avant d'essayer de délivrer un remboursement partiel.,module,Magento_Braintree
+There was an error refunding the transaction: %1.,Il y a eu une erreur de remboursement de la transaction: %1.,module,Magento_Braintree
+Some transactions are already settled or voided and cannot be voided.,Certaines transactions sont déjà remboursés ou annulés et ne peut être annulée.,module,Magento_Braintree
+Voided capture.,Capture annulé.,module,Magento_Braintree
+There was an error voiding the transaction: %1.,Il y a eu une erreur annulant la transaction: %1.,module,Magento_Braintree
+Invoice,Facture,module,Magento_Braintree
+Shipment,Expédition,module,Magento_Braintree
+Authorize,Autoriser,module,Magento_Braintree
+Authorize and Capture,Autorisation et collecte,module,Magento_Braintree
+--Please Select--,--Veuillez choisir--,module,Magento_Braintree
+Invalid Customer ID provided,ID incorrect fourni par le Client,module,Magento_Braintree
+some error,une erreur,module,Magento_Braintree
 "a,b,c","a,b,c",module,Magento_Braintree
-Something went wrong while processing.,Something went wrong while processing.,module,Magento_Braintree
-error,error,module,Magento_Braintree
+Something went wrong while processing.,Quelque chose n'allait pas lors du traitement.,module,Magento_Braintree
+error,erreur,module,Magento_Braintree
 exception,exception,module,Magento_Braintree
-Payment Information,Payment Information,module,Magento_Braintree
-Add new card,Add new card,module,Magento_Braintree
-Please Select,Please Select,module,Magento_Braintree
-Expiration Date,Expiration Date,module,Magento_Braintree
-Card Verification Number,Card Verification Number,module,Magento_Braintree
-Save this card for future use,Save this card for future use,module,Magento_Braintree
-or,or,module,Magento_Braintree
-Please confirm that you want to delete this credit card,Please confirm that you want to delete this credit card,module,Magento_Braintree
-Cardholder Name,Cardholder Name,module,Magento_Braintree
-Delete,Delete,module,Magento_Braintree
-Back,Back,module,Magento_Braintree
-* Required Fields,* Required Fields,module,Magento_Braintree
-Credit Card,Credit Card,module,Magento_Braintree
+Payment Information,Informations de paiement,module,Magento_Braintree
+Add new card,Ajouter nouvelle carte,module,Magento_Braintree
+Please Select,Veuillez sélectionner,module,Magento_Braintree
+Expiration Date,Date d'expiration,module,Magento_Braintree
+Card Verification Number,Code de vérification de la carte,module,Magento_Braintree
+Save this card for future use,Sauvegarder cette carte pour une utilisation future,module,Magento_Braintree
+or,ou,module,Magento_Braintree
+Please confirm that you want to delete this credit card,Veuillez confirmer que vous souhaitez supprimer cette carte de crédit,module,Magento_Braintree
+Cardholder Name,Nom du titulaire,module,Magento_Braintree
+Delete,Supprimer,module,Magento_Braintree
+Back,Retour,module,Magento_Braintree
+* Required Fields,* Champs obligatoires,module,Magento_Braintree
+Credit Card,Carte bancaire,module,Magento_Braintree
 CVV,CVV,module,Magento_Braintree
-Card Verification Number Visual Reference,Card Verification Number Visual Reference,module,Magento_Braintree
-What is this?,What is this?,module,Magento_Braintree
-Make Default,Make Default,module,Magento_Braintree
-Billing Address,Billing Address,module,Magento_Braintree
-First Name,First Name,module,Magento_Braintree
-Last Name,Last Name,module,Magento_Braintree
-Company,Company,module,Magento_Braintree
-Address,Address,module,Magento_Braintree
-City,City,module,Magento_Braintree
-State/Province,State/Province,module,Magento_Braintree
-"Please select region, state or province","Please select region, state or province",module,Magento_Braintree
-Zip/Postal Code,Zip/Postal Code,module,Magento_Braintree
-Submit,Submit,module,Magento_Braintree
-Add Credit Card,Add Credit Card,module,Magento_Braintree
+Card Verification Number Visual Reference,Référence visuelle numérique de vérification de la carte,module,Magento_Braintree
+What is this?,Aide ?,module,Magento_Braintree
+Make Default,Créer par défaut,module,Magento_Braintree
+Billing Address,Adresse de facturation,module,Magento_Braintree
+First Name,Prénom,module,Magento_Braintree
+Last Name,Nom,module,Magento_Braintree
+Company,Société,module,Magento_Braintree
+Address,Adresse,module,Magento_Braintree
+City,Ville,module,Magento_Braintree
+State/Province,État/Région,module,Magento_Braintree
+"Please select region, state or province","Veuillez choisir votre région, état ou département",module,Magento_Braintree
+Zip/Postal Code,Code postal,module,Magento_Braintree
+Submit,Valider,module,Magento_Braintree
+Add Credit Card,Ajouter une carte bancaire,module,Magento_Braintree
 Type,Type,module,Magento_Braintree
-Card Number,Card Number,module,Magento_Braintree
-Is Default,Is Default,module,Magento_Braintree
+Card Number,Numéro de carte,module,Magento_Braintree
+Is Default,Valeur par défaut,module,Magento_Braintree
 Actions,Actions,module,Magento_Braintree
-Yes,Yes,module,Magento_Braintree
-No,No,module,Magento_Braintree
-Edit,Edit,module,Magento_Braintree
+Yes,Oui,module,Magento_Braintree
+No,Non,module,Magento_Braintree
+Edit,Éditer,module,Magento_Braintree
 Percent Discount,Remise en pourcentage,module,Magento_Bundle
 -- Select --,-- Votre choix --,module,Magento_Bundle
 Dynamic,Dynamique,module,Magento_Bundle
@@ -6275,28 +6275,28 @@ Severity,Importance,module,Magento_AdminNotification
 Date Added,Date d'ajout,module,Magento_AdminNotification
 Message,Message,module,Magento_AdminNotification
 Actions,Actions,module,Magento_AdminNotification
-Authorize.net Direct Post,Authorize.net Direct Post,module,Magento_Authorizenet
-Enabled,Enabled,module,Magento_Authorizenet
-Payment Action,Payment Action,module,Magento_Authorizenet
-Title,Title,module,Magento_Authorizenet
-API Login ID,API Login ID,module,Magento_Authorizenet
-Transaction Key,Transaction Key,module,Magento_Authorizenet
-Merchant MD5,Merchant MD5,module,Magento_Authorizenet
-New Order Status,New Order Status,module,Magento_Authorizenet
-Test Mode,Test Mode,module,Magento_Authorizenet
-Gateway URL,Gateway URL,module,Magento_Authorizenet
-Transaction Details URL,Transaction Details URL,module,Magento_Authorizenet
-Accepted Currency,Accepted Currency,module,Magento_Authorizenet
-Debug,Debug,module,Magento_Authorizenet
-Email Customer,Email Customer,module,Magento_Authorizenet
-Merchant's Email,Merchant's Email,module,Magento_Authorizenet
-Credit Card Types,Credit Card Types,module,Magento_Authorizenet
-Credit Card Verification,Credit Card Verification,module,Magento_Authorizenet
-Payment from Applicable Countries,Payment from Applicable Countries,module,Magento_Authorizenet
-Payment from Specific Countries,Payment from Specific Countries,module,Magento_Authorizenet
-Minimum Order Total,Minimum Order Total,module,Magento_Authorizenet
-Maximum Order Total,Maximum Order Total,module,Magento_Authorizenet
-Sort Order,Sort Order,module,Magento_Authorizenet
+Authorize.net Direct Post,Soumission directe Authorize.net,module,Magento_Authorizenet
+Enabled,Activé,module,Magento_Authorizenet
+Payment Action,Action de paiement,module,Magento_Authorizenet
+Title,Titre,module,Magento_Authorizenet
+API Login ID,ID de connexion de l'API,module,Magento_Authorizenet
+Transaction Key,Clé de la transaction,module,Magento_Authorizenet
+Merchant MD5,MD5 du commerçant,module,Magento_Authorizenet
+New Order Status,Statut de la nouvelle commande,module,Magento_Authorizenet
+Test Mode,Mode test,module,Magento_Authorizenet
+Gateway URL,URL de passerelle,module,Magento_Authorizenet
+Transaction Details URL,Détails de la transaction URL,module,Magento_Authorizenet
+Accepted Currency,Devise acceptée,module,Magento_Authorizenet
+Debug,Déboguage,module,Magento_Authorizenet
+Email Customer,Envoyer un email au client,module,Magento_Authorizenet
+Merchant's Email,Email du commerçant,module,Magento_Authorizenet
+Credit Card Types,Types de cartes bancaires,module,Magento_Authorizenet
+Credit Card Verification,Vérification de la carte bancaire,module,Magento_Authorizenet
+Payment from Applicable Countries,Mode de paiement autorisé pour,module,Magento_Authorizenet
+Payment from Specific Countries,Mode de paiement autorisé pour les pays spécifiques,module,Magento_Authorizenet
+Minimum Order Total,Montant mini de commande,module,Magento_Authorizenet
+Maximum Order Total,Montant maxi de commande,module,Magento_Authorizenet
+Sort Order,Ordre de tri,module,Magento_Authorizenet
 Services,Services,module,Magento_Backend
 Advanced,Avancé,module,Magento_Backend
 Disable Modules Output,Désactiver la sortie des modules,module,Magento_Backend
@@ -6440,58 +6440,58 @@ Description,Description,module,Magento_Backend
 Tags,Mots clés,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">Erreur 404</h1><p>Page introuvable.</p>",module,Magento_Backend
 Community Edition,Community Edition,module,Magento_Backend
-Scheduled Backup Settings,Scheduled Backup Settings,module,Magento_Backup
-Enable Scheduled Backup,Enable Scheduled Backup,module,Magento_Backup
-Backup Type,Backup Type,module,Magento_Backup
-Start Time,Start Time,module,Magento_Backup
-Frequency,Frequency,module,Magento_Backup
-Maintenance Mode,Maintenance Mode,module,Magento_Backup
-Delete,Delete,module,Magento_Backup
-Are you sure you want to delete the selected backup(s)?,Are you sure you want to delete the selected backup(s)?,module,Magento_Backup
-Time,Time,module,Magento_Backup
-Name,Name,module,Magento_Backup
-Size(bytes),Size(bytes),module,Magento_Backup
+Scheduled Backup Settings,Paramètres de sauvegarde programmée,module,Magento_Backup
+Enable Scheduled Backup,Activer la sauvegarde programmée,module,Magento_Backup
+Backup Type,Type de sauvegarde,module,Magento_Backup
+Start Time,Heure de début,module,Magento_Backup
+Frequency,Fréquence,module,Magento_Backup
+Maintenance Mode,Mode de maintenance,module,Magento_Backup
+Delete,Supprimer,module,Magento_Backup
+Are you sure you want to delete the selected backup(s)?,Êtes-vous sûr(e) de vouloir effacer les sauvegardes sélectionnées ?,module,Magento_Backup
+Time,Heure,module,Magento_Backup
+Name,Nom,module,Magento_Backup
+Size(bytes),Taille (octets),module,Magento_Backup
 Type,Type,module,Magento_Backup
-Download,Download,module,Magento_Backup
+Download,Télécharger,module,Magento_Backup
 Action,Action,module,Magento_Backup
-Rollback,Rollback,module,Magento_Backup
-Braintree,Braintree,module,Magento_Braintree
+Rollback,Retour en arrière (rollback),module,Magento_Backup
+Braintree,Braintree (mobile),module,Magento_Braintree
 &nbsp;,&nbsp;,module,Magento_Braintree
-Enable this Solution,Enable this Solution,module,Magento_Braintree
-Enable PayPal through Braintree,Enable PayPal through Braintree,module,Magento_Braintree
-Basic Braintree Settings,Basic Braintree Settings,module,Magento_Braintree
-Title,Title,module,Magento_Braintree
-Environment,Environment,module,Magento_Braintree
-Payment Action,Payment Action,module,Magento_Braintree
-Merchant Account ID,Merchant Account ID,module,Magento_Braintree
-Merchant ID,Merchant ID,module,Magento_Braintree
-Public Key,Public Key,module,Magento_Braintree
-Private Key,Private Key,module,Magento_Braintree
-Advanced Braintree Settings,Advanced Braintree Settings,module,Magento_Braintree
-Debug,Debug,module,Magento_Braintree
-Capture action,Capture action,module,Magento_Braintree
-New Order Status,New Order Status,module,Magento_Braintree
-Use Vault,Use Vault,module,Magento_Braintree
-Allow Duplicate Cards,Allow Duplicate Cards,module,Magento_Braintree
-CVV Verification,CVV Verification,module,Magento_Braintree
-Credit Card Types,Credit Card Types,module,Magento_Braintree
-Enable Credit Card auto-detection on Storefront,Enable Credit Card auto-detection on Storefront,module,Magento_Braintree
-Advanced Fraud Protection,Advanced Fraud Protection,module,Magento_Braintree
-Your Kount ID,Your Kount ID,module,Magento_Braintree
-Use Cache,Use Cache,module,Magento_Braintree
-Sort Order,Sort Order,module,Magento_Braintree
-Country Specific Settings,Country Specific Settings,module,Magento_Braintree
-Payment from Applicable Countries,Payment from Applicable Countries,module,Magento_Braintree
-Payment from Specific Countries,Payment from Specific Countries,module,Magento_Braintree
-Country Specific Credit Card Types,Country Specific Credit Card Types,module,Magento_Braintree
+Enable this Solution,Activez cette Solution,module,Magento_Braintree
+Enable PayPal through Braintree,Activer PayPal through Braintree,module,Magento_Braintree
+Basic Braintree Settings,Réglages de base Braintree,module,Magento_Braintree
+Title,Titre,module,Magento_Braintree
+Environment,Environnement,module,Magento_Braintree
+Payment Action,Action de paiement,module,Magento_Braintree
+Merchant Account ID,Compte Marchand ID,module,Magento_Braintree
+Merchant ID,ID de marchand,module,Magento_Braintree
+Public Key,Clé publique,module,Magento_Braintree
+Private Key,Clé privée,module,Magento_Braintree
+Advanced Braintree Settings,Paramètres avancés Braintree,module,Magento_Braintree
+Debug,Déboguage,module,Magento_Braintree
+Capture action,Action de capture,module,Magento_Braintree
+New Order Status,Statut d'une nouvelle commande,module,Magento_Braintree
+Use Vault,Utiliser Vault (App°,module,Magento_Braintree
+Allow Duplicate Cards,Permettre de dupliquer les cartes,module,Magento_Braintree
+CVV Verification,Vérification CVV,module,Magento_Braintree
+Credit Card Types,Types de cartes bancaire,module,Magento_Braintree
+Enable Credit Card auto-detection on Storefront,Activer  l'auto-détection de carte bancaire sur la vue magasin,module,Magento_Braintree
+Advanced Fraud Protection,Protection contre la fraude Avancée,module,Magento_Braintree
+Your Kount ID,Votre compte ID,module,Magento_Braintree
+Use Cache,Utiliser le cache,module,Magento_Braintree
+Sort Order,Ordre de tri,module,Magento_Braintree
+Country Specific Settings,Paramètres spécifiques Pays,module,Magento_Braintree
+Payment from Applicable Countries,Paiement applicables à partir de Pays,module,Magento_Braintree
+Payment from Specific Countries,Paiement à partir de pays spécifiques,module,Magento_Braintree
+Country Specific Credit Card Types,Types de cartes bancaire spécifique pays,module,Magento_Braintree
 PayPal through Braintree,PayPal through Braintree,module,Magento_Braintree
-Override Merchant Name,Override Merchant Name,module,Magento_Braintree
-Display on Shopping Cart,Display on Shopping Cart,module,Magento_Braintree
-Require Customer's Billing Address,Require Customer's Billing Address,module,Magento_Braintree
-Allow to Edit Shipping Address Entered During Checkout on PayPal Side,Allow to Edit Shipping Address Entered During Checkout on PayPal Side,module,Magento_Braintree
-3D Secure Verification Settings,3D Secure Verification Settings,module,Magento_Braintree
-3D Secure Verification,3D Secure Verification,module,Magento_Braintree
-Edit My Credit Cards,Edit My Credit Cards,module,Magento_Braintree
+Override Merchant Name,Remplacement du Nom Marchand,module,Magento_Braintree
+Display on Shopping Cart,Affichage sur le Panier,module,Magento_Braintree
+Require Customer's Billing Address,Nécessite l'adresse de facturation du client,module,Magento_Braintree
+Allow to Edit Shipping Address Entered During Checkout on PayPal Side,Permet la modification de l'adresse de livraison entré au cours de Checkout du côté de PayPal,module,Magento_Braintree
+3D Secure Verification Settings,Réglages Vérification 3D Secure,module,Magento_Braintree
+3D Secure Verification,Vérification 3D Secure,module,Magento_Braintree
+Edit My Credit Cards,Editer mes cartes de crédit,module,Magento_Braintree
 CAPTCHA,CAPTCHA,module,Magento_Captcha
 Enable CAPTCHA in Admin,Activer le CAPTCHA dans l'admin,module,Magento_Captcha
 Font,Police,module,Magento_Captcha
