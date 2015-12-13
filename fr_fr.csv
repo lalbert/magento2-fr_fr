@@ -171,7 +171,7 @@ Credit Card Type,Type de carte de crédit,module,Magento_Authorizenet
 Credit Card Number,Numéro de carte bancaire,module,Magento_Authorizenet
 Expiration Date,Date d'expiration,module,Magento_Authorizenet
 Card Verification Number,Numéro de cryptogramme (CCV),module,Magento_Authorizenet
-Fraud Detection ,Détection de fraude,module,Magento_Authorizenet
+Fraud Detection ,Détection de fraude ,module,Magento_Authorizenet
 FDS Filter Action,Filtre d'action FDS (Suite de détection de fraude),module,Magento_Authorizenet
 AVS Response,Réponse AVS (Système de vérification d'adresse),module,Magento_Authorizenet
 Card Code Response,Réponse du code carte,module,Magento_Authorizenet
@@ -649,7 +649,7 @@ failed,échec,module,Magento_Backup
 successful,réussi,module,Magento_Backup
 You deleted the selected backup(s).,Vous avez supprimé la ou les sauvegardes sélectionné.,module,Magento_Backup
 Can't load snapshot archive,Vous ne pouvez pas charger les archives de cliché (Snapshot),module,Magento_Backup
-Please correct the password.,Veuillez corriger le mot de passe,module,Magento_Backup
+Please correct the password.,Veuillez corriger le mot de passe.,module,Magento_Backup
 "To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","Pour terminer la restauration, veuillez décocher la case ""Mettre le magasin en mode de maintenance"" ou bien veuillez mettre à jour vos autorisations.",module,Magento_Backup
 We can't find the backup file.,Nous ne pouvons pas trouver le fichier de sauvegarde.,module,Magento_Backup
 We can't connect to the FTP right now.,Nous ne pouvons pas vous connecter au FTP dès maintenant.,module,Magento_Backup
@@ -730,11 +730,11 @@ We can't initialize checkout.,Nous ne pouvons pas initialiser la vérification.,
 Please agree to all the terms and conditions before placing the order.,Veuillez accepter les conditions générales de ventes avant de valider la commande.,module,Magento_Braintree
 We can't place the order.,Nous ne pouvons pas passer la commande.,module,Magento_Braintree
 Incorrect payment method.,Méthode de paiement incorrecte.,module,Magento_Braintree
-We can't initialize checkout review.,Nous ne pouvons pas initialiser l'examen de vérification,module,Magento_Braintree
+We can't initialize checkout review.,Nous ne pouvons pas initialiser l'examen de vérification.,module,Magento_Braintree
 We can't update shipping method.,Nous ne pouvons pas mettre à jour la méthode d'expédition.,module,Magento_Braintree
 "The processor declined your transaction, please re-enter your payment information","Le processus a refusé votre transaction, s'il vous plaît entrer de nouveau vos informations de paiement",module,Magento_Braintree
 Transaction declined by gateway: Check card details or try another card,Transaction refusée par la passerelle: Voir détails de la carte ou essayez une autre carte,module,Magento_Braintree
-Transaction declined: ,Transaction refusée:,module,Magento_Braintree
+Transaction declined: ,Transaction refusée : ,module,Magento_Braintree
 .,.,module,Magento_Braintree
 The processor responded with an unknown error,Le processus a répondu avec une erreur inconnue,module,Magento_Braintree
 Credit card type is not allowed for your country.,Type de carte bancaire non autorisés pour votre pays.,module,Magento_Braintree
@@ -1748,6 +1748,7 @@ Disabled by Default,Désactivé par défaut,module,Magento_Cms
 Disabled Completely,Désactivé complètement,module,Magento_Cms
 A block identifier with the same properties already exists in the selected store.,Il existe déjà un identifiant de bloc ayant les mêmes propriétés dans la boutique sélectionnée.,module,Magento_Cms
 The page URL key contains capital letters or disallowed symbols.,La clé d'url de page contient des lettres majuscules ou des symboles non autorisés.,module,Magento_Cms
+Exception,exception,module,Magento_Cms
 All Store Views,Toutes les vues magasin,module,Magento_Cms
 Edit,Éditer,module,Magento_Cms
 Delete,Supprimer,module,Magento_Cms
@@ -1831,6 +1832,7 @@ Yes (302 Found),Oui (302 Document déplacé de façon temporaire),module,Magento
 Yes (301 Moved Permanently),Oui (301 Document déplacé de façon permanente),module,Magento_Config
 Yes,Oui,module,Magento_Config
 Specified,Spécifié,module,Magento_Config
+.,.,module,Magento_Config
 test,test,module,Magento_Config
 Add after,Ajoutez après,module,Magento_Config
 Delete,Supprimer,module,Magento_Config
@@ -2098,6 +2100,7 @@ The VAT ID entered (%1) is not a valid VAT ID.,Le numéro de TVA saisi (%1) n'es
 Your Tax ID cannot be validated.,Votre numéro de TVA ne peut pas être validé.,module,Magento_Customer
 "If you believe this is an error, please contact us at %1","Si vous pensez que c'est une erreur, contactez-nous à %1",module,Magento_Customer
 message,message,module,Magento_Customer
+Exception,exception,module,Magento_Customer
 Label,Libellé,module,Magento_Customer
 Edit,Éditer,module,Magento_Customer
 Visitor,Visiteur,module,Magento_Customer
@@ -3428,6 +3431,8 @@ PayPal Express Checkout Token does not exist.,Le jeton PayPal Express n'existe p
 Express Checkout and Order have been canceled.,Le paiement Express Chackout et la commande ont été annulés.,module,Magento_Paypal
 Express Checkout has been canceled.,Le paiement Express Checkout a été annulé.,module,Magento_Paypal
 Please agree to all the terms and conditions before placing the order.,Veuillez accepter les conditions générales de ventes avant de valider la commande.,module,Magento_Paypal
+We can't place the order.,Nous ne pouvons pas passer la commande.,module,Magento_Paypal
+We can't update shipping method.,Nous ne pouvons pas mettre à jour la méthode d'expédition.,module,Magento_Paypal
 PayPal response hasn't required fields.,La réponse de PayPal ne comporte pas les champs obligatoires.,module,Magento_Paypal
 PayPal gateway has rejected request. %1,La passerelle PayPal a rejeté la demande. %1,module,Magento_Paypal
 Unable to save Billing Agreement:,Impossible de sauvegarder le contrat de facturation :,module,Magento_Paypal
@@ -3685,6 +3690,7 @@ Sandbox Mode,Mode Sandbox,module,Magento_Paypal
 API Uses Proxy,API utilisant un proxy,module,Magento_Paypal
 Proxy Host,Hôte proxy,module,Magento_Paypal
 Proxy Port,Port de proxy,module,Magento_Paypal
+Enable this Solution,Activez cette Solution,module,Magento_Paypal
 Position,Position,module,Magento_Paypal
 Size,Taille,module,Magento_Paypal
 Title,Titre,module,Magento_Paypal
@@ -3697,6 +3703,7 @@ Specifies what the Order Valid Period is on the merchant’s PayPal account. It 
 Number of Child Authorizations,Nombre d'autorisations enfants,module,Magento_Paypal
 The default number of child authorizations in your PayPal account is 1. To do multiple authorizations please contact PayPal to request an increase.,Le nombre par défaut d'autorisations enfants dans votre compte Paypal est de 1. Veuillez contacter PayPal pour demander une augmentation.,module,Magento_Paypal
 Advanced Settings,Paramètres avancés,module,Magento_Paypal
+Display on Shopping Cart,Affichage sur le Panier,module,Magento_Paypal
 Also affects mini-shopping cart.,Affecte également le panier de mini-achats.,module,Magento_Paypal
 Payment Applicable From,Paiement valable depuis,module,Magento_Paypal
 Countries Payment Applicable From,Pays applicables pour le paiement,module,Magento_Paypal
@@ -3816,6 +3823,7 @@ Shipping & Handling,Frais de port,module,Magento_Quote
 Shipping,Livraison,module,Magento_Quote
 Subtotal,Sous-total,module,Magento_Quote
 An item option with code %1 already exists.,Une option article avec le code %1 existe déjà.,module,Magento_Quote
+Cannot place order.,Impossible de passer votre commande.,module,Magento_Quote
 Please specify a shipping method.,Sélectionnez un mode de livraison.,module,Magento_Quote
 Please select a valid payment method.,Sélectionnez un mode de paiement valide.,module,Magento_Quote
 Store Credit,Carte de crédit du magasin,module,Magento_Quote
@@ -4163,6 +4171,7 @@ Recently Compared Products,Derniers produits comparés,module,Magento_Sales
 Recently Viewed Products,Derniers produits consultés,module,Magento_Sales
 Last Ordered Items,Derniers articles commandés,module,Magento_Sales
 Recently Viewed,Vu récemment,module,Magento_Sales
+Wish List,Liste d'envies,module,Magento_Sales
 Please select a store,Sélectionnez un magasin,module,Magento_Sales
 Order Totals,Totaux commande,module,Magento_Sales
 Shipping Incl. Tax (%1),Livraison TTC (%1),module,Magento_Sales
@@ -5306,6 +5315,7 @@ label,libellé,module,Magento_Theme
 -- Please Select --,-- Votre choix --,module,Magento_Theme
 Copy,Copie,module,Magento_Theme
 Message,Message,module,Magento_Theme
+exception,exception,module,Magento_Theme
 Remove,Supprimer,module,Magento_Theme
 Report All Bugs,Signaler un dysfonctionnement,module,Magento_Theme
 JavaScript seems to be disabled in your browser.,Javascript est désactivé dans votre navigateur.,module,Magento_Theme
