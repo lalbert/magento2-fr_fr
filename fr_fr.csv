@@ -1748,7 +1748,7 @@ Disabled by Default,Désactivé par défaut,module,Magento_Cms
 Disabled Completely,Désactivé complètement,module,Magento_Cms
 A block identifier with the same properties already exists in the selected store.,Il existe déjà un identifiant de bloc ayant les mêmes propriétés dans la boutique sélectionnée.,module,Magento_Cms
 The page URL key contains capital letters or disallowed symbols.,La clé d'url de page contient des lettres majuscules ou des symboles non autorisés.,module,Magento_Cms
-Exception,exception,module,Magento_Cms
+Exception,Exception,module,Magento_Cms
 All Store Views,Toutes les vues magasin,module,Magento_Cms
 Edit,Éditer,module,Magento_Cms
 Delete,Supprimer,module,Magento_Cms
@@ -2100,7 +2100,7 @@ The VAT ID entered (%1) is not a valid VAT ID.,Le numéro de TVA saisi (%1) n'es
 Your Tax ID cannot be validated.,Votre numéro de TVA ne peut pas être validé.,module,Magento_Customer
 "If you believe this is an error, please contact us at %1","Si vous pensez que c'est une erreur, contactez-nous à %1",module,Magento_Customer
 message,message,module,Magento_Customer
-Exception,exception,module,Magento_Customer
+Exception,Exception,module,Magento_Customer
 Label,Libellé,module,Magento_Customer
 Edit,Éditer,module,Magento_Customer
 Visitor,Visiteur,module,Magento_Customer
