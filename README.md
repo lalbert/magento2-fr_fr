@@ -20,7 +20,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 6026/7775 ![Progress](http://progressed.io/bar/78)
+**Progression globale** : 6084/7775 ![Progress](http://progressed.io/bar/78)
 
 ## Thèmes
 
@@ -58,7 +58,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Cookie | 13 | 13 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Cron | 18 | 18 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_CurrencySymbol | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Customer | 296 | 466 | 170 | ![Progress](http://progressed.io/bar/64) |
+| Magento_Customer | 304 | 466 | 162 | ![Progress](http://progressed.io/bar/65) |
 | Magento_CustomerImportExport | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Deploy | 1 | 1 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Developer | 9 | 9 | 0 | ![Progress](http://progressed.io/bar/100) |
@@ -114,7 +114,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Ui | 27 | 81 | 54 | ![Progress](http://progressed.io/bar/33) |
 | Magento_Ups | 111 | 111 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_UrlRewrite | 61 | 61 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_User | 76 | 126 | 50 | ![Progress](http://progressed.io/bar/60) |
+| Magento_User | 126 | 126 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Usps | 132 | 132 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Variable | 21 | 21 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Webapi | 19 | 19 | 0 | ![Progress](http://progressed.io/bar/100) |
