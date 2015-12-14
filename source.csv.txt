@@ -1,4 +1,3 @@
-en,fr,type,module
 Read Details,Lire les détails,module,Magento_AdminNotification
 Mark as Read,Marquer comme lu,module,Magento_AdminNotification
 Are you sure?,Êtes-vous sûr(e) ?,module,Magento_AdminNotification
@@ -5582,120 +5581,120 @@ Request Path for Specified Store,Chemin de requête pour le magasin spécifié,m
 URL key for specified store already exists.,La clé d'URL pour la boutique spécifiée existe déjà.,module,Magento_UrlRewrite
 Custom storage message,Custom storage message,module,Magento_UrlRewrite
 Select Category,Sélectionner une catégorie,module,Magento_UrlRewrite
-Back,Back,module,Magento_User
-Reset,Reset,module,Magento_User
-Delete Role,Delete Role,module,Magento_User
-Are you sure you want to do this?,Are you sure you want to do this?,module,Magento_User
-Save Role,Save Role,module,Magento_User
-Roles,Roles,module,Magento_User
-Add New Role,Add New Role,module,Magento_User
-Role Information,Role Information,module,Magento_User
-Role Users,Role Users,module,Magento_User
-User ID,User ID,module,Magento_User
-User Name,User Name,module,Magento_User
-First Name,First Name,module,Magento_User
-Last Name,Last Name,module,Magento_User
+Back,Retour,module,Magento_User
+Reset,Réinitialiser,module,Magento_User
+Delete Role,Supprimer le rôle,module,Magento_User
+Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_User
+Save Role,Sauvegarder le rôle,module,Magento_User
+Roles,Rôles,module,Magento_User
+Add New Role,Nouveau rôle,module,Magento_User
+Role Information,Informations du rôle,module,Magento_User
+Role Users,Utilisateurs ayant ce rôle,module,Magento_User
+User ID,ID utilisateur,module,Magento_User
+User Name,Nom d'utilisateur,module,Magento_User
+First Name,Prénom,module,Magento_User
+Last Name,Nom,module,Magento_User
 Email,Email,module,Magento_User
-Status,Status,module,Magento_User
-Active,Active,module,Magento_User
-Inactive,Inactive,module,Magento_User
-Role Resources,Role Resources,module,Magento_User
-Role Info,Role Info,module,Magento_User
-Role Name,Role Name,module,Magento_User
-Add New User,Add New User,module,Magento_User
-Users,Users,module,Magento_User
-Save User,Save User,module,Magento_User
-Delete User,Delete User,module,Magento_User
-Are you sure you want to revoke the user\'s tokens?,Are you sure you want to revoke the user\'s tokens?,module,Magento_User
-Force Sign-In,Force Sign-In,module,Magento_User
-Edit User '%1',Edit User '%1',module,Magento_User
-New User,New User,module,Magento_User
-Account Information,Account Information,module,Magento_User
-User Email,User Email,module,Magento_User
-Password,Password,module,Magento_User
-New Password,New Password,module,Magento_User
-Password Confirmation,Password Confirmation,module,Magento_User
-Interface Locale,Interface Locale,module,Magento_User
-This account is,This account is,module,Magento_User
-Account Status,Account Status,module,Magento_User
-Current User Identity Verification,Current User Identity Verification,module,Magento_User
-Your Password,Your Password,module,Magento_User
-User Roles Information,User Roles Information,module,Magento_User
-Assigned,Assigned,module,Magento_User
-Role,Role,module,Magento_User
-User Information,User Information,module,Magento_User
-User Info,User Info,module,Magento_User
-User Role,User Role,module,Magento_User
-Please correct the password reset token.,Please correct the password reset token.,module,Magento_User
-Please specify the correct account and try again.,Please specify the correct account and try again.,module,Magento_User
-Your password reset link has expired.,Your password reset link has expired.,module,Magento_User
-We'll email you a link to reset your password.,We'll email you a link to reset your password.,module,Magento_User
-Please correct this email address:,Please correct this email address:,module,Magento_User
-Please enter an email address.,Please enter an email address.,module,Magento_User
-You updated your password.,You updated your password.,module,Magento_User
-Locked Users,Locked Users,module,Magento_User
-Unlocked %1 user(s).,Unlocked %1 user(s).,module,Magento_User
-System,System,module,Magento_User
+Status,Statut,module,Magento_User
+Active,Actif,module,Magento_User
+Inactive,Inactif,module,Magento_User
+Role Resources,Ressources du rôle,module,Magento_User
+Role Info,Infos du rôle,module,Magento_User
+Role Name,Nom du rôle,module,Magento_User
+Add New User,Nouvel utilisateur,module,Magento_User
+Users,Utilisateurs,module,Magento_User
+Save User,Sauvegarder l'utilisateur,module,Magento_User
+Delete User,Supprimer l'utilisateur,module,Magento_User
+Are you sure you want to revoke the user\'s tokens?,Êtes-vous sûr de vouloir révoquer les jetons de l'utilisateur ?,module,Magento_User
+Force Sign-In,Révoquer les jetons,module,Magento_User
+Edit User '%1',Éditer l'utilisateur '%1',module,Magento_User
+New User,Nouvel utilisateur,module,Magento_User
+Account Information,Informations du compte,module,Magento_User
+User Email,Email de l'utilisateur,module,Magento_User
+Password,Mot de passe,module,Magento_User
+New Password,Nouveau mot de passe,module,Magento_User
+Password Confirmation,Confirmation du mot de passe,module,Magento_User
+Interface Locale,Langue de l'interface,module,Magento_User
+This account is,Ce compte est,module,Magento_User
+Account Status,Statut du compte,module,Magento_User
+Current User Identity Verification,Vérification de l'utilisateur actuel,module,Magento_User
+Your Password,Votre mot de passe,module,Magento_User
+User Roles Information,Informations rôle utilisateur,module,Magento_User
+Assigned,Affecté,module,Magento_User
+Role,Rôle,module,Magento_User
+User Information,Informations de l'utilisateur,module,Magento_User
+User Info,Infos de l'utilisateur,module,Magento_User
+User Role,Rôle de l'utilisateur,module,Magento_User
+Please correct the password reset token.,Merci de corriger le jeton de réinitialisation de mot de passe.,module,Magento_User
+Please specify the correct account and try again.,Merci de spécifier un compte correcte et essayez à nouveau.,module,Magento_User
+Your password reset link has expired.,Le lien de réinitialisation de mot de passe a expiré.,module,Magento_User
+We'll email you a link to reset your password.,Nous allons vous envoyer par email un lien pour réinitialiser votre mot de passe.,module,Magento_User
+Please correct this email address:,Merci de corriger cette adresse email :,module,Magento_User
+Please enter an email address.,Merci de renseigner une adresse email.,module,Magento_User
+You updated your password.,Mot de passe mis à jour.,module,Magento_User
+Locked Users,Utilisateurs bloqués,module,Magento_User
+Unlocked %1 user(s).,%1 utilisateur(s) débloqué(s).,module,Magento_User
+System,Système,module,Magento_User
 Permissions,Permissions,module,Magento_User
-You cannot delete your own account.,You cannot delete your own account.,module,Magento_User
-You deleted the user.,You deleted the user.,module,Magento_User
-We can't find a user to delete.,We can't find a user to delete.,module,Magento_User
-This user no longer exists.,This user no longer exists.,module,Magento_User
-Edit User,Edit User,module,Magento_User
-You have revoked the user's tokens.,You have revoked the user's tokens.,module,Magento_User
-We can't find a user to revoke.,We can't find a user to revoke.,module,Magento_User
-You cannot delete self-assigned roles.,You cannot delete self-assigned roles.,module,Magento_User
-You deleted the role.,You deleted the role.,module,Magento_User
-An error occurred while deleting this role.,An error occurred while deleting this role.,module,Magento_User
-Edit Role,Edit Role,module,Magento_User
-New Role,New Role,module,Magento_User
-This role no longer exists.,This role no longer exists.,module,Magento_User
-You saved the role.,You saved the role.,module,Magento_User
-An error occurred while saving this role.,An error occurred while saving this role.,module,Magento_User
-You have entered an invalid password for current user.,You have entered an invalid password for current user.,module,Magento_User
-You saved the user.,You saved the user.,module,Magento_User
-A user with the same user name or email already exists.,A user with the same user name or email already exists.,module,Magento_User
-Recommended,Recommended,module,Magento_User
-Forced,Forced,module,Magento_User
-You did not sign in correctly or your account is temporarily disabled.,You did not sign in correctly or your account is temporarily disabled.,module,Magento_User
-You need more permissions to access this.,You need more permissions to access this.,module,Magento_User
-User Name is a required field.,User Name is a required field.,module,Magento_User
-First Name is a required field.,First Name is a required field.,module,Magento_User
-Last Name is a required field.,Last Name is a required field.,module,Magento_User
-Please enter a valid email.,Please enter a valid email.,module,Magento_User
-Password is required field.,Password is required field.,module,Magento_User
-Your password must be at least %1 characters.,Your password must be at least %1 characters.,module,Magento_User
-Your password must include both numeric and alphabetic characters.,Your password must include both numeric and alphabetic characters.,module,Magento_User
-Your password confirmation must match your password.,Your password confirmation must match your password.,module,Magento_User
-It's time to change your password.,It's time to change your password.,module,Magento_User
-"It's time to <a href=""%1"">change your password</a>.","It's time to <a href=""%1"">change your password</a>.",module,Magento_User
-"Sorry, but this password has already been used. Please create another.","Sorry, but this password has already been used. Please create another.",module,Magento_User
-Your password has expired; please contact your administrator.,Your password has expired; please contact your administrator.,module,Magento_User
-Password Help,Password Help,module,Magento_User
-Enter your email address.  You will receive an email with a link to reset your password.,Enter your email address.  You will receive an email with a link to reset your password.,module,Magento_User
-Email address,Email address,module,Magento_User
-Retrieve Password,Retrieve Password,module,Magento_User
-Back to Sign in,Back to Sign in,module,Magento_User
-Forgot your password?,Forgot your password?,module,Magento_User
-Reset a Password,Reset a Password,module,Magento_User
-Confirm New Password,Confirm New Password,module,Magento_User
-Reset Password,Reset Password,module,Magento_User
-Roles Resources,Roles Resources,module,Magento_User
-Resource Access,Resource Access,module,Magento_User
-Custom,Custom,module,Magento_User
-All,All,module,Magento_User
-Resources,Resources,module,Magento_User
-Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,module,Magento_User
-Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?,Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?,module,Magento_User
+You cannot delete your own account.,Vous ne pouvez pas supprimer votre propre compte.,module,Magento_User
+You deleted the user.,Utilisateur supprimé.,module,Magento_User
+We can't find a user to delete.,Impossible de trouver l'utilisateur à supprimer.,module,Magento_User
+This user no longer exists.,Cet utilisateur n'existe plus.,module,Magento_User
+Edit User,Modifier l'utilisateur,module,Magento_User
+You have revoked the user's tokens.,Les jetons de l'utilisateurs ont été révoqués.,module,Magento_User
+We can't find a user to revoke.,Impossible de trouver l'utilisateur à révoquer.,module,Magento_User
+You cannot delete self-assigned roles.,Vous ne pouvez pas supprimer des rôles auto-attribué.,module,Magento_User
+You deleted the role.,Rôle supprimé.,module,Magento_User
+An error occurred while deleting this role.,Erreur lors de la suppression de ce rôle.,module,Magento_User
+Edit Role,Modifier le rôle,module,Magento_User
+New Role,Nouveau rôle,module,Magento_User
+This role no longer exists.,Ce rôle n'existe plus.,module,Magento_User
+You saved the role.,Rôle enregistré.,module,Magento_User
+An error occurred while saving this role.,Erreur lors de la sauvegarde de ce rôle.,module,Magento_User
+You have entered an invalid password for current user.,Le mot de passe est invalide.,module,Magento_User
+You saved the user.,Utilisateur enregistré.,module,Magento_User
+A user with the same user name or email already exists.,Un utilisateur avec le même nom d'utilisateur ou la même adresse email existe déjà.,module,Magento_User
+Recommended,Recommandé,module,Magento_User
+Forced,Forcé,module,Magento_User
+You did not sign in correctly or your account is temporarily disabled.,Erreur dans les paramètres de connexion ou votre compte est temporairement désactivé.,module,Magento_User
+You need more permissions to access this.,Vous avez besoin de plus d'autorisation pour accéder à ceci.,module,Magento_User
+User Name is a required field.,Nom d'utilisateur est un champ obligatoire.,module,Magento_User
+First Name is a required field.,Prénom est un champ obligatoire.,module,Magento_User
+Last Name is a required field.,Nom est un champ obligatoire.,module,Magento_User
+Please enter a valid email.,Veuillez saisir une adresse email valide.,module,Magento_User
+Password is required field.,Mot de passe est un champ obligatoire.,module,Magento_User
+Your password must be at least %1 characters.,Le mot de passe doit contenir au minimum %1 caractères.,module,Magento_User
+Your password must include both numeric and alphabetic characters.,Le mot de passe doit contenir des caracètres numérique et alphanumériques.,module,Magento_User
+Your password confirmation must match your password.,Le mot de passe de confirmation ne correspond pas au mot de passe renseigné.,module,Magento_User
+It's time to change your password.,Il est temps de modifier votre mot de passe.,module,Magento_User
+"It's time to <a href=""%1"">change your password</a>.","Il est temps de <a href=""%1"">modifier votre mot de passe</a>.",module,Magento_User
+"Sorry, but this password has already been used. Please create another.","Désolé, ce mot de passe à déjà été utilisé. Merci d'en utiliser un autre.",module,Magento_User
+Your password has expired; please contact your administrator.,Votre mot de passe a expiré. Merci de contacter votre administrateur.,module,Magento_User
+Password Help,Aide mot de passe,module,Magento_User
+Enter your email address.  You will receive an email with a link to reset your password.,Renseignez votre mot de passe. Vous allez recevoir un email contenant un lien pour réinitialiser votre mot de passe.,module,Magento_User
+Email address,Adresse mail,module,Magento_User
+Retrieve Password,Récupérer mot de passe,module,Magento_User
+Back to Sign in,Retourner à la connexion,module,Magento_User
+Forgot your password?,Mot de passe oublié ?,module,Magento_User
+Reset a Password,Réinitialiser un mot de passe,module,Magento_User
+Confirm New Password,Confirmer le nouveau mot de passe,module,Magento_User
+Reset Password,Réinitialiser le mot de passe,module,Magento_User
+Roles Resources,Ressources des rôles,module,Magento_User
+Resource Access,Accès aux ressources,module,Magento_User
+Custom,Personnalisé,module,Magento_User
+All,Tous,module,Magento_User
+Resources,Ressources,module,Magento_User
+Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Attention !\r\nCette action supprimera cet utilisateur des rôles déjà assignés.\r\nÊtes-vous sûr(e) ?,module,Magento_User
+Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?,Attention !\r\nCette action supprimera ces utilisateurs des rôles déjà assignés.\r\nÊtes-vous sûr(e) ?,module,Magento_User
 First-Class Mail Large Envelope,First-Class Mail Large Envelope,module,Magento_Usps
 First-Class Mail Letter,First-Class Mail Letter,module,Magento_Usps
 First-Class Mail Parcel,First-Class Mail Parcel,module,Magento_Usps
 First-Class Mail Postcards,First-Class Mail Postcards,module,Magento_Usps
-Priority Mail,Priority Mail,module,Magento_Usps
+Priority Mail,Courrier prioritaire,module,Magento_Usps
 Priority Mail Express Hold For Pickup,Priority Mail Express Hold For Pickup,module,Magento_Usps
 Priority Mail Express,Priority Mail Express,module,Magento_Usps
 Standard Post,Standard Post,module,Magento_Usps
-Media Mail,Media Mail,module,Magento_Usps
+Media Mail,Courrier media,module,Magento_Usps
 Library Mail,Library Mail,module,Magento_Usps
 Priority Mail Express Flat Rate Envelope,Priority Mail Express Flat Rate Envelope,module,Magento_Usps
 First-Class Mail Large Postcards,First-Class Mail Large Postcards,module,Magento_Usps
@@ -5764,32 +5763,32 @@ Priority Mail International DVD Flat Rate priced box,Priority Mail International
 Priority Mail International Large Video Flat Rate priced box,Priority Mail International Large Video Flat Rate priced box,module,Magento_Usps
 Priority Mail Express International Flat Rate Boxes,Priority Mail Express International Flat Rate Boxes,module,Magento_Usps
 Priority Mail Express International Padded Flat Rate Envelope,Priority Mail Express International Padded Flat Rate Envelope,module,Magento_Usps
-Letter,Letter,module,Magento_Usps
-Flat,Flat,module,Magento_Usps
-Parcel,Parcel,module,Magento_Usps
+Letter,Lettre,module,Magento_Usps
+Flat,Plat,module,Magento_Usps
+Parcel,Colis,module,Magento_Usps
 Variable,Variable,module,Magento_Usps
-Flat-Rate Box,Flat-Rate Box,module,Magento_Usps
-Flat-Rate Envelope,Flat-Rate Envelope,module,Magento_Usps
-Rectangular,Rectangular,module,Magento_Usps
-Non-rectangular,Non-rectangular,module,Magento_Usps
-Regular,Regular,module,Magento_Usps
-Large,Large,module,Magento_Usps
-Yes,Yes,module,Magento_Usps
-No,No,module,Magento_Usps
-Not Required,Not Required,module,Magento_Usps
-Required,Required,module,Magento_Usps
-For some reason we can't retrieve tracking info right now.,For some reason we can't retrieve tracking info right now.,module,Magento_Usps
-"Sorry, something went wrong. Please try again or contact us and we'll try to help.","Sorry, something went wrong. Please try again or contact us and we'll try to help.",module,Magento_Usps
+Flat-Rate Box,Boîte taux fixe,module,Magento_Usps
+Flat-Rate Envelope,Enveloppe taux fixe,module,Magento_Usps
+Rectangular,Rectangulaire,module,Magento_Usps
+Non-rectangular,Non rectangulaire,module,Magento_Usps
+Regular,Régulier,module,Magento_Usps
+Large,Grand,module,Magento_Usps
+Yes,Oui,module,Magento_Usps
+No,Non,module,Magento_Usps
+Not Required,Non requis,module,Magento_Usps
+Required,Obligatoire,module,Magento_Usps
+For some reason we can't retrieve tracking info right now.,Pour une raison indéterminée nous n'arrivons pas à récuperer les informations de suivi actuellement.,module,Magento_Usps
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.","Désolé, quelque chose s'est mal passé. Merci d'essayer à nouveau ou contactez-nous et nous essaierons de vous aider.",module,Magento_Usps
 track_summary,track_summary,module,Magento_Usps
-Empty response,Empty response,module,Magento_Usps
-Service type does not match,Service type does not match,module,Magento_Usps
-Merchandise,Merchandise,module,Magento_Usps
-Sample,Sample,module,Magento_Usps
-Gift,Gift,module,Magento_Usps
+Empty response,Réponse vide,module,Magento_Usps
+Service type does not match,Le type de service ne correspond pas,module,Magento_Usps
+Merchandise,Marchandises,module,Magento_Usps
+Sample,Exemple,module,Magento_Usps
+Gift,Cadeau,module,Magento_Usps
 Documents,Documents,module,Magento_Usps
-Return,Return,module,Magento_Usps
-Other,Other,module,Magento_Usps
-None,None,module,Magento_Usps
+Return,Retour,module,Magento_Usps
+Other,Autre,module,Magento_Usps
+None,Aucun,module,Magento_Usps
 Custom Variables,Variables personnalisées,module,Magento_Variable
 Add New Variable,Nouvelle variable,module,Magento_Variable
 Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_Variable
@@ -5900,96 +5899,96 @@ Specific %1,Spécifique à %1,module,Magento_Widget
 Open Chooser,Ouvrir le sélecteur,module,Magento_Widget
 Apply,Appliquer,module,Magento_Widget
 Page,Page,module,Magento_Widget
-Wish List,Wish List,module,Magento_Wishlist
-Wish List Sharing,Wish List Sharing,module,Magento_Wishlist
-My Wish List,My Wish List,module,Magento_Wishlist
-%1's Wish List,%1's Wish List,module,Magento_Wishlist
-Page not found.,Page not found.,module,Magento_Wishlist
-We can't specify a product.,We can't specify a product.,module,Magento_Wishlist
-We can't add the item to Wish List right now: %1.,We can't add the item to Wish List right now: %1.,module,Magento_Wishlist
-We can't add the item to Wish List right now.,We can't add the item to Wish List right now.,module,Magento_Wishlist
-You added %1 to your shopping cart.,You added %1 to your shopping cart.,module,Magento_Wishlist
-This product(s) is out of stock.,This product(s) is out of stock.,module,Magento_Wishlist
-We can't add the item to the cart right now.,We can't add the item to the cart right now.,module,Magento_Wishlist
-We can't load the Wish List item right now.,We can't load the Wish List item right now.,module,Magento_Wishlist
-We can't configure the product right now.,We can't configure the product right now.,module,Magento_Wishlist
-The requested cart item doesn't exist.,The requested cart item doesn't exist.,module,Magento_Wishlist
-%1 has been moved to your wish list.,%1 has been moved to your wish list.,module,Magento_Wishlist
-We can't move the item to the wish list.,We can't move the item to the wish list.,module,Magento_Wishlist
-We can't delete the item from Wish List right now because of an error: %1.,We can't delete the item from Wish List right now because of an error: %1.,module,Magento_Wishlist
-We can't delete the item from the Wish List right now.,We can't delete the item from the Wish List right now.,module,Magento_Wishlist
-Message length must not exceed %1 symbols,Message length must not exceed %1 symbols,module,Magento_Wishlist
-Please enter an email address.,Please enter an email address.,module,Magento_Wishlist
-This wish list can be shared %1 more times.,This wish list can be shared %1 more times.,module,Magento_Wishlist
-Please enter a valid email address.,Please enter a valid email address.,module,Magento_Wishlist
-Your wish list has been shared.,Your wish list has been shared.,module,Magento_Wishlist
-We can't delete item from Wish List right now.,We can't delete item from Wish List right now.,module,Magento_Wishlist
-Can't save description %1,Can't save description %1,module,Magento_Wishlist
-Can't update wish list,Can't update wish list,module,Magento_Wishlist
-%1 has been updated in your Wish List.,%1 has been updated in your Wish List.,module,Magento_Wishlist
-We can't update your Wish List right now.,We can't update your Wish List right now.,module,Magento_Wishlist
-The requested Wish List doesn't exist.,The requested Wish List doesn't exist.,module,Magento_Wishlist
-We can't create the Wish List right now.,We can't create the Wish List right now.,module,Magento_Wishlist
-%1 items,%1 items,module,Magento_Wishlist
-1 item,1 item,module,Magento_Wishlist
-Comment,Comment,module,Magento_Wishlist
-Display number of items in wish list,Display number of items in wish list,module,Magento_Wishlist
-Display item quantities,Display item quantities,module,Magento_Wishlist
-An item option with code %1 already exists.,An item option with code %1 already exists.,module,Magento_Wishlist
-We can't specify a wish list.,We can't specify a wish list.,module,Magento_Wishlist
-Cannot specify product.,Cannot specify product.,module,Magento_Wishlist
-Product is not salable.,Product is not salable.,module,Magento_Wishlist
-Invalid item option format.,Invalid item option format.,module,Magento_Wishlist
-"%1 for ""%2"".","%1 for ""%2"".",module,Magento_Wishlist
-We can't add this item to your shopping cart right now.,We can't add this item to your shopping cart right now.,module,Magento_Wishlist
-We couldn't add the following product(s) to the shopping cart: %1.,We couldn't add the following product(s) to the shopping cart: %1.,module,Magento_Wishlist
-We can't update the Wish List right now.,We can't update the Wish List right now.,module,Magento_Wishlist
-%1 product(s) have been added to shopping cart: %2.,%1 product(s) have been added to shopping cart: %2.,module,Magento_Wishlist
-Comment:,Comment:,module,Magento_Wishlist
-We cannot retrieve the Wish List.,We cannot retrieve the Wish List.,module,Magento_Wishlist
-%1's Wishlist,%1's Wishlist,module,Magento_Wishlist
-We can't specify a wish list item.,We can't specify a wish list item.,module,Magento_Wishlist
-The product does not exist.,The product does not exist.,module,Magento_Wishlist
-Test Phrase,Test Phrase,module,Magento_Wishlist
+Wish List,Liste d'envies,module,Magento_Wishlist
+Wish List Sharing,Partage de liste d'envies,module,Magento_Wishlist
+My Wish List,Ma liste d'envies,module,Magento_Wishlist
+%1's Wish List,Liste d'envies de %1,module,Magento_Wishlist
+Page not found.,Page introuvable.,module,Magento_Wishlist
+We can't specify a product.,Impossible de spécifier le produit.,module,Magento_Wishlist
+We can't add the item to Wish List right now: %1.,Impossible d'ajouter le produit à la liste d'envies : %1.,module,Magento_Wishlist
+We can't add the item to Wish List right now.,Impossible d'ajouter le produit à la liste d'envies.,module,Magento_Wishlist
+You added %1 to your shopping cart.,Le produit %1 a été ajouté à votre panier.,module,Magento_Wishlist
+This product(s) is out of stock.,Ces produits sont épuisés.,module,Magento_Wishlist
+We can't add the item to the cart right now.,Impossible d'ajouter le produit au panier.,module,Magento_Wishlist
+We can't load the Wish List item right now.,Impossible de charger le produit de la liste d'envies.,module,Magento_Wishlist
+We can't configure the product right now.,Impossible de configurer le produit.,module,Magento_Wishlist
+The requested cart item doesn't exist.,Le produit du panier n'existe pas.,module,Magento_Wishlist
+%1 has been moved to your wish list.,%1 a été déplacé dans votre liste d'envies.,module,Magento_Wishlist
+We can't move the item to the wish list.,Impossible de déplacer ce produit dans la liste d'envies.,module,Magento_Wishlist
+We can't delete the item from Wish List right now because of an error: %1.,Impossible de supprimer le produit de la liste d'envies en raison de l'erreur suivante : %1.,module,Magento_Wishlist
+We can't delete the item from the Wish List right now.,Impossible de supprimer le produit de la liste d'envies.,module,Magento_Wishlist
+Message length must not exceed %1 symbols,La longueur du message ne peut pas dépasser %1 caractères.,module,Magento_Wishlist
+Please enter an email address.,Merci de renseigner une adresse email.,module,Magento_Wishlist
+This wish list can be shared %1 more times.,Cette liste d'envies peut être partagée %1 fois.,module,Magento_Wishlist
+Please enter a valid email address.,Saisissez un email valide.,module,Magento_Wishlist
+Your wish list has been shared.,Votre liste d'envies a bien été partagée.,module,Magento_Wishlist
+We can't delete item from Wish List right now.,Impossible de supprimer ce produit de la liste d'envies.,module,Magento_Wishlist
+Can't save description %1,Impossible d'enregistrer la description %1,module,Magento_Wishlist
+Can't update wish list,Impossible de mettre à jour la liste d'envies.,module,Magento_Wishlist
+%1 has been updated in your Wish List.,%1 a bien été mis à jour dans votre liste d'envies.,module,Magento_Wishlist
+We can't update your Wish List right now.,Impossible de mettre à jour votre liste d'envies.,module,Magento_Wishlist
+The requested Wish List doesn't exist.,La liste d'envies demandée n'existe pas.,module,Magento_Wishlist
+We can't create the Wish List right now.,Impossible de créer la liste d'envies.,module,Magento_Wishlist
+%1 items,%1 produits,module,Magento_Wishlist
+1 item,1 produit,module,Magento_Wishlist
+Comment,Commentaire,module,Magento_Wishlist
+Display number of items in wish list,Afficher le nombre de produit de la liste d'envies,module,Magento_Wishlist
+Display item quantities,Afficher la quantité de produit,module,Magento_Wishlist
+An item option with code %1 already exists.,Une option article avec le code %1 existe déjà.,module,Magento_Wishlist
+We can't specify a wish list.,Impossible de spécifier une liste d'envies.,module,Magento_Wishlist
+Cannot specify product.,Impossible de spécifier le produit.,module,Magento_Wishlist
+Product is not salable.,Le produit n'est pas achetable.,module,Magento_Wishlist
+Invalid item option format.,Format d'option d'élément invalide.,module,Magento_Wishlist
+"%1 for ""%2"".","%1 pour ""%2"".",module,Magento_Wishlist
+We can't add this item to your shopping cart right now.,Impossible d'ajouter ce produit au panier.,module,Magento_Wishlist
+We couldn't add the following product(s) to the shopping cart: %1.,Impossible d'ajouter les produits suivants au panier : %1.,module,Magento_Wishlist
+We can't update the Wish List right now.,Impossible de mettre à jour la liste d'envies.,module,Magento_Wishlist
+%1 product(s) have been added to shopping cart: %2.,%1 produits ont été ajoutés à votre panier : %2.,module,Magento_Wishlist
+Comment:,Commentaire :,module,Magento_Wishlist
+We cannot retrieve the Wish List.,Impossible de récuperer la liste d'envies.,module,Magento_Wishlist
+%1's Wishlist,Liste d'envies de %1,module,Magento_Wishlist
+We can't specify a wish list item.,Impossible de spécifier un produit de la liste d'envies.,module,Magento_Wishlist
+The product does not exist.,Le produit n'existe pas.,module,Magento_Wishlist
+Test Phrase,Phrase de test,module,Magento_Wishlist
 message,message,module,Magento_Wishlist
 Message,Message,module,Magento_Wishlist
 error-message,error-message,module,Magento_Wishlist
 LocalizedException,LocalizedException,module,Magento_Wishlist
 Product Exception.,Product Exception.,module,Magento_Wishlist
 Localized Exception.,Localized Exception.,module,Magento_Wishlist
-Are you sure you want to remove this item?,Are you sure you want to remove this item?,module,Magento_Wishlist
-Share Wish List,Share Wish List,module,Magento_Wishlist
-Add All to Cart,Add All to Cart,module,Magento_Wishlist
-Update Wish List,Update Wish List,module,Magento_Wishlist
-Move to Wishlist,Move to Wishlist,module,Magento_Wishlist
-View Product,View Product,module,Magento_Wishlist
-Qty,Qty,module,Magento_Wishlist
-Add to Cart,Add to Cart,module,Magento_Wishlist
-Availability,Availability,module,Magento_Wishlist
-In stock,In stock,module,Magento_Wishlist
-Out of stock,Out of stock,module,Magento_Wishlist
-Edit,Edit,module,Magento_Wishlist
-Remove Item,Remove Item,module,Magento_Wishlist
-Remove item,Remove item,module,Magento_Wishlist
-Add to Compare,Add to Compare,module,Magento_Wishlist
-This Wish List has no Items,This Wish List has no Items,module,Magento_Wishlist
-See Details,See Details,module,Magento_Wishlist
-Options Details,Options Details,module,Magento_Wishlist
-RSS link to %1's wishlist,RSS link to %1's wishlist,module,Magento_Wishlist
-RSS Feed,RSS Feed,module,Magento_Wishlist
-Product,Product,module,Magento_Wishlist
-Add to Wish List,Add to Wish List,module,Magento_Wishlist
-Back,Back,module,Magento_Wishlist
-Wish List is empty now.,Wish List is empty now.,module,Magento_Wishlist
-* Required Fields,* Required Fields,module,Magento_Wishlist
-Sharing Information,Sharing Information,module,Magento_Wishlist
-"Email addresses, separated by commas","Email addresses, separated by commas",module,Magento_Wishlist
-Check here to link an RSS feed to your Wish List.,Check here to link an RSS feed to your Wish List.,module,Magento_Wishlist
-Last Added Items,Last Added Items,module,Magento_Wishlist
-Remove This Item,Remove This Item,module,Magento_Wishlist
-Go to Wish List,Go to Wish List,module,Magento_Wishlist
-You have no items in your wish list.,You have no items in your wish list.,module,Magento_Wishlist
-Are you sure you want to remove this product from your Wish List?,Are you sure you want to remove this product from your Wish List?,module,Magento_Wishlist
+Are you sure you want to remove this item?,Êtes-vous sûr de vouloir supprimer ce produit ?,module,Magento_Wishlist
+Share Wish List,Partager la liste d'envies,module,Magento_Wishlist
+Add All to Cart,Tout ajouter au panier,module,Magento_Wishlist
+Update Wish List,Mettre à jour la liste d'envies,module,Magento_Wishlist
+Move to Wishlist,Ajouter à la <br/>liste d'envies,module,Magento_Wishlist
+View Product,Voir produit,module,Magento_Wishlist
+Qty,Qté,module,Magento_Wishlist
+Add to Cart,Ajouter au panier,module,Magento_Wishlist
+Availability,Disponibilité,module,Magento_Wishlist
+In stock,En stock,module,Magento_Wishlist
+Out of stock,Épuisé,module,Magento_Wishlist
+Edit,Éditer,module,Magento_Wishlist
+Remove Item,Supprimer l'article,module,Magento_Wishlist
+Remove item,Supprimer l'article,module,Magento_Wishlist
+Add to Compare,Ajouter au comparateur,module,Magento_Wishlist
+This Wish List has no Items,Cette liste d'envies n'a aucun produit,module,Magento_Wishlist
+See Details,Voir les détails,module,Magento_Wishlist
+Options Details,Détails des options,module,Magento_Wishlist
+RSS link to %1's wishlist,Flux RSS de la liste d'envies de %1,module,Magento_Wishlist
+RSS Feed,Flux RSS,module,Magento_Wishlist
+Product,Produit,module,Magento_Wishlist
+Add to Wish List,Ajouter à la liste d'envie,module,Magento_Wishlist
+Back,Retour,module,Magento_Wishlist
+Wish List is empty now.,La liste d'envies est vide.,module,Magento_Wishlist
+* Required Fields,* Champs obligatoires,module,Magento_Wishlist
+Sharing Information,Information de partage,module,Magento_Wishlist
+"Email addresses, separated by commas","Adresses email, séparées par des virgules",module,Magento_Wishlist
+Check here to link an RSS feed to your Wish List.,Cocher cette case pour activer le flux RSS de votre liste d'envies.,module,Magento_Wishlist
+Last Added Items,Derniers articles ajoutés,module,Magento_Wishlist
+Remove This Item,Supprimer cet élément,module,Magento_Wishlist
+Go to Wish List,Allez à la liste d'envies,module,Magento_Wishlist
+You have no items in your wish list.,Il n'y a aucun produit dans votre liste d'envies.,module,Magento_Wishlist
+Are you sure you want to remove this product from your Wish List?,Êtes-vous sûr de vouloir supprimer ce produit de votre liste d'envies ?,module,Magento_Wishlist
 Summary,Résumé,theme,frontend/Magento/luma
 Account Dashboard,Tableau de bord du compte,theme,frontend/Magento/luma
 Account Information,Informations du compte,theme,frontend/Magento/luma
@@ -6064,15 +6063,15 @@ Your Shipment #%shipment_id for Order #%order_id,Your Shipment #%shipment_id for
 Message from %sender_name:,Message de la part de %sender_name :,module,Magento_SendFriend
 Sitemap Generation Warnings,Avertissements sur la génération du plan de site,module,Magento_Sitemap
 "%name,","%name,",module,Magento_User
-The password for your account has been successfully changed.,The password for your account has been successfully changed.,module,Magento_User
-"If you did not request this change, please contact us.","If you did not request this change, please contact us.",module,Magento_User
-"Thank you,","Thank you,",module,Magento_User
-There was recently a request to change the password for your account.,There was recently a request to change the password for your account.,module,Magento_User
-"If you requested this change, reset your password here:","If you requested this change, reset your password here:",module,Magento_User
-"If you did not make this request, you can ignore this email and your password will remain the same.","If you did not make this request, you can ignore this email and your password will remain the same.",module,Magento_User
-%customer_name wants to share this Wish List from %store_name with you:,%customer_name wants to share this Wish List from %store_name with you:,module,Magento_Wishlist
-Message from %customer_name:,Message from %customer_name:,module,Magento_Wishlist
-View all Wish List items,View all Wish List items,module,Magento_Wishlist
+The password for your account has been successfully changed.,Le mot de passe de votre compte a bien été modifié.,module,Magento_User
+"If you did not request this change, please contact us.","Si vous n'avez pas effectué cette demande, merci de nous contacter.",module,Magento_User
+"Thank you,","Merci,",module,Magento_User
+There was recently a request to change the password for your account.,Nous avons reçu une demande pour changer le mot de passe de cotre compte.,module,Magento_User
+"If you requested this change, reset your password here:","Si vous avez bien effectué cette demande, reinitialisez votre mot de passe ici : ",module,Magento_User
+"If you did not make this request, you can ignore this email and your password will remain the same.","Si vous n'avez pas effectué cette demande, vous pouvez ignorer cet email : votre mot de passe restera le même.",module,Magento_User
+%customer_name wants to share this Wish List from %store_name with you:,%customer_name désire partager cette liste d'envies de %store_name avec vous : ,module,Magento_Wishlist
+Message from %customer_name:,Message de la part de %customer_name : ,module,Magento_Wishlist
+View all Wish List items,Voir tous les produits de la liste d'envies,module,Magento_Wishlist
 Now Shopping by,Filtrer par,theme,frontend/Magento/luma
 Previous,Précédent,theme,frontend/Magento/luma
 Remove,Supprimer,theme,frontend/Magento/luma
@@ -7825,49 +7824,49 @@ This enables or disables SSL verification of the Magento server by UPS.,Active o
 Debug,Déboguage,module,Magento_Ups
 Action,Action,module,Magento_UrlRewrite
 Edit,Éditer,module,Magento_UrlRewrite
-Reset Password Template,Reset Password Template,module,Magento_User
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Email template chosen based on theme fallback when ""Default"" option is selected.",module,Magento_User
-Maximum Login Failures to Lockout Account,Maximum Login Failures to Lockout Account,module,Magento_User
-We will disable this feature if the value is empty.,We will disable this feature if the value is empty.,module,Magento_User
-Lockout Time (minutes),Lockout Time (minutes),module,Magento_User
-Password Lifetime (days),Password Lifetime (days),module,Magento_User
-We will disable this feature if the value is empty. ,We will disable this feature if the value is empty. ,module,Magento_User
-Password Change,Password Change,module,Magento_User
-Unlock,Unlock,module,Magento_User
+Reset Password Template,Gabarit de réinitialisation de mot de passe,module,Magento_User
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_User
+Maximum Login Failures to Lockout Account,Nb maximal d'erreur de connexion pour bloquer le compte,module,Magento_User
+We will disable this feature if the value is empty.,Cette fonctionnalité est désactivée si la valeur est vide.,module,Magento_User
+Lockout Time (minutes),Durée de blocage (minutes),module,Magento_User
+Password Lifetime (days),Durée de vie du mot de passe (en jours),module,Magento_User
+We will disable this feature if the value is empty. ,Cette fonctionnalité est désactivée si la valeur est vide. ,module,Magento_User
+Password Change,Changement de mot de passe,module,Magento_User
+Unlock,Débloquer,module,Magento_User
 ID,ID,module,Magento_User
-Username,Username,module,Magento_User
-Last login,Last login,module,Magento_User
-Failures,Failures,module,Magento_User
-Unlocked,Unlocked,module,Magento_User
+Username,Nom d'utilisateur,module,Magento_User
+Last login,Dernière connexion,module,Magento_User
+Failures,Echecs,module,Magento_User
+Unlocked,Débloqué,module,Magento_User
 USPS,USPS,module,Magento_Usps
-Enabled for Checkout,Enabled for Checkout,module,Magento_Usps
-Gateway URL,Gateway URL,module,Magento_Usps
-Secure Gateway URL,Secure Gateway URL,module,Magento_Usps
-Title,Title,module,Magento_Usps
-User ID,User ID,module,Magento_Usps
-Password,Password,module,Magento_Usps
+Enabled for Checkout,Activé pour commander,module,Magento_Usps
+Gateway URL,URL de passerelle,module,Magento_Usps
+Secure Gateway URL,URL sécurisée de la passerelle,module,Magento_Usps
+Title,Titre,module,Magento_Usps
+User ID,ID utilisateur,module,Magento_Usps
+Password,Mot de passe,module,Magento_Usps
 Mode,Mode,module,Magento_Usps
-Packages Request Type,Packages Request Type,module,Magento_Usps
+Packages Request Type,Type de requête de paquets,module,Magento_Usps
 Container,Container,module,Magento_Usps
-Size,Size,module,Magento_Usps
-Width,Width,module,Magento_Usps
-Length,Length,module,Magento_Usps
-Height,Height,module,Magento_Usps
-Girth,Girth,module,Magento_Usps
+Size,Taille,module,Magento_Usps
+Width,Largeur,module,Magento_Usps
+Length,Longueur,module,Magento_Usps
+Height,Hauteur,module,Magento_Usps
+Girth,Circonférence,module,Magento_Usps
 Machinable,Machinable,module,Magento_Usps
-Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight),Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight),module,Magento_Usps
-Calculate Handling Fee,Calculate Handling Fee,module,Magento_Usps
-Handling Applied,Handling Applied,module,Magento_Usps
-Handling Fee,Handling Fee,module,Magento_Usps
-Allowed Methods,Allowed Methods,module,Magento_Usps
-Free Method,Free Method,module,Magento_Usps
-Free Shipping Amount Threshold,Free Shipping Amount Threshold,module,Magento_Usps
-Displayed Error Message,Displayed Error Message,module,Magento_Usps
-Ship to Applicable Countries,Ship to Applicable Countries,module,Magento_Usps
-Ship to Specific Countries,Ship to Specific Countries,module,Magento_Usps
-Debug,Debug,module,Magento_Usps
-Show Method if Not Applicable,Show Method if Not Applicable,module,Magento_Usps
-Sort Order,Sort Order,module,Magento_Usps
+Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight),Poids maxi du paquet (consultez votre transporteur),module,Magento_Usps
+Calculate Handling Fee,Calculer les frais de dossier,module,Magento_Usps
+Handling Applied,Frais de dossier appliqués,module,Magento_Usps
+Handling Fee,Frais de traitement,module,Magento_Usps
+Allowed Methods,Modes de livraison autorisés,module,Magento_Usps
+Free Method,Mode gratuit,module,Magento_Usps
+Free Shipping Amount Threshold,Montant minimum pour la livraison gratuite,module,Magento_Usps
+Displayed Error Message,Message d'erreur affiché,module,Magento_Usps
+Ship to Applicable Countries,Livrer aux pays applicables,module,Magento_Usps
+Ship to Specific Countries,Livrer aux pays spécifiques,module,Magento_Usps
+Debug,Déboguage,module,Magento_Usps
+Show Method if Not Applicable,Afficher le mode s'il n'est pas applicable,module,Magento_Usps
+Sort Order,Ordre de tri,module,Magento_Usps
 Variable ID,Identifiant de la variable,module,Magento_Variable
 Name,Nom,module,Magento_Variable
 Magento Web API,Web API Magento,module,Magento_Webapi
@@ -7898,28 +7897,28 @@ Product,Produit,module,Magento_Widget
 Select Product...,Choisir un produit...,module,Magento_Widget
 Conditions,Conditions,module,Magento_Widget
 Widget ID,ID de widget,module,Magento_Widget
-Share Options,Share Options,module,Magento_Wishlist
-Email Sender,Email Sender,module,Magento_Wishlist
-Email Template,Email Template,module,Magento_Wishlist
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Email template chosen based on theme fallback when ""Default"" option is selected.",module,Magento_Wishlist
-Max Emails Allowed to be Sent,Max Emails Allowed to be Sent,module,Magento_Wishlist
-Email Text Length Limit,Email Text Length Limit,module,Magento_Wishlist
-General Options,General Options,module,Magento_Wishlist
-Enabled,Enabled,module,Magento_Wishlist
-My Wish List Link,My Wish List Link,module,Magento_Wishlist
-Display Wish List Summary,Display Wish List Summary,module,Magento_Wishlist
-Enable RSS,Enable RSS,module,Magento_Wishlist
-No Items Found,No Items Found,module,Magento_Wishlist
-Product Name,Product Name,module,Magento_Wishlist
-User Description,User Description,module,Magento_Wishlist
-Quantity,Quantity,module,Magento_Wishlist
-Add Locale,Add Locale,module,Magento_Wishlist
-Add Date,Add Date,module,Magento_Wishlist
-Days in Wish List,Days in Wish List,module,Magento_Wishlist
+Share Options,Options de partage,module,Magento_Wishlist
+Email Sender,Expéditeur du mail,module,Magento_Wishlist
+Email Template,Gabarit du mail,module,Magento_Wishlist
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Wishlist
+Max Emails Allowed to be Sent,Nombre maximal de destinataires,module,Magento_Wishlist
+Email Text Length Limit,Longueur maximal du texte du message,module,Magento_Wishlist
+General Options,Options générales,module,Magento_Wishlist
+Enabled,Activé,module,Magento_Wishlist
+My Wish List Link,Mon lien de liste d'envies,module,Magento_Wishlist
+Display Wish List Summary,Afficher le résumé de la liste d'envies,module,Magento_Wishlist
+Enable RSS,Activer le RSS,module,Magento_Wishlist
+No Items Found,Aucun article trouvé,module,Magento_Wishlist
+Product Name,Nom du produit,module,Magento_Wishlist
+User Description,Description utilisateur,module,Magento_Wishlist
+Quantity,Quantité,module,Magento_Wishlist
+Add Locale,Vue magasin,module,Magento_Wishlist
+Add Date,Date de création,module,Magento_Wishlist
+Days in Wish List,Nbr de jour dans la liste d'envies,module,Magento_Wishlist
 Action,Action,module,Magento_Wishlist
-Configure,Configure,module,Magento_Wishlist
-Delete,Delete,module,Magento_Wishlist
-Product Details and Comment,Product Details and Comment,module,Magento_Wishlist
+Configure,Configurer,module,Magento_Wishlist
+Delete,Supprimer,module,Magento_Wishlist
+Product Details and Comment,Détails du produit et commentaire,module,Magento_Wishlist
 Your Invoice #%invoice_id for Order #%order_id,Votre facture #%invoice_id pour la commande #%order_id,theme,frontend/Magento/blank
 "%customer_name,","%customer_name,",theme,frontend/Magento/blank
 Once your package ships we will send you a tracking number.,Lorsque votre commande sera prête nous vous enverrons les numéros de suivi de livraison.,theme,frontend/Magento/blank
