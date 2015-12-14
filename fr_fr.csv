@@ -1119,6 +1119,8 @@ New Set,Nouveau groupe,module,Magento_Catalog
 Manage Product Sets,Gérer les ensembles de produits,module,Magento_Catalog
 Manage Attribute Sets,Gérer les jeux d'attributs,module,Magento_Catalog
 This attribute set no longer exists.,Ce jeu d'attributs n'existe plus.,module,Magento_Catalog
+1 item,1 produit,module,Magento_Catalog
+%1 items,%1 produits,module,Magento_Catalog
 Invalid attribute %1,Attribut invalide : %1,module,Magento_Catalog
 Grid,Grille,module,Magento_Catalog
 List,Liste,module,Magento_Catalog
@@ -1257,6 +1259,7 @@ Add to Compare,Ajouter au comparateur,module,Magento_Catalog
 Learn More,En savoir plus,module,Magento_Catalog
 Check items to add to the cart or,Cochez les articles à ajouter au panier ou,module,Magento_Catalog
 select all,sélectionner tout,module,Magento_Catalog
+%1 Items,%1 produits,module,Magento_Catalog
 Show,Afficher,module,Magento_Catalog
 per page,par page,module,Magento_Catalog
 Sort By,Trier par,module,Magento_Catalog
@@ -1570,6 +1573,7 @@ Zip/Postal Code,Code postal,module,Magento_Checkout
 My Cart (%1 items),Mon panier (%1 articles),module,Magento_Checkout
 My Cart,Mon panier,module,Magento_Checkout
 Minimum order amount is %1,Le montant minimal de commande est %1,module,Magento_Checkout
+You added %1 to your shopping cart.,Le produit %1 a été ajouté à votre panier.,module,Magento_Checkout
 We can't add this item to your shopping cart right now.,Impossible d'ajouter ce produit au panier.,module,Magento_Checkout
 Out of stock,Épuisé,module,Magento_Checkout
 %1 was updated in your shopping cart.,%1 a été mis à jour dans votre panier.,module,Magento_Checkout
@@ -1748,6 +1752,7 @@ Disabled by Default,Désactivé par défaut,module,Magento_Cms
 Disabled Completely,Désactivé complètement,module,Magento_Cms
 A block identifier with the same properties already exists in the selected store.,Il existe déjà un identifiant de bloc ayant les mêmes propriétés dans la boutique sélectionnée.,module,Magento_Cms
 The page URL key contains capital letters or disallowed symbols.,La clé d'url de page contient des lettres majuscules ou des symboles non autorisés.,module,Magento_Cms
+LocalizedException,LocalizedException,module,Magento_Cms
 Exception,Exception,module,Magento_Cms
 All Store Views,Toutes les vues magasin,module,Magento_Cms
 Edit,Éditer,module,Magento_Cms
@@ -2009,6 +2014,9 @@ Offline,Déconnecté,module,Magento_Customer
 Online,En ligne,module,Magento_Customer
 Never,Jamais,module,Magento_Customer
 Deleted Stores,Magasins effacés,module,Magento_Customer
+Add Locale,Vue magasin,module,Magento_Customer
+Add Date,Date de création,module,Magento_Customer
+Days in Wish List,Nbr de jour dans la liste d'envies,module,Magento_Customer
 No,Non,module,Magento_Customer
 Yes,Oui,module,Magento_Customer
 Delete File,Supprimer le fichier,module,Magento_Customer
@@ -2106,6 +2114,7 @@ Edit,Éditer,module,Magento_Customer
 Visitor,Visiteur,module,Magento_Customer
 Customer,Client,module,Magento_Customer
 No item specified.,Aucun article spécifié.,module,Magento_Customer
+Are you sure you want to remove this item?,Êtes-vous sûr de vouloir supprimer ce produit ?,module,Magento_Customer
 Personal Information,Informations personnelles,module,Magento_Customer
 Last Logged In:,Dernière connection le :,module,Magento_Customer
 Last Logged In (%1):,Dernière connection (%1) le :,module,Magento_Customer
@@ -4053,6 +4062,7 @@ Assigned Options,Options attribuées,module,Magento_Review
 Option Title:,Titre de l'option :,module,Magento_Review
 Product Name,Nom du produit,module,Magento_Review
 Actions,Actions,module,Magento_Review
+See Details,Voir les détails,module,Magento_Review
 You have submitted no reviews.,Vous n'avez posté aucun commentaire.,module,Magento_Review
 Back,Retour,module,Magento_Review
 My Recent Reviews,Mes derniers commentaires :,module,Magento_Review
@@ -5608,6 +5618,7 @@ User Information,Informations de l'utilisateur,module,Magento_User
 User Info,Infos de l'utilisateur,module,Magento_User
 User Role,Rôle de l'utilisateur,module,Magento_User
 Your password reset link has expired.,Le lien de réinitialisation de mot de passe a expiré.,module,Magento_User
+Please enter an email address.,Merci de renseigner une adresse email.,module,Magento_User
 System,Système,module,Magento_User
 Permissions,Permissions,module,Magento_User
 You cannot delete your own account.,Vous ne pouvez pas supprimer votre propre compte.,module,Magento_User
@@ -5640,8 +5651,83 @@ Warning!\r\nThis action will remove those users from already assigned roles\r\nA
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_User
 ID,ID,module,Magento_User
 Username,Nom d'utilisateur,module,Magento_User
+First-Class Mail Large Envelope,First-Class Mail Large Envelope,module,Magento_Usps
+First-Class Mail Letter,First-Class Mail Letter,module,Magento_Usps
+First-Class Mail Parcel,First-Class Mail Parcel,module,Magento_Usps
+First-Class Mail Postcards,First-Class Mail Postcards,module,Magento_Usps
 Priority Mail,Courrier prioritaire,module,Magento_Usps
+Priority Mail Express Hold For Pickup,Priority Mail Express Hold For Pickup,module,Magento_Usps
+Priority Mail Express,Priority Mail Express,module,Magento_Usps
+Standard Post,Standard Post,module,Magento_Usps
 Media Mail,Courrier media,module,Magento_Usps
+Library Mail,Library Mail,module,Magento_Usps
+Priority Mail Express Flat Rate Envelope,Priority Mail Express Flat Rate Envelope,module,Magento_Usps
+First-Class Mail Large Postcards,First-Class Mail Large Postcards,module,Magento_Usps
+Priority Mail Flat Rate Envelope,Priority Mail Flat Rate Envelope,module,Magento_Usps
+Priority Mail Medium Flat Rate Box,Priority Mail Medium Flat Rate Box,module,Magento_Usps
+Priority Mail Large Flat Rate Box,Priority Mail Large Flat Rate Box,module,Magento_Usps
+Priority Mail Express Sunday/Holiday Delivery,Priority Mail Express Sunday/Holiday Delivery,module,Magento_Usps
+Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope,Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope,module,Magento_Usps
+Priority Mail Express Flat Rate Envelope Hold For Pickup,Priority Mail Express Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Small Flat Rate Box,Priority Mail Small Flat Rate Box,module,Magento_Usps
+Priority Mail Padded Flat Rate Envelope,Priority Mail Padded Flat Rate Envelope,module,Magento_Usps
+Priority Mail Express Legal Flat Rate Envelope,Priority Mail Express Legal Flat Rate Envelope,module,Magento_Usps
+Priority Mail Express Legal Flat Rate Envelope Hold For Pickup,Priority Mail Express Legal Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Express Sunday/Holiday Delivery Legal Flat Rate Envelope,Priority Mail Express Sunday/Holiday Delivery Legal Flat Rate Envelope,module,Magento_Usps
+Priority Mail Hold For Pickup,Priority Mail Hold For Pickup,module,Magento_Usps
+Priority Mail Large Flat Rate Box Hold For Pickup,Priority Mail Large Flat Rate Box Hold For Pickup,module,Magento_Usps
+Priority Mail Medium Flat Rate Box Hold For Pickup,Priority Mail Medium Flat Rate Box Hold For Pickup,module,Magento_Usps
+Priority Mail Small Flat Rate Box Hold For Pickup,Priority Mail Small Flat Rate Box Hold For Pickup,module,Magento_Usps
+Priority Mail Flat Rate Envelope Hold For Pickup,Priority Mail Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Gift Card Flat Rate Envelope,Priority Mail Gift Card Flat Rate Envelope,module,Magento_Usps
+Priority Mail Gift Card Flat Rate Envelope Hold For Pickup,Priority Mail Gift Card Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Window Flat Rate Envelope,Priority Mail Window Flat Rate Envelope,module,Magento_Usps
+Priority Mail Window Flat Rate Envelope Hold For Pickup,Priority Mail Window Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Small Flat Rate Envelope,Priority Mail Small Flat Rate Envelope,module,Magento_Usps
+Priority Mail Small Flat Rate Envelope Hold For Pickup,Priority Mail Small Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Legal Flat Rate Envelope,Priority Mail Legal Flat Rate Envelope,module,Magento_Usps
+Priority Mail Legal Flat Rate Envelope Hold For Pickup,Priority Mail Legal Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Padded Flat Rate Envelope Hold For Pickup,Priority Mail Padded Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Regional Rate Box A,Priority Mail Regional Rate Box A,module,Magento_Usps
+Priority Mail Regional Rate Box A Hold For Pickup,Priority Mail Regional Rate Box A Hold For Pickup,module,Magento_Usps
+Priority Mail Regional Rate Box B,Priority Mail Regional Rate Box B,module,Magento_Usps
+Priority Mail Regional Rate Box B Hold For Pickup,Priority Mail Regional Rate Box B Hold For Pickup,module,Magento_Usps
+First-Class Package Service Hold For Pickup,First-Class Package Service Hold For Pickup,module,Magento_Usps
+Priority Mail Express Flat Rate Boxes,Priority Mail Express Flat Rate Boxes,module,Magento_Usps
+Priority Mail Express Flat Rate Boxes Hold For Pickup,Priority Mail Express Flat Rate Boxes Hold For Pickup,module,Magento_Usps
+Priority Mail Express Sunday/Holiday Delivery Flat Rate Boxes,Priority Mail Express Sunday/Holiday Delivery Flat Rate Boxes,module,Magento_Usps
+Priority Mail Regional Rate Box C,Priority Mail Regional Rate Box C,module,Magento_Usps
+Priority Mail Regional Rate Box C Hold For Pickup,Priority Mail Regional Rate Box C Hold For Pickup,module,Magento_Usps
+First-Class Package Service,First-Class Package Service,module,Magento_Usps
+Priority Mail Express Padded Flat Rate Envelope,Priority Mail Express Padded Flat Rate Envelope,module,Magento_Usps
+Priority Mail Express Padded Flat Rate Envelope Hold For Pickup,Priority Mail Express Padded Flat Rate Envelope Hold For Pickup,module,Magento_Usps
+Priority Mail Express Sunday/Holiday Delivery Padded Flat Rate Envelope,Priority Mail Express Sunday/Holiday Delivery Padded Flat Rate Envelope,module,Magento_Usps
+Priority Mail Express International,Priority Mail Express International,module,Magento_Usps
+Priority Mail International,Priority Mail International,module,Magento_Usps
+Global Express Guaranteed (GXG),Global Express Guaranteed (GXG),module,Magento_Usps
+Global Express Guaranteed Document,Global Express Guaranteed Document,module,Magento_Usps
+Global Express Guaranteed Non-Document Rectangular,Global Express Guaranteed Non-Document Rectangular,module,Magento_Usps
+Global Express Guaranteed Non-Document Non-Rectangular,Global Express Guaranteed Non-Document Non-Rectangular,module,Magento_Usps
+Priority Mail International Flat Rate Envelope,Priority Mail International Flat Rate Envelope,module,Magento_Usps
+Priority Mail International Medium Flat Rate Box,Priority Mail International Medium Flat Rate Box,module,Magento_Usps
+Priority Mail Express International Flat Rate Envelope,Priority Mail Express International Flat Rate Envelope,module,Magento_Usps
+Priority Mail International Large Flat Rate Box,Priority Mail International Large Flat Rate Box,module,Magento_Usps
+USPS GXG Envelopes,USPS GXG Envelopes,module,Magento_Usps
+First-Class Mail International Letter,First-Class Mail International Letter,module,Magento_Usps
+First-Class Mail International Large Envelope,First-Class Mail International Large Envelope,module,Magento_Usps
+First-Class Package International Service,First-Class Package International Service,module,Magento_Usps
+Priority Mail International Small Flat Rate Box,Priority Mail International Small Flat Rate Box,module,Magento_Usps
+Priority Mail Express International Legal Flat Rate Envelope,Priority Mail Express International Legal Flat Rate Envelope,module,Magento_Usps
+Priority Mail International Gift Card Flat Rate Envelope,Priority Mail International Gift Card Flat Rate Envelope,module,Magento_Usps
+Priority Mail International Window Flat Rate Envelope,Priority Mail International Window Flat Rate Envelope,module,Magento_Usps
+Priority Mail International Small Flat Rate Envelope,Priority Mail International Small Flat Rate Envelope,module,Magento_Usps
+First-Class Mail International Postcard,First-Class Mail International Postcard,module,Magento_Usps
+Priority Mail International Legal Flat Rate Envelope,Priority Mail International Legal Flat Rate Envelope,module,Magento_Usps
+Priority Mail International Padded Flat Rate Envelope,Priority Mail International Padded Flat Rate Envelope,module,Magento_Usps
+Priority Mail International DVD Flat Rate priced box,Priority Mail International DVD Flat Rate priced box,module,Magento_Usps
+Priority Mail International Large Video Flat Rate priced box,Priority Mail International Large Video Flat Rate priced box,module,Magento_Usps
+Priority Mail Express International Flat Rate Boxes,Priority Mail Express International Flat Rate Boxes,module,Magento_Usps
+Priority Mail Express International Padded Flat Rate Envelope,Priority Mail Express International Padded Flat Rate Envelope,module,Magento_Usps
 Letter,Lettre,module,Magento_Usps
 Flat,Plat,module,Magento_Usps
 Parcel,Colis,module,Magento_Usps
@@ -5658,6 +5744,7 @@ Not Required,Non requis,module,Magento_Usps
 Required,Obligatoire,module,Magento_Usps
 For some reason we can't retrieve tracking info right now.,Pour une raison indéterminée nous n'arrivons pas à récuperer les informations de suivi actuellement.,module,Magento_Usps
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","Désolé, quelque chose s'est mal passé. Merci d'essayer à nouveau ou contactez-nous et nous essaierons de vous aider.",module,Magento_Usps
+track_summary,track_summary,module,Magento_Usps
 Empty response,Réponse vide,module,Magento_Usps
 Service type does not match,Le type de service ne correspond pas,module,Magento_Usps
 Merchandise,Marchandises,module,Magento_Usps
