@@ -20,7 +20,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 5686/7775 ![Progress](http://progressed.io/bar/73)
+**Progression globale** : 5737/7775 ![Progress](http://progressed.io/bar/74)
 
 ## Thèmes
 
@@ -51,7 +51,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_CatalogWidget | 20 | 20 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Checkout | 76 | 135 | 59 | ![Progress](http://progressed.io/bar/56) |
 | Magento_CheckoutAgreements | 39 | 39 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Cms | 110 | 148 | 38 | ![Progress](http://progressed.io/bar/74) |
+| Magento_Cms | 111 | 148 | 37 | ![Progress](http://progressed.io/bar/75) |
 | Magento_Config | 49 | 89 | 40 | ![Progress](http://progressed.io/bar/55) |
 | Magento_ConfigurableProduct | 48 | 124 | 76 | ![Progress](http://progressed.io/bar/39) |
 | Magento_Contact | 23 | 23 | 0 | ![Progress](http://progressed.io/bar/100) |
@@ -67,7 +67,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Downloadable | 110 | 110 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_DownloadableImportExport | 3 | 3 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Eav | 83 | 140 | 57 | ![Progress](http://progressed.io/bar/59) |
-| Magento_Email | 62 | 96 | 34 | ![Progress](http://progressed.io/bar/65) |
+| Magento_Email | 96 | 96 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_EncryptionKey | 13 | 13 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Fedex | 74 | 74 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_GiftMessage | 34 | 34 | 0 | ![Progress](http://progressed.io/bar/100) |
@@ -89,16 +89,16 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_OfflineShipping | 49 | 49 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_PageCache | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Payment | 49 | 49 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Paypal | 367 | 556 | 189 | ![Progress](http://progressed.io/bar/66) |
+| Magento_Paypal | 368 | 556 | 188 | ![Progress](http://progressed.io/bar/66) |
 | Magento_Persistent | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_ProductAlert | 35 | 35 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_ProductVideo | 8 | 40 | 32 | ![Progress](http://progressed.io/bar/20) |
 | Magento_Quote | 11 | 53 | 42 | ![Progress](http://progressed.io/bar/21) |
-| Magento_Reports | 153 | 214 | 61 | ![Progress](http://progressed.io/bar/71) |
-| Magento_Review | 91 | 131 | 40 | ![Progress](http://progressed.io/bar/69) |
+| Magento_Reports | 154 | 214 | 60 | ![Progress](http://progressed.io/bar/72) |
+| Magento_Review | 92 | 131 | 39 | ![Progress](http://progressed.io/bar/70) |
 | Magento_Rss | 7 | 7 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Rule | 34 | 34 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Sales | 538 | 754 | 216 | ![Progress](http://progressed.io/bar/71) |
+| Magento_Sales | 540 | 754 | 214 | ![Progress](http://progressed.io/bar/72) |
 | Magento_SalesRule | 149 | 149 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_SalesSequence | 2 | 2 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Search | 52 | 52 | 0 | ![Progress](http://progressed.io/bar/100) |
