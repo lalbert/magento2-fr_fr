@@ -4890,6 +4890,7 @@ Edit Rule '%1',Éditer la règle '%1',module,Magento_SalesRule
 New Rule,Nouvelle règle,module,Magento_SalesRule
 Rule Information,Informations règle,module,Magento_SalesRule
 Actions,Actions,module,Magento_SalesRule
+Pricing Structure Rules,Règles d'application des prix,module,Magento_SalesRule
 Apply,Appliquer,module,Magento_SalesRule
 Percent of product price discount,Remise en pourcentage du prix du produit,module,Magento_SalesRule
 Fixed amount discount,Remise d'une valeur fixe,module,Magento_SalesRule
@@ -4899,6 +4900,7 @@ Discount Amount,Remise,module,Magento_SalesRule
 Maximum Qty Discount is Applied To,Qté maxi à laquelle la remise est appliquée,module,Magento_SalesRule
 Discount Qty Step (Buy X),Quantité pour obtenir la remise (Achetez-en X),module,Magento_SalesRule
 Apply to Shipping Amount,Appliquer au montant de la livraison,module,Magento_SalesRule
+Discard subsequent rules,Ignorer les règles suivantes,module,Magento_SalesRule
 Yes,Oui,module,Magento_SalesRule
 No,Non,module,Magento_SalesRule
 Apply the rule only to cart items matching the following conditions (leave blank for all items).,Appliquer la règle uniquement aux articles du panier qui correspondant aux conditions suivantes (laisser vide pour tous les articles).,module,Magento_SalesRule
@@ -4918,6 +4920,7 @@ If empty no separation.,"Si vide, aucune séparation.",module,Magento_SalesRule
 Generate,Générer,module,Magento_SalesRule
 Coupon Code,Code du bon de réduction,module,Magento_SalesRule
 Created,Créée,module,Magento_SalesRule
+Uses,Nbr d'utilisations,module,Magento_SalesRule
 Times Used,Nombre d'utilisations,module,Magento_SalesRule
 CSV,CSV,module,Magento_SalesRule
 Excel XML,XML d'Excel,module,Magento_SalesRule
@@ -4947,11 +4950,15 @@ Priority,Priorité,module,Magento_SalesRule
 Public In RSS Feed,Public dans le flux RSS,module,Magento_SalesRule
 Cart Price Rule,Règle de prix panier,module,Magento_SalesRule
 ID,ID,module,Magento_SalesRule
+Rule,Règle,module,Magento_SalesRule
 Start,Commencer,module,Magento_SalesRule
+End,Fin,module,Magento_SalesRule
 %1 - Discounts and Coupons,%1 - Remises et coupons,module,Magento_SalesRule
 Coupons/Discounts,Coupons/Réductions,module,Magento_SalesRule
 Promotions,Promotions,module,Magento_SalesRule
+You deleted the rule.,Règle supprimée.,module,Magento_SalesRule
 We can't delete the rule right now. Please review the log and try again.,Impossible de supprimer la règle. Merci de consulter le journal des erreurs et essayez à nouveau.,module,Magento_SalesRule
+We can't find a rule to delete.,Impossible de trouver la règle à supprimer.,module,Magento_SalesRule
 This rule no longer exists.,Cette règle n'existe plus.,module,Magento_SalesRule
 Edit Rule,Éditer la règle,module,Magento_SalesRule
 New Cart Price Rule,Nouvelle règle de prix panier,module,Magento_SalesRule
@@ -4961,6 +4968,8 @@ Invalid data provided,Données fournies invalides,module,Magento_SalesRule
 Something went wrong while generating coupons. Please review the log and try again.,Une erreur s'est produite pendant la génération des coupons. Merci de consulter le journal des erreurs et essayez à nouveau.,module,Magento_SalesRule
 Catalog,Catalogue,module,Magento_SalesRule
 The wrong rule is specified.,Une mauvaise règle est spécifiée.,module,Magento_SalesRule
+You saved the rule.,Règle enregistrée.,module,Magento_SalesRule
+Something went wrong while saving the rule data. Please review the error log.,Une erreur s'est produite pendant l'enregistrement des données de la règle. Merci de vérifer le journal des erreurs.,module,Magento_SalesRule
 Alphanumeric,Alphanumérique,module,Magento_SalesRule
 Alphabetical,Alphabétique,module,Magento_SalesRule
 Numeric,Numérique,module,Magento_SalesRule
@@ -5022,6 +5031,7 @@ Some coupons are invalid.,Certains coupons sont invalides.,module,Magento_SalesR
 Item totals are not set for the rule.,Le total des articles n'est pas spécifié dans la règle.,module,Magento_SalesRule
 "%1 Cart Price Rules based on ""%2"" attribute have been disabled.","La règle de prix panier %1 basée sur l'attribut ""%2"" a été désactivée.",module,Magento_SalesRule
 Auto Generated Specific Coupon Codes,Codes de bons de réduction spécifiques générés automatiquement,module,Magento_SalesRule
+Web Site,Site web,module,Magento_SalesRule
 Entity Sequence profile not added to meta active profile,Le profil de récurrence n'a pas pas été ajouté aux métadonnées du profil courant,module,Magento_SalesSequence
 Not enough arguments,Pas assez d'arguments,module,Magento_SalesSequence
 Search Term,Terme de recherche,module,Magento_Search
@@ -5808,8 +5818,11 @@ User Email,Email de l'utilisateur,module,Magento_User
 Password,Mot de passe,module,Magento_User
 New Password,Nouveau mot de passe,module,Magento_User
 Password Confirmation,Confirmation du mot de passe,module,Magento_User
+Interface Locale,Langue de l'interface,module,Magento_User
 This account is,Ce compte est,module,Magento_User
 Account Status,Statut du compte,module,Magento_User
+Current User Identity Verification,Vérification de l'identité de l'utilisateur actuel,module,Magento_User
+Your Password,Votre mot de passe a expiré. Merci de contacter votre administrateur.,module,Magento_User
 User Roles Information,Informations rôle utilisateur,module,Magento_User
 Assigned,Affecté,module,Magento_User
 Role,Rôle,module,Magento_User
@@ -5821,6 +5834,7 @@ Please specify the correct account and try again.,Merci de spécifier un compte 
 Your password reset link has expired.,Le lien de réinitialisation de mot de passe a expiré.,module,Magento_User
 We'll email you a link to reset your password.,Nous allons vous envoyer par email un lien pour réinitialiser votre mot de passe.,module,Magento_User
 Please correct this email address:,Merci de corriger cette adresse email :,module,Magento_User
+Please enter an email address.,Merci de renseigner une adresse email.,module,Magento_User
 You updated your password.,Mot de passe mis à jour.,module,Magento_User
 Locked Users,Utilisateurs bloqués,module,Magento_User
 Unlocked %1 user(s).,%1 utilisateur(s) débloqué(s).,module,Magento_User
@@ -5841,10 +5855,13 @@ New Role,Nouveau rôle,module,Magento_User
 This role no longer exists.,Ce rôle n'existe plus.,module,Magento_User
 You saved the role.,Rôle enregistré.,module,Magento_User
 An error occurred while saving this role.,Erreur lors de la sauvegarde de ce rôle.,module,Magento_User
+You have entered an invalid password for current user.,Vous avez renseigné un mot de passe non valide pour l'utilisateur actuel.,module,Magento_User
 You saved the user.,Utilisateur enregistré.,module,Magento_User
 A user with the same user name or email already exists.,Un utilisateur avec le même nom d'utilisateur ou la même adresse email existe déjà.,module,Magento_User
 Recommended,Recommandé,module,Magento_User
 Forced,Forcé,module,Magento_User
+You did not sign in correctly or your account is temporarily disabled.,Erreur dans les paramètres de connexion ou votre compte est temporairement désactivé.,module,Magento_User
+You need more permissions to access this.,Vous avez besoin de permissions supplémentaires pour accéder à ceci.,module,Magento_User
 User Name is a required field.,Nom d'utilisateur est un champ obligatoire.,module,Magento_User
 First Name is a required field.,Prénom est un champ obligatoire.,module,Magento_User
 Last Name is a required field.,Nom est un champ obligatoire.,module,Magento_User
@@ -5873,6 +5890,7 @@ All,Tous,module,Magento_User
 Resources,Ressources,module,Magento_User
 Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Attention !\r\nCette action supprimera cet utilisateur des rôles déjà assignés.\r\nÊtes-vous sûr(e) ?,module,Magento_User
 Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?,Attention !\r\nCette action supprimera ces utilisateurs des rôles déjà assignés.\r\nÊtes-vous sûr(e) ?,module,Magento_User
+"%name,","%name,",module,Magento_User
 The password for your account has been successfully changed.,Le mot de passe de votre compte a bien été modifié.,module,Magento_User
 "If you did not request this change, please contact us.","Si vous n'avez pas effectué cette demande, merci de nous contacter.",module,Magento_User
 "Thank you,","Merci,",module,Magento_User
@@ -5983,6 +6001,8 @@ Yes,Oui,module,Magento_Usps
 No,Non,module,Magento_Usps
 Not Required,Non requis,module,Magento_Usps
 Required,Obligatoire,module,Magento_Usps
+For some reason we can't retrieve tracking info right now.,Impossible de retrouver les informations de suivi.,module,Magento_Usps
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.","Désolé, une erreur s'est produite. Merci d'essayer à nouveau ou contactez-nous pour obtenir de l'aide.",module,Magento_Usps
 track_summary,track_summary,module,Magento_Usps
 Empty response,Réponse vide,module,Magento_Usps
 Service type does not match,Le type de service ne correspond pas,module,Magento_Usps
@@ -6165,6 +6185,7 @@ Wish List,Liste d'envies,module,Magento_Wishlist
 Wish List Sharing,Partage de liste d'envies,module,Magento_Wishlist
 My Wish List,Ma liste d'envies,module,Magento_Wishlist
 %1's Wish List,Liste d'envies de %1,module,Magento_Wishlist
+Page not found.,Page introuvable.,module,Magento_Wishlist
 We can't specify a product.,Impossible de spécifier le produit.,module,Magento_Wishlist
 We can't add the item to Wish List right now: %1.,Impossible d'ajouter le produit à la liste d'envies : %1.,module,Magento_Wishlist
 We can't add the item to Wish List right now.,Impossible d'ajouter le produit à la liste d'envies.,module,Magento_Wishlist
@@ -6201,6 +6222,7 @@ Cannot specify product.,Impossible de spécifier le produit.,module,Magento_Wish
 Product is not salable.,Le produit n'est pas achetable.,module,Magento_Wishlist
 Invalid item option format.,Format d'option d'élément invalide.,module,Magento_Wishlist
 "%1 for ""%2"".","%1 pour ""%2"".",module,Magento_Wishlist
+We can't add this item to your shopping cart right now.,Impossible d'ajouter ce produit à votre panier.,module,Magento_Wishlist
 We couldn't add the following product(s) to the shopping cart: %1.,Impossible d'ajouter les produits suivants au panier : %1.,module,Magento_Wishlist
 We can't update the Wish List right now.,Impossible de mettre à jour la liste d'envies.,module,Magento_Wishlist
 %1 product(s) have been added to shopping cart: %2.,%1 produits ont été ajoutés à votre panier : %2.,module,Magento_Wishlist
@@ -6209,11 +6231,13 @@ We cannot retrieve the Wish List.,Impossible de récuperer la liste d'envies.,mo
 %1's Wishlist,Liste d'envies de %1,module,Magento_Wishlist
 We can't specify a wish list item.,Impossible de spécifier un produit de la liste d'envies.,module,Magento_Wishlist
 The product does not exist.,Le produit n'existe pas.,module,Magento_Wishlist
+Test Phrase,Test Phrase,module,Magento_Wishlist
 message,message,module,Magento_Wishlist
 Message,Message,module,Magento_Wishlist
 error-message,error-message,module,Magento_Wishlist
 LocalizedException,LocalizedException,module,Magento_Wishlist
 Product Exception.,Product Exception.,module,Magento_Wishlist
+Localized Exception.,Localized Exception.,module,Magento_Wishlist
 Are you sure you want to remove this item?,Êtes-vous sûr de vouloir supprimer ce produit ?,module,Magento_Wishlist
 Share Wish List,Partager la liste d'envies,module,Magento_Wishlist
 Add All to Cart,Tout ajouter au panier,module,Magento_Wishlist
@@ -6222,6 +6246,7 @@ Move to Wishlist,Ajouter à la <br/>liste d'envies,module,Magento_Wishlist
 View Product,Voir produit,module,Magento_Wishlist
 Qty,Qté,module,Magento_Wishlist
 Add to Cart,Ajouter au panier,module,Magento_Wishlist
+Availability,Disponibilité,module,Magento_Wishlist
 In stock,En stock,module,Magento_Wishlist
 Out of stock,Épuisé,module,Magento_Wishlist
 Edit,Éditer,module,Magento_Wishlist
@@ -6234,6 +6259,7 @@ Options Details,Détails des options,module,Magento_Wishlist
 RSS link to %1's wishlist,Flux RSS de la liste d'envies de %1,module,Magento_Wishlist
 RSS Feed,Flux RSS,module,Magento_Wishlist
 Product,Produit,module,Magento_Wishlist
+Add to Wish List,Ajouter à la liste d'envies,module,Magento_Wishlist
 Back,Retour,module,Magento_Wishlist
 Wish List is empty now.,La liste d'envies est vide.,module,Magento_Wishlist
 * Required Fields,* Champs obligatoires,module,Magento_Wishlist
@@ -6251,6 +6277,7 @@ View all Wish List items,Voir tous les produits de la liste d'envies,module,Mage
 Share Options,Options de partage,module,Magento_Wishlist
 Email Sender,Expéditeur du mail,module,Magento_Wishlist
 Email Template,Gabarit du mail,module,Magento_Wishlist
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le modèle d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Wishlist
 Max Emails Allowed to be Sent,Nombre maximal de destinataires,module,Magento_Wishlist
 Email Text Length Limit,Longueur maximal du texte du message,module,Magento_Wishlist
 General Options,Options générales,module,Magento_Wishlist
