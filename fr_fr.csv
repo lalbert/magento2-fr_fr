@@ -2127,7 +2127,7 @@ Enable WYSIWYG Editor,Activer l'éditeur WYSIWYG,module,Magento_Cms
 CMS Page Link,Lien Page CMS,module,Magento_Cms
 Link to a CMS Page,Lien vers une page CMS,module,Magento_Cms
 CMS Page,Page CMS,module,Magento_Cms
-Choisissez la page...,Choisissez la page…,module,Magento_Cms
+Select Page...,Choisissez la page...,module,Magento_Cms
 Anchor Custom Text,Présenter un texte personnalisé,module,Magento_Cms
 "If empty, the Page Title will be used","Si vide, le titre de page sera utilisé",module,Magento_Cms
 Anchor Custom Title,Présenter un titre personnalisé,module,Magento_Cms
@@ -3775,7 +3775,7 @@ First Name,Prénom,module,Magento_Paypal
 Last Name,Nom,module,Magento_Paypal
 Reference ID,Réference ID,module,Magento_Paypal
 Status,Statut,module,Magento_Paypal
-Created,Créée,module,Magento_Paypal
+Created,Créé,module,Magento_Paypal
 N/A,N/A,module,Magento_Paypal
 Updated,Mis à jour,module,Magento_Paypal
 Back,Retour,module,Magento_Paypal
@@ -4260,7 +4260,7 @@ Reviews for %1,Commentaires pour %1,module,Magento_Reports
 Customer,Client,module,Magento_Reports
 Title,Titre,module,Magento_Reports
 Detail,Détail,module,Magento_Reports
-Created,Créée,module,Magento_Reports
+Created,Créé,module,Magento_Reports
 Products Reviews,Produits commentés,module,Magento_Reports
 Products Bestsellers Report,Rapport des meilleures ventes,module,Magento_Reports
 Coupons Usage Report,Rapport des utilisations des bons de réduction,module,Magento_Reports
@@ -4398,7 +4398,7 @@ Guest,Invité,module,Magento_Review
 Summary Rating,Aperçu des notations,module,Magento_Review
 Detailed Rating,Notation détaillée,module,Magento_Review
 ID,ID,module,Magento_Review
-Created,Créée,module,Magento_Review
+Created,Créé,module,Magento_Review
 Title,Titre,module,Magento_Review
 Type,Type,module,Magento_Review
 SKU,Réf.,module,Magento_Review
@@ -5041,7 +5041,7 @@ Default Template,Gabarit par défaut,module,Magento_Sales
 Name,Nom,module,Magento_Sales
 ZIP/Post Code,Code postal,module,Magento_Sales
 Website,Site web,module,Magento_Sales
-Created,Créée,module,Magento_Sales
+Created,Créé,module,Magento_Sales
 Invoice Date,Date de facturation,module,Magento_Sales
 Total Quantity,Quantité totale,module,Magento_Sales
 Default Status,Statut par défaut,module,Magento_Sales
@@ -5707,10 +5707,14 @@ Delete Folder,Supprimer le dossier,module,Magento_Theme
 Delete File,Supprimer le fichier,module,Magento_Theme
 Insert File,Insérer le fichier,module,Magento_Theme
 New Folder Name:,Nouveau nom de dossier :,module,Magento_Theme
+Are you sure you want to delete this folder?,Êtes-vous sûr de vouloir supprimer ce dossier?,module,Magento_Theme
+Are you sure you want to delete this file?,Êtes-vous sûr de vouloir supprimer ce fichier?,module,Magento_Theme
 Storage Root,Racine du stockage,module,Magento_Theme
 label,libellé,module,Magento_Theme
 -- Please Select --,-- Votre choix --,module,Magento_Theme
 Copy,Copie,module,Magento_Theme
+We can't upload the file right now.,Nous ne pouvons pas télécharger le fichier actuellement.,module,Magento_Theme
+We can't delete root directory %1 right now.,Nous ne pouvons pas supprimer le répertoire racine %1 actuellement.,module,Magento_Theme
 Message,Message,module,Magento_Theme
 exception,exception,module,Magento_Theme
 Remove,Supprimer,module,Magento_Theme
