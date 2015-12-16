@@ -4531,17 +4531,43 @@ Sign up to be notified when this product is back in stock.,Inscrivez-vous pour �
 Url,URL,module,Magento_ProductVideo
 Title,Titre,module,Magento_ProductVideo
 Description,Description,module,Magento_ProductVideo
+Preview Image,Image d'aperçu,module,Magento_ProductVideo
+Get Video Information,Obtenir des informations de la vidéo,module,Magento_ProductVideo
 Hide from Product Page,Masquer dans la page du produit,module,Magento_ProductVideo
 Role,Rôle,module,Magento_ProductVideo
+YouTube and Vimeo supported.,YouTube et Vimeo sont supportés.,module,Magento_ProductVideo
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Viméo supporté. Pour ajouter une vidéo YouTube, veuillez <a href=""%1"">renseigner une clé d'API YouTube</a> en premier.",module,Magento_ProductVideo
+Could not get preview image information. Please check your connection and try again.,Impossible d'obtenir une image d'aperçu. Veuillez vérifier votre connexion et réessayez.,module,Magento_ProductVideo
+Click here to add videos.,Cliquez ici pour ajouter des vidéos.,module,Magento_ProductVideo
+New Video,Nouvelle vidéo,module,Magento_ProductVideo
+Add Video,Ajouter une vidéo,module,Magento_ProductVideo
+Add video,Ajouter une vidéo,module,Magento_ProductVideo
 Click here or drag and drop to add images.,Cliquez ici ou glisser-déposer pour ajouter des images.,module,Magento_ProductVideo
-Delete image,Effacer l'image,module,Magento_ProductVideo
+Delete video,Supprimer la vidéo,module,Magento_ProductVideo
+Delete image,Supprimer l'image,module,Magento_ProductVideo
 Make Base,Fabriquer la base,module,Magento_ProductVideo
 Hidden,Caché,module,Magento_ProductVideo
 Alt Text,Texte alternatif,module,Magento_ProductVideo
+Title:,Titre :,module,Magento_ProductVideo
+Uploaded:,Date :,module,Magento_ProductVideo
+Uploader:,Propriétaire :,module,Magento_ProductVideo
+Duration:,Durée :,module,Magento_ProductVideo
+Video Error,Erreur de la vidéo,module,Magento_ProductVideo
+Unknown video type,Type de vidéo inconnu,module,Magento_ProductVideo
+Invalid video url,URL de la vidéo invalide,module,Magento_ProductVideo
+Youtube API key is invalid,La clé d'API YouTube est invalide,module,Magento_ProductVideo
+Video cant be shown due to the following reason: ,La vidéo ne peut être affichée pour la raison suivante : ,module,Magento_ProductVideo
+Video not found,Vidéo introuvable,module,Magento_ProductVideo
 Save,Sauvegarder,module,Magento_ProductVideo
 Cancel,Annuler,module,Magento_ProductVideo
 Delete,Supprimer,module,Magento_ProductVideo
+Edit Video,Modifier la vidéo,module,Magento_ProductVideo
 Images and Videos,Images et vidéos,module,Magento_ProductVideo
+Product Video,Vidéos des produits,module,Magento_ProductVideo
+YouTube API Key,Clé d'API YouTube,module,Magento_ProductVideo
+Autostart base video,Démarrage automatique de la vidéo de base,module,Magento_ProductVideo
+Show related video,Afficher les vidéos en relation,module,Magento_ProductVideo
+Auto restart video,Redémarrage automatique de la vidéo,module,Magento_ProductVideo
 "Unable to save address. Please, check input data.","Impossible d'enregistrer l'adresse. S'il vous plaît, vérifier les données que vous avez entrée.",module,Magento_Quote
 Shipping address is not set,L'adresse de livraison n'est pas configuré,module,Magento_Quote
 The requested Payment Method is not available.,La méthode demandée de paiement n'est pas disponible.,module,Magento_Quote
