@@ -3665,30 +3665,30 @@ Click here to stop alerts for this product.,Cliquez ici pour vous désinscrire d
 Unsubscribe from all price alerts,Se désabonner de toutes les alertes de prix,module,Magento_ProductAlert
 In stock alert! We wanted you to know that these products are now available:,Produits en stock ! Nous vous informons que les produits suivants sont à nouveau en stock :,module,Magento_ProductAlert
 Unsubscribe from all stock alerts,Se désabonner de toutes les alertes de disponibilité,module,Magento_ProductAlert
-Url,Url,module,Magento_ProductVideo
-Title,Title,module,Magento_ProductVideo
+Url,URL,module,Magento_ProductVideo
+Title,Titre,module,Magento_ProductVideo
 Description,Description,module,Magento_ProductVideo
-Preview Image,Preview Image,module,Magento_ProductVideo
-Get Video Information,Get Video Information,module,Magento_ProductVideo
-Hide from Product Page,Hide from Product Page,module,Magento_ProductVideo
-Role,Role,module,Magento_ProductVideo
-YouTube and Vimeo supported.,YouTube and Vimeo supported.,module,Magento_ProductVideo
-"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.",module,Magento_ProductVideo
-Could not get preview image information. Please check your connection and try again.,Could not get preview image information. Please check your connection and try again.,module,Magento_ProductVideo
-Click here to add videos.,Click here to add videos.,module,Magento_ProductVideo
-New Video,New Video,module,Magento_ProductVideo
-Add Video,Add Video,module,Magento_ProductVideo
-Add video,Add video,module,Magento_ProductVideo
-Click here or drag and drop to add images.,Click here or drag and drop to add images.,module,Magento_ProductVideo
-Delete video,Delete video,module,Magento_ProductVideo
-Delete image,Delete image,module,Magento_ProductVideo
-Make Base,Make Base,module,Magento_ProductVideo
-Hidden,Hidden,module,Magento_ProductVideo
-Alt Text,Alt Text,module,Magento_ProductVideo
-Title:,Title:,module,Magento_ProductVideo
-Uploaded:,Uploaded:,module,Magento_ProductVideo
-Uploader:,Uploader:,module,Magento_ProductVideo
-Duration:,Duration:,module,Magento_ProductVideo
+Preview Image,Image d'aperçu,module,Magento_ProductVideo
+Get Video Information,Obtenir des informations de la vidéo,module,Magento_ProductVideo
+Hide from Product Page,Masquer dans la page du produit,module,Magento_ProductVideo
+Role,Rôle,module,Magento_ProductVideo
+YouTube and Vimeo supported.,YouTube et Vimeo sont supportés.,module,Magento_ProductVideo
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Viméo supporté. Pour ajouter une vidéo YouTube, veuillez <a href=""%1"">renseigner une clé d'API YouTube</a> en premier.",module,Magento_ProductVideo
+Could not get preview image information. Please check your connection and try again.,Impossible d'obtenir une image d'aperçu. Veuillez vérifier votre connexion et réessayez.,module,Magento_ProductVideo
+Click here to add videos.,Cliquez ici pour ajouter des vidéos.,module,Magento_ProductVideo
+New Video,Nouvelle vidéo,module,Magento_ProductVideo
+Add Video,Ajouter une vidéo,module,Magento_ProductVideo
+Add video,Ajouter une vidéo,module,Magento_ProductVideo
+Click here or drag and drop to add images.,Cliquez ici ou glisser-déposer pour ajouter des images.,module,Magento_ProductVideo
+Delete video,Supprimer la vidéo,module,Magento_ProductVideo
+Delete image,Supprimer l'image,module,Magento_ProductVideo
+Make Base,Fabriquer la base,module,Magento_ProductVideo
+Hidden,Caché,module,Magento_ProductVideo
+Alt Text,Texte alternatif,module,Magento_ProductVideo
+Title:,Titre :,module,Magento_ProductVideo
+Uploaded:,Date :,module,Magento_ProductVideo
+Uploader:,Propriétaire :,module,Magento_ProductVideo
+Duration:,Durée :,module,Magento_ProductVideo
 "Unable to save address. Please, check input data.","Unable to save address. Please, check input data.",module,Magento_Quote
 Cart %1 doesn't contain products,Cart %1 doesn't contain products,module,Magento_Quote
 Could not apply coupon code,Could not apply coupon code,module,Magento_Quote
@@ -6187,17 +6187,17 @@ We can't complete your order because you don't have a payment method set up.,Imp
 Please choose a payment method.,Merci de sélectionner une méthode de paiement.,module,Magento_Multishipping
 "Sorry, something went wrong.","Sorry, something went wrong.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Sorry, something went wrong. Please try again later.",module,Magento_Paypal
-Video Error,Video Error,module,Magento_ProductVideo
-Unknown video type,Unknown video type,module,Magento_ProductVideo
-Invalid video url,Invalid video url,module,Magento_ProductVideo
-Youtube API key is invalid,Youtube API key is invalid,module,Magento_ProductVideo
-Video cant be shown due to the following reason: ,Video cant be shown due to the following reason: ,module,Magento_ProductVideo
-Video not found,Video not found,module,Magento_ProductVideo
-Save,Save,module,Magento_ProductVideo
-Cancel,Cancel,module,Magento_ProductVideo
-Delete,Delete,module,Magento_ProductVideo
-Edit Video,Edit Video,module,Magento_ProductVideo
-Images and Videos,Images and Videos,module,Magento_ProductVideo
+Video Error,Erreur de la vidéo,module,Magento_ProductVideo
+Unknown video type,Type de vidéo inconnu,module,Magento_ProductVideo
+Invalid video url,URL de la vidéo invalide,module,Magento_ProductVideo
+Youtube API key is invalid,La clé d'API YouTube est invalide,module,Magento_ProductVideo
+Video cant be shown due to the following reason: ,La vidéo ne peut être affichée pour la raison suivante : ,module,Magento_ProductVideo
+Video not found,Vidéo introuvable,module,Magento_ProductVideo
+Save,Sauvegarder,module,Magento_ProductVideo
+Cancel,Annuler,module,Magento_ProductVideo
+Delete,Supprimer,module,Magento_ProductVideo
+Edit Video,Modifier la vidéo,module,Magento_ProductVideo
+Images and Videos,Images et vidéos,module,Magento_ProductVideo
 This won't take long . . .,Ce ne sera pas long. . .,module,Magento_Rule
 Gift Options for ,Gift Options for ,module,Magento_Sales
 Add Products,Add Products,module,Magento_Sales
@@ -7445,11 +7445,11 @@ Error Email Sender,Expéditeur du mail d'erreur,module,Magento_ProductAlert
 Error Email Template,Gabarit du mail d'erreur,module,Magento_ProductAlert
 Sign up for price alert,Enregistrez-vous pour recevoir une alerte de modification de prix,module,Magento_ProductAlert
 Sign up to be notified when this product is back in stock.,Inscrivez-vous pour être averti lorsque le produit sera de nouveau en stock.,module,Magento_ProductAlert
-Product Video,Product Video,module,Magento_ProductVideo
-YouTube API Key,YouTube API Key,module,Magento_ProductVideo
-Autostart base video,Autostart base video,module,Magento_ProductVideo
-Show related video,Show related video,module,Magento_ProductVideo
-Auto restart video,Auto restart video,module,Magento_ProductVideo
+Product Video,Vidéos des produits,module,Magento_ProductVideo
+YouTube API Key,Clé d'API YouTube,module,Magento_ProductVideo
+Autostart base video,Démarrage automatique de la vidéo de base,module,Magento_ProductVideo
+Show related video,Afficher les vidéos en relation,module,Magento_ProductVideo
+Auto restart video,Redémarrage automatique de la vidéo,module,Magento_ProductVideo
 Recently Viewed/Compared Products,Recently Viewed/Compared Products,module,Magento_Reports
 Show for Current,Show for Current,module,Magento_Reports
 Default Recently Viewed Products Count,Default Recently Viewed Products Count,module,Magento_Reports
