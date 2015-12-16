@@ -2475,8 +2475,8 @@ Your password reset link has expired.,Le lien de réinitialisation du mot de pas
 "There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Il existe déjà un compte pour cette adresse email. Si vous êtes sûr d'avoir correctement saisi votre email, <a href=""%1"">cliquez ici</a> pour récupérer votre mot de passe et accéder à votre compte.",module,Magento_Customer
 We can't save the customer.,Nous ne pouvons pas enregistrer le client.,module,Magento_Customer
 Please make sure your passwords match.,Veuillez vérifier que vos mots de passe concordent.,module,Magento_Customer
-"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","si vous êtes un client assujetti à la TVA, s'il vous plaît <a href=""%1""> Cliquez ici </a> et entrer votre adresse de livraison pour un calcul de TVA correcte.",module,Magento_Customer
-"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","si vous êtes un client assujetti à la TVA, s'il vous plaît <a href=""%1""> Cliquez ici </a> et entrer votre adresse de facturation pour un calcul de TVA correcte.",module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Si vous êtes un client assujetti à la TVA, s'il vous plaît <a href=""%1""> Cliquez ici </a> et entrer votre adresse de livraison pour un calcul de TVA correcte.",module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Si vous êtes un client assujetti à la TVA, s'il vous plaît <a href=""%1""> Cliquez ici </a> et entrer votre adresse de facturation pour un calcul de TVA correcte.",module,Magento_Customer
 Account Information,Informations du compte,module,Magento_Customer
 Invalid input,Saisie invalide,module,Magento_Customer
 You saved the account information.,Vous avez sauvegardé les informations de compte.,module,Magento_Customer
@@ -2547,7 +2547,7 @@ Please enter the first name.,Veuillez renseigner le prénom.,module,Magento_Cust
 Please enter the last name.,Veuillez renseigner le nom de famille.,module,Magento_Customer
 Please enter the street.,Veuillez renseigner la rue.,module,Magento_Customer
 Please enter the city.,Veuillez renseigner la ville.,module,Magento_Customer
-Please enter the phone number.,Veuillez renseigner le numéro de téléphone,module,Magento_Customer
+Please enter the phone number.,Veuillez renseigner le numéro de téléphone.,module,Magento_Customer
 Please enter the zip/postal code.,Veuillez renseigner le code postal.,module,Magento_Customer
 Please enter the country.,Veuillez renseigner le pays.,module,Magento_Customer
 Please enter the state/province.,Veuillez renseigner le département.,module,Magento_Customer
@@ -2629,7 +2629,7 @@ Exception message,Message d'exception,module,Magento_Customer
 Validator Exception,Validateur d'exception,module,Magento_Customer
 Localized Exception,Localisateur d'exception,module,Magento_Customer
 Label,Libellé,module,Magento_Customer
-Select...,Sélectionner…,module,Magento_Customer
+Select...,Sélectionner...,module,Magento_Customer
 Edit,Éditer,module,Magento_Customer
 Visitor,Visiteur,module,Magento_Customer
 Customer,Client,module,Magento_Customer
@@ -3137,9 +3137,21 @@ Dropdown,Liste déroulante,module,Magento_Eav
 Attribute object is undefined,L'objet attribut est indéfini,module,Magento_Eav
 Entity object is undefined,L'objet entité n'est pas défini,module,Magento_Eav
 """%1"" invalid type entered.","Le type de ""%1"" saisi est invalide.",module,Magento_Eav
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1"" contient des caractères non-alphabétiques ou non numériques.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" est une chaîne vide.",module,Magento_Eav
+"""%1"" contains non-numeric characters.","""%1"" contient des caractères non numériques.",module,Magento_Eav
+"""%1"" contains non-alphabetic characters.","""%1"" contient des caractères non alphabétiques.",module,Magento_Eav
 """%1"" is not a valid email address.","""%1"" n'est pas un email valide.",module,Magento_Eav
 """%1"" is not a valid hostname.","""%1"" n'est pas un nom d'hôte valide.",module,Magento_Eav
+"""%1"" uses too many characters.","""%1"" utilise trop de caractères.",module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.","%value%' ressemble à une adresse IP, ce qui n'est pasun format acceptable.",module,Magento_Eav
+%value%' looks like a DNS hostname but we cannot match the TLD against known list.,"%value%' ressemble à un nom d'hôte DNS, mais nous ne pouvons pas correspondre vis à vis d'une liste TLD connue.",module,Magento_Eav
+%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' ressemble à un nom d'hôte DNS mais contient un tiret dans une position non valide.,module,Magento_Eav
+%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value%' ressemble à un nom d'hôte DNS, mais nous ne pouvons pas correspondre vis à vis du schéma du nom d'hôte pour le TLD '%tld%'.",module,Magento_Eav
+%value%' looks like a DNS hostname but cannot extract TLD part.,%value%' ressemble à un nom d'hôte DNS mais ne peut extraire une partie du TLD.,module,Magento_Eav
+%value%' does not look like a valid local network name.,%value%' ne ressemble pas à un nom de réseau local valide.,module,Magento_Eav
+"%value%' looks like a local network name, which is not an acceptable format.","%value%' ressemble à un nom de réseau local, ce qui n'est pas un format acceptable.",module,Magento_Eav
+"%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","%value%' apparaît comme un nom d'hôte DNS, mais la notation punycode donné ne peut pas être décodé.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" n'est pas une URL valide.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" n'est pas une date valide.",module,Magento_Eav
 """%1"" does not fit the entered date format.","""%1"" ne correspond pas au format de date saisi.",module,Magento_Eav
@@ -3997,7 +4009,11 @@ Billing Agreement #%1,Entente de facturation n°%1,module,Magento_Paypal
 General Information,Informations générales,module,Magento_Paypal
 Related Orders,Les commandes connexes,module,Magento_Paypal
 Order,Commande,module,Magento_Paypal
+Purchased,Acheté,module,Magento_Paypal
+Bill-to Name,Facture au Nom,module,Magento_Paypal
+Ship-to Name,Expédition au Nom,module,Magento_Paypal
 Order Total,Total de la commande,module,Magento_Paypal
+Purchase Point,Indication Achat,module,Magento_Paypal
 Billing Agreement View,Vue de l'entente de facturation,module,Magento_Paypal
 View Transaction Details,Voir les détails des transactions,module,Magento_Paypal
 Reference Information,Information sur la référence,module,Magento_Paypal
@@ -4939,6 +4955,7 @@ Please enter the first name.,Veuillez renseigner le prénom.,module,Magento_Sale
 Please enter the last name.,Veuillez renseigner le nom de famille.,module,Magento_Sales
 Please enter the street.,Veuillez renseigner la rue.,module,Magento_Sales
 Please enter the city.,Veuillez renseigner la ville.,module,Magento_Sales
+Please enter the phone number.,Veuillez renseigner le numéro de téléphone.,module,Magento_Sales
 Please enter the zip/postal code.,Veuillez renseigner le code postal.,module,Magento_Sales
 Please enter the country.,Veuillez renseigner le pays.,module,Magento_Sales
 Please enter the state/province.,Veuillez renseigner le département.,module,Magento_Sales
@@ -5251,14 +5268,18 @@ Anchor Custom Title,Présenter un titre personnalisé,module,Magento_Sales
 Template,Gabarit,module,Magento_Sales
 Default Template,Gabarit par défaut,module,Magento_Sales
 Name,Nom,module,Magento_Sales
+Phone,Téléphone,module,Magento_Sales
 ZIP/Post Code,Code postal,module,Magento_Sales
 Website,Site web,module,Magento_Sales
+Bill-to Name,Facture au Nom,module,Magento_Sales
 Created,Créé,module,Magento_Sales
 Invoice Date,Date de facturation,module,Magento_Sales
+Ship-to Name,Expédition au Nom,module,Magento_Sales
 Total Quantity,Quantité totale,module,Magento_Sales
 Default Status,Statut par défaut,module,Magento_Sales
 All Store Views,Toutes les vues magasin,module,Magento_Sales
 PDF Credit Memos,Avoirs en PDF,module,Magento_Sales
+Purchase Point,Indication Achat,module,Magento_Sales
 Print Invoices,Imprimer les factures,module,Magento_Sales
 Print Credit Memos,Imprimer les avoirs,module,Magento_Sales
 Print All,Tout imprimer,module,Magento_Sales
@@ -5927,6 +5948,7 @@ label,libellé,module,Magento_Theme
 Copy,Copie,module,Magento_Theme
 We can't upload the file right now.,Nous ne pouvons pas télécharger le fichier actuellement.,module,Magento_Theme
 We can't delete root directory %1 right now.,Nous ne pouvons pas supprimer le répertoire racine %1 actuellement.,module,Magento_Theme
+localized exception,localized exception,module,Magento_Theme
 Message,Message,module,Magento_Theme
 exception,exception,module,Magento_Theme
 Remove,Supprimer,module,Magento_Theme
