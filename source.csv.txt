@@ -3048,109 +3048,109 @@ Continue Shopping,Continuer vos achats,module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting",Aucun identifiant d'application New Relic configuré. Impossible de poursuivre la tâche périodique.,module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","L'intégration de New Relic nécessite l'agent newrelic-php5 qui n'est pas installé. Vous trouverez l'aide pour installer l'agent <a target=""_blank"" href=""%1"">ici</a>.",module,Magento_NewRelicReporting
-Delete Selected Problems,Delete Selected Problems,module,Magento_Newsletter
-Unsubscribe Selected,Unsubscribe Selected,module,Magento_Newsletter
-Back,Back,module,Magento_Newsletter
-Reset,Reset,module,Magento_Newsletter
-Preview Template,Preview Template,module,Magento_Newsletter
-Save Newsletter,Save Newsletter,module,Magento_Newsletter
-Save and Resume,Save and Resume,module,Magento_Newsletter
-View Newsletter,View Newsletter,module,Magento_Newsletter
-Edit Newsletter,Edit Newsletter,module,Magento_Newsletter
-Queue Information,Queue Information,module,Magento_Newsletter
-Queue Date Start,Queue Date Start,module,Magento_Newsletter
-Subscribers From,Subscribers From,module,Magento_Newsletter
-Subject,Subject,module,Magento_Newsletter
-Sender Name,Sender Name,module,Magento_Newsletter
-Sender Email,Sender Email,module,Magento_Newsletter
+Delete Selected Problems,Supprimer les problèmes sélectionnés,module,Magento_Newsletter
+Unsubscribe Selected,Désinscription sélectionnée,module,Magento_Newsletter
+Back,Retour,module,Magento_Newsletter
+Reset,Réinitialiser,module,Magento_Newsletter
+Preview Template,Prévisualiser le gabarit,module,Magento_Newsletter
+Save Newsletter,Sauvegarder la newsletter,module,Magento_Newsletter
+Save and Resume,Sauvegarder et continuer,module,Magento_Newsletter
+View Newsletter,Voir la newsletter,module,Magento_Newsletter
+Edit Newsletter,Éditer la newsletter,module,Magento_Newsletter
+Queue Information,Informations de file,module,Magento_Newsletter
+Queue Date Start,Date de démarrage de la file,module,Magento_Newsletter
+Subscribers From,Abonnés de,module,Magento_Newsletter
+Subject,Sujet,module,Magento_Newsletter
+Sender Name,Nom de l'expéditeur,module,Magento_Newsletter
+Sender Email,Email de l'expéditeur,module,Magento_Newsletter
 Message,Message,module,Magento_Newsletter
-Newsletter Styles,Newsletter Styles,module,Magento_Newsletter
-Start,Start,module,Magento_Newsletter
+Newsletter Styles,Styles de newsletter,module,Magento_Newsletter
+Start,Commencer,module,Magento_Newsletter
 Pause,Pause,module,Magento_Newsletter
-Do you really want to cancel the queue?,Do you really want to cancel the queue?,module,Magento_Newsletter
-Cancel,Cancel,module,Magento_Newsletter
-Resume,Resume,module,Magento_Newsletter
-Preview,Preview,module,Magento_Newsletter
-Add New Template,Add New Template,module,Magento_Newsletter
-Newsletter Templates,Newsletter Templates,module,Magento_Newsletter
-Convert to Plain Text,Convert to Plain Text,module,Magento_Newsletter
-Return HTML Version,Return HTML Version,module,Magento_Newsletter
-Delete Template,Delete Template,module,Magento_Newsletter
-Save As,Save As,module,Magento_Newsletter
-Save Template,Save Template,module,Magento_Newsletter
-Edit Newsletter Template,Edit Newsletter Template,module,Magento_Newsletter
-New Newsletter Template,New Newsletter Template,module,Magento_Newsletter
-Template Information,Template Information,module,Magento_Newsletter
-Template Name,Template Name,module,Magento_Newsletter
-Template Subject,Template Subject,module,Magento_Newsletter
-Template Content,Template Content,module,Magento_Newsletter
-Template Styles,Template Styles,module,Magento_Newsletter
-No Templates Found,No Templates Found,module,Magento_Newsletter
+Do you really want to cancel the queue?,Voulez-vous vraiment supprimer la file ?,module,Magento_Newsletter
+Cancel,Annuler,module,Magento_Newsletter
+Resume,Reprendre,module,Magento_Newsletter
+Preview,Prévisualiser,module,Magento_Newsletter
+Add New Template,Ajouter un nouveau gabarit,module,Magento_Newsletter
+Newsletter Templates,Gabarits newsletter,module,Magento_Newsletter
+Convert to Plain Text,Convertir en texte simple,module,Magento_Newsletter
+Return HTML Version,Revenir à la version HTML,module,Magento_Newsletter
+Delete Template,Supprimer le gabarit,module,Magento_Newsletter
+Save As,Sauvegarder sous,module,Magento_Newsletter
+Save Template,Sauvegarder le gabarit,module,Magento_Newsletter
+Edit Newsletter Template,Éditer le gabarit de newsletter,module,Magento_Newsletter
+New Newsletter Template,Nouveau gabarit de newsletter,module,Magento_Newsletter
+Template Information,Informations gabarit,module,Magento_Newsletter
+Template Name,Nom du gabarit,module,Magento_Newsletter
+Template Subject,Sujet du gabarit,module,Magento_Newsletter
+Template Content,Contenu du gabarit,module,Magento_Newsletter
+Template Styles,Styles de gabarit,module,Magento_Newsletter
+No Templates Found,Aucun gabarit trouvé,module,Magento_Newsletter
 ID,ID,module,Magento_Newsletter
-Template,Template,module,Magento_Newsletter
-Added,Added,module,Magento_Newsletter
-Updated,Updated,module,Magento_Newsletter
-Sender,Sender,module,Magento_Newsletter
-Template Type,Template Type,module,Magento_Newsletter
+Template,Gabarit,module,Magento_Newsletter
+Added,Ajouté,module,Magento_Newsletter
+Updated,Mis à jour,module,Magento_Newsletter
+Sender,Expéditeur,module,Magento_Newsletter
+Template Type,Type de gabarit,module,Magento_Newsletter
 Action,Action,module,Magento_Newsletter
-Queue Newsletter,Queue Newsletter,module,Magento_Newsletter
-We unsubscribed the people you identified.,We unsubscribed the people you identified.,module,Magento_Newsletter
-The problems you identified have been deleted.,The problems you identified have been deleted.,module,Magento_Newsletter
-Newsletter Problems Report,Newsletter Problems Report,module,Magento_Newsletter
-Newsletter Problem Reports,Newsletter Problem Reports,module,Magento_Newsletter
-Newsletter Queue,Newsletter Queue,module,Magento_Newsletter
-Edit Queue,Edit Queue,module,Magento_Newsletter
-Please correct the newsletter template and try again.,Please correct the newsletter template and try again.,module,Magento_Newsletter
-You saved the newsletter queue.,You saved the newsletter queue.,module,Magento_Newsletter
-Newsletter Subscribers,Newsletter Subscribers,module,Magento_Newsletter
+Queue Newsletter,File d'attente newsletter,module,Magento_Newsletter
+We unsubscribed the people you identified.,Désinscription des personnes sélectionnés.,module,Magento_Newsletter
+The problems you identified have been deleted.,Les problèmes que vous avez identifiés ont été supprimés.,module,Magento_Newsletter
+Newsletter Problems Report,Rapport des problèmes de newsletter,module,Magento_Newsletter
+Newsletter Problem Reports,Rapports des problèmes de newsletter,module,Magento_Newsletter
+Newsletter Queue,File d'attente newsletter,module,Magento_Newsletter
+Edit Queue,Éditer file,module,Magento_Newsletter
+Please correct the newsletter template and try again.,Veuillez corriger le gabarit de la newsletter et essayez à nouveau.,module,Magento_Newsletter
+You saved the newsletter queue.,File d'attente de la newsletter enregistrée.,module,Magento_Newsletter
+Newsletter Subscribers,Abonnés à la newsletter,module,Magento_Newsletter
 Newsletter,Newsletter,module,Magento_Newsletter
-Subscribers,Subscribers,module,Magento_Newsletter
-Please select one or more subscribers.,Please select one or more subscribers.,module,Magento_Newsletter
-Total of %1 record(s) were deleted.,Total of %1 record(s) were deleted.,module,Magento_Newsletter
-A total of %1 record(s) were updated.,A total of %1 record(s) were updated.,module,Magento_Newsletter
-The newsletter template has been deleted.,The newsletter template has been deleted.,module,Magento_Newsletter
-We can't delete this template right now.,We can't delete this template right now.,module,Magento_Newsletter
-Edit Template,Edit Template,module,Magento_Newsletter
-New Template,New Template,module,Magento_Newsletter
-Create Newsletter Template,Create Newsletter Template,module,Magento_Newsletter
-The newsletter template has been saved.,The newsletter template has been saved.,module,Magento_Newsletter
-Something went wrong while saving this template.,Something went wrong while saving this template.,module,Magento_Newsletter
-Newsletter Subscription,Newsletter Subscription,module,Magento_Newsletter
-Something went wrong while saving your subscription.,Something went wrong while saving your subscription.,module,Magento_Newsletter
-We saved the subscription.,We saved the subscription.,module,Magento_Newsletter
-We removed the subscription.,We removed the subscription.,module,Magento_Newsletter
-Your subscription has been confirmed.,Your subscription has been confirmed.,module,Magento_Newsletter
-This is an invalid subscription confirmation code.,This is an invalid subscription confirmation code.,module,Magento_Newsletter
-This is an invalid subscription ID.,This is an invalid subscription ID.,module,Magento_Newsletter
-This email address is already assigned to another user.,This email address is already assigned to another user.,module,Magento_Newsletter
-"Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.",module,Magento_Newsletter
-Please enter a valid email address.,Please enter a valid email address.,module,Magento_Newsletter
-The confirmation request has been sent.,The confirmation request has been sent.,module,Magento_Newsletter
-Thank you for your subscription.,Thank you for your subscription.,module,Magento_Newsletter
-There was a problem with the subscription: %1,There was a problem with the subscription: %1,module,Magento_Newsletter
-Something went wrong with the subscription.,Something went wrong with the subscription.,module,Magento_Newsletter
-You unsubscribed.,You unsubscribed.,module,Magento_Newsletter
-Something went wrong while unsubscribing you.,Something went wrong while unsubscribing you.,module,Magento_Newsletter
-Sent,Sent,module,Magento_Newsletter
-Cancelled,Cancelled,module,Magento_Newsletter
-Not Sent,Not Sent,module,Magento_Newsletter
-Sending,Sending,module,Magento_Newsletter
-Paused,Paused,module,Magento_Newsletter
-There are no subscribers selected.,There are no subscribers selected.,module,Magento_Newsletter
-You selected an invalid queue.,You selected an invalid queue.,module,Magento_Newsletter
-We cannot mark as received subscriber.,We cannot mark as received subscriber.,module,Magento_Newsletter
-Duplicate template code,Duplicate template code,module,Magento_Newsletter
-"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
-Choose Store View:,Choose Store View:,module,Magento_Newsletter
-Newsletter Message Preview,Newsletter Message Preview,module,Magento_Newsletter
-Add to Queue,Add to Queue,module,Magento_Newsletter
-Are you sure that you want to strip all tags?,Are you sure that you want to strip all tags?,module,Magento_Newsletter
-Please enter a new template name.,Please enter a new template name.,module,Magento_Newsletter
- Copy, Copy,module,Magento_Newsletter
-Are you sure you want to delete this template?,Are you sure you want to delete this template?,module,Magento_Newsletter
-Sign Up for Our Newsletter:,Sign Up for Our Newsletter:,module,Magento_Newsletter
-Enter your email address,Enter your email address,module,Magento_Newsletter
-Subscribe,Subscribe,module,Magento_Newsletter
+Subscribers,Abonnés,module,Magento_Newsletter
+Please select one or more subscribers.,Veuillez sélectionner un ou plusieurs abonnés.,module,Magento_Newsletter
+Total of %1 record(s) were deleted.,%1 enregistrement(s) ont été effacés.,module,Magento_Newsletter
+A total of %1 record(s) were updated.,Un total de %1 fiche(s) mis à jour.,module,Magento_Newsletter
+The newsletter template has been deleted.,Le gabarit de newsletter a été supprimé.,module,Magento_Newsletter
+We can't delete this template right now.,Impossible de supprimer le gabarit.,module,Magento_Newsletter
+Edit Template,Éditer le gabarit,module,Magento_Newsletter
+New Template,Nouveau gabarit,module,Magento_Newsletter
+Create Newsletter Template,Créer un nouveau gabarit de newsletter,module,Magento_Newsletter
+The newsletter template has been saved.,Le gabarit de newsletter a été enregistré.,module,Magento_Newsletter
+Something went wrong while saving this template.,Une erreur s'est produite lors de l'enregistrement de ce gabarit.,module,Magento_Newsletter
+Newsletter Subscription,Abonnement à la newsletter,module,Magento_Newsletter
+Something went wrong while saving your subscription.,Une erreur s'est produite lors de l'enregistrement de cette abonnement.,module,Magento_Newsletter
+We saved the subscription.,Abonnement enregistré.,module,Magento_Newsletter
+We removed the subscription.,Abonnement annulé.,module,Magento_Newsletter
+Your subscription has been confirmed.,Votre inscription a été confirmée.,module,Magento_Newsletter
+This is an invalid subscription confirmation code.,Le code de confirmation de l'abonnement est invalide.,module,Magento_Newsletter
+This is an invalid subscription ID.,L'identifiant de l'abonnement est invalide.,module,Magento_Newsletter
+This email address is already assigned to another user.,Cet email est déjà assigné à un utilisateur.,module,Magento_Newsletter
+"Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Désolé, les abonnements pour les invités sont désactivés. Veuillez <a href=""%1"">vous enregistrer</a>.",module,Magento_Newsletter
+Please enter a valid email address.,Saisissez un email valide.,module,Magento_Newsletter
+The confirmation request has been sent.,La demande de confirmation a été envoyée.,module,Magento_Newsletter
+Thank you for your subscription.,Merci de votre inscription.,module,Magento_Newsletter
+There was a problem with the subscription: %1,Il y a eu un problème lors de l'inscription : %1,module,Magento_Newsletter
+Something went wrong with the subscription.,Une erreur s'est produite lors de l'abonnement.,module,Magento_Newsletter
+You unsubscribed.,Vous êtes désinscrit.,module,Magento_Newsletter
+Something went wrong while unsubscribing you.,Une erreur s'est produite lors de la désinscription.,module,Magento_Newsletter
+Sent,Envoyé,module,Magento_Newsletter
+Cancelled,Annulé,module,Magento_Newsletter
+Not Sent,Pas envoyé,module,Magento_Newsletter
+Sending,Envoi en cours,module,Magento_Newsletter
+Paused,Arrêté,module,Magento_Newsletter
+There are no subscribers selected.,Aucun abonné sélectionné.,module,Magento_Newsletter
+You selected an invalid queue.,File d'attente sélectionné invalide.,module,Magento_Newsletter
+We cannot mark as received subscriber.,Impossible de marqué comme abonné reçu.,module,Magento_Newsletter
+Duplicate template code,Code de gabarit dupliqué,module,Magento_Newsletter
+"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Cliquez sur ce lien pour vous désinscrire <!-- Sert au lien de désinscription --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
+Choose Store View:,Choisir la vue magasin :,module,Magento_Newsletter
+Newsletter Message Preview,Prévisualisation du message de la newsletter,module,Magento_Newsletter
+Add to Queue,Ajouter à la file,module,Magento_Newsletter
+Are you sure that you want to strip all tags?,Êtes-vous sûr(e) de vouloir supprimer tous les tags ?,module,Magento_Newsletter
+Please enter a new template name.,Veuillez renseigner un nom de gabarit.,module,Magento_Newsletter
+ Copy, Copie,module,Magento_Newsletter
+Are you sure you want to delete this template?,Êtes-vous sûr de vouloir supprimer ce gabarit ?,module,Magento_Newsletter
+Sign Up for Our Newsletter:,Inscription à notre newsletter :,module,Magento_Newsletter
+Enter your email address,Saisissez votre email,module,Magento_Newsletter
+Subscribe,Inscription,module,Magento_Newsletter
 Make Check payable to:,Libeller le chèque à l'ordre de :,module,Magento_OfflinePayments
 Send Check to:,Envoyer le chèque à :,module,Magento_OfflinePayments
 Purchase Order Number,Numéro de bon de commande,module,Magento_OfflinePayments
@@ -6034,10 +6034,10 @@ The password for your account has been successfully changed.,Le mot de passe pou
 "If you did not request this change, please contact us.","Si vous n'avez pas demandé ce changement, s'il vous plaît contactez-nous.",module,Magento_Customer
 Currency Update Warnings,Alertes de mise à jour des devises,module,Magento_Directory
 "Thank you, %store_name","Merci, %store_name",module,Magento_Email
-Thank you for subscribing to our newsletter.,Thank you for subscribing to our newsletter.,module,Magento_Newsletter
-"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:",module,Magento_Newsletter
-You have been successfully subscribed to our newsletter.,You have been successfully subscribed to our newsletter.,module,Magento_Newsletter
-You have been unsubscribed from the newsletter.,You have been unsubscribed from the newsletter.,module,Magento_Newsletter
+Thank you for subscribing to our newsletter.,Merci de votre abonnement à notre newsletter.,module,Magento_Newsletter
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Avant de recevoir notre newsletter, vous devez confirmer votre abonnement en cliquant sur le lien suivant :",module,Magento_Newsletter
+You have been successfully subscribed to our newsletter.,Nous vous confirmons votre abonnement à notre newsletter.,module,Magento_Newsletter
+You have been unsubscribed from the newsletter.,Vous êtes maintenant désabonné de notre newsletter.,module,Magento_Newsletter
 Product alerts cron warnings,Avertissements pour la tâche périodique des alertes produits,module,Magento_ProductAlert
 "%name,","%name,",module,Magento_ProductAlert
 "%name,","%name,",module,Magento_Sales
@@ -7079,45 +7079,45 @@ New Relic Application Name,Nom de l'application New Relic,module,Magento_NewReli
 This is located by navigating to Settings from the New Relic APM website,"Vous trouvez cette information en vous rendant dans les paramètres de ""New Relic APM website""",module,Magento_NewRelicReporting
 Cron,Tâche périodique,module,Magento_NewRelicReporting
 Enable Cron,Activer la tâche périodique,module,Magento_NewRelicReporting
-Subscription Options,Subscription Options,module,Magento_Newsletter
-Allow Guest Subscription,Allow Guest Subscription,module,Magento_Newsletter
-Need to Confirm,Need to Confirm,module,Magento_Newsletter
-Confirmation Email Sender,Confirmation Email Sender,module,Magento_Newsletter
-Confirmation Email Template,Confirmation Email Template,module,Magento_Newsletter
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Email template chosen based on theme fallback when ""Default"" option is selected.",module,Magento_Newsletter
-Success Email Sender,Success Email Sender,module,Magento_Newsletter
-Success Email Template,Success Email Template,module,Magento_Newsletter
-Unsubscription Email Sender,Unsubscription Email Sender,module,Magento_Newsletter
-Unsubscription Email Template,Unsubscription Email Template,module,Magento_Newsletter
-We found no problems.,We found no problems.,module,Magento_Newsletter
-Subscriber,Subscriber,module,Magento_Newsletter
-Queue Start Date,Queue Start Date,module,Magento_Newsletter
-Queue Subject,Queue Subject,module,Magento_Newsletter
-Error Code,Error Code,module,Magento_Newsletter
-Error Text,Error Text,module,Magento_Newsletter
-Queue Start,Queue Start,module,Magento_Newsletter
-Queue End,Queue End,module,Magento_Newsletter
-Status,Status,module,Magento_Newsletter
-Processed,Processed,module,Magento_Newsletter
-Recipients,Recipients,module,Magento_Newsletter
-Unsubscribe,Unsubscribe,module,Magento_Newsletter
-Delete,Delete,module,Magento_Newsletter
+Subscription Options,Options d'inscription,module,Magento_Newsletter
+Allow Guest Subscription,Autoriser l'inscription des invités,module,Magento_Newsletter
+Need to Confirm,Confirmation nécessaire,module,Magento_Newsletter
+Confirmation Email Sender,Expéditeur du mail de confirmation,module,Magento_Newsletter
+Confirmation Email Template,Gabarit du mail de confirmation,module,Magento_Newsletter
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Newsletter
+Success Email Sender,Expéditeur du mail de succès,module,Magento_Newsletter
+Success Email Template,Gabarit du mail de succès,module,Magento_Newsletter
+Unsubscription Email Sender,Expéditeur du mail de désinscription,module,Magento_Newsletter
+Unsubscription Email Template,Gabarit du mail de désinscription,module,Magento_Newsletter
+We found no problems.,Aucun problème détécté.,module,Magento_Newsletter
+Subscriber,Abonné,module,Magento_Newsletter
+Queue Start Date,Date de départ de la file,module,Magento_Newsletter
+Queue Subject,Sujet de la file,module,Magento_Newsletter
+Error Code,Code d'erreur,module,Magento_Newsletter
+Error Text,Texte d'erreur,module,Magento_Newsletter
+Queue Start,Début de la file,module,Magento_Newsletter
+Queue End,Fin de la file,module,Magento_Newsletter
+Status,Statut,module,Magento_Newsletter
+Processed,Terminé,module,Magento_Newsletter
+Recipients,Destinataires,module,Magento_Newsletter
+Unsubscribe,Désabonner,module,Magento_Newsletter
+Delete,Supprimer,module,Magento_Newsletter
 CSV,CSV,module,Magento_Newsletter
-Excel XML,Excel XML,module,Magento_Newsletter
+Excel XML,XML d'Excel,module,Magento_Newsletter
 Email,Email,module,Magento_Newsletter
 Type,Type,module,Magento_Newsletter
-Guest,Guest,module,Magento_Newsletter
-Customer,Customer,module,Magento_Newsletter
-Customer First Name,Customer First Name,module,Magento_Newsletter
-Customer Last Name,Customer Last Name,module,Magento_Newsletter
-Not Activated,Not Activated,module,Magento_Newsletter
-Subscribed,Subscribed,module,Magento_Newsletter
-Unsubscribed,Unsubscribed,module,Magento_Newsletter
-Unconfirmed,Unconfirmed,module,Magento_Newsletter
-Web Site,Web Site,module,Magento_Newsletter
-Store,Store,module,Magento_Newsletter
-Store View,Store View,module,Magento_Newsletter
-Newsletter Subscriptions,Newsletter Subscriptions,module,Magento_Newsletter
+Guest,Invité,module,Magento_Newsletter
+Customer,Client,module,Magento_Newsletter
+Customer First Name,Prénom du client,module,Magento_Newsletter
+Customer Last Name,Nom de famille du client,module,Magento_Newsletter
+Not Activated,Non activé,module,Magento_Newsletter
+Subscribed,Inscrit,module,Magento_Newsletter
+Unsubscribed,Désinscrit,module,Magento_Newsletter
+Unconfirmed,Non confirmé,module,Magento_Newsletter
+Web Site,Site Web,module,Magento_Newsletter
+Store,Magasin,module,Magento_Newsletter
+Store View,Vue magasin,module,Magento_Newsletter
+Newsletter Subscriptions,Abonnements à la newsletter,module,Magento_Newsletter
 Check / Money Order,Chèque / Liquide,module,Magento_OfflinePayments
 Enabled,Activé,module,Magento_OfflinePayments
 New Order Status,Statut d'une nouvelle commande,module,Magento_OfflinePayments
