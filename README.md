@@ -20,7 +20,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 7084/7775 ![Progress](http://progressed.io/bar/91)
+**Progression globale** : 7120/7775 ![Progress](http://progressed.io/bar/92)
 
 ## Thèmes
 
@@ -93,7 +93,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Persistent | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_ProductAlert | 35 | 35 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_ProductVideo | 40 | 40 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Quote | 17 | 53 | 36 | ![Progress](http://progressed.io/bar/32) |
+| Magento_Quote | 53 | 53 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Reports | 154 | 214 | 60 | ![Progress](http://progressed.io/bar/72) |
 | Magento_Review | 131 | 131 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Rss | 7 | 7 | 0 | ![Progress](http://progressed.io/bar/100) |
@@ -121,5 +121,3 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Weee | 27 | 28 | 1 | ![Progress](http://progressed.io/bar/96) |
 | Magento_Widget | 72 | 72 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Wishlist | 115 | 115 | 0 | ![Progress](http://progressed.io/bar/100) |
-
-

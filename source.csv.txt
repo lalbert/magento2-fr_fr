@@ -3689,59 +3689,59 @@ Title:,Titre :,module,Magento_ProductVideo
 Uploaded:,Date :,module,Magento_ProductVideo
 Uploader:,Propriétaire :,module,Magento_ProductVideo
 Duration:,Durée :,module,Magento_ProductVideo
-"Unable to save address. Please, check input data.","Unable to save address. Please, check input data.",module,Magento_Quote
-Cart %1 doesn't contain products,Cart %1 doesn't contain products,module,Magento_Quote
-Could not apply coupon code,Could not apply coupon code,module,Magento_Quote
-Coupon code is not valid,Coupon code is not valid,module,Magento_Quote
-Could not delete coupon code,Could not delete coupon code,module,Magento_Quote
-Shipping address is not set,Shipping address is not set,module,Magento_Quote
-The requested Payment Method is not available.,The requested Payment Method is not available.,module,Magento_Quote
-We found an invalid request for adding product to quote.,We found an invalid request for adding product to quote.,module,Magento_Quote
-This is the wrong quote item id to update configuration.,This is the wrong quote item id to update configuration.,module,Magento_Quote
-"This shipping method is not available. To use this shipping method, please contact us.","This shipping method is not available. To use this shipping method, please contact us.",module,Magento_Quote
-The address model is not defined.,The address model is not defined.,module,Magento_Quote
+"Unable to save address. Please, check input data.","Impossible d'enregistrer l'adresse. S'il vous plaît, vérifier les données que vous avez entrée.",module,Magento_Quote
+Cart %1 doesn't contain products,Le panier #%1 ne contient aucun produit,module,Magento_Quote
+Could not apply coupon code,Impossible d'appliquer le bon de réduction,module,Magento_Quote
+Coupon code is not valid,Le bon de réduction est invalide,module,Magento_Quote
+Could not delete coupon code,Impossible de supprimer le bon de réduction,module,Magento_Quote
+Shipping address is not set,L'adresse de livraison n'est pas configuré,module,Magento_Quote
+The requested Payment Method is not available.,La méthode demandée de paiement n'est pas disponible.,module,Magento_Quote
+We found an invalid request for adding product to quote.,Demande d'ajout de produit au panier invalide.,module,Magento_Quote
+This is the wrong quote item id to update configuration.,Ce n'est pas le bon identifiant d'article pour mettre à jour la configuration.,module,Magento_Quote
+"This shipping method is not available. To use this shipping method, please contact us.","Cette méthode de livraison n'est pas disponible. Pour utiliser cette méthode de livraison, merci de nous contacter.",module,Magento_Quote
+The address model is not defined.,Le modèle d'adresse n'est pas défini.,module,Magento_Quote
 "The address total model should be extended from
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","The address total model should be extended from
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.",module,Magento_Quote
-Grand Total,Grand Total,module,Magento_Quote
-Shipping & Handling (%1),Shipping & Handling (%1),module,Magento_Quote
-Shipping & Handling,Shipping & Handling,module,Magento_Quote
-Shipping,Shipping,module,Magento_Quote
-Subtotal,Subtotal,module,Magento_Quote
-We found an invalid item option format.,We found an invalid item option format.,module,Magento_Quote
-An item option with code %1 already exists.,An item option with code %1 already exists.,module,Magento_Quote
-Item qty declaration error,Item qty declaration error,module,Magento_Quote
-Some of the products below do not have all the required options.,Some of the products below do not have all the required options.,module,Magento_Quote
-Something went wrong during the item options declaration.,Something went wrong during the item options declaration.,module,Magento_Quote
-We found an item options declaration error.,We found an item options declaration error.,module,Magento_Quote
-Some of the selected options are not currently available.,Some of the selected options are not currently available.,module,Magento_Quote
-Selected option(s) or their combination is not currently available.,Selected option(s) or their combination is not currently available.,module,Magento_Quote
-Some item options or their combination are not currently available.,Some item options or their combination are not currently available.,module,Magento_Quote
-Cart %1 doesn't contain item  %2,Cart %1 doesn't contain item  %2,module,Magento_Quote
-Could not save quote,Could not save quote,module,Magento_Quote
-Could not remove item from quote,Could not remove item from quote,module,Magento_Quote
-The qty value is required to update quote item.,The qty value is required to update quote item.,module,Magento_Quote
-Invalid customer id %1,Invalid customer id %1,module,Magento_Quote
-Invalid address id %1,Invalid address id %1,module,Magento_Quote
-Cannot create quote,Cannot create quote,module,Magento_Quote
-Cannot assign customer to the given cart. The cart belongs to different store.,Cannot assign customer to the given cart. The cart belongs to different store.,module,Magento_Quote
-Cannot assign customer to the given cart. The cart is not anonymous.,Cannot assign customer to the given cart. The cart is not anonymous.,module,Magento_Quote
-Cannot assign customer to the given cart. Customer already has active cart.,Cannot assign customer to the given cart. Customer already has active cart.,module,Magento_Quote
-Cannot place order.,Cannot place order.,module,Magento_Quote
-This item price or quantity is not valid for checkout.,This item price or quantity is not valid for checkout.,module,Magento_Quote
-Please check the shipping address information. %1,Please check the shipping address information. %1,module,Magento_Quote
-Please specify a shipping method.,Please specify a shipping method.,module,Magento_Quote
-Please check the billing address information. %1,Please check the billing address information. %1,module,Magento_Quote
-Please select a valid payment method.,Please select a valid payment method.,module,Magento_Quote
-Store Credit,Store Credit,module,Magento_Quote
-Discount,Discount,module,Magento_Quote
-Tax,Tax,module,Magento_Quote
-Cart contains virtual product(s) only. Shipping address is not applicable.,Cart contains virtual product(s) only. Shipping address is not applicable.,module,Magento_Quote
-Shipping address not set.,Shipping address not set.,module,Magento_Quote
-Shipping method is not applicable for empty cart,Shipping method is not applicable for empty cart,module,Magento_Quote
-Cart contains virtual product(s) only. Shipping method is not applicable.,Cart contains virtual product(s) only. Shipping method is not applicable.,module,Magento_Quote
-"Carrier with such method not found: %1, %2","Carrier with such method not found: %1, %2",module,Magento_Quote
-Cannot set shipping method. %1,Cannot set shipping method. %1,module,Magento_Quote
+Grand Total,Montant global,module,Magento_Quote
+Shipping & Handling (%1),Frais de port (%1),module,Magento_Quote
+Shipping & Handling,Frais de port,module,Magento_Quote
+Shipping,Livraison,module,Magento_Quote
+Subtotal,Sous-total,module,Magento_Quote
+We found an invalid item option format.,Un format d'option d'article est invalide.,module,Magento_Quote
+An item option with code %1 already exists.,Une option article avec le code %1 existe déjà.,module,Magento_Quote
+Item qty declaration error,Erreur sur la déclaration de la quantité d'un article,module,Magento_Quote
+Some of the products below do not have all the required options.,Certains produits ci-dessous ne possèdent pas toutes les options nécessaires.,module,Magento_Quote
+Something went wrong during the item options declaration.,Une erreur s'est produite lors de la déclaration des options de l'article.,module,Magento_Quote
+We found an item options declaration error.,Erreur sur la déclaration des options d'un article.,module,Magento_Quote
+Some of the selected options are not currently available.,Certaines options sélectionnées sont actuellement indisponibles.,module,Magento_Quote
+Selected option(s) or their combination is not currently available.,Les options sélectionnées ou leur combinaison sont actuellement indisponibles.,module,Magento_Quote
+Some item options or their combination are not currently available.,Certaines options d'articles ou leur combinaison sont actuellement indisponibles.,module,Magento_Quote
+Cart %1 doesn't contain item  %2,Le panier %1 ne contient pas l'article %2,module,Magento_Quote
+Could not save quote,Impossible de d'enregistrer le panier,module,Magento_Quote
+Could not remove item from quote,Impossible de retirer cet article du panier,module,Magento_Quote
+The qty value is required to update quote item.,La valeur de la quantité est obligatoire pour mettre à jour l'article du panier.,module,Magento_Quote
+Invalid customer id %1,L'identifiant de client %1 est invalide,module,Magento_Quote
+Invalid address id %1,L'identifiant de l'adresse %1 est invalide,module,Magento_Quote
+Cannot create quote,Impossible de créer le panier,module,Magento_Quote
+Cannot assign customer to the given cart. The cart belongs to different store.,Impossible d'assigner ce client au panier désiré. Le panier appartient à un magasin différent.,module,Magento_Quote
+Cannot assign customer to the given cart. The cart is not anonymous.,Impossible d'assigner ce client au panier désiré. Le panier n'est pas anonyme.,module,Magento_Quote
+Cannot assign customer to the given cart. Customer already has active cart.,Impossible d'assigner ce client au panier désiré. Le client possède déjà un panier actif.,module,Magento_Quote
+Cannot place order.,Impossible de passer votre commande.,module,Magento_Quote
+This item price or quantity is not valid for checkout.,Le prix ou la quantité de cet article est invalide pour commander.,module,Magento_Quote
+Please check the shipping address information. %1,Veuillez vérifier les informations de l'adresse de livraison. %1,module,Magento_Quote
+Please specify a shipping method.,Sélectionnez un mode de livraison.,module,Magento_Quote
+Please check the billing address information. %1,Veuillez vérifier les informations de l'adresse de facturation. %1,module,Magento_Quote
+Please select a valid payment method.,Sélectionnez un mode de paiement valide.,module,Magento_Quote
+Store Credit,Carte de crédit du magasin,module,Magento_Quote
+Discount,Remise,module,Magento_Quote
+Tax,TVA & autres taxes,module,Magento_Quote
+Cart contains virtual product(s) only. Shipping address is not applicable.,Le panier contient seulement du produit virtuel(s). L'adresse de livraison n'est pas applicable.,module,Magento_Quote
+Shipping address not set.,Adresse de livraison non définie.,module,Magento_Quote
+Shipping method is not applicable for empty cart,La méthode d'expédition n'est pas applicable pour un panier vide,module,Magento_Quote
+Cart contains virtual product(s) only. Shipping method is not applicable.,Le panier ne contient uniquement que des produits virtuels. Les méthode de livraison ne sont pas applicables. ,module,Magento_Quote
+"Carrier with such method not found: %1, %2","Méthode transporteur introuvable avec une telle: %1, %2",module,Magento_Quote
+Cannot set shipping method. %1,Impossible de définir la méthode d'expédition. %1,module,Magento_Quote
 error123,error123,module,Magento_Quote
 error345,error345,module,Magento_Quote
 New Accounts,New Accounts,module,Magento_Reports
