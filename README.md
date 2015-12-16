@@ -20,7 +20,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 6948/7775 ![Progress](http://progressed.io/bar/89)
+**Progression globale** : 6989/7775 ![Progress](http://progressed.io/bar/90)
 
 ## Thèmes
 
@@ -98,12 +98,12 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Review | 95 | 131 | 36 | ![Progress](http://progressed.io/bar/73) |
 | Magento_Rss | 7 | 7 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Rule | 34 | 34 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Sales | 546 | 754 | 208 | ![Progress](http://progressed.io/bar/72) |
+| Magento_Sales | 551 | 754 | 203 | ![Progress](http://progressed.io/bar/73) |
 | Magento_SalesRule | 149 | 149 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_SalesSequence | 2 | 2 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Search | 52 | 52 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_SendFriend | 46 | 46 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Shipping | 141 | 177 | 36 | ![Progress](http://progressed.io/bar/80) |
+| Magento_Shipping | 177 | 177 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Sitemap | 64 | 64 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Store | 34 | 34 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Swatches | 25 | 25 | 0 | ![Progress](http://progressed.io/bar/100) |
