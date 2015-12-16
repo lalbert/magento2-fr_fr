@@ -20,7 +20,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 7025/7775 ![Progress](http://progressed.io/bar/90)
+**Progression globale** : 7058/7775 ![Progress](http://progressed.io/bar/91)
 
 ## Thèmes
 
@@ -84,7 +84,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Msrp | 18 | 18 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Multishipping | 88 | 88 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_NewRelicReporting | 20 | 20 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Newsletter | 113 | 146 | 33 | ![Progress](http://progressed.io/bar/77) |
+| Magento_Newsletter | 146 | 146 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_OfflinePayments | 23 | 23 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_OfflineShipping | 49 | 49 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_PageCache | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
