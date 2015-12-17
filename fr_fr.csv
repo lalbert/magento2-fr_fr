@@ -3631,7 +3631,7 @@ The file was not uploaded.,Le fichier n'a pas été envoyé.,module,Magento_Impo
 Show more,Afficher plus,module,Magento_ImportExport
 Additional data,Donnée supplémentaire,module,Magento_ImportExport
 Following Error(s) has been occurred during importing process:,Suite d'erreur(s) produite pendant le processus d'importation:,module,Magento_ImportExport
-Only first 100 errors are displayed here. ,Seuls les 100 premières erreurs sont affichés ici.,module,Magento_ImportExport
+Only first 100 errors are displayed here. ,Seuls les 100 premières erreurs sont affichés ici. ,module,Magento_ImportExport
 Download full report,Téléchargez le rapport complet,module,Magento_ImportExport
 in rows:,dans les lignes :,module,Magento_ImportExport
 Make sure your file isn't more than %1M.,Assurez-vous que votre fichier ne dépasse pas %1M.,module,Magento_ImportExport
