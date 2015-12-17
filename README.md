@@ -20,7 +20,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 7387/7775 ![Progress](http://progressed.io/bar/95)
+**Progression globale** : 7591/7775 ![Progress](http://progressed.io/bar/98)
 
 ## Thèmes
 
@@ -89,7 +89,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_OfflineShipping | 49 | 49 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_PageCache | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Payment | 49 | 49 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Paypal | 377 | 556 | 179 | ![Progress](http://progressed.io/bar/68) |
+| Magento_Paypal | 378 | 556 | 178 | ![Progress](http://progressed.io/bar/68) |
 | Magento_Persistent | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_ProductAlert | 35 | 35 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_ProductVideo | 40 | 40 | 0 | ![Progress](http://progressed.io/bar/100) |
@@ -98,7 +98,7 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_Review | 131 | 131 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Rss | 7 | 7 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Rule | 34 | 34 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Sales | 551 | 754 | 203 | ![Progress](http://progressed.io/bar/73) |
+| Magento_Sales | 754 | 754 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_SalesRule | 149 | 149 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_SalesSequence | 2 | 2 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Search | 52 | 52 | 0 | ![Progress](http://progressed.io/bar/100) |
