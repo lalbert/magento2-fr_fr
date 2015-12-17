@@ -20,7 +20,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont été intégrées (les chaînes contenant des variables `%s` et `%d` ont également été rendu compatibles et intégrées)
 
-**Progression globale** : 7162/7775 ![Progress](http://progressed.io/bar/92)
+**Progression globale** : 7327/7775 ![Progress](http://progressed.io/bar/94)
 
 ## Thèmes
 
@@ -75,9 +75,9 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_GoogleAnalytics | 4 | 4 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_GoogleOptimizer | 7 | 7 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_GroupedProduct | 22 | 22 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_ImportExport | 33 | 114 | 81 | ![Progress](http://progressed.io/bar/29) |
+| Magento_ImportExport | 114 | 114 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Indexer | 22 | 22 | 0 | ![Progress](http://progressed.io/bar/100) |
-| Magento_Integration | 26 | 109 | 83 | ![Progress](http://progressed.io/bar/24) |
+| Magento_Integration | 109 | 109 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_LayeredNavigation | 28 | 28 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Marketplace | 13 | 13 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_MediaStorage | 25 | 25 | 0 | ![Progress](http://progressed.io/bar/100) |
@@ -89,7 +89,11 @@ Toutes les chaînes de traduction compatiblent avec la version 1 de Magento ont 
 | Magento_OfflineShipping | 49 | 49 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_PageCache | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_Payment | 49 | 49 | 0 | ![Progress](http://progressed.io/bar/100) |
+<<<<<<< HEAD
 | Magento_Paypal | 376 | 556 | 180 | ![Progress](http://progressed.io/bar/68) |
+=======
+| Magento_Paypal | 377 | 556 | 179 | ![Progress](http://progressed.io/bar/68) |
+>>>>>>> 49baad0efe76276e3f7f78a4f49db05f66d77c38
 | Magento_Persistent | 17 | 17 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_ProductAlert | 35 | 35 | 0 | ![Progress](http://progressed.io/bar/100) |
 | Magento_ProductVideo | 40 | 40 | 0 | ![Progress](http://progressed.io/bar/100) |
