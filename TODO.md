@@ -3,6 +3,7 @@
 * ~~[ ] We => Nous~~
 * ~~[ ] You => Vous~~
 * [x] Cron => Tâche plannifiée (CRON)
-* [ ] Save => Enregistrer
+* [x] Save => Enregistrer
 * [ ] Edit => Modifier
 * [ ] Request => Demande
+* [ ] Store => Magasin

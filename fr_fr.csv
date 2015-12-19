@@ -66,7 +66,7 @@ Loading...,En cours de chargement...,lib,lib/web/mage/loader.js
 All ,Tout ,lib,lib/web/mage/menu.js
 more,plus,lib,lib/web/mage/menu.js
 Cancel,Annuler,lib,lib/web/mage/translate-inline-vde.js
-Save,Sauvegarder,lib,lib/web/mage/translate-inline-vde.js
+Save,Enregistrer,lib,lib/web/mage/translate-inline-vde.js
 Translate,Traduire,lib,lib/web/mage/translate-inline.js
 Submit,Valider,lib,lib/web/mage/translate-inline.js
 Close,Fermer,lib,lib/web/mage/translate-inline.js
@@ -232,7 +232,7 @@ All Files,Tous les fichiers,module,Magento_Backend
 Reset to Default,Revenir aux valeurs par défaut,module,Magento_Backend
 All Store Views,Toutes les vues magasin,module,Magento_Backend
 What is this?,Aide ?,module,Magento_Backend
-Save Account,Sauvegarder le compte,module,Magento_Backend
+Save Account,Enregistrer le compte,module,Magento_Backend
 My Account,Mon compte,module,Magento_Backend
 Account Information,Informations du compte,module,Magento_Backend
 User Name,Nom d'utilisateur,module,Magento_Backend
@@ -245,7 +245,7 @@ Password Confirmation,Confirmation du mot de passe,module,Magento_Backend
 Interface Locale,Langue de l'interface,module,Magento_Backend
 Current User Identity Verification,Vérification de l'utilisateur actuel,module,Magento_Backend
 Your Password,Votre mot de passe,module,Magento_Backend
-Save Cache Settings,Sauvegarder les paramètres de cache,module,Magento_Backend
+Save Cache Settings,Enregistrer les paramètres de cache,module,Magento_Backend
 Catalog Rewrites,Réécriture du catalogue,module,Magento_Backend
 Refresh,Rafraîchir,module,Magento_Backend
 Images Cache,Cache d'images,module,Magento_Backend
@@ -265,7 +265,7 @@ Add Design Change,Ajouter un changement de design,module,Magento_Backend
 Back,Retour,module,Magento_Backend
 Delete,Supprimer,module,Magento_Backend
 Are you sure?,Êtes-vous sûr(e) ?,module,Magento_Backend
-Save,Sauvegarder,module,Magento_Backend
+Save,Enregistrer,module,Magento_Backend
 Edit Design Change,Éditer le changement de design,module,Magento_Backend
 New Store Design Change,Nouveau changement de design,module,Magento_Backend
 General Settings,Paramètres généraux,module,Magento_Backend
@@ -286,9 +286,9 @@ Yes,Oui,module,Magento_Backend
 No,Non,module,Magento_Backend
 Delete Store,Supprimer le magasin,module,Magento_Backend
 Delete Web Site,Supprimer le site web,module,Magento_Backend
-Save Web Site,Sauvegarder le site web,module,Magento_Backend
-Save Store,Sauvegarder le magasin,module,Magento_Backend
-Save Store View,Sauvegarder la vue magasin,module,Magento_Backend
+Save Web Site,Enregistrer le site web,module,Magento_Backend
+Save Store,Enregistrer le magasin,module,Magento_Backend
+Save Store View,Enregistrer la vue magasin,module,Magento_Backend
 Delete Store View,Effacer la vue magasin,module,Magento_Backend
 Edit Web Site,Modifier le site web,module,Magento_Backend
 New Web Site,Nouveau site web,module,Magento_Backend
@@ -367,16 +367,16 @@ You need more permissions to do this.,Vous n'avez pas les droits nécessaires po
 No search modules were registered,Aucun module de recherche n'a été enregistré,module,Magento_Backend
 Please make sure that all global admin search modules are installed and activated.,Vérifiez que tous les modules admin de recherche sont installés et activés.,module,Magento_Backend
 You have entered an invalid password for current user.,Le mot de passe est invalide.,module,Magento_Backend
-You saved the account.,Vous avez sauvegardé le compte.,module,Magento_Backend
+You saved the account.,Vous avez enregistré le compte.,module,Magento_Backend
 An error occurred while saving account.,Erreur lors de la sauvegarde du compte.,module,Magento_Backend
 You deleted the design change.,Vous avez supprimé le changement de design.,module,Magento_Backend
 You can't delete the design change.,Vous ne pouvez pas supprimer le changement de design.,module,Magento_Backend
 Store Design,Design du magasin,module,Magento_Backend
 Edit Store Design Change,Modifier le changement de design du magasin,module,Magento_Backend
-You saved the design change.,Vous avez sauvegardé le changement de design.,module,Magento_Backend
+You saved the design change.,Vous avez enregistré le changement de design.,module,Magento_Backend
 System,Système,module,Magento_Backend
 Manage Stores,Gestion des magasins,module,Magento_Backend
-The database was backed up.,La base de données a été sauvegardée.,module,Magento_Backend
+The database was backed up.,La base de données a été enregistrée.,module,Magento_Backend
 We can't create a backup right now. Please try again later.,Nous ne pouvons pas créer une sauvegarde immédiatement. Veuillez réessayer plus tard.,module,Magento_Backend
 "Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","Effacer un %1 n'effacera pas les informations associées avec le %1 (par ex. catégories, produits, etc.), mais il ne sera pas possible de restaurer le %1. Nous vous suggérons de créer une sauvegarde de la base de données avant d'effacer le %1.",module,Magento_Backend
 Something went wrong. Please try again.,Une erreur s'est produite. Merci de réessayer.,module,Magento_Backend
@@ -396,9 +396,9 @@ The store does not exist,Le magasin n'existe pas.,module,Magento_Backend
 Store view doesn't exist,La vue magasin n'existe pas,module,Magento_Backend
 Before modifying the store view code please make sure it is not used in index.php.,"Avant de modifier le code de vue magasin, assurez-vous qu'il n'est pas utilisé dans le fichier index.php.",module,Magento_Backend
 New ,Nouveau ,module,Magento_Backend
-You saved the website.,Vous avez sauvegardé le site web.,module,Magento_Backend
-You saved the store.,Vous avez sauvegardé le magasin.,module,Magento_Backend
-You saved the store view.,Vous avez sauvegardé la vue magasin.,module,Magento_Backend
+You saved the website.,Vous avez enregistré le site web.,module,Magento_Backend
+You saved the store.,Vous avez enregistré le magasin.,module,Magento_Backend
+You saved the store view.,Vous avez enregistré la vue magasin.,module,Magento_Backend
 Something went wrong while saving. Please review the error log.,Une erreur s'est produite durant la sauvegarde. Merci de vérifier le journal des erreurs.,module,Magento_Backend
 Last 24 Hours,Dernières 24 heures,module,Magento_Backend
 Last 7 Days,7 derniers jours,module,Magento_Backend
@@ -453,7 +453,7 @@ To use this website you must first enable JavaScript in your browser.,"Pour util
 Report Bugs,Rapporter un bug,module,Magento_Backend
 Store View:,Vu magasin : ,module,Magento_Backend
 Stores Configuration,Configuration des magasins,module,Magento_Backend
-Please confirm scope switching. All data that hasn't been saved will be lost.,Confirmez-vous le changement de site ? Toutes les données non sauvegardées seront perdues.,module,Magento_Backend
+Please confirm scope switching. All data that hasn't been saved will be lost.,Confirmez-vous le changement de site ? Toutes les données non enregistrées seront perdues.,module,Magento_Backend
 Additional Cache Management,Gestion étendue du cache,module,Magento_Backend
 Flush Catalog Images Cache,Purger le cache des images catalogue,module,Magento_Backend
 Pregenerated product images files,Images des produits prégénérées,module,Magento_Backend
@@ -670,7 +670,7 @@ The backup file path was not specified.,Le chemin de sauvegarde du fichier n'a p
 "Sorry, but we cannot read from or write to backup file ""%1"".","Désolé, mais nous ne pouvons pas lire ou écrire dans le fichier de sauvegarde ""%1"".",module,Magento_Backup
 The backup file handler was unspecified.,Le gestionnaire de fichier de sauvegarde n'a pas été précisée.,module,Magento_Backup
 "Something went wrong while writing to the backup file ""%1"".","Quelque chose a mal tourné lors de l'écriture du fichier de sauvegarde ""%1"".",module,Magento_Backup
-We can't save the Cron expression.,Impossible de sauvegarder l'expression du CRON (tâche planifiée),module,Magento_Backup
+We can't save the Cron expression.,Impossible d'enregistrer l'expression du CRON (tâche planifiée),module,Magento_Backup
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Vous perdrez toutes les données créées depuis la sauvegarde qui a été effectuée, y compris les utilisateurs d'administration, les clients et les commandes.",module,Magento_Backup
 Are you sure you want to continue?,Êtes vous sur de vouloir continuer?,module,Magento_Backup
 This may take a few moments.,Ceci peut prendre quelques instants.,module,Magento_Backup
@@ -766,7 +766,7 @@ Add new card,Ajouter nouvelle carte,module,Magento_Braintree
 Please Select,Veuillez sélectionner,module,Magento_Braintree
 Expiration Date,Date d'expiration,module,Magento_Braintree
 Card Verification Number,Code de vérification de la carte,module,Magento_Braintree
-Save this card for future use,Sauvegarder cette carte pour une utilisation future,module,Magento_Braintree
+Save this card for future use,Enregistrer cette carte pour une utilisation future,module,Magento_Braintree
 or,ou,module,Magento_Braintree
 Please confirm that you want to delete this credit card,Veuillez confirmer que vous souhaitez supprimer cette carte de crédit,module,Magento_Braintree
 Cardholder Name,Nom du titulaire,module,Magento_Braintree
@@ -953,7 +953,7 @@ Case Sensitive,Sensible à la casse,module,Magento_Captcha
 Enable CAPTCHA on Storefront,Activer CAPTCHA sur le front office,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Le CAPTCHA sera toujours activé sur les formulaires ""Créer un utilisateur"" et ""Mot de passe perdu"" s'il est activé.",module,Magento_Captcha
 Root,Racine,module,Magento_Catalog
-Save Category,Sauvegarder la catégorie,module,Magento_Catalog
+Save Category,Enregistrer la catégorie,module,Magento_Catalog
 Delete Category,Supprimer cette catégorie,module,Magento_Catalog
 Reset,Réinitialiser,module,Magento_Catalog
 New Subcategory,Nouvelle sous-catégorie,module,Magento_Catalog
@@ -986,7 +986,7 @@ Product Attributes,Attributs de produit,module,Magento_Catalog
 Add New Attribute,Ajouter un attribut,module,Magento_Catalog
 Save in New Attribute Set,Enregistrer un Nouvel ensemble d'attributs,module,Magento_Catalog
 Enter Name for New Attribute Set,Entrez un nom pour le Nouvel ensemble d'attributs,module,Magento_Catalog
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_Catalog
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_Catalog
 Save Attribute,Enregistrer l'attribut,module,Magento_Catalog
 Delete Attribute,Supprimer l'attribut,module,Magento_Catalog
 "Edit Product Attribute ""%1""","Éditer l'attribut de produit ""%1""",module,Magento_Catalog
@@ -1059,9 +1059,9 @@ Add Attribute Set,Ajouter un groupe d'attribut,module,Magento_Catalog
 Attribute Sets,Groupes d'attributs,module,Magento_Catalog
 Close Window,Fermer la fenêtre,module,Magento_Catalog
 New Product,Nouveau produit,module,Magento_Catalog
-Save & Edit,Sauvegarder et Editer,module,Magento_Catalog
-Save & New,Sauvegarder et Nouveau,module,Magento_Catalog
-Save & Duplicate,Sauvegarder et Dupliquer,module,Magento_Catalog
+Save & Edit,Enregistrer et Editer,module,Magento_Catalog
+Save & New,Enregistrer et Nouveau,module,Magento_Catalog
+Save & Duplicate,Enregistrer et Dupliquer,module,Magento_Catalog
 Save & Close,Enregistrer et Fermer,module,Magento_Catalog
 Attributes,Attributs,module,Magento_Catalog
 Change,Modifier,module,Magento_Catalog
@@ -1071,8 +1071,8 @@ Products Information,Informations produits,module,Magento_Catalog
 Category Name,Nom de catégorie,module,Magento_Catalog
 Parent Category,Catégorie parente,module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","Si il n'y a pas de sous-catégorie personnalisé, s'il vous plaît utiliser la catégorie racine par défaut. Vous pouvez réaffecter la catégorie à tout moment dans <a href=""%1"" target=""_blank""> Produits > Catégories </a>.",module,Magento_Catalog
-We saved the price alert subscription.,Nous avons sauvé votre souscription concernant l'alerte de ce prix.,module,Magento_Catalog
-We saved the stock notification.,Nous avons sauvé la notification de stock.,module,Magento_Catalog
+We saved the price alert subscription.,Nous avons enregsitré votre abonnement concernant l'alerte de ce prix.,module,Magento_Catalog
+We saved the stock notification.,Nous avons enregistré la notification de stock.,module,Magento_Catalog
 There are no customers for this alert.,Aucun client pour cette alerte.,module,Magento_Catalog
 First Name,Prénom,module,Magento_Catalog
 Last Name,Nom,module,Magento_Catalog
@@ -1169,7 +1169,7 @@ An attribute set named '%1' already exists.,Un groupe d'attributs nommé '%1' ex
 Something went wrong while saving the attribute.,Quelque chose a mal tourné tout en sauvant l'attribut.,module,Magento_Catalog
 "Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Code d'attribut ""%1"" invalide. Veuillez utiliser uniquement des lettres (az), des chiffres (0-9) ou de soulignement (_) dans ce domaine, le premier caractère doit être une lettre.",module,Magento_Catalog
 We can't update the attribute.,Nous ne pouvons pas mettre à jour l'attribut.,module,Magento_Catalog
-You saved the product attribute.,Vous avez sauvé l'attribut du produit.,module,Magento_Catalog
+You saved the product attribute.,Vous avez enregsitré l'attribut du produit.,module,Magento_Catalog
 An attribute with this code already exists.,Un attribut avec ce code existe déjà.,module,Magento_Catalog
 An attribute with the same code (%1) already exists.,Un attribut avec le même code (%1) existe déjà.,module,Magento_Catalog
 You duplicated the product.,Vous dupliqué le produit.,module,Magento_Catalog
@@ -1181,7 +1181,7 @@ A total of %1 record(s) have been deleted.,Un total de %1 enregistrement(s) supp
 A total of %1 record(s) have been updated.,Un total de %1 enregistrement(s) mis à jour.,module,Magento_Catalog
 Something went wrong while updating the product(s) status.,Quelque chose a mal tourné lors de l'actualisation du statut produit(s).,module,Magento_Catalog
 Unable to save product,Impossible d'enregistrer le produit,module,Magento_Catalog
-You saved the product.,Vous avez sauvegardé le produit.,module,Magento_Catalog
+You saved the product.,Vous avez enregistré le produit.,module,Magento_Catalog
 SKU for product %1 has been changed to %2.,REF pour le produit %1 a été changé à %2.,module,Magento_Catalog
 The image cannot be removed as it has been assigned to the other image role,L'image ne peut pas être éliminé car elle a été affecté à un autre rôle d'image,module,Magento_Catalog
 New Attribute Set,Nouveau groupe d'attributs,module,Magento_Catalog
@@ -1191,7 +1191,7 @@ New Set,Nouveau groupe,module,Magento_Catalog
 Manage Product Sets,Gérer les groupes de produits,module,Magento_Catalog
 Manage Attribute Sets,Gérer les groupes d'attributs,module,Magento_Catalog
 This attribute set no longer exists.,Ce groupe d'attributs n'existe plus.,module,Magento_Catalog
-You saved the attribute set.,Vous avez sauvegardé le groupe d'attributs.,module,Magento_Catalog
+You saved the attribute set.,Vous avez enregistré le groupe d'attributs.,module,Magento_Catalog
 Something went wrong while saving the attribute set.,Quelque chose a mal tourné lors de l'enregistrement du groupe d'attribut.,module,Magento_Catalog
 You added product %1 to the comparison list.,Vous avez ajouté 1 % produit(s) à la liste de comparaison.,module,Magento_Catalog
 You cleared the comparison list.,Vous avez désactivé la liste de comparaison.,module,Magento_Catalog
@@ -1288,7 +1288,7 @@ Attribute Set already exists.,Groupe d'attribut déjà existant.,module,Magento_
 Requested product does not support images.,Le produit que vous recherchez ne supporte pas les images.,module,Magento_Catalog
 The image content is not valid.,Le contenu de l'image n'est pas valide.,module,Magento_Catalog
 Cannot save product.,Vous ne pouvez pas enregistrer le produit.,module,Magento_Catalog
-Failed to save new media gallery entry.,Echec de la sauvegarde pour une nouvelle entrée de galerie de médias.,module,Magento_Catalog
+Failed to save new media gallery entry.,Echec de l'enregistrement pour une nouvelle entrée de galerie de médias.,module,Magento_Catalog
 There is no image with provided ID.,Il n'y a aucune image avec cette ID fourni.,module,Magento_Catalog
 Such product doesn't exist,Un tel produit n'existe pas,module,Magento_Catalog
 Such image doesn't exist,Un telle image n'existe pas,module,Magento_Catalog
@@ -1369,7 +1369,7 @@ ID: %1,ID : %1,module,Magento_Catalog
 This operation can take a long time,Cette opération peut prendre un certain temps,module,Magento_Catalog
 Collapse All,Tout réduire,module,Magento_Catalog
 Expand All,Tout développer,module,Magento_Catalog
-Please confirm site switching. All data that hasn't been saved will be lost.,Confirmez-vous le changement de site ? Toutes les données non sauvegardées seront perdues.,module,Magento_Catalog
+Please confirm site switching. All data that hasn't been saved will be lost.,Confirmez-vous le changement de site ? Toutes les données non enregistrées seront perdues.,module,Magento_Catalog
 Use Default Value,Utiliser la valeur par défaut,module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","Gérer les titres (Taille, couleur, etc.)",module,Magento_Catalog
 Manage Options (values of your attribute),Gérer les options (valeurs de vos attributs),module,Magento_Catalog
@@ -1412,7 +1412,7 @@ Out of Stock,En rupture,module,Magento_Catalog
 Add Product To Websites,Ajouter le produit aux sites web,module,Magento_Catalog
 Remove Product From Websites,Supprimer le produit des sites web,module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","Pour masquer un élément dans le catalogue ou des résultats de recherche, définissez le statut a ""Désactivé"".",module,Magento_Catalog
-We can't save custom-defined options for bundles with dynamic pricing.,"Nous ne pouvons pas sauver les options personnelles, pour des paquetages promotionnel avec une tarification dynamique.",module,Magento_Catalog
+We can't save custom-defined options for bundles with dynamic pricing.,"Nous ne pouvons pas enregistrer les options personnelles, pour des paquetages promotionnel avec une tarification dynamique.",module,Magento_Catalog
 Delete Custom Option,Supprimer l'option personnalisée,module,Magento_Catalog
 Sort Custom Options,Trier les options personnalisées,module,Magento_Catalog
 Option Title,Titre de l'option,module,Magento_Catalog
@@ -1688,8 +1688,8 @@ Quantity,Quantité,module,Magento_CatalogInventory
 Catalog Price Rule,Règle de prix catalogue,module,Magento_CatalogRule
 Add New Rule,Ajouter une nouvelle règle,module,Magento_CatalogRule
 Apply Rules,Appliquer les règles,module,Magento_CatalogRule
-Save and Apply,Sauvegarder et appliquer,module,Magento_CatalogRule
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_CatalogRule
+Save and Apply,Enregistrer et appliquer,module,Magento_CatalogRule
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_CatalogRule
 Edit Rule '%1',Éditer la règle '%1',module,Magento_CatalogRule
 New Rule,Nouvelle règle,module,Magento_CatalogRule
 Rule Information,Informations règle,module,Magento_CatalogRule
@@ -1734,7 +1734,7 @@ New Catalog Price Rule,Nouvelle règle de prix catalogue,module,Magento_CatalogR
 Edit Rule,Éditer la règle,module,Magento_CatalogRule
 Catalog,Catalogue,module,Magento_CatalogRule
 Wrong rule specified.,Mauvaise règle spécifiée.,module,Magento_CatalogRule
-You saved the rule.,La règle a été sauvegardée.,module,Magento_CatalogRule
+You saved the rule.,La règle a été enregistrée.,module,Magento_CatalogRule
 Something went wrong while saving the rule data. Please review the error log.,Une erreur s'est produite durant l'enregistrement des données de la règle. Veuillez consulter le journal des erreurs.,module,Magento_CatalogRule
 Promo,Promo,module,Magento_CatalogRule
 Could not rebuild index for empty products array,Impossible de reconstruire l'index pour un tableau de produit vide,module,Magento_CatalogRule
@@ -1949,7 +1949,7 @@ Send Payment Failed Email Copy Method,Envoyer une copie du mail d'erreur de paie
 Shipping,Livraison,module,Magento_Checkout
 Order Total,Total de la commande,module,Magento_Checkout
 Shipping Address,Adresse de livraison,module,Magento_Checkout
-Save Address,Sauvegarder l'adresse,module,Magento_Checkout
+Save Address,Enregistrer l'adresse,module,Magento_Checkout
 Cancel,Annuler,module,Magento_Checkout
 We'll send your order confirmation here.,Nous vous enverrons votre confirmation de commande ici.,module,Magento_Checkout
 For delivery questions.,Pour des questions de livraison.,module,Magento_Checkout
@@ -1960,7 +1960,7 @@ We received your order!,Nous avons pris en compte votre commande !,module,Magent
 Thank you for your purchase!,Nous vous remercions de votre achat !,module,Magento_Checkout
 Terms and Conditions,Conditions générales de ventes,module,Magento_CheckoutAgreements
 Add New Condition,Créer des CGV,module,Magento_CheckoutAgreements
-Save Condition,Sauvegarder la condition,module,Magento_CheckoutAgreements
+Save Condition,Enregistrer la condition,module,Magento_CheckoutAgreements
 Delete Condition,Supprimer la condition,module,Magento_CheckoutAgreements
 Edit Terms and Conditions,Éditer les conditions générales de ventes,module,Magento_CheckoutAgreements
 New Terms and Conditions,Nouvelles CGV,module,Magento_CheckoutAgreements
@@ -1988,12 +1988,12 @@ You deleted the condition.,Vous avez supprimé la condition.,module,Magento_Chec
 Something went wrong  while deleting this condition.,Une erreur s'est produite durant la suppression de cette condition.,module,Magento_CheckoutAgreements
 Edit Condition,Éditer la condition,module,Magento_CheckoutAgreements
 New Condition,Nouvelle condition,module,Magento_CheckoutAgreements
-You saved the condition.,La condition a été sauvegardée.,module,Magento_CheckoutAgreements
+You saved the condition.,La condition a été enregistrée.,module,Magento_CheckoutAgreements
 Something went wrong while saving this condition.,Une erreur s'est produite durant l'enregistrement de cette condition.,module,Magento_CheckoutAgreements
 Automatically,Automatiquement,module,Magento_CheckoutAgreements
 Manually,Manuellement,module,Magento_CheckoutAgreements
 Please agree to all the terms and conditions before placing the order.,Veuillez accepter les conditions générales de ventes avant de valider la commande.,module,Magento_CheckoutAgreements
-Unable to save checkout agreement %1,Impossible de sauvegarder la condition de vente %1,module,Magento_CheckoutAgreements
+Unable to save checkout agreement %1,Impossible d'enregistrer la condition de vente %1,module,Magento_CheckoutAgreements
 Unable to remove checkout agreement %1,Impossible de supprimer la condition de vente %1,module,Magento_CheckoutAgreements
 "Checkout agreement with specified ID ""%1"" not found.","La condition de vente liée à l'identifiant fourni ""%1"" n'a pas été trouvée.",module,Magento_CheckoutAgreements
 Enable Terms and Conditions,Activer les conditions générales de vente,module,Magento_CheckoutAgreements
@@ -2001,7 +2001,7 @@ Static Blocks,Blocs statiques,module,Magento_Cms
 Add New Block,Ajouter un nouveau bloc,module,Magento_Cms
 Save Block,Enregistrer le bloc,module,Magento_Cms
 Delete Block,Supprimer le bloc,module,Magento_Cms
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_Cms
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_Cms
 Edit Block '%1',Éditer le bloc '%1',module,Magento_Cms
 New Block,Nouveau bloc,module,Magento_Cms
 Block Information,Information,module,Magento_Cms
@@ -2146,7 +2146,7 @@ Enable,Activer,module,Magento_Cms
 Custom design from,Design personnalisé à partir du,module,Magento_Cms
 Custom design to,Design personnalisé jusqu'au,module,Magento_Cms
 Default Config,Configuration par défaut,module,Magento_Config
-Save Config,Sauvegarder la configuration,module,Magento_Config
+Save Config,Enregistrer la configuration,module,Magento_Config
 [GLOBAL],[GLOBAL],module,Magento_Config
 [WEBSITE],[SITE WEB],module,Magento_Config
 [STORE VIEW],[VUE MAGASIN],module,Magento_Config
@@ -2162,7 +2162,7 @@ Enable,Activer,module,Magento_Config
 Disable,Désactiver,module,Magento_Config
 Configuration,Configuration,module,Magento_Config
 System,Système,module,Magento_Config
-You saved the configuration.,Vous avez sauvegardé la configuration.,module,Magento_Config
+You saved the configuration.,Vous avez enregistré la configuration.,module,Magento_Config
 Something went wrong while saving this configuration:,Quelque chose a mal tourné lors de l'enregistrement de cette configuration:,module,Magento_Config
 Page not found.,Page introuvable.,module,Magento_Config
 Please specify the admin custom URL.,S'il vous plaît spécifier l'URL d'administration personnalisé.,module,Magento_Config
@@ -2174,7 +2174,7 @@ Specify a fully qualified URL.,Spécifiez une URL entièrement qualifié.,module
 "Selected allowed currency ""%1"" is not available in installed currencies.","La devise autorisée choisie ""%1"" n'est pas disponible dans les devises installées.",module,Magento_Config
 "Default display currency ""%1"" is not available in allowed currencies.","La devise d'affichage par défaut ""%1"" n'est pas disponible dans les devises autorisées.",module,Magento_Config
 "Sorry, we haven't installed the base currency you selected.","Désolé, nous avons pas installé la devise de base que vous avez sélectionné.",module,Magento_Config
-We can't save the Cron expression.,Impossible de sauvegarder l'expression du CRON (tâche planifiée),module,Magento_Config
+We can't save the Cron expression.,Impossible d'enregistrer l'expression du CRON (tâche planifiée),module,Magento_Config
 "Sorry, we haven't installed the default display currency you selected.","Désolé, nous avons pas installé la devise d'affichage par défaut que vous avez sélectionné.",module,Magento_Config
 "Sorry, the default display currency you selected is not available in allowed currencies.","Désolé, la devise d'affichage par défaut que vous avez sélectionné n'est pas disponible dans l'autorisation des devises.",module,Magento_Config
 "Please correct the email address: ""%1"".","S'il vous plaît corriger l'adresse e-mail: ""%1"".",module,Magento_Config
@@ -2400,7 +2400,7 @@ Cookie Path,Chemin du cookie,module,Magento_Cookie
 Cookie Domain,Domaine du cookie,module,Magento_Cookie
 Use HTTP Only,Utiliser uniquement HTTP,module,Magento_Cookie
 Cookie Restriction Mode,Mode de restriction de cookie,module,Magento_Cookie
-We can't save the cron expression.,Impossible de sauvegarder l'expression du CRON (tâche planifiée),module,Magento_Cron
+We can't save the cron expression.,Impossible de enregistrer l'expression du CRON (tâche planifiée),module,Magento_Cron
 Daily,Quotidien,module,Magento_Cron
 Weekly,Hebdomadaire,module,Magento_Cron
 Monthly,Mensuel,module,Magento_Cron
@@ -2418,7 +2418,7 @@ History Cleanup Every,Nettoyer l'historique toutes les,module,Magento_Cron
 Success History Lifetime,Durée de vie de l'historique des succès,module,Magento_Cron
 Failure History Lifetime,Durée de vie de l'historique des échecs,module,Magento_Cron
 Use Separate Process,Utiliser des processus séparés,module,Magento_Cron
-Save Currency Rates,Sauvegarder les taux de devises,module,Magento_CurrencySymbol
+Save Currency Rates,Enregistrer les taux de devises,module,Magento_CurrencySymbol
 Reset,Réinitialiser,module,Magento_CurrencySymbol
 Import,Importer,module,Magento_CurrencySymbol
 Manage Currency Rates,Gestion des taux des devises,module,Magento_CurrencySymbol
@@ -2431,7 +2431,7 @@ We can't initialize the import model.,Impossible d'initialiser le modèle d'impo
 "Click ""Save"" to apply the rates we found.","Cliquez sur ""Enregistrer"" pour appliquer les taux trouvés.",module,Magento_CurrencySymbol
 Currency Rates,Taux de change,module,Magento_CurrencySymbol
 Please correct the input data for %1 => %2 rate,Merci de corriger les données renseignées pour %1 => taux %2,module,Magento_CurrencySymbol
-All valid rates have been saved.,Tous les taux valides ont été sauvegardés.,module,Magento_CurrencySymbol
+All valid rates have been saved.,Tous les taux valides ont été enregistrés.,module,Magento_CurrencySymbol
 System,Système,module,Magento_CurrencySymbol
 You applied the custom currency symbols.,Vous avez appliqué les symboles de devise personnalisés.,module,Magento_CurrencySymbol
 Old rate:,Ancien taux :,module,Magento_CurrencySymbol
@@ -2452,7 +2452,7 @@ Reset Password,Réinitialiser le mot de passe,module,Magento_Customer
 Are you sure you want to revoke the customer\'s tokens?,Êtes-vous sûr de vouloir révoquer les avis des clients?,module,Magento_Customer
 Force Sign-In,Force du mot de passe,module,Magento_Customer
 New Customer,Nouveau client,module,Magento_Customer
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_Customer
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_Customer
 Back,Retour,module,Magento_Customer
 Please select,Veuillez sélectionner,module,Magento_Customer
 Reset,Réinitialiser,module,Magento_Customer
@@ -2554,7 +2554,7 @@ Please make sure your passwords match.,Veuillez vérifier que vos mots de passe 
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Si vous êtes un client assujetti à la TVA, s'il vous plaît <a href=""%1""> Cliquez ici </a> et entrer votre adresse de facturation pour un calcul de TVA correcte.",module,Magento_Customer
 Account Information,Informations du compte,module,Magento_Customer
 Invalid input,Saisie invalide,module,Magento_Customer
-You saved the account information.,Vous avez sauvegardé les informations de compte.,module,Magento_Customer
+You saved the account information.,Vous avez enregistré les informations de compte.,module,Magento_Customer
 Please enter new password.,S'il vous plaît entrer un nouveau mot de passe.,module,Magento_Customer
 Confirm your new password.,Confirmez votre nouveau mot de passe.,module,Magento_Customer
 Something went wrong while changing the password.,Quelque chose a mal tourné lors du changement de mot de passe.,module,Magento_Customer
@@ -2572,8 +2572,8 @@ You updated your password.,Vous avez mis à jour votre mot de passe.,module,Mage
 Something went wrong while saving the new password.,Quelque chose a mal tourné lors de l'enregistrement du nouveau mot de passe.,module,Magento_Customer
 You deleted the address.,Vous avez supprimé l'adresse.,module,Magento_Customer
 We can't delete the address right now.,Nous ne pouvons pas supprimer l'adresse actuellement.,module,Magento_Customer
-You saved the address.,Vous avez sauvegardé l'adresse.,module,Magento_Customer
-We can't save the address.,Nous ne pouvons pas sauvegarder l'adresse.,module,Magento_Customer
+You saved the address.,Vous avez enregistré l'adresse.,module,Magento_Customer
+We can't save the address.,Nous ne pouvons pas enregistrer l'adresse.,module,Magento_Customer
 No customer ID defined.,Aucun ID de client n'a été défini.,module,Magento_Customer
 Please correct the quote items and try again.,S'il vous plaît corriger le commentaire sur le produit et essayez à nouveau.,module,Magento_Customer
 You have revoked the customer's tokens.,Vous avez révoqué les permissions du client.,module,Magento_Customer
@@ -2585,7 +2585,7 @@ New Group,Nouveau groupe,module,Magento_Customer
 New Customer Groups,Nouveaux groupes de clients,module,Magento_Customer
 Edit Group,Éditer le groupe,module,Magento_Customer
 Edit Customer Groups,Éditer les groupes de client,module,Magento_Customer
-You saved the customer group.,Vous avez sauvegardé le groupe de clients.,module,Magento_Customer
+You saved the customer group.,Vous avez enregistré le groupe de clients.,module,Magento_Customer
 Please select customer(s).,Sélectionnez au moins un client.,module,Magento_Customer
 Customer could not be deleted.,Le client ne peut être supprimé.,module,Magento_Customer
 You deleted the customer.,Vous avez supprimé le client.,module,Magento_Customer
@@ -3167,7 +3167,7 @@ Ordered,Commandé,module,Magento_Downloadable
 Shipped,Livré,module,Magento_Downloadable
 Canceled,Annulée,module,Magento_Downloadable
 Refunded,Remboursé,module,Magento_Downloadable
-We could not detect a size.,Impossible de détecter le poids du fichier.,module,Magento_Downloadable
+We could not detect a size.,Nous ne pouvons pas détecter le poids du fichier.,module,Magento_Downloadable
 Downloadable Product Options,Options du produit téléchargeable,module,Magento_Downloadable
 Order Item Status to Enable Downloads,Statut du produit commandé pour activer le téléchargement,module,Magento_Downloadable
 Default Maximum Number of Downloads,Nombre maximum de téléchargements par défaut,module,Magento_Downloadable
@@ -3328,7 +3328,7 @@ Delete Template,Supprimer le gabarit,module,Magento_Email
 Convert to Plain Text,Convertir en texte simple,module,Magento_Email
 Return Html Version,Revenir à la version HTML,module,Magento_Email
 Preview Template,Prévisualiser le gabarit,module,Magento_Email
-Save Template,Sauvegarder le gabarit,module,Magento_Email
+Save Template,Enregistrer le gabarit,module,Magento_Email
 Load Template,Charger le gabarit,module,Magento_Email
 Edit Email Template,Éditer le gabarit d'email,module,Magento_Email
 New Email Template,Nouveau gabarit d'email,module,Magento_Email
@@ -3701,7 +3701,7 @@ Execution Time,Temps d'exécution,module,Magento_ImportExport
 Summary,Résumé,module,Magento_ImportExport
 Indexer Management,Gestion des indexes,module,Magento_Indexer
 Update by Schedule,Mise à jour périodique,module,Magento_Indexer
-Update on Save,Mise à jour à la sauvegarde,module,Magento_Indexer
+Update on Save,Mise à jour à l'enregistrement,module,Magento_Indexer
 Reindex required,Réindexation nécessaire,module,Magento_Indexer
 Ready,Prêt,module,Magento_Indexer
 Processing,En cours de traitement,module,Magento_Indexer
@@ -3710,7 +3710,7 @@ Index Management,Gestion des indexes,module,Magento_Indexer
 Please select indexers.,Merci de sélectionner les indexes.,module,Magento_Indexer
 "%1 indexer(s) are in ""Update by Schedule"" mode.","%1 indexe(s) sont en mode ""Mise à jour périodique"".",module,Magento_Indexer
 We couldn't change indexer(s)' mode because of an error.,Impossible de modifier le mode des indexes en raison d'une erreur.,module,Magento_Indexer
-"%1 indexer(s) are in ""Update on Save"" mode.","%1 indexe(s) sont en mode ""Mise à jour à la sauvegarde"".",module,Magento_Indexer
+"%1 indexer(s) are in ""Update on Save"" mode.","%1 indexe(s) sont en mode ""Mise à jour à l'enregistrement"".",module,Magento_Indexer
 "One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Un ou plusieurs <a href=""%1"">indexes sont invalides</a>. Assurez-vous que <a href""%2"">le CRON (tâches planifiées) de Magento</a> est lancé.",module,Magento_Indexer
 State for the same indexer,État pour la même indexe,module,Magento_Indexer
 State for the same view,État pour la même vue,module,Magento_Indexer
@@ -3725,7 +3725,7 @@ Integrations,Intégrations,module,Magento_Integration
 Add New Integration,Ajouter une nouvelle intégration,module,Magento_Integration
 API,API,module,Magento_Integration
 Save,Enregistrer,module,Magento_Integration
-Save & Activate,Sauvegarder & Activer,module,Magento_Integration
+Save & Activate,Enregistrer & Activer,module,Magento_Integration
 New Integration,Nouvelle intégration,module,Magento_Integration
 Edit Integration '%1',Edit l'ntegration '%1',module,Magento_Integration
 Integration Info,Infos intégration,module,Magento_Integration
@@ -4028,8 +4028,8 @@ Unsubscribe Selected,Désinscription sélectionnée,module,Magento_Newsletter
 Back,Retour,module,Magento_Newsletter
 Reset,Réinitialiser,module,Magento_Newsletter
 Preview Template,Prévisualiser le gabarit,module,Magento_Newsletter
-Save Newsletter,Sauvegarder la newsletter,module,Magento_Newsletter
-Save and Resume,Sauvegarder et continuer,module,Magento_Newsletter
+Save Newsletter,Enregistrer la newsletter,module,Magento_Newsletter
+Save and Resume,Enregistrer et continuer,module,Magento_Newsletter
 View Newsletter,Voir la newsletter,module,Magento_Newsletter
 Edit Newsletter,Éditer la newsletter,module,Magento_Newsletter
 Queue Information,Informations de file,module,Magento_Newsletter
@@ -4051,8 +4051,8 @@ Newsletter Templates,Gabarits newsletter,module,Magento_Newsletter
 Convert to Plain Text,Convertir en texte simple,module,Magento_Newsletter
 Return HTML Version,Revenir à la version HTML,module,Magento_Newsletter
 Delete Template,Supprimer le gabarit,module,Magento_Newsletter
-Save As,Sauvegarder sous,module,Magento_Newsletter
-Save Template,Sauvegarder le gabarit,module,Magento_Newsletter
+Save As,Enregistrer sous,module,Magento_Newsletter
+Save Template,Enregistrer le gabarit,module,Magento_Newsletter
 Edit Newsletter Template,Éditer le gabarit de newsletter,module,Magento_Newsletter
 New Newsletter Template,Nouveau gabarit de newsletter,module,Magento_Newsletter
 Template Information,Informations gabarit,module,Magento_Newsletter
@@ -4971,7 +4971,7 @@ Persist Shopping Cart,Panier persistant,module,Magento_Persistent
 You saved the alert subscription.,Inscription à l'alerte enregistrée.,module,Magento_ProductAlert
 There are not enough parameters.,Il manque des paramètres.,module,Magento_ProductAlert
 We can't update the alert subscription right now.,Impossible de mettre à jour l'inscription à l'alerte.,module,Magento_ProductAlert
-Alert subscription has been saved.,L'inscription à l'alerte a été sauvegardée.,module,Magento_ProductAlert
+Alert subscription has been saved.,L'inscription à l'alerte a été enregistrée.,module,Magento_ProductAlert
 You deleted the alert subscription.,L'inscription à l'alerte a été supprimée.,module,Magento_ProductAlert
 We can't find the product.,Impossible de trouver le produit.,module,Magento_ProductAlert
 You will no longer receive price alerts for this product.,Vous ne recevrez plus d'alertes de changement de prix pour ce produit.,module,Magento_ProductAlert
@@ -5033,7 +5033,7 @@ Invalid video url,URL de la vidéo invalide,module,Magento_ProductVideo
 Youtube API key is invalid,La clé d'API YouTube est invalide,module,Magento_ProductVideo
 Video cant be shown due to the following reason: ,La vidéo ne peut être affichée pour la raison suivante : ,module,Magento_ProductVideo
 Video not found,Vidéo introuvable,module,Magento_ProductVideo
-Save,Sauvegarder,module,Magento_ProductVideo
+Save,Enregistrer,module,Magento_ProductVideo
 Cancel,Annuler,module,Magento_ProductVideo
 Delete,Supprimer,module,Magento_ProductVideo
 Edit Video,Modifier la vidéo,module,Magento_ProductVideo
@@ -5239,7 +5239,7 @@ Products in Carts,Produits dans des paniers,module,Magento_Reports
 Statistics,Statistiques,module,Magento_Reports
 No report code is specified.,Aucun code de rapport spécifié.,module,Magento_Reports
 You refreshed lifetime statistics.,Statistiques depuis le début rafraîchie.,module,Magento_Reports
-We can't refresh lifetime statistics.,Impossible de rafraîchir les statistiques.,module,Magento_Reports
+We can't refresh lifetime statistics.,Nous n'avons pas pu rafraîchir les statistiques depuis le début.,module,Magento_Reports
 Recent statistics have been updated.,Les statistiques récentes ont été mise à jour.,module,Magento_Reports
 We can't refresh recent statistics.,Impossible de rafraîchir les statistiques récentes.,module,Magento_Reports
 The product type filter specified is incorrect.,"Le filtre ""Type de produit"" spécifié est invalide.",module,Magento_Reports
@@ -5312,7 +5312,7 @@ Are you sure you want to refresh statistics for the last day?,Êtes-vous sûr de
 Report,Rapport,module,Magento_Reports
 Description,Description,module,Magento_Reports
 undefined,indéfini,module,Magento_Reports
-Save Review,Sauvegarder l'avis,module,Magento_Review
+Save Review,Enregistrer l'avis,module,Magento_Review
 New Review,Nouvel avis,module,Magento_Review
 Review Details,Détail de l'avis,module,Magento_Review
 Product,Produit,module,Magento_Review
@@ -5358,7 +5358,7 @@ Quantity,Quantité,module,Magento_Review
 Websites,Sites web,module,Magento_Review
 Manage Ratings,Gérer les évaluations,module,Magento_Review
 Add New Rating,Ajouter une évaluation,module,Magento_Review
-Save Rating,Sauvegarder l'évaluation,module,Magento_Review
+Save Rating,Enregistrer l'évaluation,module,Magento_Review
 Delete Rating,Supprimer l'évaluation,module,Magento_Review
 Edit Rating #%1,Modifier la note #%1,module,Magento_Review
 New Rating,Nouvelle évaluation,module,Magento_Review
@@ -5623,7 +5623,7 @@ Reorder,Renouveler,module,Magento_Sales
 Order # %1 %2 | %3,Commande n°%1 %2 | %3,module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","Cette commande continent (%1) articles et ne peut donc pas être modifiée dans l'interface d'administration. Si vous souhaitez continuer de la modifier, les (%2) articles seront supprimés, la commande sera annulée et une nouvelle commande sera créée.",module,Magento_Sales
 Are you sure? This order will be canceled and a new one will be created instead.,Êtes-vous sûr ? Cette commande sera annulée et une nouvelle sera créée à la place.,module,Magento_Sales
-Save Gift Message,Sauvegarder le message cadeau,module,Magento_Sales
+Save Gift Message,Enregistrer le message cadeau,module,Magento_Sales
  [deleted], [effacé],module,Magento_Sales
 Order Credit Memos,Avoirs de la commande,module,Magento_Sales
 Credit memo #%1 created,Avoir n°%1 créé,module,Magento_Sales
@@ -5718,7 +5718,7 @@ Invoice capturing error,Erreur de capture de la facture,module,Magento_Sales
 The order does not allow an invoice to be created.,La commande ne permet pas la création d'une facture.,module,Magento_Sales
 You can't create an invoice without products.,Impossible de créer une facture sans produit.,module,Magento_Sales
 New Invoice,Nouvelle facture,module,Magento_Sales
-We can't save the invoice right now.,Impossible de sauvegarder la facture.,module,Magento_Sales
+We can't save the invoice right now.,Impossible d'enregistrer la facture.,module,Magento_Sales
 The invoice and the shipment  have been created. The shipping label cannot be created now.,La facture et l'expédition ont été créées. L'étiquette d'expédition ne peut pas être créée maintenant.,module,Magento_Sales
 You created the invoice and shipment.,La facture et l'expédition ont été créées.,module,Magento_Sales
 The invoice has been created.,La facture a été créée.,module,Magento_Sales
@@ -6251,7 +6251,7 @@ PDF Creditmemos,Avoirs en PDF,module,Magento_Sales
 Refunds,Remboursements,module,Magento_Sales
 Cart Price Rules,Règles de prix panier,module,Magento_SalesRule
 Add New Rule,Ajouter une nouvelle règle,module,Magento_SalesRule
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_SalesRule
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_SalesRule
 Edit Rule '%1',Éditer la règle '%1',module,Magento_SalesRule
 New Rule,Nouvelle règle,module,Magento_SalesRule
 Rule Information,Informations règle,module,Magento_SalesRule
@@ -6406,7 +6406,7 @@ Uses,Nombre d'utilisations,module,Magento_Search
 Search Terms,Termes de recherche,module,Magento_Search
 Search,Chercher,module,Magento_Search
 Add New Search Term,Ajouter un terme de recherche,module,Magento_Search
-Save Search,Sauvegarder la recherche,module,Magento_Search
+Save Search,Enregistrer la recherche,module,Magento_Search
 Delete Search,Supprimer la recherche,module,Magento_Search
 Edit Search '%1',Éditer la recherche '%1',module,Magento_Search
 New Search,Nouvelle recherche,module,Magento_Search
@@ -6433,7 +6433,7 @@ Please select searches.,Merci de sélectionner les recherches.,module,Magento_Se
 Total of %1 record(s) were deleted.,%1 enregistrement(s) ont été effacés.,module,Magento_Search
 Reports,Rapports,module,Magento_Search
 Search Terms Report,Rapport des termes de recherche,module,Magento_Search
-You saved the search term.,Le terme de recherche a été sauvegardé.,module,Magento_Search
+You saved the search term.,Le terme de recherche a été enregistré.,module,Magento_Search
 Something went wrong while saving the search query.,Une erreur s'est produite pendant l'enregistrement de la requête de recherche.,module,Magento_Search
 You already have an identical search term query.,Il existe déjà une requête de recherche identique.,module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.",La requête de rechercher ne peut pas excéder %1 caractères. Merci de raccourcir la requête.,module,Magento_Search
@@ -6538,7 +6538,7 @@ We can't delete tracking number.,Impossible de supprimer le numéro de suivi.,mo
 We can't load track with retrieving identifier right now.,Impossible de charger le suivi avec l'identifiant.,module,Magento_Shipping
 We can't save the shipment right now.,Impossible d'enregistrer l'expédition.,module,Magento_Shipping
 The shipment has been created.,L'expédition a été créée.,module,Magento_Shipping
-Cannot save shipment.,Impossible de sauvegarder l'expédition.,module,Magento_Shipping
+Cannot save shipment.,Impossible d'enregistrer l'expédition.,module,Magento_Shipping
 The order no longer exists.,La commande n'existe plus.,module,Magento_Shipping
 Cannot do shipment for the order separately from invoice.,Impossible de créer une expédition pour la commande séparément de la facture.,module,Magento_Shipping
 Cannot do shipment for the order.,Impossible de créer une expédition pour la commande.,module,Magento_Shipping
@@ -6607,7 +6607,7 @@ Product Name,Nom du produit,module,Magento_Shipping
 Delete,Supprimer,module,Magento_Shipping
 Create Packages,Créer les paquets,module,Magento_Shipping
 Cancel,Annuler,module,Magento_Shipping
-Save,Sauvegarder,module,Magento_Shipping
+Save,Enregistrer,module,Magento_Shipping
 Add Package,Ajouter un colis,module,Magento_Shipping
 Add Selected Product(s) to Package,Ajouter les produits sélectionnés au colis,module,Magento_Shipping
 Add Products to Package,Ajouter des produits au colis,module,Magento_Shipping
@@ -6675,7 +6675,7 @@ Shipping Policy Parameters,Paramètres des conditions de livraison,module,Magent
 Apply custom Shipping Policy,Appliquer des conditions de livraison personnalisées,module,Magento_Shipping
 Shipping Policy,Conditions de livraison,module,Magento_Shipping
 Shipping Methods,Modes de livraison,module,Magento_Shipping
-Save & Generate,Sauvegarder & générer,module,Magento_Sitemap
+Save & Generate,Enregistrer & générer,module,Magento_Sitemap
 Edit Sitemap,Éditer le plan de site,module,Magento_Sitemap
 New Sitemap,Nouveau plan de site,module,Magento_Sitemap
 Sitemap Information,Informations sur le plan du site,module,Magento_Sitemap
@@ -6697,7 +6697,7 @@ New Site Map,Nouveau plan de site,module,Magento_Sitemap
 "The sitemap ""%1"" has been generated.","Le plan de site ""%1"" a bien été généré.",module,Magento_Sitemap
 We can't generate the sitemap right now.,Impossible de générer le plan de site.,module,Magento_Sitemap
 We can't find a sitemap to generate.,Impossible de trouver le plan de site à générer.,module,Magento_Sitemap
-You saved the sitemap.,Le plan de site a été sauvegardé.,module,Magento_Sitemap
+You saved the sitemap.,Le plan de site a été enregistré.,module,Magento_Sitemap
 The priority must be between 0 and 1.,La priorité doit être comprise entre 0 et 1.,module,Magento_Sitemap
 Always,Toujours,module,Magento_Sitemap
 Hourly,Toutes les heures,module,Magento_Sitemap
@@ -6794,7 +6794,7 @@ Options,Options,module,Magento_Swatches
 Select All,Sélectionner tout,module,Magento_Swatches
 Deselect All,Tout désélectionner,module,Magento_Swatches
 Remove Attribute,Supprimer l'attribut,module,Magento_Swatches
-Save Option,Sauvegarder Option,module,Magento_Swatches
+Save Option,Enregistrer Option,module,Magento_Swatches
 Remove Option,Supprimer l'option,module,Magento_Swatches
 Create New Value,Créez une nouvelle valeur,module,Magento_Swatches
 Swatches per Product,Swatches par produit,module,Magento_Swatches
@@ -6814,12 +6814,12 @@ Back,Retour,module,Magento_Tax
 Reset,Réinitialiser,module,Magento_Tax
 Delete Rate,Supprimer le taux,module,Magento_Tax
 Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_Tax
-Save Rate,Sauvegarder le taux,module,Magento_Tax
+Save Rate,Enregistrer le taux,module,Magento_Tax
 Manage Tax Rules,Gérer les règles de taxes,module,Magento_Tax
 Add New Tax Rule,Ajouter une nouvelle règle,module,Magento_Tax
-Save Rule,Sauvegarder la règle,module,Magento_Tax
+Save Rule,Enregistrer la règle,module,Magento_Tax
 Delete Rule,Supprimer la règle,module,Magento_Tax
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_Tax
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_Tax
 Tax Rule Information,Information sur la règle de taxe,module,Magento_Tax
 Name,Nom,module,Magento_Tax
 Customer Tax Class,Classe de taxe client,module,Magento_Tax
@@ -6926,7 +6926,7 @@ Note:,Remarque :,module,Magento_Tax
 Leave this field empty if you wish to use the tax identifier.,Laisser ce champ vide si vous voulez utiliser l'identifiant de la taxe.,module,Magento_Tax
 An error occurred,Une erreur est survenue,module,Magento_Tax
 Do you really want to delete this tax rate?,Voulez-vous vraiment supprimer ce taux de taxe ?,module,Magento_Tax
-Save,Sauvegarder,module,Magento_Tax
+Save,Enregistrer,module,Magento_Tax
 Add New Class,Ajouter une classe,module,Magento_Tax
 Grand Total Excl. Tax,Total HT,module,Magento_Tax
 Grand Total Incl. Tax,Total TTC,module,Magento_Tax
@@ -6991,7 +6991,7 @@ Export Tax Rates,Exporter les taux,module,Magento_TaxImportExport
 CSV,CSV,module,Magento_TaxImportExport
 Excel XML,XML d'Excel,module,Magento_TaxImportExport
 Themes,Thèmes,module,Magento_Theme
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_Theme
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_Theme
 Are you sure you want to delete this theme?,Êtes-vous sûr de vouloir supprimer ce thème ?,module,Magento_Theme
 Theme: %1,Thème : %1,module,Magento_Theme
 New Theme,Nouveau thème,module,Magento_Theme
@@ -7098,7 +7098,7 @@ WK,Sem.,module,Magento_Theme
 Time,Heure,module,Magento_Theme
 Hour,Heure,module,Magento_Theme
 Minute,Minute,module,Magento_Theme
-We could not detect a size.,Impossible de détecter le poids du fichier.,module,Magento_Theme
+We could not detect a size.,Nous ne pouvons pas détecter le poids du fichier.,module,Magento_Theme
 We don't recognize this file extension.,Impossible de reconnaître l'extension de ce fichier.,module,Magento_Theme
 Empty,Vide,module,Magento_Theme
 1 column,1 colonne,module,Magento_Theme
@@ -7355,7 +7355,7 @@ Reset,Réinitialiser,module,Magento_UrlRewrite
 Back,Retour,module,Magento_UrlRewrite
 Delete,Supprimer,module,Magento_UrlRewrite
 Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_UrlRewrite
-Save,Sauvegarder,module,Magento_UrlRewrite
+Save,Enregistrer,module,Magento_UrlRewrite
 Block Information,Information,module,Magento_UrlRewrite
 URL Rewrite Information,Information sur la réécriture d'URL,module,Magento_UrlRewrite
 Request Path,Chemin de requête,module,Magento_UrlRewrite
@@ -7375,7 +7375,7 @@ We can't delete URL Rewrite right now.,Impossible de surprimer la réécriture d
 URL Rewrites,Réécritures d'URL,module,Magento_UrlRewrite
 The product you chose is not associated with the selected store or category.,Le produit choisi n'est pas associé à la boutique ou à la catégorie sélectionnée.,module,Magento_UrlRewrite
 The category you chose is not associated with the selected store.,La catégorie choisie n'est pas associée à la boutique sélectionnée.,module,Magento_UrlRewrite
-The URL Rewrite has been saved.,La réécriture d'URL a été sauvegardée.,module,Magento_UrlRewrite
+The URL Rewrite has been saved.,La réécriture d'URL a été enregistrée.,module,Magento_UrlRewrite
 Something went wrong while saving URL Rewrite.,Une erreur s'est produite durant l'enregistrement de la réécriture d'URL.,module,Magento_UrlRewrite
 Do not use two or more consecutive slashes in the request path.,"Ne pas utiliser deux ou plusiuers slashes (""/"") consécutifs dans le chemin de la requête.",module,Magento_UrlRewrite
 Anchor symbol (#) is not supported in request path.,"Le symbole Ancre (""#"") n'est pas pris supporté dans le chemin de la requête.",module,Magento_UrlRewrite
@@ -7394,7 +7394,7 @@ Back,Retour,module,Magento_User
 Reset,Réinitialiser,module,Magento_User
 Delete Role,Supprimer le rôle,module,Magento_User
 Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_User
-Save Role,Sauvegarder le rôle,module,Magento_User
+Save Role,Enregistrer le rôle,module,Magento_User
 Roles,Rôles,module,Magento_User
 Add New Role,Nouveau rôle,module,Magento_User
 Role Information,Informations du rôle,module,Magento_User
@@ -7412,7 +7412,7 @@ Role Info,Infos du rôle,module,Magento_User
 Role Name,Nom du rôle,module,Magento_User
 Add New User,Nouvel utilisateur,module,Magento_User
 Users,Utilisateurs,module,Magento_User
-Save User,Sauvegarder l'utilisateur,module,Magento_User
+Save User,Enregistrer l'utilisateur,module,Magento_User
 Delete User,Supprimer l'utilisateur,module,Magento_User
 Are you sure you want to revoke the user\'s tokens?,Êtes-vous sûr de vouloir révoquer les jetons de l'utilisateur ?,module,Magento_User
 Force Sign-In,Révoquer les jetons,module,Magento_User
@@ -7650,7 +7650,7 @@ Show Method if Not Applicable,Afficher le mode s'il n'est pas applicable,module,
 Sort Order,Ordre de tri,module,Magento_Usps
 Custom Variables,Variables personnalisées,module,Magento_Variable
 Add New Variable,Nouvelle variable,module,Magento_Variable
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_Variable
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_Variable
 "Custom Variable ""%1""","Variable personnalisée ""%1""",module,Magento_Variable
 New Custom Variable,Nouvelle variable personnalisée,module,Magento_Variable
 Variable,Variable,module,Magento_Variable
@@ -7726,7 +7726,7 @@ Widget Type,Type de widget,module,Magento_Widget
 -- Please Select --,-- Votre choix --,module,Magento_Widget
 Manage Widget Instances,Gérer les instances de widgets,module,Magento_Widget
 Add Widget,Ajouter un widget,module,Magento_Widget
-Save and Continue Edit,Sauvegarder et continuer à éditer,module,Magento_Widget
+Save and Continue Edit,Enregistrer et continuer à éditer,module,Magento_Widget
 "Widget ""%1""","Widget ""%1""",module,Magento_Widget
 New Widget Instance,Nouvelle instance de widget,module,Magento_Widget
 Custom Layouts,Mises en page personnalisées,module,Magento_Widget
@@ -7760,7 +7760,7 @@ Please specify a correct widget.,Merci de spécifier un widget valide.,module,Ma
 The widget instance has been deleted.,L'instance de widget a bien été effacée.,module,Magento_Widget
 New Widget,Nouveau widget,module,Magento_Widget
 Widgets,Widgets,module,Magento_Widget
-The widget instance has been saved.,L'instance de widget a bien été sauvegardée.,module,Magento_Widget
+The widget instance has been saved.,L'instance de widget a bien été enregistrée.,module,Magento_Widget
 name,nom,module,Magento_Widget
 description,description,module,Magento_Widget
 We cannot create the widget instance because it is missing required information.,Impossible de créer l'instance du widget car il manque des informations requises.,module,Magento_Widget
