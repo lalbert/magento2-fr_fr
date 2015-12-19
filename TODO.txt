@@ -5,3 +5,4 @@
 * Cron => Tâche plannifiée (CRON)
 * Save => Enregistrer
 * Edit => Modifier
+* Request => Demande

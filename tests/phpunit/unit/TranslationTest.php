@@ -23,7 +23,8 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
         $this->_testFinalPunctuation($en, $fr);
 
         // Test la correspondance des pronoms
-        $this->_testWeYou($en, $fr);
+        // Désactivé pour l'instant
+        # $this->_testWeYou($en, $fr);
     }
 
     /**
