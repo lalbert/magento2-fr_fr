@@ -3,3 +3,5 @@
 * We => Nous
 * You => Vous
 * Cron => Tâche plannifiée (CRON)
+* Save => Enregistrer
+* Edit => Modifier
