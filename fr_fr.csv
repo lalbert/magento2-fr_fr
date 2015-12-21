@@ -132,7 +132,7 @@ Entity type model '%1' is not found,Le modèle du type d'entité '%1' est introu
 Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType,Le modèle du type d'entité doit être une instance de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType,module,Magento_AdvancedPricingImportExport
 There are no product types available for export,Aucun type de produit disponible pour l'export,module,Magento_AdvancedPricingImportExport
 We can't find the role for the user you wanted.,Nous ne pouvons pas trouver le rôle de l'utilisateur désiré.,module,Magento_Authorization
-Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.,Une erreur s'est produite durant la compilation de la liste des ressources autorisées. Vous pouvez trouver plus d'informations dans le journal des exceptions.,module,Magento_Authorization
+Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.,Une erreur s'est produite lors de la compilation de la liste des ressources autorisées. Vous pouvez trouver plus d'informations dans le journal des exceptions.,module,Magento_Authorization
 You created the order.,La commande a été créée.,module,Magento_Authorizenet
 Order saving error: %1,Erreur lors de la sauvegarde de la commande : %1,module,Magento_Authorizenet
 Please choose a payment method.,Merci de sélectionner une méthode de paiement.,module,Magento_Authorizenet
@@ -149,7 +149,7 @@ capture,collecter,module,Magento_Authorizenet
 refund,rembourser,module,Magento_Authorizenet
 void,annulé,module,Magento_Authorizenet
 Gateway error: %1,Erreur de la passerelle : %1,module,Magento_Authorizenet
-Something went wrong in the payment gateway.,Quelque chose c'est mal passé sur la passerelle de paiement.,module,Magento_Authorizenet
+Something went wrong in the payment gateway.,Une erreur s'est produite sur la passerelle de paiement.,module,Magento_Authorizenet
 Invalid amount for capture.,Montant de collecte invalide.,module,Magento_Authorizenet
 Payment capturing error.,Erreur de collecte de paiement.,module,Magento_Authorizenet
 Invalid transaction ID.,Identifiant de transaction invalide.,module,Magento_Authorizenet
@@ -399,7 +399,7 @@ New ,Nouveau ,module,Magento_Backend
 You saved the website.,Vous avez enregistré le site web.,module,Magento_Backend
 You saved the store.,Vous avez enregistré le magasin.,module,Magento_Backend
 You saved the store view.,Vous avez enregistré la vue magasin.,module,Magento_Backend
-Something went wrong while saving. Please review the error log.,Une erreur s'est produite durant la sauvegarde. Merci de vérifier le journal des erreurs.,module,Magento_Backend
+Something went wrong while saving. Please review the error log.,Une erreur s'est produite lors de la sauvegarde. Merci de vérifier le journal des erreurs.,module,Magento_Backend
 Last 24 Hours,Dernières 24 heures,module,Magento_Backend
 Last 7 Days,7 derniers jours,module,Magento_Backend
 Current Month,Mois en cours,module,Magento_Backend
@@ -636,7 +636,7 @@ Database Backup,Sauvegarde de la base de données,module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","L'archive peut être décompressé avec <a href=""%1"">%2</a> sur les systèmes Windows.",module,Magento_Backup
 You need more permissions to activate maintenance mode right now.,Vous avez besoin de plus d'autorisations pour activer le mode de maintenance actuellement.,module,Magento_Backup
 "To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Pour créer la sauvegarde, Veuillez décocher la case ""Mettre le magasin en mode de maintenance"" ou bien veuillez mettre à jour vos autorisations.",module,Magento_Backup
-Something went wrong while putting your store into maintenance mode.,Une erreur est survenue en mettant votre magasin en mode de maintenance.,module,Magento_Backup
+Something went wrong while putting your store into maintenance mode.,Une erreur s'est produite lors de la mise en maintenance de votre magasin.,module,Magento_Backup
 You need more free space to create a backup.,Vous avez besoin de plus d'espace disque de libre afin de pouvoir créer une sauvegarde.,module,Magento_Backup
 You need more permissions to create a backup.,Vous avez besoin de plus d'autorisations pour créer une sauvegarde.,module,Magento_Backup
 We can't create the backup right now.,Nous ne pouvons pas créer la sauvegarde dès maintenant.,module,Magento_Backup
@@ -669,7 +669,7 @@ The backup file path was not specified.,Le chemin de sauvegarde du fichier n'a p
 "The backup file ""%1"" does not exist.","Le fichier de sauvegarde ""%1"" n'existe pas.",module,Magento_Backup
 "Sorry, but we cannot read from or write to backup file ""%1"".","Désolé, mais nous ne pouvons pas lire ou écrire dans le fichier de sauvegarde ""%1"".",module,Magento_Backup
 The backup file handler was unspecified.,Le gestionnaire de fichier de sauvegarde n'a pas été précisée.,module,Magento_Backup
-"Something went wrong while writing to the backup file ""%1"".","Quelque chose a mal tourné lors de l'écriture du fichier de sauvegarde ""%1"".",module,Magento_Backup
+"Something went wrong while writing to the backup file ""%1"".","Une erreur s'est produite lors de l'écriture du fichier de sauvegarde ""%1"".",module,Magento_Backup
 We can't save the Cron expression.,Impossible d'enregistrer l'expression du CRON (tâche planifiée),module,Magento_Backup
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Vous perdrez toutes les données créées depuis la sauvegarde qui a été effectuée, y compris les utilisateurs d'administration, les clients et les commandes.",module,Magento_Backup
 Are you sure you want to continue?,Êtes vous sur de vouloir continuer?,module,Magento_Backup
@@ -717,7 +717,7 @@ Stored Card,Carte bancaire stockée,module,Magento_Braintree
 Credit Card Type,Type de carte de bancaire,module,Magento_Braintree
 Credit Card Number,Numéro de carte bancaire,module,Magento_Braintree
 Credit card successfully added,Carte bancaire ajouté avec succès,module,Magento_Braintree
-Something went wrong while saving the card.,Quelque chose n'allait pas lors de l'enregistrement de la carte.,module,Magento_Braintree
+Something went wrong while saving the card.,Une erreur s'est produite lors de l'enregistrement de la carte.,module,Magento_Braintree
 Credit card does not exist,Carte bancaire non existante,module,Magento_Braintree
 Delete Credit Card,Supprimer la carte bancaire,module,Magento_Braintree
 There was error deleting the credit card,Il y a eu une erreur lors de la suppression de la carte bancaire,module,Magento_Braintree
@@ -758,7 +758,7 @@ Authorize and Capture,Autorisation et collecte,module,Magento_Braintree
 Invalid Customer ID provided,ID incorrect fourni par le Client,module,Magento_Braintree
 some error,une erreur,module,Magento_Braintree
 "a,b,c","a,b,c",module,Magento_Braintree
-Something went wrong while processing.,Quelque chose n'allait pas lors du traitement.,module,Magento_Braintree
+Something went wrong while processing.,Une erreur s'est produite lors du traitement.,module,Magento_Braintree
 error,erreur,module,Magento_Braintree
 exception,exception,module,Magento_Braintree
 Payment Information,Informations de paiement,module,Magento_Braintree
@@ -1140,7 +1140,7 @@ Price: %1,Prix : %1,module,Magento_Catalog
 Special Price: %1,Prix promotionnel : %1,module,Magento_Catalog
 Special Products,Produits promotionnels,module,Magento_Catalog
 You deleted the category.,Vous avez supprimé la catégorie.,module,Magento_Catalog
-Something went wrong while trying to delete the category.,Une erreur est survenue tout en essayant de supprimer la catégorie.,module,Magento_Catalog
+Something went wrong while trying to delete the category.,Une erreur s'est produite lors de la suppression de la catégorie.,module,Magento_Catalog
 Categories,Catégories,module,Magento_Catalog
 Manage Catalog Categories,Gérer les catégories du catalogue,module,Magento_Catalog
 Manage Categories,Gérer les catégories,module,Magento_Catalog
@@ -1149,12 +1149,12 @@ There was a category move error.,Il y a eu une erreur lors du déplacement de la
 There was a category move error. %1,Il y a eu une erreur lors du déplacement de la catégorie.%1,module,Magento_Catalog
 You moved the category,Vous avez déplacé la catégorie,module,Magento_Catalog
 "Attribute ""%1"" is required.","L'attribut ""%1"" est requis.",module,Magento_Catalog
-Something went wrong while saving the category.,Quelque chose n'allait pas lors de l'enregistrement de la catégorie.,module,Magento_Catalog
+Something went wrong while saving the category.,Une erreur s'est produite lors de l'enregistrement de la catégorie.,module,Magento_Catalog
 You saved the category.,Vous avez enregistré la catégorie.,module,Magento_Catalog
 Please select products for attributes update.,S'il vous plaît sélectionner des produits pour la mise à jour des attributs.,module,Magento_Catalog
 Please make sure to define SKU values for all processed products.,S'il vous plaît assurez-vous de définir les valeurs de REF pour tous les produits transformés.,module,Magento_Catalog
 A total of %1 record(s) were updated.,Un total de %1 fiche(s) mis à jour.,module,Magento_Catalog
-Something went wrong while updating the product(s) attributes.,Quelque chose a mal tourné lors de la mise à jour d'attribut de produit(s).,module,Magento_Catalog
+Something went wrong while updating the product(s) attributes.,Une erreur s'est produite lors de la mise à jour d'attribut de produit(s).,module,Magento_Catalog
 Catalog,Catalogue,module,Magento_Catalog
 Manage Product Attributes,Gérer les attributs produit,module,Magento_Catalog
 We can't delete the attribute.,Nous ne pouvons pas supprimer l'attribut.,module,Magento_Catalog
@@ -1164,7 +1164,7 @@ This attribute no longer exists.,Cet attribut n'existe plus.,module,Magento_Cata
 This attribute cannot be edited.,Cet attribut ne peut pas être modifié.,module,Magento_Catalog
 Edit Product Attribute,Modifier l'attribut produit,module,Magento_Catalog
 An attribute set named '%1' already exists.,Un groupe d'attributs nommé '%1' existe déjà.,module,Magento_Catalog
-Something went wrong while saving the attribute.,Quelque chose a mal tourné tout en sauvant l'attribut.,module,Magento_Catalog
+Something went wrong while saving the attribute.,Une erreur s'est produite lors de l'enregistrement de l'attribut.,module,Magento_Catalog
 "Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Code d'attribut ""%1"" invalide. Veuillez utiliser uniquement des lettres (az), des chiffres (0-9) ou de soulignement (_) dans ce domaine, le premier caractère doit être une lettre.",module,Magento_Catalog
 We can't update the attribute.,Nous ne pouvons pas mettre à jour l'attribut.,module,Magento_Catalog
 You saved the product attribute.,Vous avez enregsitré l'attribut du produit.,module,Magento_Catalog
@@ -1174,10 +1174,10 @@ You duplicated the product.,Vous dupliqué le produit.,module,Magento_Catalog
 This product no longer exists.,Ce produit n'existe plus.,module,Magento_Catalog
 Products,Produits,module,Magento_Catalog
 A group with the same name already exists.,Il existe déjà un groupe portant ce nom.,module,Magento_Catalog
-Something went wrong while saving this group.,Quelque chose a mal tourné lors de l'enregistrement de ce groupe.,module,Magento_Catalog
+Something went wrong while saving this group.,Une erreur s'est produite lors de l'enregistrement de ce groupe.,module,Magento_Catalog
 A total of %1 record(s) have been deleted.,Un total de %1 enregistrement(s) supprimé(s).,module,Magento_Catalog
 A total of %1 record(s) have been updated.,Un total de %1 enregistrement(s) mis à jour.,module,Magento_Catalog
-Something went wrong while updating the product(s) status.,Quelque chose a mal tourné lors de l'actualisation du statut produit(s).,module,Magento_Catalog
+Something went wrong while updating the product(s) status.,Une erreur s'est produite lors de l'actualisation du statut produit(s).,module,Magento_Catalog
 Unable to save product,Impossible d'enregistrer le produit,module,Magento_Catalog
 You saved the product.,Vous avez enregistré le produit.,module,Magento_Catalog
 SKU for product %1 has been changed to %2.,REF pour le produit %1 a été changé à %2.,module,Magento_Catalog
@@ -1190,10 +1190,10 @@ Manage Product Sets,Gérer les groupes de produits,module,Magento_Catalog
 Manage Attribute Sets,Gérer les groupes d'attributs,module,Magento_Catalog
 This attribute set no longer exists.,Ce groupe d'attributs n'existe plus.,module,Magento_Catalog
 You saved the attribute set.,Vous avez enregistré le groupe d'attributs.,module,Magento_Catalog
-Something went wrong while saving the attribute set.,Quelque chose a mal tourné lors de l'enregistrement du groupe d'attribut.,module,Magento_Catalog
+Something went wrong while saving the attribute set.,Une erreur s'est produite lors de l'enregistrement du groupe d'attribut.,module,Magento_Catalog
 You added product %1 to the comparison list.,Vous avez ajouté 1 % produit(s) à la liste de comparaison.,module,Magento_Catalog
 You cleared the comparison list.,Vous avez désactivé la liste de comparaison.,module,Magento_Catalog
-Something went wrong  clearing the comparison list.,Quelque chose a mal vider la liste de comparaison.,module,Magento_Catalog
+Something went wrong  clearing the comparison list.,Une erreur s'est produite lors du vidage de la liste de comparaison.,module,Magento_Catalog
 You removed product %1 from the comparison list.,Vous avez retiré 1 % produit(s) de la liste de comparaison.,module,Magento_Catalog
 1 item,1 article,module,Magento_Catalog
 %1 items,%1 article(s),module,Magento_Catalog
@@ -1325,14 +1325,14 @@ Could not save group price,Impossible d'enregistrer ce prix de groupe,module,Mag
 "We can't create writeable directory ""%1"".","Nous ne pouvons pas créer un répertoire accessible en écriture ""%1"".",module,Magento_Catalog
 The file upload failed.,Le chargement du fichier a échoué.,module,Magento_Catalog
 The product has required options.,Le produit requière une ou plusieurs options.,module,Magento_Catalog
-Something went wrong while processing the request.,Quelque chose a mal tourné lors du traitement de la demande.,module,Magento_Catalog
+Something went wrong while processing the request.,Une erreur s'est produite lors du traitement de la demande.,module,Magento_Catalog
 %1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType,%1 ne s'accorde pas avec \Magento\Catalog\Model\Product\Type\AbstractType,module,Magento_Catalog
 %1 doesn't extends \Magento\Catalog\Model\Product\Type\Price,%1 ne s'accorde pas avec  \Magento\Catalog\Model\Product\Type\Price,module,Magento_Catalog
 Not Visible Individually,Non visible individuellement,module,Magento_Catalog
 Search,Chercher,module,Magento_Catalog
 "Catalog, Search","Catalogue, Recherche",module,Magento_Catalog
-Something went wrong while removing products from the websites.,Quelque chose a mal tout en retirant les produits provenant des sites Web.,module,Magento_Catalog
-Something went wrong while adding products to websites.,"Quelque chose a mal tourné, tout en ajoutant les produits à des sites Web.",module,Magento_Catalog
+Something went wrong while removing products from the websites.,Une erreur s'est produite lors de la suppression des produits des sites web.,module,Magento_Catalog
+Something went wrong while adding products to websites.,Une erreur s'est produite lors de l'ajout des produits aux sites web.,module,Magento_Catalog
 "Group with id ""%1"" does not exist.","Groupe avec id ""%1"" n'existe pas.",module,Magento_Catalog
 Attribute group that contains system attributes can not be deleted,Groupe d'attributs contenant des attributs système ne pouvant être supprimé,module,Magento_Catalog
 Collection provider is not registered,La collection fournis n'a pas été enregistré,module,Magento_Catalog
@@ -1730,7 +1730,7 @@ Edit Rule,Modifier la règle,module,Magento_CatalogRule
 Catalog,Catalogue,module,Magento_CatalogRule
 Wrong rule specified.,Mauvaise règle spécifiée.,module,Magento_CatalogRule
 You saved the rule.,La règle a été enregistrée.,module,Magento_CatalogRule
-Something went wrong while saving the rule data. Please review the error log.,Une erreur s'est produite durant l'enregistrement des données de la règle. Veuillez consulter le journal des erreurs.,module,Magento_CatalogRule
+Something went wrong while saving the rule data. Please review the error log.,Une erreur s'est produite lors de l'enregistrement des données de la règle. Veuillez consulter le journal des erreurs.,module,Magento_CatalogRule
 Promo,Promo,module,Magento_CatalogRule
 Percentage discount should be between 0 and 100.,La réduction en pourcentage doit être comprise entre 0 et 100.,module,Magento_CatalogRule
 Discount value should be 0 or greater.,La valeur de la réduction doit être supérieure à 0.,module,Magento_CatalogRule
@@ -1845,7 +1845,7 @@ Guest checkout is disabled.,La passage de commande Invité est désactivé.,modu
 Checkout,Commander,module,Magento_Checkout
 Page not found.,Page introuvable.,module,Magento_Checkout
 Please agree to all the terms and conditions before placing the order.,Veuillez accepter les conditions générales de ventes avant de valider la commande.,module,Magento_Checkout
-Something went wrong while processing your order. Please try again later.,Quelque chose a mal tourné lors du traitement de votre commande. Veuillez réessayer plus tard.,module,Magento_Checkout
+Something went wrong while processing your order. Please try again later.,Une erreur s'est produite lors du traitement de votre commande. Veuillez réessayer plus tard.,module,Magento_Checkout
 %1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface,%1 ne s'accorede pas avec \Magento\Checkout\CustomerData\ItemInterface,module,Magento_Checkout
 We can't find the product.,Impossible de trouver le produit.,module,Magento_Checkout
 The product does not exist.,Le produit n'existe pas.,module,Magento_Checkout
@@ -1981,7 +1981,7 @@ Something went wrong  while deleting this condition.,Une erreur s'est produite d
 Edit Condition,Modifier la condition,module,Magento_CheckoutAgreements
 New Condition,Nouvelle condition,module,Magento_CheckoutAgreements
 You saved the condition.,La condition a été enregistrée.,module,Magento_CheckoutAgreements
-Something went wrong while saving this condition.,Une erreur s'est produite durant l'enregistrement de cette condition.,module,Magento_CheckoutAgreements
+Something went wrong while saving this condition.,Une erreur s'est produite lors de l'enregistrement de cette condition.,module,Magento_CheckoutAgreements
 Automatically,Automatiquement,module,Magento_CheckoutAgreements
 Manually,Manuellement,module,Magento_CheckoutAgreements
 Please agree to all the terms and conditions before placing the order.,Veuillez accepter les conditions générales de ventes avant de valider la commande.,module,Magento_CheckoutAgreements
@@ -2065,7 +2065,7 @@ We can't find a page to delete.,Nous ne pouvons pas trouver la page à supprimer
 This page no longer exists.,Cette page n'existe plus.,module,Magento_Cms
 Edit Page,Modifier la page,module,Magento_Cms
 Pages,Pages,module,Magento_Cms
-Something went wrong while saving the page.,Quelque chose a mal tourné lors de l'enregistrement de la page.,module,Magento_Cms
+Something went wrong while saving the page.,Une erreur s'est produite lors de l'enregistrement de la page.,module,Magento_Cms
 A total of %1 record(s) have been disabled.,Un total de %1 enregistrement(s) désactivé(s).,module,Magento_Cms
 A total of %1 record(s) have been enabled.,Un total de %1 enregistrement(s) activé(s).,module,Magento_Cms
 "To apply changes you should fill in hidden required ""%1"" field","Pour appliquer les modifications vous devez remplir le champ caché obligatoire  ""%1""",module,Magento_Cms
@@ -2155,7 +2155,7 @@ Disable,Désactiver,module,Magento_Config
 Configuration,Configuration,module,Magento_Config
 System,Système,module,Magento_Config
 You saved the configuration.,Vous avez enregistré la configuration.,module,Magento_Config
-Something went wrong while saving this configuration:,Quelque chose a mal tourné lors de l'enregistrement de cette configuration:,module,Magento_Config
+Something went wrong while saving this configuration:,Une erreur s'est produite lors de l'enregistrement de cette configuration:,module,Magento_Config
 Page not found.,Page introuvable.,module,Magento_Config
 Please specify the admin custom URL.,S'il vous plaît spécifier l'URL d'administration personnalisé.,module,Magento_Config
 Invalid %1. %2,Invalide %1. %2,module,Magento_Config
@@ -2250,7 +2250,7 @@ Cannot delete option with id: %1,Vous ne pouvez pas supprimer l'option avec id: 
 "Option with id ""%1"" not found","Option avec id ""%1"" n'a pas été trouvé",module,Magento_ConfigurableProduct
 "Could not update option with id ""%1""","Impossible de mettre à jour l'option avec id ""%1""",module,Magento_ConfigurableProduct
 Product already has this option,Le produit a déjà cette option,module,Magento_ConfigurableProduct
-Something went wrong while saving option.,Quelque chose a mal tourné lors de l'enregistrement de l'option.,module,Magento_ConfigurableProduct
+Something went wrong while saving option.,Une erreur s'est produite lors de l'enregistrement de l'option.,module,Magento_ConfigurableProduct
 Only implemented for configurable product: %1,Seulement mis en place pour le produit configurable: %1,module,Magento_ConfigurableProduct
 Option attribute ID is not specified.,ID de l'option d'attribut n'est pas spécifié.,module,Magento_ConfigurableProduct
 Option label is not specified.,Le libellé d'option n'est pas spécifié.,module,Magento_ConfigurableProduct
@@ -2519,7 +2519,7 @@ The VAT ID entered (%s) is not a valid VAT ID.,Le numéro de TVA saisi (%s) n'es
 The VAT ID is valid. The current Customer Group will be used.,Le numéro de TVA INTRA est valide. Le groupe client en cours sera utilisé.,module,Magento_Customer
 The VAT ID is valid but no Customer Group is assigned for it.,"Le numéro de TVA INTRA est valide, mais le client n'est pas dans un groupe client qui lui est attribué.",module,Magento_Customer
 "Based on the VAT ID, the customer belongs to the Customer Group %s.","Basé sur le numéro de TVA intracommunautaire, le client appartient au groupe client %s.",module,Magento_Customer
-Something went wrong while validating the VAT ID.,Quelque chose a mal tourné lors de la validation du numéro de TVA intracommunautaire.,module,Magento_Customer
+Something went wrong while validating the VAT ID.,Une erreur s'est produite lors de la validation du numéro de TVA intracommunautaire.,module,Magento_Customer
 The customer would belong to Customer Group %s.,Le client fait partie du groupe client %s.,module,Magento_Customer
 There was an error detecting Customer Group.,Il y a eu une détection d'erreur du groupe clients.,module,Magento_Customer
 Validate VAT Number,Valider le numéro de TVA,module,Magento_Customer
@@ -2547,7 +2547,7 @@ Invalid input,Saisie invalide,module,Magento_Customer
 You saved the account information.,Vous avez enregistré les informations de compte.,module,Magento_Customer
 Please enter new password.,S'il vous plaît entrer un nouveau mot de passe.,module,Magento_Customer
 Confirm your new password.,Confirmez votre nouveau mot de passe.,module,Magento_Customer
-Something went wrong while changing the password.,Quelque chose a mal tourné lors du changement de mot de passe.,module,Magento_Customer
+Something went wrong while changing the password.,Une erreur s'est produite lors du changement de mot de passe.,module,Magento_Customer
 Please correct the email address.,S'il vous plaît corriger l'adresse e-mail.,module,Magento_Customer
 We're unable to send the password reset email.,Nous ne pouvons pas envoyer l'email de réinitialisation de mot.,module,Magento_Customer
 Please enter your email.,Saisissez votre email.,module,Magento_Customer
@@ -2559,7 +2559,7 @@ A login and a password are required.,Un identifiant et un mot de passe sont néc
 New Password and Confirm New Password values didn't match.,Les valeurs du nouveau mot de passe et la confirmation du nouveau mot de passe ne correspondent pas.,module,Magento_Customer
 Please enter a new password.,S'il vous plaît entrer un nouveau mot de passe.,module,Magento_Customer
 You updated your password.,Vous avez mis à jour votre mot de passe.,module,Magento_Customer
-Something went wrong while saving the new password.,Quelque chose a mal tourné lors de l'enregistrement du nouveau mot de passe.,module,Magento_Customer
+Something went wrong while saving the new password.,Une erreur s'est produite lors de l'enregistrement du nouveau mot de passe.,module,Magento_Customer
 You deleted the address.,Vous avez supprimé l'adresse.,module,Magento_Customer
 We can't delete the address right now.,Nous ne pouvons pas supprimer l'adresse actuellement.,module,Magento_Customer
 You saved the address.,Vous avez enregistré l'adresse.,module,Magento_Customer
@@ -2579,15 +2579,15 @@ You saved the customer group.,Vous avez enregistré le groupe de clients.,module
 Please select customer(s).,Sélectionnez au moins un client.,module,Magento_Customer
 Customer could not be deleted.,Le client ne peut être supprimé.,module,Magento_Customer
 You deleted the customer.,Vous avez supprimé le client.,module,Magento_Customer
-Something went wrong while editing the customer.,Quelque chose a mal tourné lors de la modification du client.,module,Magento_Customer
+Something went wrong while editing the customer.,Une erreur s'est produite lors de la modification du client.,module,Magento_Customer
 Manage Customers,Gérer les clients,module,Magento_Customer
 Please correct the data sent.,Merci de corriger les données envoyées.,module,Magento_Customer
 A total of %1 record(s) were updated.,Un total de %1 enregistrement(s) mis à jour.,module,Magento_Customer
 A total of %1 record(s) were deleted.,Un total de %1 enregistrement(s) ont été supprimés.,module,Magento_Customer
 The customer will receive an email with a link to reset password.,Le client recevra un email avec un lien pour réinitialiser votre mot de passe.,module,Magento_Customer
-Something went wrong while resetting customer password.,Quelque chose a mal tourné lors de la réinitialisation de mot de passe client.,module,Magento_Customer
+Something went wrong while resetting customer password.,Une erreur s'est produite lors de la réinitialisation de mot de passe client.,module,Magento_Customer
 You saved the customer.,Vous avez enregistré le client.,module,Magento_Customer
-Something went wrong while saving the customer.,Quelque chose a mal tourné lors de l'enregistrement du client.,module,Magento_Customer
+Something went wrong while saving the customer.,Une erreur s'est produite lors de l'enregistrement du client.,module,Magento_Customer
 Page not found.,Page introuvable.,module,Magento_Customer
 Online Customers,Clients en ligne,module,Magento_Customer
 Customers Now Online,Clients en ligne actuellement,module,Magento_Customer
@@ -3747,8 +3747,8 @@ Integration '%1' has been sent for activation.,Intégration '%1' a été envoyé
 You did not sign in correctly or your account is temporarily disabled.,Erreur dans les paramètres de connexion ou votre compte est temporairement désactivé.,module,Magento_Integration
 This user has no tokens.,Cet utilisateur n'a pas d'authenfication.,module,Magento_Integration
 The tokens could not be revoked.,Les authentifications ne peuvent être révoqués.,module,Magento_Integration
-"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Désolé, quelque c'est mal passé sur l'attributions des permissions. Vous pouvez en savoir plus dans le journal d'exceptions.",module,Magento_Integration
-Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.,Quelque chose a mal tourné lors de la suppression des rôles et permissions. Vous pouvez en savoir plus dans le journal d'exceptions.,module,Magento_Integration
+"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Désolé, une erreur s'est produite sur l'attributions des permissions. Vous pouvez en savoir plus dans le journal des exceptions.",module,Magento_Integration
+Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.,Une erreur s'est produite lors de la suppression des rôles et permissions. Vous pouvez en savoir plus dans le journal d'exceptions.,module,Magento_Integration
 This customer has no tokens.,Ce client n'a pas d'authenfication.,module,Magento_Integration
 Inactive,Inactif,module,Magento_Integration
 Active,Actif,module,Magento_Integration
@@ -4185,7 +4185,7 @@ None,Aucun,module,Magento_OfflineShipping
 Per Order,Par commande,module,Magento_OfflineShipping
 Per Item,Par article,module,Magento_OfflineShipping
 Please correct Table Rates File Format.,Merci de corriger le format de fichier de la tarification.,module,Magento_OfflineShipping
-Something went wrong while importing table rates.,Une erreur s'est produite durant l'importation de la tarification.,module,Magento_OfflineShipping
+Something went wrong while importing table rates.,Une erreur s'est produite lors de l'importation de la tarification.,module,Magento_OfflineShipping
 We couldn't import this file because of these errors: %1,Impossible d'importer ce fichier à cause des erreurs suivantes : %1.,module,Magento_OfflineShipping
 Please correct Table Rates format in the Row #%1.,Merci de corriger le format de la tarification à la ligne #%1.,module,Magento_OfflineShipping
 "Please correct Country ""%1"" in the Row #%2.","Merci de corriger le pays ""%1"" à la ligne #%2.",module,Magento_OfflineShipping
@@ -4360,7 +4360,7 @@ We can't start Express Checkout.,Nous ne pouvons pas commencer Express Checkout.
 Your payment has been declined. Please try again.,Votre paiement a été refusé. S'il vous plaît essayer à nouveau.,module,Magento_Paypal
 We can't contact the PayPal gateway.,Nous ne pouvons pas communiquer avec la passerelle PayPal.,module,Magento_Paypal
 PayPal response hasn't required fields.,La réponse de PayPal ne comporte pas les champs obligatoires.,module,Magento_Paypal
-Something went wrong while processing your order.,Quelque chose a mal tourné lors du traitement de votre commande.,module,Magento_Paypal
+Something went wrong while processing your order.,Une erreur s'est produite lors du traitement de votre commande.,module,Magento_Paypal
 PayPal gateway has rejected request. %1,Passerelle PayPal ayant rejeté la demande. %1,module,Magento_Paypal
 The PayPal gateway rejected the request. %1,La passerelle PayPal a rejeté la demande. %1,module,Magento_Paypal
 I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.,Je suis désolé - mais nous étions pas en mesure de traiter votre paiement. S'il vous plaît essayer une autre méthode de paiement ou contactez-nous afin que nous puissions vous aider.,module,Magento_Paypal
@@ -6248,11 +6248,11 @@ New Cart Price Rule,Nouvelle règle de prix panier,module,Magento_SalesRule
 Rule is not defined,La règle n'est pas définie,module,Magento_SalesRule
 Invalid data provided,Données fournies invalides,module,Magento_SalesRule
 %1 coupon(s) have been generated.,% coupon(s) ont été générés.,module,Magento_SalesRule
-Something went wrong while generating coupons. Please review the log and try again.,Une erreur s'est produite pendant la génération des coupons. Merci de consulter le journal des erreurs et essayez à nouveau.,module,Magento_SalesRule
+Something went wrong while generating coupons. Please review the log and try again.,Une erreur s'est produite lors de la génération des coupons. Merci de consulter le journal des erreurs et essayez à nouveau.,module,Magento_SalesRule
 Catalog,Catalogue,module,Magento_SalesRule
 The wrong rule is specified.,Une mauvaise règle est spécifiée.,module,Magento_SalesRule
 You saved the rule.,Règle enregistrée.,module,Magento_SalesRule
-Something went wrong while saving the rule data. Please review the error log.,Une erreur s'est produite pendant l'enregistrement des données de la règle. Merci de vérifer le journal des erreurs.,module,Magento_SalesRule
+Something went wrong while saving the rule data. Please review the error log.,Une erreur s'est produite lors de l'enregistrement des données de la règle. Merci de vérifer le journal des erreurs.,module,Magento_SalesRule
 Alphanumeric,Alphanumérique,module,Magento_SalesRule
 Alphabetical,Alphabétique,module,Magento_SalesRule
 Numeric,Numérique,module,Magento_SalesRule
@@ -6351,7 +6351,7 @@ Total of %1 record(s) were deleted.,%1 enregistrement(s) ont été effacés.,mod
 Reports,Rapports,module,Magento_Search
 Search Terms Report,Rapport des termes de recherche,module,Magento_Search
 You saved the search term.,Le terme de recherche a été enregistré.,module,Magento_Search
-Something went wrong while saving the search query.,Une erreur s'est produite pendant l'enregistrement de la requête de recherche.,module,Magento_Search
+Something went wrong while saving the search query.,Une erreur s'est produite lors de l'enregistrement de la requête de recherche.,module,Magento_Search
 You already have an identical search term query.,Il existe déjà une requête de recherche identique.,module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.",La requête de rechercher ne peut pas excéder %1 caractères. Merci de raccourcir la requête.,module,Magento_Search
 Search entire store here...,Rechercher...,module,Magento_Search
@@ -7279,7 +7279,7 @@ URL Rewrites,Réécritures d'URL,module,Magento_UrlRewrite
 The product you chose is not associated with the selected store or category.,Le produit choisi n'est pas associé au magasin ou à la catégorie sélectionnée.,module,Magento_UrlRewrite
 The category you chose is not associated with the selected store.,La catégorie choisie n'est pas associée au magasin sélectionnée.,module,Magento_UrlRewrite
 The URL Rewrite has been saved.,La réécriture d'URL a été enregistrée.,module,Magento_UrlRewrite
-Something went wrong while saving URL Rewrite.,Une erreur s'est produite durant l'enregistrement de la réécriture d'URL.,module,Magento_UrlRewrite
+Something went wrong while saving URL Rewrite.,Une erreur s'est produite lors de l'enregistrement de la réécriture d'URL.,module,Magento_UrlRewrite
 Do not use two or more consecutive slashes in the request path.,"Ne pas utiliser deux ou plusiuers slashes (""/"") consécutifs dans le chemin de la requête.",module,Magento_UrlRewrite
 Anchor symbol (#) is not supported in request path.,"Le symbole Ancre (""#"") n'est pas pris supporté dans le chemin de la requête.",module,Magento_UrlRewrite
 Do not use two or more consecutive slashes in the url rewrite suffix.,"Ne pas utiliser deux ou plusiuers slashes (""/"") consécutifs dans le suffixe de la réécriture d'URL.",module,Magento_UrlRewrite

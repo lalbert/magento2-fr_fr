@@ -7,6 +7,6 @@
 * [x] Edit => Modifier
 * [x] Request => Demande
 * [x] Store => Magasin
-* [ ] Something went wrong while => Une erreur s'est produite lors
+* [x] Something went wrong while => Une erreur s'est produite lors
 * [ ] Please => Veuillez
 * [ ] Invalid => Invalide
