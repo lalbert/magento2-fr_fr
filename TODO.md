@@ -10,4 +10,4 @@
 * [x] Something went wrong while => Une erreur s'est produite lors
 * [x] Please => Veuillez
 * [x] Invalid => Invalide
-* [ ] Provided => Fourni
+* [x] Provided => Fourni

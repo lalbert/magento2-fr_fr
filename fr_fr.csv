@@ -926,7 +926,7 @@ Add Products to New Option,Ajouter les produits à la nouvelle option,module,Mag
 "Add Products to Option ""%1""","Ajouter les produits à l'option ""%1""",module,Magento_Bundle
 Always,Toujours,module,Magento_Captcha
 After number of attempts to login,Après un nombre de tentatives de connexion,module,Magento_Captcha
-Provided form does not exist,Le formulaire spécifié n'existe pas.,module,Magento_Captcha
+Provided form does not exist,Le formulaire fourni n'existe pas,module,Magento_Captcha
 Incorrect CAPTCHA,CAPTCHA incorrect,module,Magento_Captcha
 Incorrect CAPTCHA.,CAPTCHA incorrect.,module,Magento_Captcha
 Please enter the letters from the image,Veuillez saisir les lettres affichées sur l'image,module,Magento_Captcha
@@ -3072,7 +3072,7 @@ Please set resource file and link type.,Renseignez le fichier de ressource et le
 Invalid download link type.,Le type de lien de téléchargement est invalide.,module,Magento_Downloadable
 Something went wrong while saving the file(s).,Une erreur s'est produite lors de l'enregistrement du/des fichier(s).,module,Magento_Downloadable
 Provided content must be valid base64 encoded data.,Le contenu fourni doit être une donnée valide encodée en base64.,module,Magento_Downloadable
-Provided file name contains forbidden characters.,Le nom de fichier fourrni contient des caractères interdits.,module,Magento_Downloadable
+Provided file name contains forbidden characters.,Le nom de fichier fourni contient des caractères interdits.,module,Magento_Downloadable
 Link price must have numeric positive value.,Le prix du lien doit avoir une valeur numérique positive.,module,Magento_Downloadable
 Number of downloads must be a positive integer.,Le nombre de téléchargements doit être un entier positif.,module,Magento_Downloadable
 Sort order must be a positive integer.,L'ordre de tri doit être un entier positif.,module,Magento_Downloadable
@@ -3092,7 +3092,7 @@ Provided sample information is invalid.,Les informations fournis pour l'échanti
 Invalid sample type.,Type d'échantillon invalide.,module,Magento_Downloadable
 Sample title cannot be empty.,Le titre de l'échantillon ne peut pas être vide.,module,Magento_Downloadable
 There is no downloadable sample with provided ID.,Aucun échantillon téléchargeable avec l'ID fourni.,module,Magento_Downloadable
-Provided downloadable sample is not related to given product.,Cet échantillon n'est pas relié à ce produit.,module,Magento_Downloadable
+Provided downloadable sample is not related to given product.,L'échantillon fourni n'est pas relié à ce produit.,module,Magento_Downloadable
 attachment,pièce jointe,module,Magento_Downloadable
 inline,en ligne,module,Magento_Downloadable
 Pending,En attente,module,Magento_Downloadable
@@ -3489,13 +3489,13 @@ Gift Messages is not applicable for empty cart,Les messages cadeau ne sont pas u
 Gift Messages is not applicable for virtual products,Les messages cadeaux ne sont pas utilisables pour les produits virtuels,module,Magento_GiftMessage
 Gift Message is not available,Messages cadeau indisponibles,module,Magento_GiftMessage
 Could not add gift message to shopping cart,Impossible d'ajouter un message cadeau au panier,module,Magento_GiftMessage
-There is no item with provided id in the cart,Aucun article trouvé dans le panier avec cet ID,module,Magento_GiftMessage
-There is no product with provided  itemId: %1 in the cart,Aucun article trouvé dans le panier avec cet ID : %1,module,Magento_GiftMessage
-There is no item with provided id in the order,Aucun article trouvé dans la commande avec cet ID,module,Magento_GiftMessage
-There is no item with provided id in the order or gift message isn't allowed,Aucun article trouvé dans la commande avec cet ID ou les messages cadeau ne sont pas autorisés,module,Magento_GiftMessage
+There is no item with provided id in the cart,Il n'y a pas d'article avec l'identifiant fourni dans le panier,module,Magento_GiftMessage
+There is no product with provided  itemId: %1 in the cart,"Il n'y a pas de produit avec l'identifiant fourni ""%1"" dans le panier",module,Magento_GiftMessage
+There is no item with provided id in the order,Il n'y a pas d'article avec l'identifiant fourni dans la commande,module,Magento_GiftMessage
+There is no item with provided id in the order or gift message isn't allowed,Il n'y a pas d'article avec l'identifiant fourni dans la commande ou les messages cadeau ne sont pas autorisés,module,Magento_GiftMessage
 "Could not add gift message to order: ""%1""","Impossible d'ajouter un message cadeau à la commande : ""%1""",module,Magento_GiftMessage
-There is no order with provided id or gift message isn't allowed,Aucune commande trouvée avec cet ID ou les messages cadeau ne sont pas autorisés,module,Magento_GiftMessage
-There is no order with provided id,Aucune commande trouvée avec cet ID,module,Magento_GiftMessage
+There is no order with provided id or gift message isn't allowed,Il n'y a pas de commande avec l'identifiant fourni ou les messages cadeau ne sont pas autorisés,module,Magento_GiftMessage
+There is no order with provided id,Il n'y a pas de commande avec l'identifiant fourni,module,Magento_GiftMessage
 Gift Messages is not applicable for empty order,Les messages cadeau ne sont pas utilisables pour une commande vide,module,Magento_GiftMessage
 "Could not add gift message to order's item: ""%1""","Impossible d'ajouter un message cadeau pour l'article ""%1""",module,Magento_GiftMessage
 Unknown entity type,Type d'entité inconnu,module,Magento_GiftMessage
@@ -4471,7 +4471,7 @@ Yes. Matched Address and five-didgit ZIP,"Oui, Correspondance de l'adresse et du
 All the address information matched,Vérification de toutes les informations de l'adresse,module,Magento_Paypal
 None of the address information matched,Aucune correspondance trouvée dans l'adresse,module,Magento_Paypal
 Part of the address information matched,Correspondance trouvée sur une partie de l'adresse.,module,Magento_Paypal
-N/A. The merchant did not provide AVS information,N/A. Le commerçant ne possède pas d'information AVS,module,Magento_Paypal
+N/A. The merchant did not provide AVS information,N/A. Le commerçant n'a pas fourni d'information AVS,module,Magento_Paypal
 "N/A. Address not checked, or acquirer had no response. Service not available","N/A. L'adresse n'a pas été vérifié, ou l'acquéreur n'a pas donné de réponse. Service non disponible",module,Magento_Paypal
 Matched (CVV2CSC),Correspondance (CVV2CSC),module,Magento_Paypal
 No match,Aucune correspondance,module,Magento_Paypal
