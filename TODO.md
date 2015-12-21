@@ -8,5 +8,5 @@
 * [x] Request => Demande
 * [x] Store => Magasin
 * [x] Something went wrong while => Une erreur s'est produite lors
-* [ ] Please => Veuillez
+* [x] Please => Veuillez
 * [ ] Invalid => Invalide
