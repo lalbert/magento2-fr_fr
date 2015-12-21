@@ -6,7 +6,7 @@
 * [x] Save => Enregistrer
 * [x] Edit => Modifier
 * [x] Request => Demande
-* [ ] Store => Magasin
+* [x] Store => Magasin
 * [ ] Something went wrong while => Une erreur s'est produite lors
 * [ ] Please => Veuillez
 * [ ] Invalid => Invalide
