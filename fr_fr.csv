@@ -358,7 +358,7 @@ An error occurred while refreshing cache.,Une erreur s'est produite pendant le r
 Dashboard,Tableau de bord,module,Magento_Backend
 We updated lifetime statistic.,Nous avons mis à jour les statistiques depuis le début.,module,Magento_Backend
 We can't refresh lifetime statistics.,Nous n'avons pas pu rafraîchir les statistiques depuis le début.,module,Magento_Backend
-invalid request,requête invalide,module,Magento_Backend
+invalid request,demande invalide,module,Magento_Backend
 see error log for details,consultez le journal des erreurs pour plus de détails,module,Magento_Backend
 Service unavailable: %1,Service inaccessible : %1,module,Magento_Backend
 Error,Erreur,module,Magento_Backend
@@ -859,7 +859,7 @@ Id field of product link is required,Le champ ID pour lier le produit est obliga
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Le produit avec le SKU ""%1"" ne contient pas l'option ""%2""",module,Magento_Bundle
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","L'enfant avec le SKU ""%1"" est déjà assigné au produit ""%2""",module,Magento_Bundle
 Product with specified sku: %1 is not a bundle product,Le produit avec le SKU %1 n'est pas un produit packagé,module,Magento_Bundle
-Requested bundle option product doesn't exist,Les options du produit packagé n'existent pas,module,Magento_Bundle
+Requested bundle option product doesn't exist,Les options du produit packagé demandé n'existent pas,module,Magento_Bundle
 Requested option doesn't exist,L'option demandée n'existe pas,module,Magento_Bundle
 Cannot delete option with id %1,Impossible de supprimer l'option d'ID %1,module,Magento_Bundle
 Could not save option,Impossible d'enregistrer l'option,module,Magento_Bundle
@@ -1146,7 +1146,7 @@ Something went wrong while trying to delete the category.,Une erreur est survenu
 Categories,Catégories,module,Magento_Catalog
 Manage Catalog Categories,Gérer les catégories du catalogue,module,Magento_Catalog
 Manage Categories,Gérer les catégories,module,Magento_Catalog
-Category is not available for requested store.,La catégorie n'est pas disponible pour le magasin requis.,module,Magento_Catalog
+Category is not available for requested store.,La catégorie n'est pas disponible pour le magasin demandé.,module,Magento_Catalog
 There was a category move error.,Il y a eu une erreur lors du déplacement de la catégorie.,module,Magento_Catalog
 There was a category move error. %1,Il y a eu une erreur lors du déplacement de la catégorie.%1,module,Magento_Catalog
 You moved the category,Vous avez déplacé la catégorie,module,Magento_Catalog
@@ -1285,7 +1285,7 @@ Use config,Utiliser la config,module,Magento_Catalog
 Enabled,Activé,module,Magento_Catalog
 Disabled,Désactivé,module,Magento_Catalog
 Attribute Set already exists.,Groupe d'attribut déjà existant.,module,Magento_Catalog
-Requested product does not support images.,Le produit que vous recherchez ne supporte pas les images.,module,Magento_Catalog
+Requested product does not support images.,Le produit demandé ne supporte pas les images.,module,Magento_Catalog
 The image content is not valid.,Le contenu de l'image n'est pas valide.,module,Magento_Catalog
 Cannot save product.,Vous ne pouvez pas enregistrer le produit.,module,Magento_Catalog
 Failed to save new media gallery entry.,Echec de l'enregistrement pour une nouvelle entrée de galerie de médias.,module,Magento_Catalog
@@ -1343,7 +1343,7 @@ Unknown link type: %1,Type de lien inconnu: %1,module,Magento_Catalog
 Invalid data provided for linked products,Des données incorrectes ont été fournies pour la liaison des produits,module,Magento_Catalog
 Product with SKU %1 is not linked to product with SKU %2,Produit avec la REF %1 n'a pas été lié au produit ayant pour REF %2,module,Magento_Catalog
 Product %1 doesn't have linked %2 as %3,Le produit %1 n'a pas pu être liée au %2 ainsi qu'au %3,module,Magento_Catalog
-Requested product doesn't exist,Le produit que vous demandez n'existe pas,module,Magento_Catalog
+Requested product doesn't exist,Le produit demandé n'existe pas,module,Magento_Catalog
 Product option with id %1 does not exist,L'option de produit avec id %1 n'existe pas,module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","Produit avec la REF ""%1"" n'existe pas",module,Magento_Catalog
 Invalid product data: %1,Données de produit non valide: %1,module,Magento_Catalog
@@ -2536,7 +2536,7 @@ Validate VAT Number,Valider le numéro de TVA,module,Magento_Customer
 Customer Login,Identifiant client,module,Magento_Customer
 Create New Customer Account,Créer un nouveau compte client,module,Magento_Customer
 Date of Birth,Date de naissance,module,Magento_Customer
-Bad request.,Non trouvé.,module,Magento_Customer
+Bad request.,Mauvaise demande.,module,Magento_Customer
 This confirmation key is invalid or has expired.,Cette clé de confirmation n'est pas valide ou a expiré.,module,Magento_Customer
 There was an error confirming the account,Il y a eu une erreur en confirmant le compte,module,Magento_Customer
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","Si vous êtes un client assujetti à la TVA, s'il vous plaît <a href=""%1"">cliquez ici</a> entrer votre adresse de livraison pour un calcul de TVA correcte.",module,Magento_Customer
@@ -3286,7 +3286,7 @@ label,libellé,module,Magento_Eav
 Invalid entity supplied: %1,L'entité fournie n'est pas valide : %1.,module,Magento_Eav
 Attempt to add an invalid object,Tentative d'ajout d'un objet invalide,module,Magento_Eav
 Invalid attribute identifier for filter (%1),Identificateur d'attribut non valide pour le filtre (%1),module,Magento_Eav
-Invalid attribute requested: %1,Attribut non valide exigé : %1,module,Magento_Eav
+Invalid attribute requested: %1,Attribut demandé invalide : %1,module,Magento_Eav
 Joint field or attribute expression with this alias is already declared,Il existe déjà un champ de jointure ou une expression d'attribut portant cet alias.,module,Magento_Eav
 "Invalid alias, already exists in joint attributes","Alias invalide, déjà utilisé dans les attributs de jointure",module,Magento_Eav
 Invalid foreign key,Clé étrangère invalide.,module,Magento_Eav
@@ -3483,7 +3483,7 @@ Password,Mot de passe,module,Magento_Fedex
 Sandbox Mode,Mode Sandbox,module,Magento_Fedex
 Web-Services URL (Production),URL du web-service (Production),module,Magento_Fedex
 Web-Services URL (Sandbox),URL du web-service (Développement),module,Magento_Fedex
-Packages Request Type,Type de requête de paquets,module,Magento_Fedex
+Packages Request Type,Type de demande de paquets,module,Magento_Fedex
 Packaging,Emballage,module,Magento_Fedex
 Dropoff,Déposer,module,Magento_Fedex
 Weight Unit,Unité de poids,module,Magento_Fedex
@@ -3935,7 +3935,7 @@ Please check shipping address information.,Vérifiez les informations de l'adres
 Please check billing address information.,Vérifiez les informations de l'adresse de facturation.,module,Magento_Multishipping
 Please select shipping methods for all addresses.,Merci de sélectionner une méthode de livraison pour toutes les adresses.,module,Magento_Multishipping
 A payment method is not defined.,La méthode de paiement n'est pas définie.,module,Magento_Multishipping
-The requested payment method is not available for multishipping.,La méthode de paiement désirée n'est pas disponible pour la livraison à plusieurs adresses.,module,Magento_Multishipping
+The requested payment method is not available for multishipping.,La méthode de paiement demandée n'est pas disponible pour la livraison à plusieurs adresses.,module,Magento_Multishipping
 Item not found or already ordered,Produit non trouvé ou déjà commandé,module,Magento_Multishipping
 Please specify a payment method.,Merci de sélectionner une méthode de paiement.,module,Magento_Multishipping
 Please check shipping addresses information.,Vérifiez les informations des adresses de livraison.,module,Magento_Multishipping
@@ -6554,8 +6554,8 @@ All Allowed Countries,Tous les pays autorisés,module,Magento_Shipping
 Specific Countries,Certains pays,module,Magento_Shipping
 Development,Développement,module,Magento_Shipping
 Live,En production,module,Magento_Shipping
-Divide to equal weight (one request),Diviser en poids égal (une requête),module,Magento_Shipping
-Use origin weight (few requests),Utiliser le poids d'origine (peu de requêtes),module,Magento_Shipping
+Divide to equal weight (one request),Diviser en poids égal (une demande),module,Magento_Shipping
+Use origin weight (few requests),Utiliser le poids d'origine (plusieurs demandes),module,Magento_Shipping
 Packages,Packages,module,Magento_Shipping
 Package,Interface,module,Magento_Shipping
 Type,Type,module,Magento_Shipping
@@ -7297,7 +7297,7 @@ UPS,UPS,module,Magento_Ups
 Access License Number,Numéro de permis d'accès,module,Magento_Ups
 Enabled for Checkout,Activé pour commander,module,Magento_Ups
 Allowed Methods,Modes de livraison autorisés,module,Magento_Ups
-Packages Request Type,Type de requête de paquets,module,Magento_Ups
+Packages Request Type,Type de demande de paquets,module,Magento_Ups
 Container,Container,module,Magento_Ups
 Free Shipping Amount Threshold,Montant minimum pour la livraison gratuite,module,Magento_Ups
 Destination Type,Type de destination,module,Magento_Ups
@@ -7627,7 +7627,7 @@ Title,Titre,module,Magento_Usps
 User ID,ID utilisateur,module,Magento_Usps
 Password,Mot de passe,module,Magento_Usps
 Mode,Mode,module,Magento_Usps
-Packages Request Type,Type de requête de paquets,module,Magento_Usps
+Packages Request Type,Type de demande de paquets,module,Magento_Usps
 Container,Container,module,Magento_Usps
 Size,Taille,module,Magento_Usps
 Width,Largeur,module,Magento_Usps
@@ -7800,7 +7800,7 @@ This product(s) is out of stock.,Ces produits sont épuisés.,module,Magento_Wis
 We can't add the item to the cart right now.,Impossible d'ajouter le produit au panier.,module,Magento_Wishlist
 We can't load the Wish List item right now.,Impossible de charger le produit de la liste d'envies.,module,Magento_Wishlist
 We can't configure the product right now.,Impossible de configurer le produit.,module,Magento_Wishlist
-The requested cart item doesn't exist.,Le produit du panier n'existe pas.,module,Magento_Wishlist
+The requested cart item doesn't exist.,Le produit du panier demandé n'existe pas.,module,Magento_Wishlist
 %1 has been moved to your wish list.,%1 a été déplacé dans votre liste d'envies.,module,Magento_Wishlist
 We can't move the item to the wish list.,Impossible de déplacer ce produit dans la liste d'envies.,module,Magento_Wishlist
 We can't delete the item from Wish List right now because of an error: %1.,Impossible de supprimer le produit de la liste d'envies en raison de l'erreur suivante : %1.,module,Magento_Wishlist
