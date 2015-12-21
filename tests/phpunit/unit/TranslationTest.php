@@ -21,6 +21,10 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
 
         // Test la ponctuation
         $this->_testFinalPunctuation($en, $fr);
+
+        // Test la correspondance des pronoms
+        // Désactivé pour l'instant
+        # $this->_testWeYou($en, $fr);
     }
 
     /**
@@ -33,6 +37,7 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
         $message = "La traduction de ''$en'' n'est pas fournie.";
         $this->assertNotNull(trim($fr), $message);
         $this->assertNotEmpty($fr, $message);
+        $this->assertNotEquals('#N/A', $fr);
     }
 
     /**
@@ -112,6 +117,19 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
         if(!\in_array($lastLetterEn, $ignoredPunctuation) && \ctype_punct($lastLetterEn)) {
             if(!\in_array($lastLetterFr, $ignoredPunctuation)) {
                 $this->assertTrue(\ctype_punct($lastLetterFr), "Il semble qu'il manque la ponctuation de la fin de chaîne.");
+            }
+        }
+    }
+
+    public function _testWeYou($en, $fr)
+    {
+        $trans = ['we' => 'nous', 'you' => 'vous'];
+        $enClean = \mb_strtolower(\ltrim($en));
+        $frClean = \mb_strtolower(\ltrim($fr));
+
+        foreach($trans as $enPronoun => $frPronoun) {
+            if(0 === \strpos($enClean, $enPronoun)) {
+                $this->assertTrue((0 === \strpos($frClean, $frPronoun)), 'La traduction doit commencer par "' . \ucfirst($frPronoun) . '"');
             }
         }
     }
