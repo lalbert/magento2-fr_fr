@@ -755,7 +755,7 @@ Shipment,Expédition,module,Magento_Braintree
 Authorize,Autoriser,module,Magento_Braintree
 Authorize and Capture,Autorisation et collecte,module,Magento_Braintree
 --Please Select--,--Veuillez choisir--,module,Magento_Braintree
-Invalid Customer ID provided,ID incorrect fourni par le Client,module,Magento_Braintree
+Invalid Customer ID provided,ID de client fourni invalide,module,Magento_Braintree
 some error,une erreur,module,Magento_Braintree
 "a,b,c","a,b,c",module,Magento_Braintree
 Something went wrong while processing.,Une erreur s'est produite lors du traitement.,module,Magento_Braintree
@@ -1318,7 +1318,7 @@ Some of the selected item options are not currently available.,Certaines des opt
 The text is too long.,Le texte est trop long.,module,Magento_Catalog
 This product doesn't have tier price,Ce produit n'a pas de prix de palier,module,Magento_Catalog
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Le produit n'a pas de prix de groupe avec ces données: customerGroupId = '%1', site = %2, quantité = %3",module,Magento_Catalog
-Invalid data provided for tier_price,Des données incorrectes prévues aux tier_price,module,Magento_Catalog
+Invalid data provided for tier_price,Données fournies invalide pour tier_price,module,Magento_Catalog
 Please provide valid data,Veuillez fournir des données valides,module,Magento_Catalog
 Values of following attributes are invalid: %1,Les valeurs d'attributs suivants sont invalides: %1,module,Magento_Catalog
 Could not save group price,Impossible d'enregistrer ce prix de groupe,module,Magento_Catalog
@@ -1338,13 +1338,13 @@ Attribute group that contains system attributes can not be deleted,Groupe d'attr
 Collection provider is not registered,La collection fournis n'a pas été enregistré,module,Magento_Catalog
 Unknown link type: %1,Type de lien inconnu: %1,module,Magento_Catalog
 "Provided link type ""%1"" does not exist","Type de lien fournis ""%1"" n'existant pas",module,Magento_Catalog
-Invalid data provided for linked products,Des données incorrectes ont été fournies pour la liaison des produits,module,Magento_Catalog
+Invalid data provided for linked products,Données fournies invalide pour la liaison des produits,module,Magento_Catalog
 Product with SKU %1 is not linked to product with SKU %2,Produit avec la REF %1 n'a pas été lié au produit ayant pour REF %2,module,Magento_Catalog
 Product %1 doesn't have linked %2 as %3,Le produit %1 n'a pas pu être liée au %2 ainsi qu'au %3,module,Magento_Catalog
 Requested product doesn't exist,Le produit demandé n'existe pas,module,Magento_Catalog
 Product option with id %1 does not exist,L'option de produit avec id %1 n'existe pas,module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","Produit avec la REF ""%1"" n'existe pas",module,Magento_Catalog
-Invalid product data: %1,Données de produit non valide: %1,module,Magento_Catalog
+Invalid product data: %1,Données de produit invalides : %1,module,Magento_Catalog
 Unable to remove product %1,Impossible de retirer le produit %1,module,Magento_Catalog
 There are not websites for assign to product,Il n'y a pas de sites web pour l'assigner au produit,module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","Impossible d'assigner le produit ""%1"" à des sites Web ""%2""",module,Magento_Catalog
@@ -2527,7 +2527,7 @@ Customer Login,Identifiant client,module,Magento_Customer
 Create New Customer Account,Créer un nouveau compte client,module,Magento_Customer
 Date of Birth,Date de naissance,module,Magento_Customer
 Bad request.,Mauvaise demande.,module,Magento_Customer
-This confirmation key is invalid or has expired.,Cette clé de confirmation n'est pas valide ou a expiré.,module,Magento_Customer
+This confirmation key is invalid or has expired.,Cette clé de confirmation est invalide ou a expiré.,module,Magento_Customer
 There was an error confirming the account,Il y a eu une erreur en confirmant le compte,module,Magento_Customer
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","Si vous êtes un client assujetti à la TVA, veuillez <a href=""%1"">cliquez ici</a> entrer votre adresse de livraison pour un calcul de TVA correcte.",module,Magento_Customer
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","Si vous êtes un client assujetti à la TVA, veuillez <a href=""%1"">cliquez ici</a> entrer votre adresse de facturation pour un calcul de TVA correcte.",module,Magento_Customer
@@ -2643,7 +2643,7 @@ Attribute object is undefined,L'objet attribut est indéfini,module,Magento_Cust
 """%1"" uses too many characters.","""%1"" utilise trop de caractères.",module,Magento_Customer
 "%value%' looks like an IP address, which is not an acceptable format.","%value%' ressemble à une adresse IP, ce qui n'est pasun format acceptable.",module,Magento_Customer
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,"%value%' ressemble à un nom d'hôte DNS, mais nous ne pouvons pas correspondre vis à vis d'une liste TLD connue.",module,Magento_Customer
-%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' ressemble à un nom d'hôte DNS mais contient un tiret dans une position non valide.,module,Magento_Customer
+%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' ressemble à un nom d'hôte DNS mais contient un tiret à une position invalide.,module,Magento_Customer
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value%' ressemble à un nom d'hôte DNS, mais nous ne pouvons pas correspondre vis à vis du schéma du nom d'hôte pour le TLD '%tld%'.",module,Magento_Customer
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' ressemble à un nom d'hôte DNS mais ne peut extraire une partie du TLD.,module,Magento_Customer
 %value%' does not look like a valid local network name.,%value%' ne ressemble pas à un nom de réseau local valide.,module,Magento_Customer
@@ -3206,7 +3206,7 @@ Entity object is undefined,L'objet entité n'est pas défini,module,Magento_Eav
 """%1"" uses too many characters.","""%1"" utilise trop de caractères.",module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value%' ressemble à une adresse IP, ce qui n'est un format acceptable.",module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match the TLD against known list.,"%value%' ressemble à un nom d'hôte DNS, mais nous ne pouvons pas trouver vis à vis de la liste TLD connue.",module,Magento_Eav
-%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' ressemble à un nom d'hôte DNS mais contient un tiret dans une position non valide.,module,Magento_Eav
+%value%' looks like a DNS hostname but contains a dash in an invalid position.,%value%' ressemble à un nom d'hôte DNS mais contient un tiret à une position invalide.,module,Magento_Eav
 %value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.,"%value%' ressemble à un nom d'hôte DNS, mais nous ne pouvons pas correspondre vis à vis du schéma de nom d'hôte pour le TLD '%tld%'.",module,Magento_Eav
 %value%' looks like a DNS hostname but cannot extract TLD part.,%value%' ressemble à un nom d'hôte DNS mais ne peut pas extraire une partie de TLD.,module,Magento_Eav
 %value%' does not look like a valid local network name.,%value%' ne ressemble pas à un nom local valide de réseau.,module,Magento_Eav
@@ -3245,19 +3245,19 @@ Cannot delete attribute.,Vous ne pouvez pas supprimer l'attribut.,module,Magento
 There was an error saving attribute set.,Il y a eu une erreur lors de la sauvegarde sur l'ensemble d'attributs.,module,Magento_Eav
 Default attribute set can not be deleted,Ensemble d'attributs par défaut ne peut être supprimé,module,Magento_Eav
 There was an error deleting attribute set.,Il y a eu une erreur lors de la suppression sur l'ensemble d'attributs.,module,Magento_Eav
-Invalid entity_type specified: %1,Spécification entity_type non valide : %1,module,Magento_Eav
+Invalid entity_type specified: %1,entity_type fourni invalide : %1,module,Magento_Eav
 Entity is not initialized,L'entité n'est pas initialisée.,module,Magento_Eav
 Unknown parameter,Paramètre inconnu.,module,Magento_Eav
 The attribute code '%1' is reserved by system. Please try another attribute code,Le code d'attribut '%1' est réservé par le système. Veuillez essayez un autre code d'attribut,module,Magento_Eav
 An attribute code must not be more than %1 characters.,Un code d'attribut ne doit pas contenir plus de %1 caractères.,module,Magento_Eav
-Invalid default decimal value,Valeur décimale par défaut non valide,module,Magento_Eav
-Invalid default date,Date par défaut non valide,module,Magento_Eav
-Invalid entity supplied,Entité fournie non valide,module,Magento_Eav
+Invalid default decimal value,Valeur décimale par défaut invalide,module,Magento_Eav
+Invalid default date,Date par défaut invalide,module,Magento_Eav
+Invalid entity supplied,Entité fournie invalide,module,Magento_Eav
 Invalid backend model specified: ' .,Backend modèle specifié Invalide: ' .,module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","Le modèle source ""%1"" n'a pas été trouvé pour l'attribut ""%2""",module,Magento_Eav
 "The value of attribute ""%1"" must be set","La valeur de l'attribut ""%1"" doit être réglé",module,Magento_Eav
 "The value of attribute ""%1"" must be unique","La valeur de l'attribut ""%1"" doit être unique.",module,Magento_Eav
-Invalid date,Date non valide,module,Magento_Eav
+Invalid date,Date invalide,module,Magento_Eav
 Empty attribute code,Code d'attribut vide,module,Magento_Eav
 Attribute %1 doesn't work with options,L'attribut %1 ne fonctionne pas avec des options,module,Magento_Eav
 Cannot save attribute %1,Vous ne pouvez pas enregistrer l'attribut %1,module,Magento_Eav
@@ -3268,9 +3268,9 @@ Attribute set name is empty.,Nom du groupe d'attribut est vide.,module,Magento_E
 "An attribute set named ""%1"" already exists.","Un groupe d'attribut nommé ""% 1"" existe déjà.",module,Magento_Eav
 No options found.,Aucune option trouvé.,module,Magento_Eav
 label,libellé,module,Magento_Eav
-Invalid entity supplied: %1,L'entité fournie n'est pas valide : %1.,module,Magento_Eav
+Invalid entity supplied: %1,L'entité fournie est invalide : %1.,module,Magento_Eav
 Attempt to add an invalid object,Tentative d'ajout d'un objet invalide,module,Magento_Eav
-Invalid attribute identifier for filter (%1),Identificateur d'attribut non valide pour le filtre (%1),module,Magento_Eav
+Invalid attribute identifier for filter (%1),Identificateur d'attribut invalide pour le filtre (%1),module,Magento_Eav
 Invalid attribute requested: %1,Attribut demandé invalide : %1,module,Magento_Eav
 Joint field or attribute expression with this alias is already declared,Il existe déjà un champ de jointure ou une expression d'attribut portant cet alias.,module,Magento_Eav
 "Invalid alias, already exists in joint attributes","Alias invalide, déjà utilisé dans les attributs de jointure",module,Magento_Eav
@@ -3282,13 +3282,13 @@ Invalid joint fields,Champs de jointure invalides.,module,Magento_Eav
 A joint field with this alias (%1) is already declared.,Un champ de jointure a déjà été déclaré avec cet alias (%1).,module,Magento_Eav
 Data integrity: No header row found for attribute,Intégrité des données : aucune ligne d'en-tête trouvée pour l'attribut.,module,Magento_Eav
 Invalid attribute name: %1,Nom d'attribut invalide : %1,module,Magento_Eav
-Invalid character encountered in increment ID: %1,Caractère non valide trouvé dans l'ID d'incrément : %1,module,Magento_Eav
+Invalid character encountered in increment ID: %1,Caractère invalide trouvé dans l'ID d'incrément : %1,module,Magento_Eav
 The current module pathname is undefined.,Le chemin courant du module est indéfinie.,module,Magento_Eav
 The current module EAV entity is undefined.,L'entité courant du module de EAV est indéfinie.,module,Magento_Eav
 The form code is not defined.,Le code de formulaire n'est pas défini.,module,Magento_Eav
 The entity instance is not defined.,L'instance d'entité n'est pas défini.,module,Magento_Eav
 Invalid form type.,Type de formulaire invalide.,module,Magento_Eav
-Invalid EAV attribute,Attribut EAV non valide,module,Magento_Eav
+Invalid EAV attribute,Attribut EAV invalide,module,Magento_Eav
 Attribute with the same code,Attribut avec le même code,module,Magento_Eav
 The storefront label is not defined.,Le libellé du magasin est pas défini.,module,Magento_Eav
 Default option value is not defined,La valeur par défaut de l'option n'est pas définie.,module,Magento_Eav
@@ -3366,7 +3366,7 @@ Template Variables,Variables de gabarit,module,Magento_Email
 Please enter a template name.,Veuillez renseigner un nom de gabarit.,module,Magento_Email
 Duplicate Of Template Name,Duplication du nom de gabarit,module,Magento_Email
 Invalid transactional email code: %1,"Le code d'email transactionnel ""%1"" est invalide",module,Magento_Email
-"Requested invalid store ""%1""","Le magasin demandé ""%1"" n'est pas valide",module,Magento_Email
+"Requested invalid store ""%1""","Le magasin demandé ""%1"" est invalide",module,Magento_Email
 """file"" parameter must be specified","le paramètre ""file"" doit être renseigné",module,Magento_Email
 Contents of %s could not be loaded or is empty,Le contenu de %s ne peut pas être chargé ou est vide,module,Magento_Email
 """file"" parameter must be specified and must not be empty","Le paramètre ""file"" doit être renseigné et ne peut pas être vide",module,Magento_Email
@@ -4955,7 +4955,7 @@ Unable to update the alert subscription.,Impossible de mettre à jour l'inscript
 You will no longer receive stock alerts for this product.,Vous ne recevrez plus d'alertes de disponibilité pour ce produit.,module,Magento_ProductAlert
 The product was not found.,Le produit n'a pas été trouvé.,module,Magento_ProductAlert
 You will no longer receive stock alerts.,Vous ne recevrez plus d'alertes de disponibilité.,module,Magento_ProductAlert
-Invalid block type: %1,Type de bloc non valide : %1,module,Magento_ProductAlert
+Invalid block type: %1,Type de bloc invalide : %1,module,Magento_ProductAlert
 Price change alert! We wanted you to know that prices have changed for these products:,Changement de prix ! Nous vous informons du changement de prix pour nos produits :,module,Magento_ProductAlert
 Price:,Prix :,module,Magento_ProductAlert
 Click here to stop alerts for this product.,Cliquez ici pour vous désinscrire des alertes pour ces produits.,module,Magento_ProductAlert
@@ -6662,7 +6662,7 @@ Requested store is inactive,La magasin demandé est innactif.,module,Magento_Sto
 Requested store is not found,Le magasin demandé est introuvable.,module,Magento_Store
 Environment emulation nesting is not allowed.,L'imbrication d'émulation d'environnement n'est pas autorisée.,module,Magento_Store
 Only default scope allowed,Seule la portée par défaut est autorisé,module,Magento_Store
-Invalid scope object,Objet de portée non valide,module,Magento_Store
+Invalid scope object,Objet de portée invalide,module,Magento_Store
 Store with the same code,Magasin avec le même code,module,Magento_Store
 Website with the same code,Site web avec le même code,module,Magento_Store
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Le code du site web ne peut contenir que des lettres (a-z), nombres (0-9) ou underscore (_). Le premier caractère doit être une lettre.",module,Magento_Store
@@ -6899,9 +6899,9 @@ Range To,Tranche jusqu'à,module,Magento_TaxImportExport
 Tax Zones and Rates,Zones et taux des taxes,module,Magento_TaxImportExport
 Import and Export Tax Rates,Importer et exporter des taux de TVA,module,Magento_TaxImportExport
 The tax rate has been imported.,Le taux de taxe a été importé.,module,Magento_TaxImportExport
-Invalid file upload attempt,Import de fichier non valide,module,Magento_TaxImportExport
-Invalid file upload attempt.,Import de fichier non valide.,module,Magento_TaxImportExport
-Invalid file format.,Format de fichier non valide.,module,Magento_TaxImportExport
+Invalid file upload attempt,Import de fichier invalide,module,Magento_TaxImportExport
+Invalid file upload attempt.,Import de fichier invalide.,module,Magento_TaxImportExport
+Invalid file format.,Format de fichier invalide.,module,Magento_TaxImportExport
 One of the countries has invalid code.,Un des pays a un code invalide.,module,Magento_TaxImportExport
 Import Tax Rates,Import de taux de taxes,module,Magento_TaxImportExport
 Export Tax Rates,Exporter les taux,module,Magento_TaxImportExport
@@ -7369,7 +7369,7 @@ New Role,Nouveau rôle,module,Magento_User
 This role no longer exists.,Ce rôle n'existe plus.,module,Magento_User
 You saved the role.,Rôle enregistré.,module,Magento_User
 An error occurred while saving this role.,Erreur lors de la sauvegarde de ce rôle.,module,Magento_User
-You have entered an invalid password for current user.,Vous avez renseigné un mot de passe non valide pour l'utilisateur actuel.,module,Magento_User
+You have entered an invalid password for current user.,Vous avez renseigné un mot de passe invalide pour l'utilisateur actuel.,module,Magento_User
 You saved the user.,Utilisateur enregistré.,module,Magento_User
 A user with the same user name or email already exists.,Un utilisateur avec le même nom d'utilisateur ou la même adresse email existe déjà.,module,Magento_User
 Recommended,Recommandé,module,Magento_User
