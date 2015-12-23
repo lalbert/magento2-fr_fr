@@ -15,7 +15,7 @@ Shopping Options,Affiner la recherche,theme,frontend/Magento/luma
 "%name,","%name,",theme,frontend/Magento/luma
 Welcome to %store_name.,Bienvenue sur %store_name.,theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Pour vous connecter sur notre boutique, utilisez les identifiants renseignés lors de votre commande ou en vous rendant sur la page <a href=""%customer_url"">Mon compte</a> :",theme,frontend/Magento/luma
-Email:,Email :,theme,frontend/Magento/luma
+Email:,E-mail :,theme,frontend/Magento/luma
 Password:,Mot de passe :,theme,frontend/Magento/luma
 Password you set when creating account,Celui que vous avez défini lors de la création de votre compte,theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Mot de passe oublié ? Cliquez <a href=""%reset_url"">ici</a> pour le réinitialiser.",theme,frontend/Magento/luma
@@ -35,7 +35,7 @@ Customer Service,Service client,theme,frontend/Magento/luma
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Service client :<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 Thank you for your order from %store_name.,Merci de votre commande sur %store_name.,theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Vous pouvez suivre le statut de votre commande en <a href=""%account_url"">vous connectant à votre compte</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Si vous avez des questions concernant votre commande, vous pouvez nous envoyer un email à l'adresse <a href=""mailto:%store_email"">%store_email</a>",theme,frontend/Magento/luma
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Si vous avez des questions concernant votre commande, vous pouvez nous envoyer un e-mail à l'adresse <a href=""mailto:%store_e-mail"">%store_e-mail</a>",theme,frontend/Magento/luma
 Your Credit Memo #%creditmemo_id for Order #%order_id,Votre avoir #%creditmemo_id pour la commande #%order_id,theme,frontend/Magento/luma
 Billing Info,Informations de facturation,theme,frontend/Magento/luma
 Shipping Info,Informations de livraison,theme,frontend/Magento/luma
@@ -190,8 +190,8 @@ Gateway URL,URL de passerelle,module,Magento_Authorizenet
 Transaction Details URL,Détails de la transaction URL,module,Magento_Authorizenet
 Accepted Currency,Devise acceptée,module,Magento_Authorizenet
 Debug,Déboguage,module,Magento_Authorizenet
-Email Customer,Envoyer un email au client,module,Magento_Authorizenet
-Merchant's Email,Email du commerçant,module,Magento_Authorizenet
+Email Customer,Envoyer un e-mail au client,module,Magento_Authorizenet
+Merchant's Email,E-mail du commerçant,module,Magento_Authorizenet
 Credit Card Types,Types de cartes bancaires,module,Magento_Authorizenet
 Credit Card Verification,Vérification de la carte bancaire,module,Magento_Authorizenet
 Payment from Applicable Countries,Mode de paiement autorisé pour,module,Magento_Authorizenet
@@ -238,8 +238,8 @@ Account Information,Informations du compte,module,Magento_Backend
 User Name,Nom d'utilisateur,module,Magento_Backend
 First Name,Prénom,module,Magento_Backend
 Last Name,Nom,module,Magento_Backend
-Email,Email,module,Magento_Backend
-User Email,Email de l'utilisateur,module,Magento_Backend
+Email,E-mail,module,Magento_Backend
+User Email,E-mail de l'utilisateur,module,Magento_Backend
 New Password,Nouveau mot de passe,module,Magento_Backend
 Password Confirmation,Confirmation du mot de passe,module,Magento_Backend
 Interface Locale,Langue de l'interface,module,Magento_Backend
@@ -490,11 +490,11 @@ We don't recognize or support this file extension type.,Nous ne reconnaissons pa
 Services,Services,module,Magento_Backend
 Advanced,Avancé,module,Magento_Backend
 Disable Modules Output,Désactiver la sortie des modules,module,Magento_Backend
-Store Email Addresses,Adresses email du magasin,module,Magento_Backend
-Custom Email 1,Email personnalisé 1,module,Magento_Backend
-Sender Email,Email de l'expéditeur,module,Magento_Backend
+Store Email Addresses,Adresses e-mail du magasin,module,Magento_Backend
+Custom Email 1,E-mail personnalisé 1,module,Magento_Backend
+Sender Email,E-mail de l'expéditeur,module,Magento_Backend
 Sender Name,Nom de l'expéditeur,module,Magento_Backend
-Custom Email 2,Email personnalisé 2,module,Magento_Backend
+Custom Email 2,E-mail personnalisé 2,module,Magento_Backend
 General Contact,Contact général,module,Magento_Backend
 Sales Representative,Représentant des ventes,module,Magento_Backend
 Customer Support,Support client,module,Magento_Backend
@@ -563,16 +563,16 @@ Single-Store Mode,"Mode ""mono-boutique""",module,Magento_Backend
 Enable Single-Store Mode,"Activer le mode ""mono-boutique""",module,Magento_Backend
 This setting will not be taken into account if system has more than one store view.,Ce paramètre ne sera pas pris en compte si le système a plus d'une vue magasin.,module,Magento_Backend
 Mail Sending Settings,Paramètres d'envoi des emails,module,Magento_Backend
-Disable Email Communications,Désactiver les envois d'email,module,Magento_Backend
+Disable Email Communications,Désactiver les envois d'e-mail,module,Magento_Backend
 Host,Serveur,module,Magento_Backend
 Port (25),Port (25),module,Magento_Backend
 Set Return-Path,Renseigner le chemin de retour,module,Magento_Backend
-Return-Path Email,Adresse email de réponse,module,Magento_Backend
+Return-Path Email,Adresse e-mail de réponse,module,Magento_Backend
 Admin,Administration,module,Magento_Backend
-Admin User Emails,Emails de l'administrateur,module,Magento_Backend
+Admin User Emails,E-mails de l'administrateur,module,Magento_Backend
 Forgot Password Email Template,Gabarit du mail d'oubli de mot de passe,module,Magento_Backend
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Backend
-Forgot and Reset Email Sender,Expéditeur de l'email d'oubli et réinitialisation de mot de passe,module,Magento_Backend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Backend
+Forgot and Reset Email Sender,Expéditeur de l'e-mail d'oubli et réinitialisation de mot de passe,module,Magento_Backend
 Recovery Link Expiration Period (days),Durée avant expiration d'un lien de récupération (en jours),module,Magento_Backend
 Please enter a number 1 or greater in this field.,Veuillez saisir un nombre supérieur ou égal à 1.,module,Magento_Backend
 Startup Page,Page de démarrage,module,Magento_Backend
@@ -1074,7 +1074,7 @@ We saved the stock notification.,Nous avons enregistré la notification de stock
 There are no customers for this alert.,Aucun client pour cette alerte.,module,Magento_Catalog
 First Name,Prénom,module,Magento_Catalog
 Last Name,Nom,module,Magento_Catalog
-Email,Email,module,Magento_Catalog
+Email,E-mail,module,Magento_Catalog
 Subscribe Date,Date d'abonnement,module,Magento_Catalog
 Last Notified,Dernière notification,module,Magento_Catalog
 Send Count,Nombre d'envois,module,Magento_Catalog
@@ -1191,12 +1191,12 @@ Manage Attribute Sets,Gérer les groupes d'attributs,module,Magento_Catalog
 This attribute set no longer exists.,Ce groupe d'attributs n'existe plus.,module,Magento_Catalog
 You saved the attribute set.,Vous avez enregistré le groupe d'attributs.,module,Magento_Catalog
 Something went wrong while saving the attribute set.,Une erreur s'est produite lors de l'enregistrement du groupe d'attribut.,module,Magento_Catalog
-You added product %1 to the comparison list.,Vous avez ajouté 1 % produit(s) à la liste de comparaison.,module,Magento_Catalog
-You cleared the comparison list.,Vous avez désactivé la liste de comparaison.,module,Magento_Catalog
+You added product %1 to the comparison list.,Vous avez ajouté le produit %1 à la liste de comparaison.,module,Magento_Catalog
+You cleared the comparison list.,Vous avez vidé la liste de comparaison.,module,Magento_Catalog
 Something went wrong  clearing the comparison list.,Une erreur s'est produite lors du vidage de la liste de comparaison.,module,Magento_Catalog
-You removed product %1 from the comparison list.,Vous avez retiré 1 % produit(s) de la liste de comparaison.,module,Magento_Catalog
+You removed product %1 from the comparison list.,Vous avez retiré le produit %1 de la liste de comparaison.,module,Magento_Catalog
 1 item,1 article,module,Magento_Catalog
-%1 items,%1 article(s),module,Magento_Catalog
+%1 items,%1 articles,module,Magento_Catalog
 Invalid attribute %1,Attribut invalide : %1,module,Magento_Catalog
 Grid,Grille,module,Magento_Catalog
 List,Liste,module,Magento_Catalog
@@ -1870,7 +1870,7 @@ The customer address is not valid.,L'adresse du client n'est pas valide.,module,
 Invalid shipping method,Méthode d'expédition invalide,module,Magento_Checkout
 There are more than one shipping addresses.,Il y a plus d'une adresses de livraison.,module,Magento_Checkout
 "Sorry, guest checkout is not available.","Désolé, le passage de commande d'invité n'est pas disponibles.",module,Magento_Checkout
-"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Vous devez confirmer votre compte ! Pour cela veuillez vérifier dans votre client webmail que vous avez reçu le lien de confirmation par email ou <a href=""%1""> cliquez ici </a> pour un nouveau lien.",module,Magento_Checkout
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Vous devez confirmer votre compte ! Pour cela veuillez vérifier dans votre client webmail que vous avez reçu le lien de confirmation par e-mail ou <a href=""%1""> cliquez ici </a> pour un nouveau lien.",module,Magento_Checkout
 Load customer quote error,Erreur lors du chargement du panier client,module,Magento_Checkout
 Error message!,Message d'erreur!,module,Magento_Checkout
 Error!,Erreur!,module,Magento_Checkout
@@ -1907,7 +1907,7 @@ Product Name,Nom du produit,module,Magento_Checkout
 Incl. Tax,TTC,module,Magento_Checkout
 Your order number is: %1.,Votre numéro de commande est: %1.,module,Magento_Checkout
 Your order # is: <span>%1</span>.,Votre commande N° est: <span>%1 </ span>.,module,Magento_Checkout
-We'll email you an order confirmation with details and tracking info.,Nous vous enverrons par email une confirmation de commande avec des détails et des informations de suivi colis.,module,Magento_Checkout
+We'll email you an order confirmation with details and tracking info.,Nous vous enverrons par e-mail une confirmation de commande avec des détails et des informations de suivi colis.,module,Magento_Checkout
 Payment Transaction Failed,Transaction de Paiement en Echec,module,Magento_Checkout
 Reason,Raison,module,Magento_Checkout
 Checkout Type,Type de Commande,module,Magento_Checkout
@@ -1930,11 +1930,11 @@ Display Cart Summary,Afficher le résumé du panier,module,Magento_Checkout
 Shopping Cart Sidebar,Barre latérale du panier,module,Magento_Checkout
 Display Shopping Cart Sidebar,Afficher la barre latérale du panier,module,Magento_Checkout
 Maximum Display Recently Added Item(s),Nombre maxi d'articles récemment ajoutés à afficher,module,Magento_Checkout
-Payment Failed Emails,Emails d'erreur de paiement,module,Magento_Checkout
+Payment Failed Emails,E-mails d'erreur de paiement,module,Magento_Checkout
 Payment Failed Email Sender,Expéditeur du mail d'erreur de paiement,module,Magento_Checkout
 Payment Failed Email Receiver,Destinataire du mail d'erreur de paiement,module,Magento_Checkout
 Payment Failed Template,Gabarit d'erreur de paiement,module,Magento_Checkout
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Le modèle d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Checkout
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le modèle d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Checkout
 Send Payment Failed Email Copy To,Envoyer une copie du mail d'erreur de paiement à,module,Magento_Checkout
 "Separate by "","".",Séparation par des virgules.,module,Magento_Checkout
 Send Payment Failed Email Copy Method,Envoyer une copie du mail d'erreur de paiement en utilisant la méthode,module,Magento_Checkout
@@ -2187,7 +2187,7 @@ Always (during development),Toujours (pendant le developpement),module,Magento_C
 Only Once (version upgrade),Une fois seulement (mise à jour de version),module,Magento_Config
 Never (production),Jamais (en production),module,Magento_Config
 Bcc,Copie carbone invisible,module,Magento_Config
-Separate Email,Email séparé,module,Magento_Config
+Separate Email,E-mail séparé,module,Magento_Config
 %1 (Default),%1 (Défaut),module,Magento_Config
 title,titre,module,Magento_Config
 No,Non,module,Magento_Config
@@ -2362,12 +2362,12 @@ Thanks for contacting us with your comments and questions. We'll respond to you 
 Write Us,Contactez-nous,module,Magento_Contact
 Jot us a note and we’ll get back to you as quickly as possible.,"N'hésitez pas à nous contacter, nous vous répondrons au plus vite.",module,Magento_Contact
 Name,Nom,module,Magento_Contact
-Email,Email,module,Magento_Contact
+Email,E-mail,module,Magento_Contact
 Phone Number,Numéro de téléphone,module,Magento_Contact
 What’s on your mind?,Comment pouvons-nous vous aider ?,module,Magento_Contact
 Submit,Valider,module,Magento_Contact
 Name: %name,Nom : %name,module,Magento_Contact
-Email: %email,Email : %email,module,Magento_Contact
+Email: %email,E-mail : %e-mail,module,Magento_Contact
 Phone Number: %telephone,N° de téléphone : %telephone,module,Magento_Contact
 Comment: %comment,Message : %comment,module,Magento_Contact
 Contacts,Contacts,module,Magento_Contact
@@ -2377,6 +2377,7 @@ Email Options,Options de mail,module,Magento_Contact
 Send Emails To,Envoyer les mails à,module,Magento_Contact
 Email Sender,Expéditeur du mail,module,Magento_Contact
 Email Template,Gabarit du mail,module,Magento_Contact
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Contact
 Invalid domain name: ' .,Nom de domaine invalide : ' .,module,Magento_Cookie
 Invalid cookie lifetime: ' .,Durée de vie du cookie invalide : ' .,module,Magento_Cookie
 Invalid cookie path,Chemin du cookie invalide,module,Magento_Cookie
@@ -2533,11 +2534,11 @@ There was an error confirming the account,Il y a eu une erreur en confirmant le 
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","Si vous êtes un client assujetti à la TVA, veuillez <a href=""%1"">cliquez ici</a> entrer votre adresse de facturation pour un calcul de TVA correcte.",module,Magento_Customer
 Thank you for registering with %1.,Merci de votre inscription sur %1.,module,Magento_Customer
 Please check your email for confirmation key.,Veuillez vérifier votre e-mail pour la clé de confirmation.,module,Magento_Customer
-This email does not require confirmation.,Cet email ne nécessite pas de confirmation.,module,Magento_Customer
-Wrong email.,Email erroné.,module,Magento_Customer
+This email does not require confirmation.,Cet e-mail ne nécessite pas de confirmation.,module,Magento_Customer
+Wrong email.,E-mail erroné.,module,Magento_Customer
 Your password reset link has expired.,Le lien de réinitialisation du mot de passe a expiré.,module,Magento_Customer
-"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Vous devez confirmer votre compte. Veuillez allez vérifier dans vos email afin de voir le lien de confirmation ou <a href=""%1""> cliquez ici </a> pour un nouveau lien.",module,Magento_Customer
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Il existe déjà un compte pour cette adresse email. Si vous êtes sûr d'avoir correctement saisi votre email, <a href=""%1"">cliquez ici</a> pour récupérer votre mot de passe et accéder à votre compte.",module,Magento_Customer
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Vous devez confirmer votre compte. Veuillez allez vérifier dans vos e-mail afin de voir le lien de confirmation ou <a href=""%1""> cliquez ici </a> pour un nouveau lien.",module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Il existe déjà un compte pour cette adresse e-mail. Si vous êtes sûr d'avoir correctement saisi votre e-mail, <a href=""%1"">cliquez ici</a> pour récupérer votre mot de passe et accéder à votre compte.",module,Magento_Customer
 We can't save the customer.,Nous ne pouvons pas enregistrer le client.,module,Magento_Customer
 Please make sure your passwords match.,Veuillez vérifier que vos mots de passe concordent.,module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Si vous êtes un client assujetti à la TVA, veuillez <a href=""%1""> Cliquez ici </a> et entrer votre adresse de livraison pour un calcul de TVA correcte.",module,Magento_Customer
@@ -2549,11 +2550,11 @@ Please enter new password.,Veuillez entrer un nouveau mot de passe.,module,Magen
 Confirm your new password.,Confirmez votre nouveau mot de passe.,module,Magento_Customer
 Something went wrong while changing the password.,Une erreur s'est produite lors du changement de mot de passe.,module,Magento_Customer
 Please correct the email address.,Veuillez corriger l'adresse e-mail.,module,Magento_Customer
-We're unable to send the password reset email.,Nous ne pouvons pas envoyer l'email de réinitialisation de mot.,module,Magento_Customer
-Please enter your email.,Saisissez votre email.,module,Magento_Customer
-If there is an account associated with %1 you will receive an email with a link to reset your password.,"S'il y a un compte associé à l'adresse %1, vous recevrez un email avec un lien pour réinitialiser votre mot de passe.",module,Magento_Customer
+We're unable to send the password reset email.,Nous ne pouvons pas envoyer l'e-mail de réinitialisation de mot.,module,Magento_Customer
+Please enter your email.,Saisissez votre e-mail.,module,Magento_Customer
+If there is an account associated with %1 you will receive an email with a link to reset your password.,"S'il y a un compte associé à l'adresse %1, vous recevrez un e-mail avec un lien pour réinitialiser votre mot de passe.",module,Magento_Customer
 My Account,Mon compte,module,Magento_Customer
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Ce compte n'a pas encore été confirmé. <a href=""%1"">Cliquez ici</a> Pour envoyer un nouvel email de confirmation.",module,Magento_Customer
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Ce compte n'a pas encore été confirmé. <a href=""%1"">Cliquez ici</a> Pour envoyer un nouvel e-mail de confirmation.",module,Magento_Customer
 Invalid login or password.,Identifiant ou mot de passe invalide.,module,Magento_Customer
 A login and a password are required.,Un identifiant et un mot de passe sont nécessaires.,module,Magento_Customer
 New Password and Confirm New Password values didn't match.,Les valeurs du nouveau mot de passe et la confirmation du nouveau mot de passe ne correspondent pas.,module,Magento_Customer
@@ -2584,7 +2585,7 @@ Manage Customers,Gérer les clients,module,Magento_Customer
 Please correct the data sent.,Veuillez corriger les données envoyées.,module,Magento_Customer
 A total of %1 record(s) were updated.,Un total de %1 enregistrement(s) mis à jour.,module,Magento_Customer
 A total of %1 record(s) were deleted.,Un total de %1 enregistrement(s) ont été supprimés.,module,Magento_Customer
-The customer will receive an email with a link to reset password.,Le client recevra un email avec un lien pour réinitialiser votre mot de passe.,module,Magento_Customer
+The customer will receive an email with a link to reset password.,Le client recevra un e-mail avec un lien pour réinitialiser votre mot de passe.,module,Magento_Customer
 Something went wrong while resetting customer password.,Une erreur s'est produite lors de la réinitialisation de mot de passe client.,module,Magento_Customer
 You saved the customer.,Vous avez enregistré le client.,module,Magento_Customer
 Something went wrong while saving the customer.,Une erreur s'est produite lors de l'enregistrement du client.,module,Magento_Customer
@@ -2601,7 +2602,7 @@ Account already active,Compte déjà actif,module,Magento_Customer
 Invalid confirmation token,Confirmation de permission Invalide,module,Magento_Customer
 This account is not confirmed.,Ce compte n'est pas confirmé.,module,Magento_Customer
 This customer already exists in this store.,Ce client existe déjà dans ce magasin.,module,Magento_Customer
-A customer with the same email already exists in an associated website.,Un client avec le même email existe déjà dans un site Web associé.,module,Magento_Customer
+A customer with the same email already exists in an associated website.,Un client avec le même e-mail existe déjà dans un site Web associé.,module,Magento_Customer
 The password doesn't match this account.,Le mot de passe ne correspond pas à ce compte.,module,Magento_Customer
 Please enter a password with at least %1 characters.,Veuillez entrer un mot de passe avec au moins %1 caractères.,module,Magento_Customer
 The password can't begin or end with a space.,Le mot de passe ne peut pas commencer ou se terminer par un espace.,module,Magento_Customer
@@ -2619,7 +2620,7 @@ Please enter the state/province.,Veuillez renseigner le département.,module,Mag
 """%1"" is a required value.","""%1"" est une valeur obligatoire.",module,Magento_Customer
 Global,GLOBAL,module,Magento_Customer
 Per Website,Par site web,module,Magento_Customer
-We can't share customer accounts globally when the accounts share identical email addresses on more than one website.,Nous ne pouvons pas partager les comptes clients globalement lorsque les comptes partagent les adresses email identiques sur plus d'un site web.,module,Magento_Customer
+We can't share customer accounts globally when the accounts share identical email addresses on more than one website.,Nous ne pouvons pas partager les comptes clients globalement lorsque les comptes partagent les adresses e-mail identiques sur plus d'un site web.,module,Magento_Customer
 Billing Address,Adresse de facturation,module,Magento_Customer
 Shipping Address,Adresse de livraison,module,Magento_Customer
 -- Please Select --,-- Veuillez choisir --,module,Magento_Customer
@@ -2638,7 +2639,7 @@ Attribute object is undefined,L'objet attribut est indéfini,module,Magento_Cust
 """%1"" is an empty string.","""%1"" est une chaîne vide.",module,Magento_Customer
 """%1"" contains non-numeric characters.","""%1"" contient des caractères non numériques.",module,Magento_Customer
 """%1"" contains non-alphabetic characters.","""%1"" contient des caractères non alphabétiques.",module,Magento_Customer
-"""%1"" is not a valid email address.","""%1"" n'est pas un email valide.",module,Magento_Customer
+"""%1"" is not a valid email address.",%1 n'est pas un e-mail valide.,module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" n'est pas un nom d'hôte valide.",module,Magento_Customer
 """%1"" uses too many characters.","""%1"" utilise trop de caractères.",module,Magento_Customer
 "%value%' looks like an IP address, which is not an acceptable format.","%value%' ressemble à une adresse IP, ce qui n'est pasun format acceptable.",module,Magento_Customer
@@ -2664,7 +2665,7 @@ Please enter a valid date less than or equal to %1 at %2.,Veuillez saisir une da
 """%1"" length must be equal or greater than %2 characters.","La longueur de ""%1"" doit être supérieure ou égale à %2 caractères.",module,Magento_Customer
 """%1"" length must be equal or less than %2 characters.","La longueur de ""%1"" doit être égale ou inférieure à %2 caractères.",module,Magento_Customer
 label,libellé,module,Magento_Customer
-Please enter a customer email.,Veuillez entrer l'adresse email du client.,module,Magento_Customer
+Please enter a customer email.,Veuillez entrer l'adresse e-mail du client.,module,Magento_Customer
 A customer website ID must be specified when using the website scope.,Un ID client de site Web doit être spécifié lors de l'utilisation du site web utilisé.,module,Magento_Customer
 Customer Group,Groupe de clients,module,Magento_Customer
 "You can't delete group ""%1"".","Vous ne pouvez pas supprimer le groupe ""%1"".",module,Magento_Customer
@@ -2703,7 +2704,7 @@ Are you sure you want to remove this item?,Êtes-vous sûr de vouloir supprimer 
 Personal Information,Informations personnelles,module,Magento_Customer
 Last Logged In:,Connecté la dernière fois dans:,module,Magento_Customer
 Last Logged In (%1):,Connecté la dernière fois dans (%1):,module,Magento_Customer
-Confirmed email:,Email confirmé :,module,Magento_Customer
+Confirmed email:,E-mail confirmé :,module,Magento_Customer
 Account Created:,Compte créé:,module,Magento_Customer
 Account Created on (%1):,Compte créé le (%1) :,module,Magento_Customer
 Account Created in:,Compte créé dans :,module,Magento_Customer
@@ -2749,15 +2750,15 @@ Use as my default billing address,Utiliser comme adresse de facturation par déf
 Use as my default shipping address,Utiliser comme adresse de <strong>livraison</strong> par défaut,module,Magento_Customer
 Save Address,Enregistrer l'adresse,module,Magento_Customer
 Go back,Retour,module,Magento_Customer
-Please enter your email below and we will send you the confirmation link.,Veuillez entrer votre email ci-dessous et nous vous ferons parvenir le lien de confirmation.,module,Magento_Customer
-Email,Email,module,Magento_Customer
+Please enter your email below and we will send you the confirmation link.,Veuillez entrer votre e-mail ci-dessous et nous vous ferons parvenir le lien de confirmation.,module,Magento_Customer
+Email,E-mail,module,Magento_Customer
 Send confirmation link,Envoyer un lien de confirmation,module,Magento_Customer
 Back to Sign In,Retour sur la page de connexion,module,Magento_Customer
 Current Password,Mot de passe actuel,module,Magento_Customer
 New Password,Nouveau mot de passe,module,Magento_Customer
 Confirm New Password,Confirmer le nouveau mot de passe,module,Magento_Customer
 Save,Enregistrer,module,Magento_Customer
-Please enter your email address below to receive a password reset link.,Veuillez entrer votre adresse email ci-dessous pour recevoir un lien de réinitialisation de mot.,module,Magento_Customer
+Please enter your email address below to receive a password reset link.,Veuillez entrer votre adresse e-mail ci-dessous pour recevoir un lien de réinitialisation de mot.,module,Magento_Customer
 Submit,Valider,module,Magento_Customer
 Registered Customers,Clients enregistrés,module,Magento_Customer
 "If you have an account, sign in with your email address.","Si vous avez un compte, connectez-vous avec votre adresse e-mail.",module,Magento_Customer
@@ -2781,7 +2782,7 @@ Tax/VAT number,Numéro de TVA intracommunautaire,module,Magento_Customer
 "%name,","%name,",module,Magento_Customer
 Welcome to %store_name.,Bienvenue sur %store_name.,module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Pour vous connecter sur notre boutique, utilisez les identifiants renseignés lors de votre commande ou en vous rendant sur la page <a href=""%customer_url"">Mon compte</a> :",module,Magento_Customer
-Email:,Email :,module,Magento_Customer
+Email:,E-mail :,module,Magento_Customer
 Password:,Mot de passe :,module,Magento_Customer
 Password you set when creating account,Celui que vous avez défini lors de la création de votre compte,module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Mot de passe oublié ? Cliquez <a href=""%reset_url"">ici</a> pour le réinitialiser.",module,Magento_Customer
@@ -2790,7 +2791,7 @@ Proceed through checkout faster,Passer vos commandes plus rapidement,module,Mage
 Check the status of orders,Vérifier le statut des commandes,module,Magento_Customer
 View past orders,Voir vos commandes précédentes,module,Magento_Customer
 Store alternative addresses (for shipping to multiple family members and friends),Adresses alternatives de livraison (pour expédition multiples aux membres de la famille et aux amis),module,Magento_Customer
-You must confirm your %customer_email email before you can sign in (link is only valid once):,Vous devez confirmer votre email %customer_email avant que vous puissiez vous connecter (le lien n'est valable qu'une seule fois):,module,Magento_Customer
+You must confirm your %customer_email email before you can sign in (link is only valid once):,Vous devez confirmer votre e-mail %customer_e-mail avant que vous puissiez vous connecter (le lien n'est valable qu'une seule fois):,module,Magento_Customer
 Confirm Your Account,Confirmez votre compte,module,Magento_Customer
 Thank you for confirming your %store_name account.,Merci de %store confirmer_votre compte.,module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Pour vous connecter à notre site et définir un mot de passe, cliquez sur ce <a href=""%create_password_url"">lien</a>:",module,Magento_Customer
@@ -2816,31 +2817,31 @@ Validate on Each Transaction,Valider à chaque transaction,module,Magento_Custom
 Default Value for Disable Automatic Group Changes Based on VAT ID,Valeur par défaut pour la désactivation de changement automatique de groupe basé sur le numéro de TVA,module,Magento_Customer
 Show VAT Number on Storefront,Afficher numéro de TVA sur la vue client,module,Magento_Customer
 "To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Pour afficher le numéro de TVA sur la vue client, définissez l'affichage du numéro de TVA du Magasin sur l'option Oui.",module,Magento_Customer
-Default Email Domain,Nom de Domaine d'email par défaut,module,Magento_Customer
-Default Welcome Email,Email d'accueil par défaut,module,Magento_Customer
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Le gabarit d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Customer
-Default Welcome Email Without Password,Email d'accueil par défaut sans mot de passe,module,Magento_Customer
+Default Email Domain,Nom de Domaine d'e-mail par défaut,module,Magento_Customer
+Default Welcome Email,E-mail d'accueil par défaut,module,Magento_Customer
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le gabarit d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Customer
+Default Welcome Email Without Password,E-mail d'accueil par défaut sans mot de passe,module,Magento_Customer
 "
                         This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
                         Email template chosen based on theme fallback when ""Default"" option is selected.
                     ","
-                        Ce message sera envoyé à la place de l'email d'accueil par défaut, si un client a été créé sans mot de passe. <br /><br />
-                        Le gabarit de l'email choisi est basé sur le thème d'origine lorsque l'option «par défaut» est sélectionné.",module,Magento_Customer
+                        Ce message sera envoyé à la place de l'e-mail d'accueil par défaut, si un client a été créé sans mot de passe. <br /><br />
+                        Le gabarit de l'e-mail choisi est basé sur le thème d'origine lorsque l'option «par défaut» est sélectionné.",module,Magento_Customer
 Email Sender,Expéditeur du mail,module,Magento_Customer
-Require Emails Confirmation,Nécessite la confirmation par email,module,Magento_Customer
-Confirmation Link Email,Email de lien de confirmation,module,Magento_Customer
-Welcome Email,Email de bienvenue,module,Magento_Customer
+Require Emails Confirmation,Nécessite la confirmation par e-mail,module,Magento_Customer
+Confirmation Link Email,E-mail de lien de confirmation,module,Magento_Customer
+Welcome Email,E-mail de bienvenue,module,Magento_Customer
 "
                         This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
                         Email template chosen based on theme fallback when ""Default"" option is selected.
                     ","
-                        Ce message sera envoyé à la place de l'email d'accueil par défaut, après la confirmation du compte. <br /><br />
-                        Le gabarit de l'email choisi est basé sur le thème d'origine lorsque l'option «par défaut» est sélectionné.
+                        Ce message sera envoyé à la place de l'e-mail d'accueil par défaut, après la confirmation du compte. <br /><br />
+                        Le gabarit de l'e-mail choisi est basé sur le thème d'origine lorsque l'option «par défaut» est sélectionné.
                     ",module,Magento_Customer
 Generate Human-Friendly Customer ID,Générer un ID client étant plus facile à lire,module,Magento_Customer
 Password Options,Options de mot de passe,module,Magento_Customer
-Forgot Email Template,Gabarit de l'email d'oubli,module,Magento_Customer
-Remind Email Template,Gabarit d'email de rappel,module,Magento_Customer
+Forgot Email Template,Gabarit de l'e-mail d'oubli,module,Magento_Customer
+Remind Email Template,Gabarit d'e-mail de rappel,module,Magento_Customer
 Reset Password Template,Gabarit pour réinitialisation mot de passe,module,Magento_Customer
 Password Template Email Sender,Gabarit expéditeur pour l'envoi du mot de passe,module,Magento_Customer
 Recovery Link Expiration Period (days),Durée avant expiration d'un lien de récupération (en jours),module,Magento_Customer
@@ -2885,7 +2886,7 @@ Phone,Téléphone,module,Magento_Customer
 ZIP,Code postal,module,Magento_Customer
 Customer Since,Client depuis,module,Magento_Customer
 Last Logged In,Dernière connexion,module,Magento_Customer
-Confirmed email,Email confirmé,module,Magento_Customer
+Confirmed email,E-mail confirmé,module,Magento_Customer
 Account Created in,Compte créé dans,module,Magento_Customer
 Tax VAT Number,Numéro de TVA,module,Magento_Customer
 Billing Firstname,Facturation Prénom,module,Magento_Customer
@@ -2905,19 +2906,19 @@ Password forgotten,Mot de passe oublié,module,Magento_Customer
 My Dashboard,Mon tableau de bord,module,Magento_Customer
 You are signed out.,Vous êtes déconnecté.,module,Magento_Customer
 Please specify a website.,Veuillez spécifier un site web.,module,Magento_CustomerImportExport
-Please specify an email.,Veuillez spécifier un email.,module,Magento_CustomerImportExport
+Please specify an email.,Veuillez spécifier un e-mail.,module,Magento_CustomerImportExport
 We found an invalid value in a website column.,"Valeur invalide dans la colonne ""website""",module,Magento_CustomerImportExport
-Please enter a valid email.,Veuillez saisir une adresse email valide.,module,Magento_CustomerImportExport
+Please enter a valid email.,Veuillez saisir une adresse e-mail valide.,module,Magento_CustomerImportExport
 "Please make sure attribute ""%s"" is not empty.","Veuillez vérifier que l'attribut ""%s"" n'est pas vide.",module,Magento_CustomerImportExport
-We can't find a customer who matches this email and website code.,"Aucun client trouvé avec cette combinaison ""Email/Site web""",module,Magento_CustomerImportExport
+We can't find a customer who matches this email and website code.,"Aucun client trouvé avec cette combinaison ""E-mail/Site web""",module,Magento_CustomerImportExport
 Customer address id column is not specified,"La colonne ""ID Adresse Client"" n'est pas spécifiée.",module,Magento_CustomerImportExport
 We can't find that customer address.,Adresse client introuvable.,module,Magento_CustomerImportExport
 Please enter a valid region.,Veuillez renseigner une région valide.,module,Magento_CustomerImportExport
-"We found another row with this email, website and address ID combination.","Nous avons trouvé un autre enregistrement avec la combinaison de cet email, site web et ID d'adresse.",module,Magento_CustomerImportExport
-This email is found more than once in the import file.,Cette adrresse email est présente plusieurs fois dans le fichier d'import.,module,Magento_CustomerImportExport
+"We found another row with this email, website and address ID combination.","Nous avons trouvé un autre enregistrement avec la combinaison de cet e-mail, site web et ID d'adresse.",module,Magento_CustomerImportExport
+This email is found more than once in the import file.,Cette adrresse e-mail est présente plusieurs fois dans le fichier d'import.,module,Magento_CustomerImportExport
 Orphan rows that will be skipped due default row errors,Lignes ophelines qui seront ignorées en raison d'erreurs,module,Magento_CustomerImportExport
 Invalid value in Store column (store does not exists?),"Valeur invalide dans la colonne ""Magasin"" (le magasin n'existe peut-être pas ?)",module,Magento_CustomerImportExport
-We can't find that email and website combination.,"Impossible de trouver cette combinaison ""Email/Site web"".",module,Magento_CustomerImportExport
+We can't find that email and website combination.,"Impossible de trouver cette combinaison ""E-mail/Site web"".",module,Magento_CustomerImportExport
 Please enter a password with a valid length.,Veuillez renseigner un mot de passe avec une longueur valide.,module,Magento_CustomerImportExport
 CSV,CSV,module,Magento_CustomerImportExport
 Excel XML,XML d'Excel,module,Magento_CustomerImportExport
@@ -3046,6 +3047,7 @@ Enabled,Activé,module,Magento_Directory
 Error Email Recipient,Destinataire du mail d'erreur,module,Magento_Directory
 Error Email Sender,Expéditeur du mail d'erreur,module,Magento_Directory
 Error Email Template,Gabarit du mail d'erreur,module,Magento_Directory
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Directory
 Frequency,Fréquence,module,Magento_Directory
 Service,Service,module,Magento_Directory
 Start Time,Heure de début,module,Magento_Directory
@@ -3183,7 +3185,7 @@ System,Système,module,Magento_Eav
 None,Aucun,module,Magento_Eav
 Decimal Number,Nombre décimal,module,Magento_Eav
 Integer Number,Nombre entier,module,Magento_Eav
-Email,Email,module,Magento_Eav
+Email,E-mail,module,Magento_Eav
 URL,URL,module,Magento_Eav
 Letters,Lettres,module,Magento_Eav
 "Letters (a-z, A-Z) or Numbers (0-9)","Lettres (a-z, A-Z) ou chiffres (0-9)",module,Magento_Eav
@@ -3201,7 +3203,7 @@ Entity object is undefined,L'objet entité n'est pas défini,module,Magento_Eav
 """%1"" is an empty string.","""%1"" est une chaîne vide.",module,Magento_Eav
 """%1"" contains non-numeric characters.","""%1"" contient des caractères non numériques.",module,Magento_Eav
 """%1"" contains non-alphabetic characters.","""%1"" contient des caractères non alphabétiques.",module,Magento_Eav
-"""%1"" is not a valid email address.","""%1"" n'est pas une adresse email valide.",module,Magento_Eav
+"""%1"" is not a valid email address.",%1 n'est pas une adresse e-mail valide.,module,Magento_Eav
 """%1"" is not a valid hostname.","""%1"" n'est pas un nom d'hôte valide.",module,Magento_Eav
 """%1"" uses too many characters.","""%1"" utilise trop de caractères.",module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value%' ressemble à une adresse IP, ce qui n'est un format acceptable.",module,Magento_Eav
@@ -3306,7 +3308,7 @@ The value of attribute not valid,La valeur de l'attribut n'est pas valable,modul
 EAV types and attributes,Types EAV et attributs,module,Magento_Eav
 Entity types declaration cache.,Cache de déclaration des types d'entité.,module,Magento_Eav
 Add New Template,Ajouter un nouveau gabarit,module,Magento_Email
-Transactional Emails,Emails transactionnels,module,Magento_Email
+Transactional Emails,E-mails transactionnels,module,Magento_Email
 Back,Retour,module,Magento_Email
 Reset,Réinitialiser,module,Magento_Email
 Delete Template,Supprimer le gabarit,module,Magento_Email
@@ -3315,8 +3317,8 @@ Return Html Version,Revenir à la version HTML,module,Magento_Email
 Preview Template,Prévisualiser le gabarit,module,Magento_Email
 Save Template,Enregistrer le gabarit,module,Magento_Email
 Load Template,Charger le gabarit,module,Magento_Email
-Edit Email Template,Modifier le gabarit d'email,module,Magento_Email
-New Email Template,Nouveau gabarit d'email,module,Magento_Email
+Edit Email Template,Modifier le gabarit d'e-mail,module,Magento_Email
+New Email Template,Nouveau gabarit d'e-mail,module,Magento_Email
 Default Config,Configuration par défaut,module,Magento_Email
 Template Information,Informations gabarit,module,Magento_Email
 Currently Used For,Actuellement utilisé pour,module,Magento_Email
@@ -3327,31 +3329,31 @@ Template Content,Contenu du gabarit,module,Magento_Email
 Template Styles,Styles de gabarit,module,Magento_Email
 Preview,Prévisualiser,module,Magento_Email
 Unknown,Inconnu,module,Magento_Email
-You deleted the email template.,Le gabarit d'email a été supprimé.,module,Magento_Email
-The email template is currently being used.,Le gabarit d'email est actuellement utilisé.,module,Magento_Email
-We can't delete email template data right now. Please review log and try again.,Impossible de supprimer le gabarit d'email. Veuillez consulter le journal des erreurs et essayez à nouveau.,module,Magento_Email
-We can't find an email template to delete.,Impossible de trouver le gabarit d'email à supprimer.,module,Magento_Email
+You deleted the email template.,Le gabarit d'e-mail a été supprimé.,module,Magento_Email
+The email template is currently being used.,Le gabarit d'e-mail est actuellement utilisé.,module,Magento_Email
+We can't delete email template data right now. Please review log and try again.,Impossible de supprimer le gabarit d'e-mail. Veuillez consulter le journal des erreurs et essayez à nouveau.,module,Magento_Email
+We can't find an email template to delete.,Impossible de trouver le gabarit d'e-mail à supprimer.,module,Magento_Email
 Edit Template,Modifier le gabarit,module,Magento_Email
 Edit System Template,Modifier le gabarit système,module,Magento_Email
 New Template,Nouveau gabarit,module,Magento_Email
 New System Template,Nouveau gabarit système,module,Magento_Email
-Email Templates,Gabarits d'email,module,Magento_Email
-Email Preview,Prévisualisation de l'email,module,Magento_Email
-An error occurred. The email template can not be opened for preview.,Une erreur s'esr produite. Le gabarit d'email ne peut pas être ouvert pour l'aperçu.,module,Magento_Email
-This email template no longer exists.,Ce gabarit d'email n'existe plus.,module,Magento_Email
-You saved the email template.,Gabarit d'email enregistré.,module,Magento_Email
+Email Templates,Gabarits d'e-mail,module,Magento_Email
+Email Preview,Prévisualisation de l'e-mail,module,Magento_Email
+An error occurred. The email template can not be opened for preview.,Une erreur s'esr produite. Le gabarit d'e-mail ne peut pas être ouvert pour l'aperçu.,module,Magento_Email
+This email template no longer exists.,Ce gabarit d'e-mail n'existe plus.,module,Magento_Email
+You saved the email template.,Gabarit d'e-mail enregistré.,module,Magento_Email
 Area is already set,La zone est déjà initialisée,module,Magento_Email
 Design config must have area and store.,La configuration du design doit avoir une zone et un magasin.,module,Magento_Email
 Base Unsecure URL,URL de base non sécurisée,module,Magento_Email
 Base Secure URL,URL de base sécurisée,module,Magento_Email
 General Contact Name,Nom du contact général,module,Magento_Email
-General Contact Email,Email du contact général,module,Magento_Email
+General Contact Email,E-mail du contact général,module,Magento_Email
 Sales Representative Contact Name,Nom du contact représentant des ventes,module,Magento_Email
-Sales Representative Contact Email,Email du contact représentant des ventes,module,Magento_Email
+Sales Representative Contact Email,E-mail du contact représentant des ventes,module,Magento_Email
 Custom1 Contact Name,Nom du contact personnalisé 1,module,Magento_Email
-Custom1 Contact Email,Email du contact personnalisé 1,module,Magento_Email
+Custom1 Contact Email,E-mail du contact personnalisé 1,module,Magento_Email
 Custom2 Contact Name,Nom du contact personnalisé 2,module,Magento_Email
-Custom2 Contact Email,Email du contact personnalisé 2,module,Magento_Email
+Custom2 Contact Email,E-mail du contact personnalisé 2,module,Magento_Email
 Store Name,Nom du magasin,module,Magento_Email
 Store Hours,Heures d'ouverture,module,Magento_Email
 Country,Pays,module,Magento_Email
@@ -3365,7 +3367,7 @@ Store Contact Information,Informations de contact du magasin,module,Magento_Emai
 Template Variables,Variables de gabarit,module,Magento_Email
 Please enter a template name.,Veuillez renseigner un nom de gabarit.,module,Magento_Email
 Duplicate Of Template Name,Duplication du nom de gabarit,module,Magento_Email
-Invalid transactional email code: %1,"Le code d'email transactionnel ""%1"" est invalide",module,Magento_Email
+Invalid transactional email code: %1,"Le code d'e-mail transactionnel ""%1"" est invalide",module,Magento_Email
 "Requested invalid store ""%1""","Le magasin demandé ""%1"" est invalide",module,Magento_Email
 """file"" parameter must be specified","le paramètre ""file"" doit être renseigné",module,Magento_Email
 Contents of %s could not be loaded or is empty,Le contenu de %s ne peut pas être chargé ou est vide,module,Magento_Email
@@ -3374,7 +3376,7 @@ Design params must be set before calling this method,Les paramètres du design d
 <pre>' . . . . '</pre>,<pre>' . . . . '</pre>,module,Magento_Email
 CSS inlining error:,Erreur sur le CSS en ligne : ,module,Magento_Email
 Error filtering template: %s,Erreur lors du traitement du gabarit : %s,module,Magento_Email
-"We're sorry, an error has occurred while generating this email.","Désolé, une erreur s'est produite durant la génération de cet email.",module,Magento_Email
+"We're sorry, an error has occurred while generating this email.","Désolé, une erreur s'est produite durant la génération de cet e-mail.",module,Magento_Email
 Invalid sender data,Données de l'expéditeur invalide,module,Magento_Email
 Title,Titre,module,Magento_Email
 Load default template,Charger le gabarit par défaut,module,Magento_Email
@@ -3383,7 +3385,7 @@ Are you sure you want to strip tags?,Êtes-vous sûr de vouloir supprimer les ba
 Are you sure you want to delete this template?,Êtes-vous sûr de vouloir supprimer ce gabarit ?,module,Magento_Email
 The template did not load. Please review the log for details.,Impossible de charger le gabarit. Veuillez consulter le journal des erreurs pour plus de détails.,module,Magento_Email
 "Thank you, %store_name","Merci, %store_name",module,Magento_Email
-Emails,Emails,module,Magento_Email
+Emails,E-mails,module,Magento_Email
 Logo Image,Image du logo,module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Types de fichiers autorisés: JPG, JPEG, GIF, PNG. Pour optimiser le logo pour des écrans haute résolution, télécharger une image 3 fois plus grande que la taille normal, puis spécifier les dimensions de la taille normale dans les champs ""Largeur"" et ""Hauteur"" ci-dessous.",module,Magento_Email
 Logo Image Alt,Texte alternatif du logo,module,Magento_Email
@@ -3391,6 +3393,7 @@ Logo Width,Largeur du logo,module,Magento_Email
 "Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Seulement nécessaire si une image est fournie. Renseignez la valeur en pixel, sans ajouter l'unité ""px"".",module,Magento_Email
 Logo Height,Hauteur du logo,module,Magento_Email
 Header Template,Gabarit de l'en-tête,module,Magento_Email
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Email
 Footer Template,Gabarit du pied de page,module,Magento_Email
 No Templates Found,Aucun gabarit trouvé,module,Magento_Email
 ID,ID,module,Magento_Email
@@ -3713,7 +3716,7 @@ Edit Integration '%1',Modifi l'ntegration '%1',module,Magento_Integration
 Integration Info,Infos intégration,module,Magento_Integration
 General,Général,module,Magento_Integration
 Name,Nom,module,Magento_Integration
-Email,Email,module,Magento_Integration
+Email,E-mail,module,Magento_Integration
 Callback URL,URL de rappel,module,Magento_Integration
 Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.,Entrez l'URL où les informations d'identification Oauth pouvant être envoyés lors de l'utilisation Oauth pour l'échange d'authentification. Nous vous recommandons fortement d'utiliser https://.,module,Magento_Integration
 Identity link URL,Identité lien URL,module,Magento_Integration
@@ -3846,7 +3849,7 @@ Platinum Partners,Partenaires Platinum,module,Magento_Marketplace
 "Representing Magento's highest level of partner engagement, Magento Platinum Partners have established themselves as leaders and innovators of key products and services designed to help merchants and brands grow their business. Magento reserves the Platinum level for select trusted partners that are committed to offering integrations of commerce features, functions, and tools, as well as back-end systems and operations, to extend and enhance the power of the Magento commerce platform.","Représentant le plus haut niveau d'engagement des partenaires Magento, les Partenaires Platinum Magento sont les leaders et les innovateurs des produits clés et des services essentiels pour aider les marchands et les marques à développer leur entreprise. Magento réserve le niveau Platinum à une sélection de partenaires qui se sont engagés à offrir des fontionnalités de commerce, des outils ainsi que des systèmes et opérations back-end, pour étendre et améliorer la puissance de la plateforme de commerce Magento.",module,Magento_Marketplace
 Featured Platinum Partners,Notre sélection de Partenaires Platinium,module,Magento_Marketplace
 Partner search,Recherche de partenaires,module,Magento_Marketplace
-"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento possède un riche écosystème de partenaires technologiques afin d'aider les marchands et les marques à offrir les meilleurs expériences client possibles. Ils sont reconnus comme experts dans les domaine du eCommerce, recherche, email marketing, paiements, taxes, fraudes, optimisations et analyses, réalisations et plus encore. Visitez notre annuaire pour voir tous les partenaires de confiance.",module,Magento_Marketplace
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento possède un riche écosystème de partenaires technologiques afin d'aider les marchands et les marques à offrir les meilleurs expériences client possibles. Ils sont reconnus comme experts dans les domaine du eCommerce, recherche, e-mail marketing, paiements, taxes, fraudes, optimisations et analyses, réalisations et plus encore. Visitez notre annuaire pour voir tous les partenaires de confiance.",module,Magento_Marketplace
 More Partners,Plus de partenaires,module,Magento_Marketplace
 Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.,Les Extensions et les Thèmes sont des composants essentiels de l'écosystème de Magento. Vous pouvez visiter le Marketplace Magento pour voir les dernières innovations que les développeurs ont créé pour améliorer votre boutique Magento.,module,Magento_Marketplace
 Visit Magento Marketplaces,Visitez le Marketplace Magento,module,Magento_Marketplace
@@ -3971,7 +3974,7 @@ Submitting order information...,Les informations de commande sont en cours d'env
 Continue to Billing Information,Poursuivre vers les informations de facturation,module,Magento_Multishipping
 Back to Select Addresses,Retour à la sélection d'adresses,module,Magento_Multishipping
 Thank you for your purchase!,Merci de votre achat !,module,Magento_Multishipping
-Thanks for your order. We'll email you order details and tracking information.,Merci pour votre commande. Vous allez recevoir un email récapitulatif et un email contenant les informations de suivi de la livraison.,module,Magento_Multishipping
+Thanks for your order. We'll email you order details and tracking information.,Merci pour votre commande. Vous allez recevoir un e-mail récapitulatif et un e-mail contenant les informations de suivi de la livraison.,module,Magento_Multishipping
 Your order numbers are: ,Vos numéros de commande sont : ,module,Magento_Multishipping
 Your order number is: ,Votre numéro de commande est : ,module,Magento_Multishipping
 Continue Shopping,Continuer vos achats,module,Magento_Multishipping
@@ -4019,7 +4022,7 @@ Queue Date Start,Date de démarrage de la file,module,Magento_Newsletter
 Subscribers From,Abonnés de,module,Magento_Newsletter
 Subject,Sujet,module,Magento_Newsletter
 Sender Name,Nom de l'expéditeur,module,Magento_Newsletter
-Sender Email,Email de l'expéditeur,module,Magento_Newsletter
+Sender Email,E-mail de l'expéditeur,module,Magento_Newsletter
 Message,Message,module,Magento_Newsletter
 Newsletter Styles,Styles de newsletter,module,Magento_Newsletter
 Start,Commencer,module,Magento_Newsletter
@@ -4076,9 +4079,9 @@ We removed the subscription.,Abonnement annulé.,module,Magento_Newsletter
 Your subscription has been confirmed.,Votre inscription a été confirmée.,module,Magento_Newsletter
 This is an invalid subscription confirmation code.,Le code de confirmation de l'abonnement est invalide.,module,Magento_Newsletter
 This is an invalid subscription ID.,L'identifiant de l'abonnement est invalide.,module,Magento_Newsletter
-This email address is already assigned to another user.,Cet email est déjà assigné à un utilisateur.,module,Magento_Newsletter
+This email address is already assigned to another user.,Cet e-mail est déjà assigné à un utilisateur.,module,Magento_Newsletter
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Désolé, les abonnements pour les invités sont désactivés. Veuillez <a href=""%1"">vous enregistrer</a>.",module,Magento_Newsletter
-Please enter a valid email address.,Saisissez un email valide.,module,Magento_Newsletter
+Please enter a valid email address.,Saisissez un e-mail valide.,module,Magento_Newsletter
 The confirmation request has been sent.,La demande de confirmation a été envoyée.,module,Magento_Newsletter
 Thank you for your subscription.,Merci de votre inscription.,module,Magento_Newsletter
 There was a problem with the subscription: %1,Il y a eu un problème lors de l'inscription : %1,module,Magento_Newsletter
@@ -4102,7 +4105,7 @@ Are you sure that you want to strip all tags?,Êtes-vous sûr(e) de vouloir supp
 Please enter a new template name.,Veuillez renseigner un nom de gabarit.,module,Magento_Newsletter
  Copy, Copie,module,Magento_Newsletter
 Sign Up for Our Newsletter:,Inscription à notre newsletter :,module,Magento_Newsletter
-Enter your email address,Saisissez votre email,module,Magento_Newsletter
+Enter your email address,Saisissez votre e-mail,module,Magento_Newsletter
 Subscribe,Inscription,module,Magento_Newsletter
 Thank you for subscribing to our newsletter.,Merci de votre abonnement à notre newsletter.,module,Magento_Newsletter
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Avant de recevoir notre newsletter, vous devez confirmer votre abonnement en cliquant sur le lien suivant :",module,Magento_Newsletter
@@ -4113,6 +4116,7 @@ Allow Guest Subscription,Autoriser l'inscription des invités,module,Magento_New
 Need to Confirm,Confirmation nécessaire,module,Magento_Newsletter
 Confirmation Email Sender,Expéditeur du mail de confirmation,module,Magento_Newsletter
 Confirmation Email Template,Gabarit du mail de confirmation,module,Magento_Newsletter
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Newsletter
 Success Email Sender,Expéditeur du mail de succès,module,Magento_Newsletter
 Success Email Template,Gabarit du mail de succès,module,Magento_Newsletter
 Unsubscription Email Sender,Expéditeur du mail de désinscription,module,Magento_Newsletter
@@ -4132,7 +4136,7 @@ Unsubscribe,Désabonner,module,Magento_Newsletter
 Delete,Supprimer,module,Magento_Newsletter
 CSV,CSV,module,Magento_Newsletter
 Excel XML,XML d'Excel,module,Magento_Newsletter
-Email,Email,module,Magento_Newsletter
+Email,E-mail,module,Magento_Newsletter
 Type,Type,module,Magento_Newsletter
 Guest,Invité,module,Magento_Newsletter
 Customer,Client,module,Magento_Newsletter
@@ -4286,7 +4290,7 @@ Credit Card Information,Information de carte bancaire,module,Magento_Payment
 Payment Methods,Modes de paiement,module,Magento_Payment
 Billing Agreements,Ententes de facturation,module,Magento_Paypal
 ID,ID,module,Magento_Paypal
-Email,Email,module,Magento_Paypal
+Email,E-mail,module,Magento_Paypal
 First Name,Prénom,module,Magento_Paypal
 Last Name,Nom,module,Magento_Paypal
 Reference ID,Réference ID,module,Magento_Paypal
@@ -4412,7 +4416,7 @@ The payment eCheck is not cleared.,Le chèque électronique de paiement n'est pa
 The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.,Le marchand titulaire d'un compte non-US et ne dispose pas d'un système de virement.,module,Magento_Paypal
 The payment currency doesn't match any of the merchant's balances currency.,La devise de paiement ne correspond à aucune des devises du marchand.,module,Magento_Paypal
 The payment is pending while it is being reviewed by PayPal for risk.,Le paiement est en cours alors qu'il est actuellement examiné par PayPal pour un risque potentiel.,module,Magento_Paypal
-The payment is pending because it was made to an email address that is not yet registered or confirmed.,Le paiement est en attente car elle a été faite à une adresse email qui n'est pas encore enregistrée ou confirmée.,module,Magento_Paypal
+The payment is pending because it was made to an email address that is not yet registered or confirmed.,Le paiement est en attente car elle a été faite à une adresse e-mail qui n'est pas encore enregistrée ou confirmée.,module,Magento_Paypal
 The merchant account is not yet verified.,Le compte marchand n'est pas encore vérifié.,module,Magento_Paypal
 The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.,Le paiement a été effectué par carte de crédit. Afin de recevoir les fonds pour votre commerce vous devez mettre à niveau le compte en classe Entreprise ou le statut de premier classe.,module,Magento_Paypal
 "Sorry, but something went wrong. Please contact PayPal customer service.","Désolé, mais quelque chose a mal tourné. Veuillez contacter le service clientèle de PayPal.",module,Magento_Paypal
@@ -4434,7 +4438,7 @@ Buyer claims that a possible duplicate payment was made to the merchant.,Acheteu
 "Buyer claims that the received merchandise is unsatisfactory, defective, or damaged.","Acheteur prétend que la marchandise reçue est insatisfaisante, défectueux ou endommagés.",module,Magento_Paypal
 Unknown reason. Please contact PayPal customer service.,Raison inconnue. Veuillez contacter le service client de PayPal.,module,Magento_Paypal
 Payer ID,ID Payeur,module,Magento_Paypal
-Payer Email,Email du Payeur,module,Magento_Paypal
+Payer Email,E-mail du Payeur,module,Magento_Paypal
 Payer Status,Statut du Payeur,module,Magento_Paypal
 Payer Address ID,ID adresse du Payeur,module,Magento_Paypal
 Payer Address Status,Statut adresse du Payeur,module,Magento_Paypal
@@ -4496,7 +4500,7 @@ Unable to fetch transaction details.,Impossible de récupérer les détails de l
 Invalid method %1::%2(%3),Méthode invalide %1::%2(%3),module,Magento_Paypal
 Transaction has been declined,La transaction a été refusée,module,Magento_Paypal
 "Error processing payment, please try again later.","Erreur sur le traitement du paiement, veuillez essayer une nouvelle fois plus tard.",module,Magento_Paypal
-We cannot send the new order email.,Nous ne pouvons pas envoyer le nouvel email de commande.,module,Magento_Paypal
+We cannot send the new order email.,Nous ne pouvons pas envoyer le nouvel e-mail de commande.,module,Magento_Paypal
 You cannot void a verification transaction.,Vous ne pouvez pas annuler une opération de transaction.,module,Magento_Paypal
 You need an authorization transaction to void.,Vous avez besoin d'une transaction d'autorisation pour annuler.,module,Magento_Paypal
 We can't issue a refund transaction because there is no capture transaction.,Nous ne pouvons pas émettre une transaction de remboursement parce qu'il n'y a pas de transaction de capture.,module,Magento_Paypal
@@ -4705,13 +4709,13 @@ PayPal Payment Solutions,Solutions de paiement PayPal,module,Magento_Paypal
 Express Checkout,Express Checkout,module,Magento_Paypal
 Add PayPal as an additional payment method to your checkout page.,Ajouter PayPal comme moyen de paiement supplémentaire à votre page de paiement.,module,Magento_Paypal
 Required PayPal Settings,Réglages PayPal requis,module,Magento_Paypal
-Email Associated with PayPal Merchant Account,Email associée à Compte Marchand PayPal,module,Magento_Paypal
+Email Associated with PayPal Merchant Account,E-mail associée à Compte Marchand PayPal,module,Magento_Paypal
 "
                         <a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>
                     ","
                         <a href=""http://www.magentocommerce.com/paypal"">Commencez à accepter les paiements via PayPal!</a>
                     ",module,Magento_Paypal
-Don't have a PayPal account? Simply enter your email address.,Vous n'avez pas de compte PayPal ? Il suffit d'entrer votre adresse email.,module,Magento_Paypal
+Don't have a PayPal account? Simply enter your email address.,Vous n'avez pas de compte PayPal ? Il suffit d'entrer votre adresse e-mail.,module,Magento_Paypal
 API Authentication Methods,Modes d'authentification de l'API,module,Magento_Paypal
 API Username,Pseudo API,module,Magento_Paypal
 API Password,Mot de passe API,module,Magento_Paypal
@@ -4865,12 +4869,12 @@ Basic Settings - PayPal Payments Advanced,Paramètres de base - PayPal Paiements
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","Il est recommandé de fixer cette valeur à ""Carte de débit ou de crédit"" pour chaque vue magasin.",module,Magento_Paypal
 CVV Entry is Editable,Entrée CVV est modifiable,module,Magento_Paypal
 Require CVV Entry,Entrée CVV Exiger,module,Magento_Paypal
-Send Email Confirmation,Envoyer Email de Confirmation,module,Magento_Paypal
+Send Email Confirmation,Envoyer E-mail de Confirmation,module,Magento_Paypal
 URL method for Cancel URL and Return URL,Méthode d'URL pour Annuler URL et URL de retour,module,Magento_Paypal
 Payflow Link (Includes Express Checkout),Payflow Link (Comprend Express Checkout),module,Magento_Paypal
 Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.,Connectez votre compte marchand avec une passerelle compatible PCI qui permet aux clients de payer sans quitter votre site.,module,Magento_Paypal
 Payflow Link and Express Checkout,Payflow Link et Express Checkout,module,Magento_Paypal
-Email Associated with PayPal Merchant Account (Optional),Email associé à compte PayPal Merchant (Facultatif),module,Magento_Paypal
+Email Associated with PayPal Merchant Account (Optional),E-mail associé à compte PayPal Merchant (Facultatif),module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Si vous ne disposez pas de plusieurs utilisateurs mis en place sur votre compte, veuillez entrer de nouveau votre vendeur/ Marchant  de Connexion ici.",module,Magento_Paypal
 Enable Payflow Link,Activer Payflow Link,module,Magento_Paypal
 Enable Express Checkout,Activer Express Checkout,module,Magento_Paypal
@@ -4932,7 +4936,7 @@ Your shopping cart has been updated with new prices.,Votre panier a été mis à
 "Welcome, %1!","Bienvenue, %1 !",module,Magento_Persistent
 We cannot load the configuration from file %1.,Nous ne pouvons pas charger la configuration à partir du fichier %1.,module,Magento_Persistent
 "Method ""%1"" is not defined in ""%2""","La méthode ""%1"" n'est pas définie dans ""%2""",module,Magento_Persistent
-"To check out, please sign in using your email address.","Pour commander, veuillez vous connecter en utilisant votre adresse email.",module,Magento_Persistent
+"To check out, please sign in using your email address.","Pour commander, veuillez vous connecter en utilisant votre adresse e-mail.",module,Magento_Persistent
 Remember Me,Se souvenir de moi,module,Magento_Persistent
 What's this?,Qu'est-ce que c'est ?,module,Magento_Persistent
 Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.,Cocher &quot;Se souvenir de moi&quot; pour accéder à votre panier sur cet ordinateur même si vous n'êtes pas connecté à votre compte.,module,Magento_Persistent
@@ -4967,6 +4971,7 @@ Product Alerts,Alertes du produit,module,Magento_ProductAlert
 Allow Alert When Product Price Changes,Autoriser l'alerte de changement de prix.,module,Magento_ProductAlert
 Allow Alert When Product Comes Back in Stock,Autoriser l'alerte de disponibilité de produit.,module,Magento_ProductAlert
 Price Alert Email Template,Gabarit du mail d'alerte de changement de prix,module,Magento_ProductAlert
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_ProductAlert
 Stock Alert Email Template,Gabarit du mail d'alerte de disponibilité,module,Magento_ProductAlert
 Alert Email Sender,Expéditeur du mail d'alerte,module,Magento_ProductAlert
 Product Alerts Run Settings,Paramétrage d'exécution des alertes de produit,module,Magento_ProductAlert
@@ -5144,7 +5149,7 @@ Order Taxes Report Grouped by Tax Rate,Rapport de TVA & taxes groupées par taux
 Rate,Taux,module,Magento_Reports
 Tax Amount,Montant TVA,module,Magento_Reports
 Abandoned carts,Paniers abandonnés,module,Magento_Reports
-Email,Email,module,Magento_Reports
+Email,E-mail,module,Magento_Reports
 Products,Produits,module,Magento_Reports
 Quantity,Quantité,module,Magento_Reports
 Applied Coupon,Coupons utilisés,module,Magento_Reports
@@ -5213,7 +5218,7 @@ Select Date,Sélectionner une date,module,Magento_Reports
 Customers that have Wish List: %1,Les clients possédant une liste d'envies : %1,module,Magento_Reports
 Number of Wish Lists: %1,Nombre de liste d'envies : %1,module,Magento_Reports
 Number of items bought from a Wish List: %1,Nombre d'articles achetés à partir d'une liste d'envies : %1,module,Magento_Reports
-Number of times Wish Lists have been shared (emailed): %1,Nombre de fois où une liste d'envies a été partagée (email) : %1,module,Magento_Reports
+Number of times Wish Lists have been shared (emailed): %1,Nombre de fois où une liste d'envies a été partagée (e-mail) : %1,module,Magento_Reports
 Number of Wish List referrals: %1,Nombre de listes d'envies références : %1,module,Magento_Reports
 Number of Wish List conversions: %1,Nombre de conversions à partir des listes d'envies : %1,module,Magento_Reports
 Show Report For:,Afficher le rapport pour :,module,Magento_Reports
@@ -5515,23 +5520,23 @@ Shipping Refund,Remboursement de la livraison,module,Magento_Sales
 Order Grand Total,Montant global,module,Magento_Sales
 Adjustment Refund,Remboursement des frais de dossier,module,Magento_Sales
 Adjustment Fee,Frais de dossier,module,Magento_Sales
-Send Email,Envoyer un email,module,Magento_Sales
-Are you sure you want to send a credit memo email to customer?,Êtes-vous sûr de vouloir envoyer l'email de l'avoir au client ?,module,Magento_Sales
+Send Email,Envoyer un e-mail,module,Magento_Sales
+Are you sure you want to send a credit memo email to customer?,Êtes-vous sûr de vouloir envoyer l'e-mail de l'avoir au client ?,module,Magento_Sales
 Void,Invalider,module,Magento_Sales
 Print,Imprimer,module,Magento_Sales
-The credit memo email was sent.,L'email de l'avoir a été envoyé.,module,Magento_Sales
-The credit memo email wasn't sent.,L'email de l'avoir n'a pas été envoyé.,module,Magento_Sales
+The credit memo email was sent.,L'e-mail de l'avoir a été envoyé.,module,Magento_Sales
+The credit memo email wasn't sent.,L'e-mail de l'avoir n'a pas été envoyé.,module,Magento_Sales
 Credit Memo #%1 | %3 | %2 (%4),Avoir n° %1 | %3 | %2 (%4),module,Magento_Sales
 Total Refund,Remboursement total,module,Magento_Sales
 New Invoice and Shipment for Order #%1,Nouvelles facture et expédition pour la commande n°%1,module,Magento_Sales
 New Invoice for Order #%1,Nouvelle facture pour la commande n°%1,module,Magento_Sales
 Submit Invoice and Shipment,Soumettre la facture et l'expédition,module,Magento_Sales
 Submit Invoice,Soumettre la facture,module,Magento_Sales
-Are you sure you want to send an invoice email to customer?,Êtes-vous sûr de vouloir envoyer l'email de la facture au client ?,module,Magento_Sales
+Are you sure you want to send an invoice email to customer?,Êtes-vous sûr de vouloir envoyer l'e-mail de la facture au client ?,module,Magento_Sales
 Credit Memo,Avoir,module,Magento_Sales
 Capture,Capturer,module,Magento_Sales
-The invoice email was sent.,L'email de la facture a été envoyé.,module,Magento_Sales
-The invoice email wasn't sent.,L'email de la facture n'a pas été envoyé.,module,Magento_Sales
+The invoice email was sent.,L'e-mail de la facture a été envoyé.,module,Magento_Sales
+The invoice email wasn't sent.,L'e-mail de la facture n'a pas été envoyé.,module,Magento_Sales
 Invoice #%1 | %2 | %4 (%3),Facture n°%1 | %2 | %4 (%3),module,Magento_Sales
 Invalid parent block for this block,Block parent invalide pour ce block,module,Magento_Sales
 Order Statuses,Statuts de commande,module,Magento_Sales
@@ -5555,7 +5560,7 @@ Total Paid,Total payé,module,Magento_Sales
 Total Refunded,Total remboursé,module,Magento_Sales
 Total Due,Total dû,module,Magento_Sales
 Edit,Modifier,module,Magento_Sales
-Are you sure you want to send an order email to customer?,Êtes-vous sûr de vouloir envoyer l'email de la commande au client ?,module,Magento_Sales
+Are you sure you want to send an order email to customer?,Êtes-vous sûr de vouloir envoyer l'e-mail de la commande au client ?,module,Magento_Sales
 "This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Cela créera un remboursement hors ligne. Si vous désirez créer un remboursement en ligne, ouvrez une facture et créer l'avoir pour celle-ci. Voulez-vous continuer ?",module,Magento_Sales
 Are you sure you want to void the payment?,Êtes-vous sûr(e) de vouloir envoyer le rejet de paiement par email au client ?,module,Magento_Sales
 Hold,Bloquer,module,Magento_Sales
@@ -5656,8 +5661,8 @@ We can't void the credit memo.,Impossible d'annuler l'avoir.,module,Magento_Sale
 The order no longer exists.,La commande n'existe plus.,module,Magento_Sales
 We can't create credit memo for the order.,Impossible de créer l'avoir pour la commande.,module,Magento_Sales
 Edit Order,Modifier la commande,module,Magento_Sales
-You sent the order email.,Email de la command envoyé.,module,Magento_Sales
-We can't send the email order right now.,Impossible d'envoyer l'email de la commande.,module,Magento_Sales
+You sent the order email.,E-mail de la command envoyé.,module,Magento_Sales
+We can't send the email order right now.,Impossible d'envoyer l'e-mail de la commande.,module,Magento_Sales
 You have not put the order on hold.,La commande n'a pas été bloquée.,module,Magento_Sales
 You put the order on hold.,La commande a été bloquée.,module,Magento_Sales
 You canceled the invoice.,La facture a été annulée.,module,Magento_Sales
@@ -5671,7 +5676,7 @@ We can't save the invoice right now.,Impossible d'enregistrer la facture.,module
 The invoice and the shipment  have been created. The shipping label cannot be created now.,La facture et l'expédition ont été créées. L'étiquette d'expédition ne peut pas être créée maintenant.,module,Magento_Sales
 You created the invoice and shipment.,La facture et l'expédition ont été créées.,module,Magento_Sales
 The invoice has been created.,La facture a été créée.,module,Magento_Sales
-We can't send the invoice email right now.,Impossible d'envoyer l'email de la facture.,module,Magento_Sales
+We can't send the invoice email right now.,Impossible d'envoyer l'e-mail de la facture.,module,Magento_Sales
 We can't send the shipment right now.,Impossible d'envoyer l'email de l'expédition.,module,Magento_Sales
 Cannot update item quantity.,Impossible de mettre à jour la quantité de l'article.,module,Magento_Sales
 The invoice has been voided.,La facture a été invalidée.,module,Magento_Sales
@@ -5726,7 +5731,7 @@ Please specify a shipping method.,Sélectionnez un mode de livraison.,module,Mag
 Please specify a payment method.,Veuillez sélectionner une méthode de paiement.,module,Magento_Sales
 This payment method is not available.,La méthode de paiement n'est pas disponible.,module,Magento_Sales
 Validation is failed.,La validation est échoué.,module,Magento_Sales
-You did not email your customer. Please check your email settings.,L'email au client n'a pas été envoyé. Veuillez vérifier les paramètres des emails.,module,Magento_Sales
+You did not email your customer. Please check your email settings.,L'e-mail au client n'a pas été envoyé. Veuillez vérifier les paramètres des e-mails.,module,Magento_Sales
 "Path ""%1"" is not part of allowed directory ""%2""","Le chemin ""%1"" ne fait pas parti du répertoire autorisé ""%2""",module,Magento_Sales
 Identifying Fields required,Les champs identifiés sont obligatoires,module,Magento_Sales
 Id required,ID obligatoire,module,Magento_Sales
@@ -5806,8 +5811,8 @@ Please enter a Transaction ID.,Veuillez renseigner un ID de transaction.,module,
 You can't do this without a transaction object.,Impossible de faire cela sans un objet transaction.,module,Magento_Sales
 Order # ,Commande n° ,module,Magento_Sales
 Order Date: ,Date de commande : ,module,Magento_Sales
-Sold to:,VENDU À :,module,Magento_Sales
-Ship to:,LIVRÉ À :,module,Magento_Sales
+Sold to:,Facturer à :,module,Magento_Sales
+Ship to:,Livré à :,module,Magento_Sales
 Payment Method:,Mode de paiement :,module,Magento_Sales
 Shipping Method:,Mode de livraison :,module,Magento_Sales
 Total Shipping Charges,Montant total de la livraison,module,Magento_Sales
@@ -5845,7 +5850,7 @@ We cannot determine the field name.,Impossible de déterminer le nom du champ.,m
 City,Ville,module,Magento_Sales
 Company,Société,module,Magento_Sales
 Country,Pays,module,Magento_Sales
-Email,Email,module,Magento_Sales
+Email,E-mail,module,Magento_Sales
 First Name,Prénom,module,Magento_Sales
 Last Name,Nom,module,Magento_Sales
 State/Province,État/Région,module,Magento_Sales
@@ -5889,12 +5894,13 @@ Suspected Fraud,Fraude suspectée,module,Magento_Sales
 Payment Review,Vérification du paiement,module,Magento_Sales
 New,Nouveau,module,Magento_Sales
 test message,test message,module,Magento_Sales
+Email has not been sent,L'e-mail n'a pas été envoyé,module,Magento_Sales
 " Transaction ID: ""%1"""," Identifiant de transaction : ""%1""",module,Magento_Sales
 View,Voir,module,Magento_Sales
 Group was removed,Groupe retiré,module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","Changer les informations de l'adresse ne recalculera pas les frais de port, les taxes ou les autres montants de la commande.",module,Magento_Sales
 Comment Text,Texte du commentaire,module,Magento_Sales
-Notify Customer by Email,Avertir le client par email,module,Magento_Sales
+Notify Customer by Email,Avertir le client par e-mail,module,Magento_Sales
 Customer,Client,module,Magento_Sales
 Notified,Notifié,module,Magento_Sales
 Not Notified,Non notifié,module,Magento_Sales
@@ -5989,8 +5995,8 @@ Status,Statut,module,Magento_Sales
 Comment,Commentaire,module,Magento_Sales
 Notification Not Applicable,Notification non-applicable,module,Magento_Sales
 Order & Account Information,Commande & Informations de compte,module,Magento_Sales
-The order confirmation email was sent,L'email de confirmation a été envoyé,module,Magento_Sales
-The order confirmation email is not sent,L'email de confirmation n'a pas été envoyé,module,Magento_Sales
+The order confirmation email was sent,L'e-mail de confirmation a été envoyé,module,Magento_Sales
+The order confirmation email is not sent,L'e-mail de confirmation n'a pas été envoyé,module,Magento_Sales
 Order Date,Date de commande,module,Magento_Sales
 Order Date (%1),Date de commande (%1),module,Magento_Sales
 Purchased From,Acheté sur,module,Magento_Sales
@@ -6050,11 +6056,11 @@ View All,Tout voir,module,Magento_Sales
 Gift Message for This Order,Message cadeau pour cette commande,module,Magento_Sales
 Add to Cart,Ajouter au panier,module,Magento_Sales
 Search,Chercher,module,Magento_Sales
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Si vous avez des questions concernant votre commande, vous pouvez nous envoyer un email à <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Si vous avez des questions concernant votre commande, vous pouvez nous envoyer un e-mail à <a href=""mailto:%store_e-mail"">%store_e-mail</a>",module,Magento_Sales
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","ou nous contacter par téléphone au <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Sales
 "Our hours are <span class=""no-link"">%store_hours</span>.","Nos heures d'ouverture sont <span class=""no-link"">%store_hours</span>.",module,Magento_Sales
 Your Credit Memo #%creditmemo_id for Order #%order_id,Votre avoir #%creditmemo_id pour la commande #%order_id,module,Magento_Sales
-Once your package ships we will send an email with a link to track your order.,Lorsque votre colis sera prêt nous vous enverrons un email contenant un lien pour suivre votre livraison.,module,Magento_Sales
+Once your package ships we will send an email with a link to track your order.,Lorsque votre colis sera prêt nous vous enverrons un e-mail contenant un lien pour suivre votre livraison.,module,Magento_Sales
 Gift Options for ,Options cadeau pour ,module,Magento_Sales
 Add Products,Ajouter des produits,module,Magento_Sales
 You have item changes,Vous avez des changements dans les articles,module,Magento_Sales
@@ -6097,6 +6103,7 @@ Asynchronous sending,Envoi asynchrone,module,Magento_Sales
 Enabled,Activé,module,Magento_Sales
 New Order Confirmation Email Sender,Expéditeur du mail de confirmation de commande,module,Magento_Sales
 New Order Confirmation Template,Gabarit de confirmation de nouvelle commande,module,Magento_Sales
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Sales
 New Order Confirmation Template for Guest,Gabarit de confirmation de nouvelle commande pour un invité,module,Magento_Sales
 Send Order Email Copy To,Envoyer une copie du mail de commande à,module,Magento_Sales
 Comma-separated,Séparés par des virgules,module,Magento_Sales
@@ -6105,39 +6112,39 @@ Order Comment Email Sender,Expéditeur du mail de commentaire de commande,module
 Order Comment Email Template,Gabarit de mail de commentaire de commande,module,Magento_Sales
 Order Comment Email Template for Guest,Gabarit de mail de commentaire de commande pour un invité,module,Magento_Sales
 Send Order Comment Email Copy To,Envoyer une copie du mail de commentaire de commande à,module,Magento_Sales
-Send Order Comments Email Copy Method,Mode de copie d'email pour les commentaires de commande,module,Magento_Sales
+Send Order Comments Email Copy Method,Mode de copie d'e-mail pour les commentaires de commande,module,Magento_Sales
 Invoice Email Sender,Expéditeur du mail de facture,module,Magento_Sales
 Invoice Email Template,Gabarit mail de facture,module,Magento_Sales
 Invoice Email Template for Guest,Gabarit de mail de facture pour un invité,module,Magento_Sales
 Send Invoice Email Copy To,Envoyer une copie du mail de facture à,module,Magento_Sales
-Send Invoice Email Copy Method,Mode de copie d'email pour les factures,module,Magento_Sales
+Send Invoice Email Copy Method,Mode de copie d'e-mail pour les factures,module,Magento_Sales
 Invoice Comment Email Sender,Expéditeur du mail de commentaire de facture,module,Magento_Sales
 Invoice Comment Email Template,Gabarit de mail commentaire de facture,module,Magento_Sales
 Invoice Comment Email Template for Guest,Gabarit de mail de commentaire de facture pour un invité,module,Magento_Sales
 Send Invoice Comment Email Copy To,Envoyer une copie du mail de commentaire de facture à,module,Magento_Sales
-Send Invoice Comments Email Copy Method,Mode de copie d'email pour les commentaires de facture,module,Magento_Sales
+Send Invoice Comments Email Copy Method,Mode de copie d'e-mail pour les commentaires de facture,module,Magento_Sales
 Shipment,Expédition,module,Magento_Sales
 Shipment Email Sender,Expéditeur du mail d'expédition,module,Magento_Sales
 Shipment Email Template,Gabarit de mail de livraison,module,Magento_Sales
 Shipment Email Template for Guest,Gabarit de mail d'expédition pour un invité,module,Magento_Sales
 Send Shipment Email Copy To,Envoyer une copie du mail de livraison à,module,Magento_Sales
-Send Shipment Email Copy Method,Mode de copie d'email pour les expéditions,module,Magento_Sales
+Send Shipment Email Copy Method,Mode de copie d'e-mail pour les expéditions,module,Magento_Sales
 Shipment Comments,Commentaires de livraison,module,Magento_Sales
 Shipment Comment Email Sender,Expéditeur du mail de commentaire de livraison,module,Magento_Sales
 Shipment Comment Email Template,Gabarit du mail de commentaire de livraison,module,Magento_Sales
 Shipment Comment Email Template for Guest,Gabarit de mail de commentaire d'expédition pour un invité,module,Magento_Sales
 Send Shipment Comment Email Copy To,Envoyer une copie du mail de commentaire de livraison,module,Magento_Sales
-Send Shipment Comments Email Copy Method,Mode de copie d'email pour les commentaires d'expédition,module,Magento_Sales
+Send Shipment Comments Email Copy Method,Mode de copie d'e-mail pour les commentaires d'expédition,module,Magento_Sales
 Credit Memo Email Sender,Expéditeur du mail d'avoir,module,Magento_Sales
 Credit Memo Email Template,Gabarit de mail d'avoir,module,Magento_Sales
 Credit Memo Email Template for Guest,Gabarit de mail d'avoir pour un invité,module,Magento_Sales
 Send Credit Memo Email Copy To,Envoyer une copie du mail d'avoir à,module,Magento_Sales
-Send Credit Memo Email Copy Method,Mode de copie d'email pour les avoirs,module,Magento_Sales
+Send Credit Memo Email Copy Method,Mode de copie d'e-mail pour les avoirs,module,Magento_Sales
 Credit Memo Comment Email Sender,Expéditeur du mail de commentaire d'avoir,module,Magento_Sales
 Credit Memo Comment Email Template,Gabarit de mail de commentaire d'avoir pour un invité,module,Magento_Sales
 Credit Memo Comment Email Template for Guest,Gabarit de mail de commentaire d'avoir pour un invité,module,Magento_Sales
 Send Credit Memo Comment Email Copy To,Envoyer une copie du mail de commentaire d'avoir à,module,Magento_Sales
-Send Credit Memo Comments Email Copy Method,Mode de copie d'email pour les commentaires d'avoir,module,Magento_Sales
+Send Credit Memo Comments Email Copy Method,Mode de copie d'e-mail pour les commentaires d'avoir,module,Magento_Sales
 PDF Print-outs,Impressions PDF,module,Magento_Sales
 Display Order ID in Header,Afficher l'identifiant de commande dans l'en-tête,module,Magento_Sales
 Customer Order Status Notification,Notification de statut de commande client,module,Magento_Sales
@@ -6166,7 +6173,7 @@ Print Shipping Labels,Imprimer les étiquettes de livraison,module,Magento_Sales
 Purchase Date,Date d'achat,module,Magento_Sales
 Grand Total (Base),Total (Base),module,Magento_Sales
 Grand Total (Purchased),Total (Acheté),module,Magento_Sales
-Customer Email,Email du client,module,Magento_Sales
+Customer Email,E-mail du client,module,Magento_Sales
 Shipping and Handling,Livraison et frais de traitement,module,Magento_Sales
 PDF Invoices,Factures en PDF,module,Magento_Sales
 PDF Shipments,Expéditions en PDF,module,Magento_Sales
@@ -6378,14 +6385,14 @@ Edit,Modifier,module,Magento_Search
 You can't send messages more than %1 times an hour.,Vous ne pouvez pas envoyer ces messages plus de %1 fois par heure.,module,Magento_SendFriend
 The link to a friend was sent.,Le lien à un ami a été envoyé.,module,Magento_SendFriend
 We found some problems with the data.,Il y a des erreurs avec les données.,module,Magento_SendFriend
-Some emails were not sent.,Certains emails n'ont pas été envoyés.,module,Magento_SendFriend
+Some emails were not sent.,Certains e-mails n'ont pas été envoyés.,module,Magento_SendFriend
 You've met your limit of %1 sends in an hour.,Vous avez atteind la limite d'envoi qui est de %1 fois par heure.,module,Magento_SendFriend
 Please enter a sender name.,Veuillez renseigner un nom d'expéditeur.,module,Magento_SendFriend
 Invalid Sender Email,Nom d'expéditeur invalide.,module,Magento_SendFriend
 Please enter a message.,Veuillez renseigner un message.,module,Magento_SendFriend
 Please specify at least one recipient.,Veuillez renseigner au moins un destinataire.,module,Magento_SendFriend
-Please enter a correct recipient email address.,Veuillez vérifier l'adresse email du destinataire.,module,Magento_SendFriend
-No more than %1 emails can be sent at a time.,Il n'est pas possible d'envoyer plus de %1 emails à la fois.,module,Magento_SendFriend
+Please enter a correct recipient email address.,Veuillez vérifier l'adresse e-mail du destinataire.,module,Magento_SendFriend
+No more than %1 emails can be sent at a time.,Il n'est pas possible d'envoyer plus de %1 e-mails à la fois.,module,Magento_SendFriend
 Please define a correct product instance.,Définissez une instance de produit correcte.,module,Magento_SendFriend
 Invalid Sender Information,Les informations de l'expéditeur sont invalides,module,Magento_SendFriend
 Please define the correct sender information.,Définissez correctement les informations de l'expéditeur.,module,Magento_SendFriend
@@ -6399,21 +6406,22 @@ Exception.,Exception.,module,Magento_SendFriend
 Remove Recipent,Supprimer le destinataire,module,Magento_SendFriend
 Remove,Supprimer,module,Magento_SendFriend
 Name,Nom,module,Magento_SendFriend
-Email,Email,module,Magento_SendFriend
+Email,E-mail,module,Magento_SendFriend
 * Required Fields,* Champs obligatoires,module,Magento_SendFriend
 Sender,Expéditeur,module,Magento_SendFriend
 Message,Message,module,Magento_SendFriend
 Invitee,Destinataire,module,Magento_SendFriend
 Maximum %1 email addresses allowed.,%1 adresses mail maxi autorisées.,module,Magento_SendFriend
 Add Invitee,Ajouter un destinataire,module,Magento_SendFriend
-Send Email,Envoyer un email,module,Magento_SendFriend
+Send Email,Envoyer un e-mail,module,Magento_SendFriend
 Back,Retour,module,Magento_SendFriend
 %sender_name wants to share this product with you:,%sender_name voudrait partager ce produit avec vous :,module,Magento_SendFriend
 Message from %sender_name:,Message de la part de %sender_name :,module,Magento_SendFriend
 Email to a Friend,Envoyer à un ami,module,Magento_SendFriend
-Email Templates,Gabarits d'email,module,Magento_SendFriend
+Email Templates,Gabarits d'e-mail,module,Magento_SendFriend
 Enabled,Activé,module,Magento_SendFriend
-Select Email Template,Sélectionner le gabarit d'email,module,Magento_SendFriend
+Select Email Template,Sélectionner le gabarit d'e-mail,module,Magento_SendFriend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_SendFriend
 Allow for Guests,Autoriser pour les invités,module,Magento_SendFriend
 Max Recipients,Nombre maxi de destinataires,module,Magento_SendFriend
 Max Products Sent in 1 Hour,Nombre maxi de produits envoyés en 1 heure,module,Magento_SendFriend
@@ -6427,10 +6435,10 @@ Add Tracking Number,Ajouter un numéro de suivi,module,Magento_Shipping
 Custom Value,Valeur personnalisée,module,Magento_Shipping
 Add,Ajouter,module,Magento_Shipping
 Send Tracking Information,Envoyer les informations de suivi,module,Magento_Shipping
-Are you sure you want to send a Shipment email to customer?,Êtes-vous sûr de vouloir envoyer un email d'expédition au client ?,module,Magento_Shipping
+Are you sure you want to send a Shipment email to customer?,Êtes-vous sûr de vouloir envoyer un e-mail d'expédition au client ?,module,Magento_Shipping
 Print,Imprimer,module,Magento_Shipping
-the shipment email was sent,l'email d'expédition a été envoyé,module,Magento_Shipping
-the shipment email is not sent,l'email d'expédition n'a pas été envoyé,module,Magento_Shipping
+the shipment email was sent,l'e-mail d'expédition a été envoyé,module,Magento_Shipping
+the shipment email is not sent,l'e-mail d'expédition n'a pas été envoyé,module,Magento_Shipping
 Shipment #%1 | %3 (%2),Expédition n°%1 | %3 (%2),module,Magento_Shipping
 Create Shipping Label...,Créer l'étiquette de livraison...,module,Magento_Shipping
 Print Shipping Label,Imprimer l'étiquette de livraison,module,Magento_Shipping
@@ -6503,7 +6511,7 @@ Fixed,Fixé,module,Magento_Shipping
 Percent,Pourcent,module,Magento_Shipping
 Tracking information is unavailable.,Les informations de suivi sont indisponibles.,module,Magento_Shipping
 message,message,module,Magento_Shipping
-Email has not been sent,L'email n'a pas été envoyé,module,Magento_Shipping
+Email has not been sent,L'e-mail n'a pas été envoyé,module,Magento_Shipping
 Payment &amp; Shipping Method,Paiement &amp; méthode de livraison,module,Magento_Shipping
 Payment Information,Informations de paiement,module,Magento_Shipping
 The order was placed using %1.,La commande a été passé en utilisant %1.,module,Magento_Shipping
@@ -6563,7 +6571,7 @@ Error:,Erreur :,module,Magento_Shipping
 Tracking information is currently not available. Please ,Les informations de suivi ne sont pas disponibles pour le moment. Vous pouvez  ,module,Magento_Shipping
 contact us,contactez-nous,module,Magento_Shipping
  for more information or , pour plus d'information ou ,module,Magento_Shipping
-email us at ,nous envoyer un email à  ,module,Magento_Shipping
+email us at ,nous envoyer un e-mail à  ,module,Magento_Shipping
 Info:,Info :,module,Magento_Shipping
 Track:,Suivre :,module,Magento_Shipping
 Status:,Statut :,module,Magento_Shipping
@@ -6646,6 +6654,7 @@ Enabled,Activé,module,Magento_Sitemap
 Error Email Recipient,Destinataire du mail d'erreur,module,Magento_Sitemap
 Error Email Sender,Expéditeur du mail d'erreur,module,Magento_Sitemap
 Error Email Template,Gabarit du mail d'erreur,module,Magento_Sitemap
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Sitemap
 Start Time,Heure de début,module,Magento_Sitemap
 Sitemap File Limits,Limites du fichier de plan de site,module,Magento_Sitemap
 Maximum No of URLs Per File,Nbr maximal d'URL par fichier,module,Magento_Sitemap
@@ -7091,7 +7100,7 @@ Empty Value.,Valeur vide.,module,Magento_Ui
 "Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","Veuillez n'utiliser uniquement que des lettres (a-z ou A-Z), des nombres (0-9), des espaces ou le caractère ""#"" dans ce champ.",module,Magento_Ui
 Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.,Veuillez saisir un numéro de téléphone valide.,module,Magento_Ui
 Please enter a valid fax number (Ex: 123-456-7890).,Veuillez renseigner un numéro de fax valide.,module,Magento_Ui
-Please enter a valid email address (Ex: johndoe@domain.com).,Veuillez renseigner une adresse email valide (ex. : nom@domaine.com).,module,Magento_Ui
+Please enter a valid email address (Ex: johndoe@domain.com).,Veuillez renseigner une adresse e-mail valide (ex. : nom@domaine.com).,module,Magento_Ui
 Please enter 6 or more characters. Leading or trailing spaces will be ignored.,Veuillez saisir au moins 6 caractères. Les espaces en début ou en fin de chaîne seront ignorés.,module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Veuillez renseigner 7 caractères ou plus, en utilisant des chiffres et des lettres.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Veuillez renseigner une URL valide. Le protocole est obligatoire (http://, https:// ou ftp://).",module,Magento_Ui
@@ -7312,7 +7321,7 @@ User ID,ID utilisateur,module,Magento_User
 User Name,Nom d'utilisateur,module,Magento_User
 First Name,Prénom,module,Magento_User
 Last Name,Nom,module,Magento_User
-Email,Email,module,Magento_User
+Email,E-mail,module,Magento_User
 Status,Statut,module,Magento_User
 Active,Actif,module,Magento_User
 Inactive,Inactif,module,Magento_User
@@ -7328,7 +7337,7 @@ Force Sign-In,Révoquer les jetons,module,Magento_User
 Edit User '%1',Modifier l'utilisateur '%1',module,Magento_User
 New User,Nouvel utilisateur,module,Magento_User
 Account Information,Informations du compte,module,Magento_User
-User Email,Email de l'utilisateur,module,Magento_User
+User Email,E-mail de l'utilisateur,module,Magento_User
 Password,Mot de passe,module,Magento_User
 New Password,Nouveau mot de passe,module,Magento_User
 Password Confirmation,Confirmation du mot de passe,module,Magento_User
@@ -7346,9 +7355,9 @@ User Role,Rôle de l'utilisateur,module,Magento_User
 Please correct the password reset token.,Veuillez corriger le jeton de réinitialisation de mot de passe.,module,Magento_User
 Please specify the correct account and try again.,Veuillez spécifier un compte correcte et essayez à nouveau.,module,Magento_User
 Your password reset link has expired.,Le lien de réinitialisation de mot de passe a expiré.,module,Magento_User
-We'll email you a link to reset your password.,Nous allons vous envoyer par email un lien pour réinitialiser votre mot de passe.,module,Magento_User
-Please correct this email address:,Veuillez corriger cette adresse email :,module,Magento_User
-Please enter an email address.,Veuillez renseigner une adresse email.,module,Magento_User
+We'll email you a link to reset your password.,Nous allons vous envoyer par e-mail un lien pour réinitialiser votre mot de passe.,module,Magento_User
+Please correct this email address:,Veuillez corriger cette adresse e-mail :,module,Magento_User
+Please enter an email address.,Veuillez renseigner une adresse e-mail.,module,Magento_User
 You updated your password.,Mot de passe mis à jour.,module,Magento_User
 Locked Users,Utilisateurs bloqués,module,Magento_User
 Unlocked %1 user(s).,%1 utilisateur(s) débloqué(s).,module,Magento_User
@@ -7371,7 +7380,7 @@ You saved the role.,Rôle enregistré.,module,Magento_User
 An error occurred while saving this role.,Erreur lors de la sauvegarde de ce rôle.,module,Magento_User
 You have entered an invalid password for current user.,Vous avez renseigné un mot de passe invalide pour l'utilisateur actuel.,module,Magento_User
 You saved the user.,Utilisateur enregistré.,module,Magento_User
-A user with the same user name or email already exists.,Un utilisateur avec le même nom d'utilisateur ou la même adresse email existe déjà.,module,Magento_User
+A user with the same user name or email already exists.,Un utilisateur avec le même nom d'utilisateur ou la même adresse e-mail existe déjà.,module,Magento_User
 Recommended,Recommandé,module,Magento_User
 Forced,Forcé,module,Magento_User
 You did not sign in correctly or your account is temporarily disabled.,Erreur dans les paramètres de connexion ou votre compte est temporairement désactivé.,module,Magento_User
@@ -7379,7 +7388,7 @@ You need more permissions to access this.,Vous avez besoin de permissions suppl�
 User Name is a required field.,Nom d'utilisateur est un champ obligatoire.,module,Magento_User
 First Name is a required field.,Prénom est un champ obligatoire.,module,Magento_User
 Last Name is a required field.,Nom est un champ obligatoire.,module,Magento_User
-Please enter a valid email.,Veuillez saisir une adresse email valide.,module,Magento_User
+Please enter a valid email.,Veuillez saisir une adresse e-mail valide.,module,Magento_User
 Password is required field.,Mot de passe est un champ obligatoire.,module,Magento_User
 Your password must be at least %1 characters.,Le mot de passe doit contenir au minimum %1 caractères.,module,Magento_User
 Your password must include both numeric and alphabetic characters.,Le mot de passe doit contenir des caracètres numérique et alphanumériques.,module,Magento_User
@@ -7389,7 +7398,7 @@ It's time to change your password.,Il est temps de modifier votre mot de passe.,
 "Sorry, but this password has already been used. Please create another.","Désolé, ce mot de passe à déjà été utilisé. Merci d'en utiliser un autre.",module,Magento_User
 Your password has expired; please contact your administrator.,Votre mot de passe a expiré. Veuillez contacter votre administrateur.,module,Magento_User
 Password Help,Aide mot de passe,module,Magento_User
-Enter your email address.  You will receive an email with a link to reset your password.,Renseignez votre mot de passe. Vous allez recevoir un email contenant un lien pour réinitialiser votre mot de passe.,module,Magento_User
+Enter your email address.  You will receive an email with a link to reset your password.,Renseignez votre mot de passe. Vous allez recevoir un e-mail contenant un lien pour réinitialiser votre mot de passe.,module,Magento_User
 Email address,Adresse mail,module,Magento_User
 Retrieve Password,Récupérer mot de passe,module,Magento_User
 Back to Sign in,Retourner à la connexion,module,Magento_User
@@ -7410,8 +7419,9 @@ The password for your account has been successfully changed.,Le mot de passe de 
 "Thank you,","Merci,",module,Magento_User
 There was recently a request to change the password for your account.,Nous avons reçu une demande pour changer le mot de passe de cotre compte.,module,Magento_User
 "If you requested this change, reset your password here:","Si vous avez bien effectué cette demande, reinitialisez votre mot de passe ici : ",module,Magento_User
-"If you did not make this request, you can ignore this email and your password will remain the same.","Si vous n'avez pas effectué cette demande, vous pouvez ignorer cet email : votre mot de passe restera le même.",module,Magento_User
+"If you did not make this request, you can ignore this email and your password will remain the same.","Si vous n'avez pas effectué cette demande, vous pouvez ignorer cet e-mail : votre mot de passe restera le même.",module,Magento_User
 Reset Password Template,Gabarit de réinitialisation de mot de passe,module,Magento_User
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_User
 Maximum Login Failures to Lockout Account,Nb maximal d'erreur de connexion pour bloquer le compte,module,Magento_User
 We will disable this feature if the value is empty.,Cette fonctionnalité est désactivée si la valeur est vide.,module,Magento_User
 Lockout Time (minutes),Durée de blocage (minutes),module,Magento_User
@@ -7620,7 +7630,7 @@ Enable FPT,Activer les TFP,module,Magento_Weee
 Display Prices In Product Lists,Afficher les prix dans la liste des produits,module,Magento_Weee
 Display Prices On Product View Page,Afficher les prix dans les fiches produits,module,Magento_Weee
 Display Prices In Sales Modules,Afficher les prix dans les modules de paiement,module,Magento_Weee
-Display Prices In Emails,Afficher les prix dans les emails,module,Magento_Weee
+Display Prices In Emails,Afficher les prix dans les e-mails,module,Magento_Weee
 Apply Tax To FPT,Appliquer la taxe au TFP,module,Magento_Weee
 Include FPT In Subtotal,Inclure TFP dans le sous-total,module,Magento_Weee
 Widget Insertion,Insertion de widget,module,Magento_Widget
@@ -7714,9 +7724,9 @@ We can't move the item to the wish list.,Impossible de déplacer ce produit dans
 We can't delete the item from Wish List right now because of an error: %1.,Impossible de supprimer le produit de la liste d'envies en raison de l'erreur suivante : %1.,module,Magento_Wishlist
 We can't delete the item from the Wish List right now.,Impossible de supprimer le produit de la liste d'envies.,module,Magento_Wishlist
 Message length must not exceed %1 symbols,La longueur du message ne peut pas dépasser %1 caractères.,module,Magento_Wishlist
-Please enter an email address.,Veuillez renseigner une adresse email.,module,Magento_Wishlist
+Please enter an email address.,Veuillez renseigner une adresse e-mail.,module,Magento_Wishlist
 This wish list can be shared %1 more times.,Cette liste d'envies peut être partagée %1 fois.,module,Magento_Wishlist
-Please enter a valid email address.,Saisissez un email valide.,module,Magento_Wishlist
+Please enter a valid email address.,Saisissez un e-mail valide.,module,Magento_Wishlist
 Your wish list has been shared.,Votre liste d'envies a bien été partagée.,module,Magento_Wishlist
 We can't delete item from Wish List right now.,Impossible de supprimer ce produit de la liste d'envies.,module,Magento_Wishlist
 Can't save description %1,Impossible d'enregistrer la description %1,module,Magento_Wishlist
@@ -7778,7 +7788,7 @@ Back,Retour,module,Magento_Wishlist
 Wish List is empty now.,La liste d'envies est vide.,module,Magento_Wishlist
 * Required Fields,* Champs obligatoires,module,Magento_Wishlist
 Sharing Information,Information de partage,module,Magento_Wishlist
-"Email addresses, separated by commas","Adresses email, séparées par des virgules",module,Magento_Wishlist
+"Email addresses, separated by commas","Adresses e-mail, séparées par des virgules",module,Magento_Wishlist
 Check here to link an RSS feed to your Wish List.,Cocher cette case pour activer le flux RSS de votre liste d'envies.,module,Magento_Wishlist
 Last Added Items,Derniers articles ajoutés,module,Magento_Wishlist
 Remove This Item,Supprimer cet élément,module,Magento_Wishlist
@@ -7791,7 +7801,7 @@ View all Wish List items,Voir tous les produits de la liste d'envies,module,Mage
 Share Options,Options de partage,module,Magento_Wishlist
 Email Sender,Expéditeur du mail,module,Magento_Wishlist
 Email Template,Gabarit du mail,module,Magento_Wishlist
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Le modèle d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Wishlist
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Le modèle d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Wishlist
 Max Emails Allowed to be Sent,Nombre maximal de destinataires,module,Magento_Wishlist
 Email Text Length Limit,Longueur maximal du texte du message,module,Magento_Wishlist
 General Options,Options générales,module,Magento_Wishlist
