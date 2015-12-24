@@ -2486,10 +2486,10 @@ View,Voir,module,Magento_Customer
 Unknown,Inconnu,module,Magento_Customer
 Order,Commande,module,Magento_Customer
 Purchased,Acheté,module,Magento_Customer
-Bill-to Name,Facture au Nom,module,Magento_Customer
-Ship-to Name,Expédition au Nom,module,Magento_Customer
+Bill-to Name,Nom de facturation,module,Magento_Customer
+Ship-to Name,Nom de livraison,module,Magento_Customer
 Order Total,Total de la commande,module,Magento_Customer
-Purchase Point,Indication Achat,module,Magento_Customer
+Purchase Point,Acheté sur (Magasin),module,Magento_Customer
 Customer View,Vue client,module,Magento_Customer
 There are no items in customer's shopping cart.,Il n'y a aucun élément dans le panier d'achat du client.,module,Magento_Customer
 Qty,Qté,module,Magento_Customer
@@ -4326,8 +4326,8 @@ General Information,Informations générales,module,Magento_Paypal
 Related Orders,Les commandes connexes,module,Magento_Paypal
 Order,Commande,module,Magento_Paypal
 Purchased,Acheté,module,Magento_Paypal
-Bill-to Name,Facture au Nom,module,Magento_Paypal
-Ship-to Name,Adresse au Nom,module,Magento_Paypal
+Bill-to Name,Nom de facturation,module,Magento_Paypal
+Ship-to Name,Nom de livraison,module,Magento_Paypal
 Order Total,Total de la commande,module,Magento_Paypal
 Purchase Point,Achat point,module,Magento_Paypal
 Billing Agreement View,Vue de l'entente de facturation,module,Magento_Paypal
@@ -6234,15 +6234,15 @@ Default Status,Statut par défaut,module,Magento_Sales
 State Code and Title,Code et titre de l'état,module,Magento_Sales
 All Store Views,Toutes les vues magasin,module,Magento_Sales
 PDF Credit Memos,Avoirs en PDF,module,Magento_Sales
-Purchase Point,Indication Achat,module,Magento_Sales
+Purchase Point,Acheté sur (Magasin),module,Magento_Sales
 Print Invoices,Imprimer les factures,module,Magento_Sales
 Print Packing Slips,Imprimer les bordereaux de livraison,module,Magento_Sales
 Print Credit Memos,Imprimer les avoirs,module,Magento_Sales
 Print All,Tout imprimer,module,Magento_Sales
 Print Shipping Labels,Imprimer les étiquettes de livraison,module,Magento_Sales
 Purchase Date,Date d'achat,module,Magento_Sales
-Grand Total (Base),Total (Base),module,Magento_Sales
-Grand Total (Purchased),Total (Acheté),module,Magento_Sales
+Grand Total (Base),Total (Devis de base),module,Magento_Sales
+Grand Total (Purchased),Total (Devise de la commande),module,Magento_Sales
 Customer Email,E-mail du client,module,Magento_Sales
 Shipping and Handling,Livraison et frais de traitement,module,Magento_Sales
 PDF Invoices,Factures en PDF,module,Magento_Sales
