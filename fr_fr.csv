@@ -4,8 +4,8 @@ Account Information,Informations du compte,theme,frontend/Magento/blank
 Address Book,Carnet d'adresses,theme,frontend/Magento/blank
 Menu,Menu,theme,frontend/Magento/blank
 Account,Compte,theme,frontend/Magento/blank
-Settings,Paramétrage,theme,frontend/Magento/blank
-Now Shopping by,Filtrer par,theme,frontend/Magento/luma
+Settings,Paramètres,theme,frontend/Magento/blank
+Now Shopping by,Filtres en cours,theme,frontend/Magento/luma
 Previous,Précédent,theme,frontend/Magento/luma
 Remove,Supprimer,theme,frontend/Magento/luma
 Remove This Item,Supprimer cet élément,theme,frontend/Magento/luma
@@ -17,17 +17,17 @@ Welcome to %store_name.,Bienvenue sur %store_name.,theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Pour vous connecter sur notre boutique, utilisez les identifiants renseignés lors de votre commande ou en vous rendant sur la page <a href=""%customer_url"">Mon compte</a> :",theme,frontend/Magento/luma
 Email:,E-mail :,theme,frontend/Magento/luma
 Password:,Mot de passe :,theme,frontend/Magento/luma
-Password you set when creating account,Celui que vous avez défini lors de la création de votre compte,theme,frontend/Magento/luma
+Password you set when creating account,Mot de passe que vous avez défini lors de la création de votre compte,theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Mot de passe oublié ? Cliquez <a href=""%reset_url"">ici</a> pour le réinitialiser.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Lorsque vous vous connecter à votre compte, vous pourrez :",theme,frontend/Magento/luma
+"When you sign in to your account, you will be able to:","Lorsque vous vous connectez à votre compte, vous pourrez :",theme,frontend/Magento/luma
 Quick Checkout,Commande rapide,theme,frontend/Magento/luma
 Proceed through checkout faster,Passer vos commandes plus rapidement,theme,frontend/Magento/luma
-Order Status,Statut,theme,frontend/Magento/luma
+Order Status,Statut de la commande,theme,frontend/Magento/luma
 Check the status of orders,Vérifier le statut des commandes,theme,frontend/Magento/luma
 Manage Addresses,Gérer les adresses,theme,frontend/Magento/luma
 Store alternative addresses,Enregistrer plusieurs adresses,theme,frontend/Magento/luma
 For shipping to multiple family members and friends,Pour expédier à votre famille ou vos amis,theme,frontend/Magento/luma
-Order History,Historique,theme,frontend/Magento/luma
+Order History,Historique des commandes,theme,frontend/Magento/luma
 View past orders,Voir vos commandes précédentes,theme,frontend/Magento/luma
 About Us,Qui sommes-nous ?,theme,frontend/Magento/luma
 Customer Service,Service client,theme,frontend/Magento/luma
@@ -41,20 +41,20 @@ Billing Info,Informations de facturation,theme,frontend/Magento/luma
 Shipping Info,Informations de livraison,theme,frontend/Magento/luma
 Payment Method,Mode de paiement,theme,frontend/Magento/luma
 Shipping Method,Mode de livraison,theme,frontend/Magento/luma
-Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.,Votre commande #%increment_id a été mise à jour. Son nouveau statut est maintenant <strong>%order_status</strong>.,theme,frontend/Magento/luma
+Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.,Votre commande #%increment_id a été mise à jour avec le statut <strong>%order_status</strong>.,theme,frontend/Magento/luma
 Your Invoice #%invoice_id for Order #%order_id,Votre facture #%invoice_id pour la commande #%order_id,theme,frontend/Magento/luma
 "%customer_name,","%customer_name,",theme,frontend/Magento/luma
-Once your package ships we will send you a tracking number.,Lorsque votre commande sera prête nous vous enverrons les numéros de suivi de livraison.,theme,frontend/Magento/luma
+Once your package ships we will send you a tracking number.,Lorsque votre commande sera prête nous vous enverrons le numéro de suivi.,theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","Votre commande <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Passée le <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-Your shipping confirmation is below. Thank you again for your business.,Ci-dessous votre confirmation de l'expédition. Encore merci de votre achat.,theme,frontend/Magento/luma
+Your shipping confirmation is below. Thank you again for your business.,Ci-dessous votre confirmation d'expédition. Encore merci de votre achat.,theme,frontend/Magento/luma
 Your Shipment #%shipment_id for Order #%order_id,Livraison #%shipment_id pour la commande #%order_id,theme,frontend/Magento/luma
 Backup options,Options de sauvegarde,lib,lib/web/mage/adminhtml/backup.js
 Warning,Attention,lib,lib/web/mage/adminhtml/backup.js
 Cancel,Annuler,lib,lib/web/mage/adminhtml/backup.js
-Ok,OK,lib,lib/web/mage/adminhtml/backup.js
+Ok,Ok,lib,lib/web/mage/adminhtml/backup.js
 Insert Widget...,Insérer un widget...,lib,lib/web/mage/adminhtml/wysiwyg/widget.js
-No records found.,Aucun élément trouvé.,lib,lib/web/mage/backend/suggest.js
+No records found.,Aucun enregistrement trouvé.,lib,lib/web/mage/backend/suggest.js
 Recent items,Articles récents,lib,lib/web/mage/backend/suggest.js
 Show all...,Voir tout...,lib,lib/web/mage/backend/suggest.js
 Method %s does not exist on jQuery.decorate,La méthode %s n'est pas définie dans jQuery.decorate,lib,lib/web/mage/decorate.js
@@ -72,7 +72,7 @@ Submit,Valider,lib,lib/web/mage/translate-inline.js
 Close,Fermer,lib,lib/web/mage/translate-inline.js
 Please enter a value less than or equal to %s.,Veuillez renseigner une valeur inférieure ou égale à %s.,lib,lib/web/mage/validation.js
 Please enter a value greater than or equal to %s.,Veuillez renseigner une valeur supérieure ou égale à %s.,lib,lib/web/mage/validation.js
-Maximum length of this field must be equal or less than %1 symbols.,Ce champ est limité à %1 caractères.,lib,lib/web/mage/validation.js
+Maximum length of this field must be equal or less than %1 symbols.,La longueur maximale de ce champ doit être inférieure ou égale à %1 symboles.,lib,lib/web/mage/validation.js
 This is a required field.,Ce champ est obligatoire.,lib,lib/web/mage/validation.js
 Please enter a date between %min and %max.,Veuillez renseigner une date comprise entre %min et %max.,lib,lib/web/mage/validation/validation.js
 Please enter a valid year (1900-%1).,Veuillez saisir une année valide (1900-%1).,lib,lib/web/mage/validation/validation.js
@@ -80,7 +80,7 @@ Please enter a valid day (1-%1).,Veuillez saisir un jour valide (1-%1).,lib,lib/
 Please enter a date from the past.,Veuillez renseigner une date antérieure.,lib,lib/web/mage/validation/validation.js
 Read Details,Lire les détails,module,Magento_AdminNotification
 Mark as Read,Marquer comme lu,module,Magento_AdminNotification
-Are you sure?,Êtes-vous sûr(e) ?,module,Magento_AdminNotification
+Are you sure?,Êtes-vous sûr ?,module,Magento_AdminNotification
 Remove,Supprimer,module,Magento_AdminNotification
 Messages Inbox,Messages reçus,module,Magento_AdminNotification
 You have %1 new system messages,Vous avez %1 nouveaux messages système,module,Magento_AdminNotification
@@ -264,7 +264,7 @@ Enable,Activer,module,Magento_Backend
 Add Design Change,Ajouter un changement de design,module,Magento_Backend
 Back,Retour,module,Magento_Backend
 Delete,Supprimer,module,Magento_Backend
-Are you sure?,Êtes-vous sûr(e) ?,module,Magento_Backend
+Are you sure?,Êtes-vous sûr ?,module,Magento_Backend
 Save,Enregistrer,module,Magento_Backend
 Edit Design Change,Modifier le changement de design,module,Magento_Backend
 New Store Design Change,Nouveau changement de design,module,Magento_Backend
@@ -316,7 +316,7 @@ Create Store,Créer un magasin,module,Magento_Backend
 Create Store View,Créer une vue magasin,module,Magento_Backend
 Home,Accueil,module,Magento_Backend
 Reset,Réinitialiser,module,Magento_Backend
-Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_Backend
+Are you sure you want to do this?,Êtes-vous sûr de vouloir effectuer cette opération ?,module,Magento_Backend
 Add New Image,Nouvelle image,module,Magento_Backend
 Export block for grid %1 is not defined,Le bloc d'export pour la grille %1 n'est pas défini,module,Magento_Backend
 Reset Filter,Réinitialiser le filtre,module,Magento_Backend
@@ -329,7 +329,7 @@ Date selector,Sélecteur de date,module,Magento_Backend
 [ deleted ],[ effacé ],module,Magento_Backend
 Select All,Sélectionner tout,module,Magento_Backend
  [deleted], [effacé],module,Magento_Backend
-We couldn't find any records.,Nous n'avons trouver aucun enregistrement.,module,Magento_Backend
+We couldn't find any records.,Nous n'avons trouvé aucun enregistrement.,module,Magento_Backend
 Add New,Ajouter,module,Magento_Backend
 Invalid export type supplied for grid export block,Le type d'exportation fourni est invalide,module,Magento_Backend
 Export,Exporter,module,Magento_Backend
@@ -700,7 +700,7 @@ Start Time,Heure de début,module,Magento_Backup
 Frequency,Fréquence,module,Magento_Backup
 Maintenance Mode,Mode de maintenance,module,Magento_Backup
 Delete,Supprimer,module,Magento_Backup
-Are you sure you want to delete the selected backup(s)?,Êtes-vous sûr(e) de vouloir effacer les sauvegardes sélectionnées ?,module,Magento_Backup
+Are you sure you want to delete the selected backup(s)?,Êtes-vous sûr de vouloir effacer les sauvegardes sélectionnées ?,module,Magento_Backup
 Time,Heure,module,Magento_Backup
 Name,Nom,module,Magento_Backup
 Size(bytes),Taille (octets),module,Magento_Backup
@@ -1065,7 +1065,7 @@ Save & Duplicate,Enregistrer et Dupliquer,module,Magento_Catalog
 Save & Close,Enregistrer et Fermer,module,Magento_Catalog
 Attributes,Attributs,module,Magento_Catalog
 Change,Modifier,module,Magento_Catalog
-Advanced Inventory,Inventaire avancée,module,Magento_Catalog
+Advanced Inventory,Inventaire avancé,module,Magento_Catalog
 Websites,Sites web,module,Magento_Catalog
 Products Information,Informations produits,module,Magento_Catalog
 Category Name,Nom de catégorie,module,Magento_Catalog
@@ -1106,7 +1106,7 @@ Position of Watermark for %1,Position du filigrane pour %1,module,Magento_Catalo
 Name in %1,Nom dans %1,module,Magento_Catalog
 Quantity,Quantité,module,Magento_Catalog
 Edit,Modifier,module,Magento_Catalog
-Are you sure?,Êtes-vous sûr(e) ?,module,Magento_Catalog
+Are you sure?,Êtes-vous sûr ?,module,Magento_Catalog
 Change Status,Changer le statut,module,Magento_Catalog
 Update Attributes,Mettre à jour les attributs,module,Magento_Catalog
 Images and Videos,Images et vidéos,module,Magento_Catalog
@@ -1119,7 +1119,7 @@ New Category,Nouvelle catégorie,module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Images (.gif, .jpg, .png)",module,Magento_Catalog
 Add New Images,Nouvelles images,module,Magento_Catalog
 Inc. Tax,TTC,module,Magento_Catalog
-Does this have a weight?,Quel est le poids ?,module,Magento_Catalog
+Does this have a weight?,Possède un poids ?,module,Magento_Catalog
 Product,Produit,module,Magento_Catalog
 Notify Low Stock RSS,Notification RSS lorsque le Stock est bas,module,Magento_Catalog
 Low Stock Products,Produits ayant un faible niveau de stock,module,Magento_Catalog
@@ -1196,7 +1196,7 @@ Something went wrong while saving the attribute set.,Une erreur s'est produite l
 You added product %1 to the comparison list.,Vous avez ajouté le produit %1 à la liste de comparaison.,module,Magento_Catalog
 You cleared the comparison list.,Vous avez vidé la liste de comparaison.,module,Magento_Catalog
 Something went wrong  clearing the comparison list.,Une erreur s'est produite lors du vidage de la liste de comparaison.,module,Magento_Catalog
-You removed product %1 from the comparison list.,Vous avez retiré le produit %1 de la liste de comparaison.,module,Magento_Catalog
+You removed product %1 from the comparison list.,Vous avez supprimé le produit %1 de la liste de comparaison.,module,Magento_Catalog
 1 item,1 article,module,Magento_Catalog
 %1 items,%1 articles,module,Magento_Catalog
 Invalid attribute %1,Attribut invalide : %1,module,Magento_Catalog
@@ -1347,7 +1347,7 @@ Requested product doesn't exist,Le produit demandé n'existe pas,module,Magento_
 Product option with id %1 does not exist,L'option de produit avec id %1 n'existe pas,module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","Produit avec la REF ""%1"" n'existe pas",module,Magento_Catalog
 Invalid product data: %1,Données de produit invalides : %1,module,Magento_Catalog
-Unable to remove product %1,Impossible de retirer le produit %1,module,Magento_Catalog
+Unable to remove product %1,Impossible de supprimer le produit %1,module,Magento_Catalog
 There are not websites for assign to product,Il n'y a pas de sites web pour l'assigner au produit,module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","Impossible d'assigner le produit ""%1"" à des sites Web ""%2""",module,Magento_Catalog
 "Could not save product ""%1"" with websites %2","Impossible d'enregistrer le produit ""%1"" avec les sites Web %2",module,Magento_Catalog
@@ -1363,7 +1363,7 @@ message,message,module,Magento_Catalog
 fl,fl,module,Magento_Catalog
 123,123,module,Magento_Catalog
 Select...,Sélectionner...,module,Magento_Catalog
-Are you sure you want to delete this category?,Êtes-vous sûr(e) de vouloir supprimer cette catégorie ?,module,Magento_Catalog
+Are you sure you want to delete this category?,Êtes-vous sûr de vouloir supprimer cette catégorie ?,module,Magento_Catalog
 ID: %1,ID : %1,module,Magento_Catalog
 "Set root category for this store in the <a href=""%1"">configuration</a>.","Définissez la catégorie racine pour ce magasin dans la <a href=""%1"">configuration</a>.",module,Magento_Catalog
 This operation can take a long time,Cette opération peut prendre un certain temps,module,Magento_Catalog
@@ -1382,7 +1382,7 @@ Unassigned Attributes,Attributs non assignés,module,Magento_Catalog
 A name is required.,Un nom est requis.,module,Magento_Catalog
 This group contains system attributes. Please move system attributes to another group and try again.,Ce groupe contient des attributs système. Veuillez déplacer les attributs système vers un autre groupe et réessayer.,module,Magento_Catalog
 Please enter a new group name.,Veuillez entrer un nouveau nom de groupe.,module,Magento_Catalog
-"An attribute group named ""/name/"" already exists"".","Un groupe d'attributs nommé ""/name/"" existe déjà"".",module,Magento_Catalog
+"Un groupe d'attributs nommé ""/name/"" existe déjà.","Un groupe d'attributs nommé ""/name/"" existe déjà"".",module,Magento_Catalog
 "Sorry, we're unable to complete this request.","Désolé, nous ne pouvons pas compléter cette demande.",module,Magento_Catalog
 You can't remove attributes from this attribute set.,Vous ne pouvez pas supprimer les attributs depuis ce groupe attribut.,module,Magento_Catalog
 Custom Options,Options personnalisables,module,Magento_Catalog
@@ -1459,7 +1459,7 @@ Shop By,Filtrer par,module,Magento_Catalog
 Shopping Options,Achat par,module,Magento_Catalog
 Compare Products,Comparer des produits,module,Magento_Catalog
 Print This Page,Imprimer cette page,module,Magento_Catalog
-Remove Product,Retirer le produit,module,Magento_Catalog
+Remove Product,Supprimer le produit,module,Magento_Catalog
 Add to Cart,Ajouter au panier,module,Magento_Catalog
 In stock,En stock,module,Magento_Catalog
 Out of stock,En rupture,module,Magento_Catalog
@@ -2274,7 +2274,7 @@ Some product variations fields are not valid.,Certains champs de variantes de pr
 Configuration must have specified attributes,La configuration doit avoir des attributs spécifiques,module,Magento_ConfigurableProduct
 "Configurable product ""%1"" do not have sub-products","Produit configurable ""%1"" n'est pas un sous-produits",module,Magento_ConfigurableProduct
 This group contains attributes used in configurable products. Please move these attributes to another group and try again.,Ce groupe contient des attributs utilisés dans les produits configurables. Veuillez déplacer ces attributs à un autre groupe et essayez à nouveau.,module,Magento_ConfigurableProduct
-This attribute is used in configurable products. You cannot remove it from the attribute set.,Cet attribut est utilisé dans des produits configurables. Vous ne pouvez pas le retirer de ce jeu d'attributs.,module,Magento_ConfigurableProduct
+This attribute is used in configurable products. You cannot remove it from the attribute set.,Cet attribut est utilisé dans des produits configurables. Vous ne pouvez pas le supprimer de ce jeu d'attributs.,module,Magento_ConfigurableProduct
 Associated Products,Produits associés,module,Magento_ConfigurableProduct
 Step 2: Attribute Values,Étape 2 : valeurs d'attribut,module,Magento_ConfigurableProduct
 Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.,Sélectionnez les valeurs pour chaque attribut à inclure pour ce produit. Chaque combinaison unique de valeurs créera une REF produit unique.,module,Magento_ConfigurableProduct
@@ -2331,7 +2331,7 @@ Upload Image,Envois l'Image,module,Magento_ConfigurableProduct
 Upload image,Envois l'image,module,Magento_ConfigurableProduct
 No Image,Pas d'image,module,Magento_ConfigurableProduct
 Choose a different Product,Choisissez un autre produit,module,Magento_ConfigurableProduct
-Remove Product,Retirer le produit,module,Magento_ConfigurableProduct
+Remove Product,Supprimer le produit,module,Magento_ConfigurableProduct
 Create Product Configurations,Créer des configurations de produit,module,Magento_ConfigurableProduct
 Choose Affected Attribute Set,Choisissez le gourpe d'attribut visé,module,Magento_ConfigurableProduct
 Confirm,Confirmer,module,Magento_ConfigurableProduct
@@ -2535,7 +2535,7 @@ There was an error detecting Customer Group.,Il y a eu une détection d'erreur d
 Validate VAT Number,Valider le numéro de TVA,module,Magento_Customer
 Customer Login,Identifiant client,module,Magento_Customer
 Create New Customer Account,Créer un nouveau compte client,module,Magento_Customer
-Date of Birth,Date de naissance,module,Magento_Customer
+Date of Birth,Date d'anniversaire,module,Magento_Customer
 Bad request.,Mauvaise demande.,module,Magento_Customer
 This confirmation key is invalid or has expired.,Cette clé de confirmation est invalide ou a expiré.,module,Magento_Customer
 There was an error confirming the account,Il y a eu une erreur en confirmant le compte,module,Magento_Customer
@@ -2711,8 +2711,8 @@ Customer,Client,module,Magento_Customer
 No item specified.,Aucun produit spécifié.,module,Magento_Customer
 Are you sure you want to remove this item?,Êtes-vous sûr de vouloir supprimer ce produit?,module,Magento_Customer
 Personal Information,Informations personnelles,module,Magento_Customer
-Last Logged In:,Connecté la dernière fois dans:,module,Magento_Customer
-Last Logged In (%1):,Connecté la dernière fois dans (%1):,module,Magento_Customer
+Last Logged In:,Dernière connexion :,module,Magento_Customer
+Last Logged In (%1):,Dernière connexion (%1) :,module,Magento_Customer
 Confirmed email:,E-mail confirmé :,module,Magento_Customer
 Account Created:,Compte créé:,module,Magento_Customer
 Account Created on (%1):,Compte créé le (%1) :,module,Magento_Customer
@@ -2745,11 +2745,11 @@ You have no other address entries in your address book.,Vous avez pas d'autres d
 * Required Fields,* Champs obligatoires,module,Magento_Customer
 Company,Société,module,Magento_Customer
 Phone Number,Numéro de mobile,module,Magento_Customer
-Fax,Numéro de téléphone,module,Magento_Customer
+Fax,Numéro de fax,module,Magento_Customer
 Address,Adresse,module,Magento_Customer
 Street Address,Adresse,module,Magento_Customer
 Street Address %1,Rue - Voie – Bât. %1,module,Magento_Customer
-VAT Number,Numéro Entreprise,module,Magento_Customer
+VAT Number,Numéro de TVA,module,Magento_Customer
 City,Ville,module,Magento_Customer
 State/Province,Région,module,Magento_Customer
 "Please select a region, state or province.","Veuillez sélectionner une région, ou si besoin un état/province pour l'étranger.",module,Magento_Customer
@@ -2785,7 +2785,7 @@ Set a New Password,Définir un nouveau mot de passe,module,Magento_Customer
 You have signed out and will go to our homepage in 5 seconds.,Vous êtes maintenant déconnecté et nous allons vous rediriger vers notre page d'accueil dans 5 secondes.,module,Magento_Customer
 New Customers,Nouveaux clients,module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","La création d'un compte a de nombreux avantages: consultation rapide, conserver plusieurs adresses, suivre les commandes, les envois de colis et bien plus encore.",module,Magento_Customer
-Gender,Humain,module,Magento_Customer
+Gender,Genre,module,Magento_Customer
 Name,Nom,module,Magento_Customer
 Tax/VAT number,Numéro de TVA intracommunautaire,module,Magento_Customer
 "%name,","%name,",module,Magento_Customer
@@ -2809,8 +2809,8 @@ There was recently a request to change the password for your account.,Il y a eu 
 "If you did not make this request, you can ignore this email and your password will remain the same.","Si vous n'avez pas fait cette demande, vous pouvez ignorer ce message et votre mot de passe restera le même.",module,Magento_Customer
 The password for your account has been successfully changed.,Le mot de passe pour votre compte a été changé avec succès.,module,Magento_Customer
 "If you did not request this change, please contact us.","Si vous n'avez pas demandé ce changement, veuillez contactez-nous.",module,Magento_Customer
-Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_Customer
-Are you sure you want to delete this address?,Êtes-vous sûr(e) de vouloir effacer cette adresse ?,module,Magento_Customer
+Are you sure you want to do this?,Êtes-vous sûr de vouloir effectuer cette opération ?,module,Magento_Customer
+Are you sure you want to delete this address?,Êtes-vous sûr de vouloir effacer cette adresse ?,module,Magento_Customer
 Customer Configuration,Configuration client,module,Magento_Customer
 Account Sharing Options,Options de partage de compte,module,Magento_Customer
 Share Customer Accounts,Partager les comptes client,module,Magento_Customer
@@ -2824,7 +2824,7 @@ Group for Invalid VAT ID,Groupe pour un numéro de TVA invalide,module,Magento_C
 Validation Error Group,Erreur validation de groupe,module,Magento_Customer
 Validate on Each Transaction,Valider à chaque transaction,module,Magento_Customer
 Default Value for Disable Automatic Group Changes Based on VAT ID,Valeur par défaut pour la désactivation de changement automatique de groupe basé sur le numéro de TVA,module,Magento_Customer
-Show VAT Number on Storefront,Afficher numéro de TVA sur la vue client,module,Magento_Customer
+Show VAT Number on Storefront,Afficher le numéro de TVA sur la vue client,module,Magento_Customer
 "To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Pour afficher le numéro de TVA sur la vue client, définissez l'affichage du numéro de TVA du Magasin sur l'option Oui.",module,Magento_Customer
 Default Email Domain,Nom de Domaine d'e-mail par défaut,module,Magento_Customer
 Default Welcome Email,E-mail d'accueil par défaut,module,Magento_Customer
@@ -3743,13 +3743,13 @@ Consumer Key,API Clé,module,Magento_Integration
 Consumer Secret,API Secret ,module,Magento_Integration
 Access Token,Authentification d'accès (Oauth),module,Magento_Integration
 Access Token Secret,Authentification d'accès secret (Oauth),module,Magento_Integration
-Uninstall the extension to remove this integration,Désinstaller l'extension pour retirer cette intégration,module,Magento_Integration
+Uninstall the extension to remove this integration,Désinstaller l'extension pour supprimer cette intégration,module,Magento_Integration
 Remove,Supprimer,module,Magento_Integration
 View,Voir,module,Magento_Integration
 Edit,Modifier,module,Magento_Integration
 Activate,Activez,module,Magento_Integration
 Reauthorize,Réautoriser,module,Magento_Integration
-Uninstall the extension to remove integration '%1'.,Désinstaller l'extension pour retirer l'intégration '%1'.,module,Magento_Integration
+Uninstall the extension to remove integration '%1'.,Désinstaller l'extension pour supprimer l'intégration '%1'.,module,Magento_Integration
 This integration no longer exists.,Cette intégration n'existe plus.,module,Magento_Integration
 The integration '%1' has been deleted.,L'intégration '%1' a été supprimé.,module,Magento_Integration
 Integration ID is not specified or is invalid.,ID d'intégration n'est pas spécifié ou est invalide.,module,Magento_Integration
@@ -3840,8 +3840,8 @@ Position,Position,module,Magento_LayeredNavigation
 Position in Layered Navigation,Position dans la navigation par filtres,module,Magento_LayeredNavigation
 Position of attribute in layered navigation block,Position de l'attribut dans le bloc de navigation par filtres,module,Magento_LayeredNavigation
 item,article,module,Magento_LayeredNavigation
-items,article,module,Magento_LayeredNavigation
-Now Shopping by,Filtre en cours,module,Magento_LayeredNavigation
+items,articles,module,Magento_LayeredNavigation
+Now Shopping by,Filtres en cours,module,Magento_LayeredNavigation
 Previous,Précédent,module,Magento_LayeredNavigation
 Remove,Supprimer,module,Magento_LayeredNavigation
 Remove This Item,Supprimer cet élément,module,Magento_LayeredNavigation
@@ -4119,7 +4119,7 @@ Duplicate template code,Code de gabarit dupliqué,module,Magento_Newsletter
 Choose Store View:,Choisir la vue magasin :,module,Magento_Newsletter
 Newsletter Message Preview,Prévisualisation du message de la newsletter,module,Magento_Newsletter
 Add to Queue,Ajouter à la file,module,Magento_Newsletter
-Are you sure that you want to strip all tags?,Êtes-vous sûr(e) de vouloir supprimer tous les tags ?,module,Magento_Newsletter
+Are you sure that you want to strip all tags?,Êtes-vous sûr de vouloir supprimer tous les tags ?,module,Magento_Newsletter
 Please enter a new template name.,Veuillez renseigner un nom de gabarit.,module,Magento_Newsletter
  Copy, Copie,module,Magento_Newsletter
 Are you sure you want to delete this template?,Êtes-vous sûr de vouloir supprimer ce gabarit ?,module,Magento_Newsletter
@@ -4319,7 +4319,7 @@ Created,Créer,module,Magento_Paypal
 N/A,N/A,module,Magento_Paypal
 Updated,Mis à jour,module,Magento_Paypal
 Back,Retour,module,Magento_Paypal
-Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_Paypal
+Are you sure you want to do this?,Êtes-vous sûr de vouloir effectuer cette opération ?,module,Magento_Paypal
 Cancel,Annuler,module,Magento_Paypal
 Billing Agreement #%1,Entente de facturation n°%1,module,Magento_Paypal
 General Information,Informations générales,module,Magento_Paypal
@@ -4336,7 +4336,7 @@ Reference Information,Information sur la référence,module,Magento_Paypal
 Transaction Information,Information sur les transactions,module,Magento_Paypal
 PayPal Fee Information,Renseignements sur les frais PayPal,module,Magento_Paypal
 PayPal Settlement Reports,Rapports de règlements PayPal,module,Magento_Paypal
-We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?,Nous nous connectons au serveur SFTP PayPal pour récupérer les nouveaux rapports. Es-tu sûr que tu veux continuer?,module,Magento_Paypal
+We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?,Nous nous connectons au serveur SFTP PayPal pour récupérer les nouveaux rapports. Êtes-vous sûr de vouloir continuer ?,module,Magento_Paypal
 Fetch Updates,Mises à jour chercher,module,Magento_Paypal
 button_label,button_label,module,Magento_Paypal
 sandbox_button_label,sandbox_button_label,module,Magento_Paypal
@@ -5073,7 +5073,7 @@ Selected option(s) or their combination is not currently available.,Les options 
 Some item options or their combination are not currently available.,Certaines options d'articles ou leur combinaison sont actuellement indisponibles.,module,Magento_Quote
 Cart %1 doesn't contain item  %2,Le panier %1 ne contient pas l'article %2,module,Magento_Quote
 Could not save quote,Impossible de d'enregistrer le panier,module,Magento_Quote
-Could not remove item from quote,Impossible de retirer cet article du panier,module,Magento_Quote
+Could not remove item from quote,Impossible de supprimer cet article du panier,module,Magento_Quote
 The qty value is required to update quote item.,La valeur de la quantité est obligatoire pour mettre à jour l'article du panier.,module,Magento_Quote
 Invalid customer id %1,L'identifiant de client %1 est invalide,module,Magento_Quote
 Invalid address id %1,L'identifiant de l'adresse %1 est invalide,module,Magento_Quote
@@ -5327,7 +5327,7 @@ Save and Previous,Enregistrer et précédent,module,Magento_Review
 Save and Next,Enregistrer et suivant,module,Magento_Review
 Next,Suivant,module,Magento_Review
 Delete Review,Supprimer l'avis,module,Magento_Review
-Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_Review
+Are you sure you want to do this?,Êtes-vous sûr de vouloir effectuer cette opération ?,module,Magento_Review
 Edit Review '%1',Modifier l'avis '%1',module,Magento_Review
 "<a href=""%1"" onclick=""this.target='blank'"">%2 %3</a> <a href=""mailto:%4"">(%4)</a>","<a href=""%1"" onclick=""this.target='blank'"">%2 %3</a> <a href=""mailto:%4"">(%4)</a>",module,Magento_Review
 Administrator,Administrateur,module,Magento_Review
@@ -5343,7 +5343,7 @@ SKU,Réf.,module,Magento_Review
 Action,Action,module,Magento_Review
 Edit,Modifier,module,Magento_Review
 Delete,Supprimer,module,Magento_Review
-Are you sure?,Êtes-vous sûr(e) ?,module,Magento_Review
+Are you sure?,Êtes-vous sûr ?,module,Magento_Review
 Update Status,Mettre à jour le statut,module,Magento_Review
 Customer,Client,module,Magento_Review
 Pending Reviews of Customer `%1`,Avis en attente du client '%1',module,Magento_Review
@@ -5497,7 +5497,7 @@ Order Address Information,Informations d'adresse de commande,module,Magento_Sale
 Please correct the parent block for this block.,Veuillez corriger le bloc parent de ce bloc.,module,Magento_Sales
 Submit Comment,Envoyer un commentaire,module,Magento_Sales
 Submit Order,Envoyer la commande,module,Magento_Sales
-Are you sure you want to cancel this order?,Êtes-vous sûr(e) de vouloir annuler cet commande ?,module,Magento_Sales
+Are you sure you want to cancel this order?,Êtes-vous sûr de vouloir annuler cette commande ?,module,Magento_Sales
 Cancel,Annuler,module,Magento_Sales
 Billing Address,Adresse de facturation,module,Magento_Sales
 Payment Method,Mode de paiement,module,Magento_Sales
@@ -5537,7 +5537,7 @@ Shipping Address,Adresse de livraison,module,Magento_Sales
 Shipping Method,Mode de livraison,module,Magento_Sales
 Update Changes,Mettre à jour les modifications,module,Magento_Sales
 Shopping Cart,Panier,module,Magento_Sales
-Are you sure you want to delete all items from shopping cart?,Êtes-vous sûr(e) de vouloir enlever tous les articles du panier ?,module,Magento_Sales
+Are you sure you want to delete all items from shopping cart?,Êtes-vous sûr de vouloir enlever tous les articles du panier ?,module,Magento_Sales
 Clear Shopping Cart,Vider le panier,module,Magento_Sales
 Products in Comparison List,Produits dans la liste de comparaison,module,Magento_Sales
 Recently Compared Products,Derniers produits comparés,module,Magento_Sales
@@ -5606,18 +5606,18 @@ Total Due,Total dû,module,Magento_Sales
 Edit,Modifier,module,Magento_Sales
 Are you sure you want to send an order email to customer?,Êtes-vous sûr de vouloir envoyer l'e-mail de la commande au client ?,module,Magento_Sales
 "This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Cela créera un remboursement hors ligne. Si vous désirez créer un remboursement en ligne, ouvrez une facture et créer l'avoir pour celle-ci. Voulez-vous continuer ?",module,Magento_Sales
-Are you sure you want to void the payment?,Êtes-vous sûr(e) de vouloir envoyer le rejet de paiement par email au client ?,module,Magento_Sales
+Are you sure you want to void the payment?,Êtes-vous sûr de vouloir annuler le paiement ?,module,Magento_Sales
 Hold,Bloquer,module,Magento_Sales
 hold,bloquer,module,Magento_Sales
 Unhold,Débloquer,module,Magento_Sales
 unhold,débloquer,module,Magento_Sales
-Are you sure you want to accept this payment?,Êtes-vous sûr(e) de vouloir accepter ce paiement ?,module,Magento_Sales
+Are you sure you want to accept this payment?,Êtes-vous sûr de vouloir accepter ce paiement ?,module,Magento_Sales
 Accept Payment,Acceptez le paiement,module,Magento_Sales
-Are you sure you want to deny this payment?,Êtes-vous sûr(e) de vouloir refuser ce paiement ?,module,Magento_Sales
+Are you sure you want to deny this payment?,Êtes-vous sûr de vouloir refuser ce paiement ?,module,Magento_Sales
 Deny Payment,Refuser de paiement,module,Magento_Sales
 Get Payment Update,Obtenir la mise à jour de paiement,module,Magento_Sales
 Invoice and Ship,Facturer et expédier,module,Magento_Sales
-Invoice,Facturer,module,Magento_Sales
+Invoice,Facture d'achat,module,Magento_Sales
 Ship,Expédier,module,Magento_Sales
 Reorder,Renouveler,module,Magento_Sales
 Order # %1 %2 | %3,Commande n°%1 %2 | %3,module,Magento_Sales
@@ -5782,7 +5782,7 @@ You did not email your customer. Please check your email settings.,L'e-mail au c
 Identifying Fields required,Les champs identifiés sont obligatoires,module,Magento_Sales
 Id required,ID obligatoire,module,Magento_Sales
 A hold action is not available.,L'action de blocage n'est pas disponible.,module,Magento_Sales
-You cannot remove the hold.,Impossible de retirer le blocage.,module,Magento_Sales
+You cannot remove the hold.,Impossible de supprimer le blocage.,module,Magento_Sales
 We cannot cancel this order.,Impossible d'annuler cette commande.,module,Magento_Sales
 Guest,Invité,module,Magento_Sales
 Please enter the first name.,Veuillez renseigner le prénom.,module,Magento_Sales
@@ -5945,7 +5945,7 @@ test message,test message,module,Magento_Sales
 Email has not been sent,L'e-mail n'a pas été envoyé,module,Magento_Sales
 " Transaction ID: ""%1"""," Identifiant de transaction : ""%1""",module,Magento_Sales
 View,Voir,module,Magento_Sales
-Group was removed,Groupe retiré,module,Magento_Sales
+Group was removed,Groupe supprimé,module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","Changer les informations de l'adresse ne recalculera pas les frais de port, les taxes ou les autres montants de la commande.",module,Magento_Sales
 Comment Text,Texte du commentaire,module,Magento_Sales
 Notify Customer by Email,Avertir le client par e-mail,module,Magento_Sales
@@ -6117,14 +6117,14 @@ Thank you for your order from %store_name.,Merci de votre commande sur %store_na
 Your Credit Memo #%creditmemo_id for Order #%order_id,Votre avoir #%creditmemo_id pour la commande #%order_id,module,Magento_Sales
 Billing Info,Informations de facturation,module,Magento_Sales
 Shipping Info,Informations de livraison,module,Magento_Sales
-Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.,Votre commande #%increment_id a été mise à jour. Son nouveau statut est maintenant <strong>%order_status</strong>.,module,Magento_Sales
+Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.,Votre commande #%increment_id a été mise à jour avec le statut <strong>%order_status</strong>.,module,Magento_Sales
 Your Invoice #%invoice_id for Order #%order_id,Votre facture #%invoice_id pour la commande #%order_id,module,Magento_Sales
 "%customer_name,","%customer_name,",module,Magento_Sales
-Once your package ships we will send you a tracking number.,Lorsque votre commande sera prête nous vous enverrons les numéros de suivi de livraison.,module,Magento_Sales
+Once your package ships we will send you a tracking number.,Lorsque votre commande sera prête nous vous enverrons le numéro de suivi.,module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","Votre commande <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Passée le <span class=""no-link"">%created_at</span>",module,Magento_Sales
 Once your package ships we will send an email with a link to track your order.,Lorsque votre colis sera prêt nous vous enverrons un e-mail contenant un lien pour suivre votre livraison.,module,Magento_Sales
-Your shipping confirmation is below. Thank you again for your business.,Ci-dessous votre confirmation de l'expédition. Encore merci de votre achat.,module,Magento_Sales
+Your shipping confirmation is below. Thank you again for your business.,Ci-dessous votre confirmation d'expédition. Encore merci de votre achat.,module,Magento_Sales
 Your Shipment #%shipment_id for Order #%order_id,Livraison #%shipment_id pour la commande #%order_id,module,Magento_Sales
 Gift Options for ,Options cadeau pour ,module,Magento_Sales
 Add Products,Ajouter des produits,module,Magento_Sales
@@ -6224,10 +6224,10 @@ ZIP/Post Code,Code postal,module,Magento_Sales
 Signed-up Point,Point d'inscription,module,Magento_Sales
 Website,Site web,module,Magento_Sales
 order-header,en-tête de commande,module,Magento_Sales
-Bill-to Name,Facture au Nom,module,Magento_Sales
+Bill-to Name,Nom de facturation,module,Magento_Sales
 Created,Créé,module,Magento_Sales
 Invoice Date,Date de facturation,module,Magento_Sales
-Ship-to Name,Expédition au Nom,module,Magento_Sales
+Ship-to Name,Nom de livraison,module,Magento_Sales
 Ship Date,Date d'expédition,module,Magento_Sales
 Total Quantity,Quantité totale,module,Magento_Sales
 Default Status,Statut par défaut,module,Magento_Sales
@@ -6291,7 +6291,7 @@ Times Used,Nombre d'utilisations,module,Magento_SalesRule
 CSV,CSV,module,Magento_SalesRule
 Excel XML,XML d'Excel,module,Magento_SalesRule
 Delete,Supprimer,module,Magento_SalesRule
-Are you sure you want to delete the selected coupon(s)?,Êtes-vous sûr(e) de vouloir effacer les bons de réduction sélectionnés ?,module,Magento_SalesRule
+Are you sure you want to delete the selected coupon(s)?,Êtes-vous sûr de vouloir effacer les bons de réduction sélectionnés ?,module,Magento_SalesRule
 Labels,Libellés,module,Magento_SalesRule
 Default Label,Libellé par défaut,module,Magento_SalesRule
 Default Rule Label for All Store Views,Libellé de règle par défaut pour toutes les vues magasin,module,Magento_SalesRule
@@ -6445,7 +6445,7 @@ Excel XML,XML d'Excel,module,Magento_Search
 ID,ID,module,Magento_Search
 Hits,Vues,module,Magento_Search
 Delete,Supprimer,module,Magento_Search
-Are you sure?,Êtes-vous sûr(e) ?,module,Magento_Search
+Are you sure?,Êtes-vous sûr ?,module,Magento_Search
 Synonym,Synonymes,module,Magento_Search
 Suggested Terms,Termes suggérés,module,Magento_Search
 yes,oui,module,Magento_Search
@@ -6622,7 +6622,7 @@ Carrier,Transporteur,module,Magento_Shipping
 Title,Titre,module,Magento_Shipping
 Number,Numéro,module,Magento_Shipping
 Action,Action,module,Magento_Shipping
-Are you sure?,Êtes-vous sûr(e) ?,module,Magento_Shipping
+Are you sure?,Êtes-vous sûr ?,module,Magento_Shipping
 Shipping &amp; Handling Information,Informations de livraison,module,Magento_Shipping
 Track Order,Suivre la commande,module,Magento_Shipping
 No shipping information available,Aucune information de livraison disponible,module,Magento_Shipping
@@ -6813,7 +6813,7 @@ Add New Tax Rate,Ajouter une nouvelle taxe,module,Magento_Tax
 Back,Retour,module,Magento_Tax
 Reset,Réinitialiser,module,Magento_Tax
 Delete Rate,Supprimer le taux,module,Magento_Tax
-Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_Tax
+Are you sure you want to do this?,Êtes-vous sûr de vouloir effectuer cette opération ?,module,Magento_Tax
 Save Rate,Enregistrer le taux,module,Magento_Tax
 Manage Tax Rules,Gérer les règles de taxes,module,Magento_Tax
 Add New Tax Rule,Ajouter une nouvelle règle,module,Magento_Tax
@@ -7354,7 +7354,7 @@ Add New URL Rewrite,Nouvelle réécriture d'URL,module,Magento_UrlRewrite
 Reset,Réinitialiser,module,Magento_UrlRewrite
 Back,Retour,module,Magento_UrlRewrite
 Delete,Supprimer,module,Magento_UrlRewrite
-Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_UrlRewrite
+Are you sure you want to do this?,Êtes-vous sûr de vouloir effectuer cette opération ?,module,Magento_UrlRewrite
 Save,Enregistrer,module,Magento_UrlRewrite
 Block Information,Information,module,Magento_UrlRewrite
 URL Rewrite Information,Information sur la réécriture d'URL,module,Magento_UrlRewrite
@@ -7393,7 +7393,7 @@ Edit,Modifier,module,Magento_UrlRewrite
 Back,Retour,module,Magento_User
 Reset,Réinitialiser,module,Magento_User
 Delete Role,Supprimer le rôle,module,Magento_User
-Are you sure you want to do this?,Êtes-vous sûr(e) de vouloir effectuer cette opération ?,module,Magento_User
+Are you sure you want to do this?,Êtes-vous sûr de vouloir effectuer cette opération ?,module,Magento_User
 Save Role,Enregistrer le rôle,module,Magento_User
 Roles,Rôles,module,Magento_User
 Add New Role,Nouveau rôle,module,Magento_User
@@ -7427,7 +7427,7 @@ Interface Locale,Langue de l'interface,module,Magento_User
 This account is,Ce compte est,module,Magento_User
 Account Status,Statut du compte,module,Magento_User
 Current User Identity Verification,Vérification de l'identité de l'utilisateur actuel,module,Magento_User
-Your Password,Votre mot de passe a expiré. Merci de contacter votre administrateur.,module,Magento_User
+Your Password,Votre mot de passe,module,Magento_User
 User Roles Information,Informations rôle utilisateur,module,Magento_User
 Assigned,Affecté,module,Magento_User
 Role,Rôle,module,Magento_User
@@ -7493,8 +7493,8 @@ Resource Access,Accès aux ressources,module,Magento_User
 Custom,Personnalisé,module,Magento_User
 All,Tous,module,Magento_User
 Resources,Ressources,module,Magento_User
-Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Attention !\r\nCette action supprimera cet utilisateur des rôles déjà assignés.\r\nÊtes-vous sûr(e) ?,module,Magento_User
-Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?,Attention !\r\nCette action supprimera ces utilisateurs des rôles déjà assignés.\r\nÊtes-vous sûr(e) ?,module,Magento_User
+Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Attention !\r\nCette action supprimera cet utilisateur des rôles déjà assignés.\r\nÊtes-vous sûr ?,module,Magento_User
+Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?,Attention !\r\nCette action supprimera ces utilisateurs des rôles déjà assignés.\r\nÊtes-vous sûr ?,module,Magento_User
 "%name,","%name,",module,Magento_User
 The password for your account has been successfully changed.,Le mot de passe de votre compte a bien été modifié.,module,Magento_User
 "If you did not request this change, please contact us.","Si vous n'avez pas effectué cette demande, veuillez nous contacter.",module,Magento_User
