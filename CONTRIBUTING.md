@@ -2,20 +2,30 @@
 
 Toute aide à la traduction de Magento 2 en français est la bienvenue !
 
-## Traduire les modules
+Le package est basé sur 3 fichiers de traduction :
 
-1. Recherchez dans [la liste des tickets](https://github.com/lalbert/magento2-fr_fr/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3A%22A+traduire%22+-label%3A%22Traduction+en+cours%22) les modules qui ont besoin d'être traduit
-2. "Forkez" le dépôt
-3. Indiquez dans les commentaires du ticket que vous travaillez sur la traduction du module. Le label "En cours de traduction" sera ajouté
-4. Utilisez le fichier `source.csv.txt` pour effectuer la traduction du module concerné
-5. Fusionnez vos traductions dans le fichier `fr_fr.csv`
-6. Effectuez un pull-request pour l'intégration des traductions
+* [fr_fr.csv](https://github.com/lalbert/magento2-fr_fr/blob/develop/fr_fr.csv) : toutes ces chaînes ont été extraites de [Magento 2.0.0](https://github.com/magento/magento2/tree/2.0) en utilisant la commande [`i18n:collect-phrases`](http://devdocs.magento.com/guides/v2.0/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict).
+* [fr_fr.missing.csv](https://github.com/lalbert/magento2-fr_fr/blob/develop/fr_fr.missing.csv) : contient des chaînes supplémentaires qui n'ont pas pas été extraites avec la commande précédente.
+* [fr_fr.script.csv](https://github.com/lalbert/magento2-fr_fr/blob/develop/fr_fr.script.csv) : contient des chaînes dont les apostrophes sont échappées pour corriger des erreurs dans les scripts.
 
-### Recommentadions
+*Les 2 fichiers `fr_fr.missing.csv` et `fr_fr.script.csv` ne devraient théoriquement pas exister puisque Magento devrait d'une part extraire correctement toutes les chaînes traductibles, et devrait d'autre part correctement échapper les caractères posant d'éventuels problèmes.
+Ces problèmes ayant été remonté aux équipes de développement de Magento, nous sommes optimistes pour qu'ils soient corrigés dans une future version et seront donc inutiles.*
 
-Le fichier fr_fr.csv ne doit contenir que des chaînes traduites !
-Ne traduisez qu'un module à la fois, ou séparez bien vos différentes traductions en différentes branches.
-Un pull request doit contenir obligatoirement les modifications du fichiers `source.csv.txt` et `fr_fr.csv`.
+## Reportez une erreur
+
+Si vous utilisez le package est que vous remarquez une erreur de traduction, une "coquille", une ~~fote d'ortografe~~ faute d'orthographe ou autre, vous pouvez [ouvrir un ticket](https://github.com/lalbert/magento2-fr_fr/issues/new) **après avoir vérifié** dans [la liste](https://github.com/lalbert/magento2-fr_fr/issues?utf8=%E2%9C%93&q=is%3Aopen+-label%3A%22A+traduire%22) que le problème n'a pas déjà été soulevé.
+
+## Discution sur les termes de traduction
+
+Certain termes peuvent être traduit de plusieurs façons différentes (ex: "Save" : "Sauvegarder" ou "Enregistrer").
+Afin d'uniformiser les traductions dans l'ensemble de Magento, des [tickets de discussion](https://github.com/lalbert/magento2-fr_fr/issues?q=is%3Aopen+is%3Aissue+label%3Adiscussion) sont ouverts (ou peuvent être ouverts) afin de voter pour le meilleur terme à intégrer.
+
+## Proposer vos traductions et corrections
+
+Si vous êtes utilisateur de GitHub, vous pouvez proposer vos propres traductions et corrections en demandant des Pull Request.
+
+Notez que les Pull Request ne sont autorisés que sur la branche [develop](https://github.com/lalbert/magento2-fr_fr/tree/develop).
+
 
 ### Tests automatisés des traductions
 
@@ -26,11 +36,5 @@ Des tests ont été mis en place afin de vérifier au mieux les traductions. Les
 * Vérifie si la case du 1er caractère est respectée
 * Vérifie si la ponctuation de fin de chaîne est bien respectée
 
-## Tester les traductions
 
-Si vous avez installé le package est que vous remarquez une erreur de traduction, une "coquille", une ~~fote d'ortografe~~ faute d'orthographe ou autre, vous pouvez [ouvrir un ticket](https://github.com/lalbert/magento2-fr_fr/issues/new) **après avoir vérifié** dans [la liste](https://github.com/lalbert/magento2-fr_fr/issues?utf8=%E2%9C%93&q=is%3Aopen+-label%3A%22A+traduire%22) que le problème n'a pas déjà été soulevé.
 
-## Discution sur les termes de traduction
-
-Certain termes peuvent être traduit de plusieurs façons différentes (ex: "Save" : "Sauvegarder" ou "Enregistrer").
-Afin d'uniformiser les traductions dans l'ensemble de Magento, des [tickets de discussion](https://github.com/lalbert/magento2-fr_fr/issues?q=is%3Aopen+is%3Aissue+label%3Adiscussion) sont ouverts (ou peuvent être ouverts) afin de voter pour le meilleur terme à intégrer.
