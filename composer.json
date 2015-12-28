@@ -1,6 +1,6 @@
 {
 	"name" : "lalbert/magento2-fr_fr",
-	"description" : "French (France) language",
+	"description" : "French (France) language pack for Magento 2",
 	"license" : "MIT",
 	"repositories" : [{
 			"type" : "composer",
@@ -18,5 +18,23 @@
 		"files" : [
 			"registration.php"
 		]
-	}
+	},
+	"homepage" : "https://github.com/lalbert/magento2-fr_fr",
+	"support" : {
+		"issues" : "https://github.com/lalbert/magento2-fr_fr/issues"
+	},
+	"authors" : [{
+			"name" : "Luc ALBERT",
+			"homepage" : "https://github.com/orgs/lalbert/people/lucalbert"
+		}, {
+			"name" : "BKM",
+			"email" : "contact@bkm.uno",
+			"homepage" : "http://www.bkm.uno"
+		}
+	],
+	"keywords" : [
+		"magento2",
+		"language pack",
+		"fr_FR"
+	]
 }
