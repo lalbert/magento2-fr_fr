@@ -12,3 +12,4 @@
 * [x] Invalid => Invalide
 * [x] Provided => Fourni
 * [ ] Storefront => Vue client
+* [ ] CVV => Cryptogramme visuel
