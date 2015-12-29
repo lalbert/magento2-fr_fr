@@ -795,7 +795,7 @@ Edit,Modifier,module,Magento_Braintree
 Braintree,Braintree (mobile),module,Magento_Braintree
 &nbsp;,&nbsp;,module,Magento_Braintree
 Enable this Solution,Activez cette Solution,module,Magento_Braintree
-Enable PayPal through Braintree,Activer PayPal through Braintree,module,Magento_Braintree
+Enable PayPal through Braintree,Activer PayPal à travers Braintree,module,Magento_Braintree
 Basic Braintree Settings,Réglages de base Braintree,module,Magento_Braintree
 Title,Titre,module,Magento_Braintree
 Environment,Environnement,module,Magento_Braintree
@@ -808,8 +808,8 @@ Advanced Braintree Settings,Paramètres avancés Braintree,module,Magento_Braint
 Debug,Déboguage,module,Magento_Braintree
 Capture action,Action de capture,module,Magento_Braintree
 New Order Status,Statut d'une nouvelle commande,module,Magento_Braintree
-Use Vault,Utiliser Vault (App°,module,Magento_Braintree
-Allow Duplicate Cards,Permettre de dupliquer les cartes,module,Magento_Braintree
+Use Vault,Utiliser Vault,module,Magento_Braintree
+Allow Duplicate Cards,Autoriser la duplication de cartes,module,Magento_Braintree
 CVV Verification,Vérification CVV,module,Magento_Braintree
 Credit Card Types,Types de cartes bancaire,module,Magento_Braintree
 Enable Credit Card auto-detection on Storefront,Activer  l'auto-détection de carte bancaire sur la vue magasin,module,Magento_Braintree
@@ -1517,6 +1517,7 @@ List Mode,Mode d'affichage,module,Magento_Catalog
 Products per Page on Grid Allowed Values,Valeurs autorisées pour le nombre de produits par page sur l'affichage en grille,module,Magento_Catalog
 Comma-separated.,Séparées par des virgules.,module,Magento_Catalog
 Products per Page on Grid Default Value,Valeur par défaut pour le nombre de produits par page sur l'affichage en grille,module,Magento_Catalog
+Must be in the allowed values list,Doit être dans la liste des valeurs autorisées,module,Magento_Catalog
 Products per Page on List Allowed Values,Valeurs autorisées pour le nombre de produits par page sur l'affichage en liste,module,Magento_Catalog
 Products per Page on List Default Value,Valeur par défaut pour le nombre de produits par page sur l'affichage en liste,module,Magento_Catalog
 Use Flat Catalog Category,Utiliser le catalogue à plat pour les catégories,module,Magento_Catalog
@@ -1664,7 +1665,7 @@ Products will still be shown by direct product URLs.,Les produits seront accessi
 Only X left Threshold,Seuil pour afficher 'Plus que X produits restant',module,Magento_CatalogInventory
 Display products availability in stock on Storefront.,Afficher la disponiblité des produits sur le front office.,module,Magento_CatalogInventory
 Product Stock Options,Options de stock de produits,module,Magento_CatalogInventory
-"Please note that these settings apply to individual items in the cart, not to the entire cart.",Veuillez noter que ces paramètres sont applicables aux lignes du panieret non à son emsemble.,module,Magento_CatalogInventory
+"Please note that these settings apply to individual items in the cart, not to the entire cart.",Veuillez noter que ces paramètres sont applicables aux lignes du panier et non à son ensemble.,module,Magento_CatalogInventory
 Manage Stock,Gérer les stocks,module,Magento_CatalogInventory
 Backorders,Commande en rupture de stock,module,Magento_CatalogInventory
 Maximum Qty Allowed in Shopping Cart,Quantité maxi autorisée dans le panier,module,Magento_CatalogInventory
@@ -4889,7 +4890,7 @@ Payflow Pro and Express Checkout,Payflow Pro et Express Checkout,module,Magento_
                         <strong>Donnez a vos ventes un coup de pouce lorsque vous annoncez financement.</strong><br/>PayPal contribue à son tour les navigateurs clients avec financement&#174;. Vos clients ont plus de temps pour payer, alors que vous êtes payé à l'avant - sans coût supplémentaire pour vous.
                         Utilisez des bannières publicitaires gratuits de PayPal qui vous permettent de annoncez crédit PayPal&#174; financement comme une option de paiement lorsque vos clients de vérifier avec PayPal.
                         Le Programme PayPal publicité a été montré pour générer des achats supplémentaires ainsi que les tailles d'achat moyen des consommateurs en augmentation 15%
-                        Ou plus. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.7",module,Magento_Paypal
+                        Ou plus. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.",module,Magento_Paypal
 Not you?,Ce n'est pas vous ?,module,Magento_Persistent
 Your shopping cart has been updated with new prices.,Votre panier a été mis à jour avec les nouveaux prix.,module,Magento_Persistent
 "Welcome, %1!","Bienvenue, %1 !",module,Magento_Persistent
@@ -6095,7 +6096,7 @@ We'll use the default description above if you leave this empty.,La description 
 Multi-address Error to Show in Shopping Cart,Erreur multi-adresse à afficher dans le panier,module,Magento_Sales
 We'll use the default error above if you leave this empty.,Le message d'erreur par défaut sera utilisé si ce champ est laissé vide.,module,Magento_Sales
 Dashboard,Tableau de bord,module,Magento_Sales
-Use Aggregated Data (beta),Utiliser les données cumulatives (beta),module,Magento_Sales
+Use Aggregated Data (beta),Utiliser les données agrégées (beta),module,Magento_Sales
 Orders Cron Settings,Paramètres du CRON (tâche planifiée) des commandes,module,Magento_Sales
 Pending Payment Order Lifetime (minutes),Durée de vie des commande en attente de paiement (minutes),module,Magento_Sales
 Sales Emails,Mails des ventes,module,Magento_Sales
