@@ -501,9 +501,7 @@ Customer Support,Support client,module,Magento_Backend
 Design,Design,module,Magento_Backend
 Design Theme,Theme de design,module,Magento_Backend
 User-Agent Exceptions,Exceptions User-Agent,module,Magento_Backend
-"
-                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
-                    ","Les chaînes de recherche sont soit des chaînes normales ou soit des expressions réguliers (PCRE). Ils sont traitées dans le même ordre qu'elles sont renseignées. Exemples :<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>","Les chaînes de recherche sont soit des chaînes normales ou soit des expressions réguliers (PCRE). Ils sont traitées dans le même ordre qu'elles sont renseignées. Exemples :<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
                     ",module,Magento_Backend
 Find a string in client user-agent header and switch to specific design theme for that browser.,"Analyse une chaîne dans l'en-tête ""User-Agent"" fourni par le navigateur client et sélectionne le design spécifique pour ce navigateur.",module,Magento_Backend
 Pagination,Pagination,module,Magento_Backend
@@ -546,7 +544,7 @@ European Union Countries,Pays de l'Union Européenne,module,Magento_Backend
 Top destinations,Top destinations,module,Magento_Backend
 Locale Options,Options de localisation,module,Magento_Backend
 Timezone,Fuseau horaire,module,Magento_Backend
-Locale,Profil local,module,Magento_Backend
+Locale,Locale,module,Magento_Backend
 First Day of Week,Premier jour de la semaine,module,Magento_Backend
 Weekend Days,Jours de weekend,module,Magento_Backend
 Store Name,Nom du magasin,module,Magento_Backend
@@ -592,9 +590,7 @@ Enable Charts,Activer les graphiques,module,Magento_Backend
 Web,Web,module,Magento_Backend
 Url Options,Options d'URL,module,Magento_Backend
 Add Store Code to Urls,Ajouter le code du magasin aux URLs,module,Magento_Backend
-"
-                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
-                    ","<strong style=""color:red"">Attention !</strong> Lors de l'utilisation des codes de magasin dans les URLs, le système peut ne pas fonctionner correctement dans certains cas si des URLs sans code sont spécifiées dans des services tiers (par ex. PayPal).",module,Magento_Backend
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Attention !</strong> Lors de l'utilisation des codes de magasin dans les URLs, le système peut ne pas fonctionner correctement dans certains cas si des URLs sans code sont spécifiées dans des services tiers (par ex. PayPal).",module,Magento_Backend
 Auto-redirect to Base URL,Rediriger automatiquement vers l'URL de base,module,Magento_Backend
 Search Engine Optimization,Optimisations pour les moteurs de recherche,module,Magento_Backend
 Use Web Server Rewrites,Utiliser les réécritures du serveur web,module,Magento_Backend
@@ -946,9 +942,7 @@ CAPTCHA Timeout (minutes),Délai d'attente du CAPTCHA (minutes),module,Magento_C
 Number of Symbols,Nombre de symboles,module,Magento_Captcha
 Please specify 8 symbols at the most. Range allowed (e.g. 3-5),Spécifiez au maximum 8 symboles. Les tranches sont acceptées (par ex. 3-5),module,Magento_Captcha
 Symbols Used in CAPTCHA,Symboles utilisés dans le CAPTCHA,module,Magento_Captcha
-"
-                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
-                    ","Veuillez n'utilisez uniquement que des lettres (a-z ou A-Z) ou des chiffres (0-9) dans ce champ. Les espaces ou autres caractères ne sont pas autorisés.<br />Les caractères semblables (par exemple ""i"", ""L"", ""1"") diminuent les chances de reconnaissance correcte par le client.",module,Magento_Captcha
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.","Veuillez n'utilisez uniquement que des lettres (a-z ou A-Z) ou des chiffres (0-9) dans ce champ. Les espaces ou autres caractères ne sont pas autorisés.<br />Les caractères semblables (par exemple ""i"", ""L"", ""1"") diminuent les chances de reconnaissance correcte par le client.",module,Magento_Captcha
 Case Sensitive,Sensible à la casse,module,Magento_Captcha
 Enable CAPTCHA on Storefront,Activer CAPTCHA sur le front office,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Le CAPTCHA sera toujours activé sur les formulaires ""Créer un utilisateur"" et ""Mot de passe perdu"" s'il est activé.",module,Magento_Captcha
@@ -1670,9 +1664,7 @@ Products will still be shown by direct product URLs.,Les produits seront accessi
 Only X left Threshold,Seuil pour afficher 'Plus que X produits restant',module,Magento_CatalogInventory
 Display products availability in stock on Storefront.,Afficher la disponiblité des produits sur le front office.,module,Magento_CatalogInventory
 Product Stock Options,Options de stock de produits,module,Magento_CatalogInventory
-"
-                    Please note that these settings apply to individual items in the cart, not to the entire cart.
-                ",Veuillez noter que ces paramètres sont applicables aux lignes du panieret non à son emsemble.,module,Magento_CatalogInventory
+"Please note that these settings apply to individual items in the cart, not to the entire cart.",Veuillez noter que ces paramètres sont applicables aux lignes du panieret non à son emsemble.,module,Magento_CatalogInventory
 Manage Stock,Gérer les stocks,module,Magento_CatalogInventory
 Backorders,Commande en rupture de stock,module,Magento_CatalogInventory
 Maximum Qty Allowed in Shopping Cart,Quantité maxi autorisée dans le panier,module,Magento_CatalogInventory
@@ -2830,21 +2822,15 @@ Default Email Domain,Nom de Domaine d'e-mail par défaut,module,Magento_Customer
 Default Welcome Email,E-mail d'accueil par défaut,module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Le gabarit d'e-mail choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Customer
 Default Welcome Email Without Password,E-mail d'accueil par défaut sans mot de passe,module,Magento_Customer
-"
-                        This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
-                        Email template chosen based on theme fallback when ""Default"" option is selected.
-                    ","
-                        Ce message sera envoyé à la place de l'e-mail d'accueil par défaut, si un client a été créé sans mot de passe. <br /><br />
+"This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.","Ce message sera envoyé à la place de l'e-mail d'accueil par défaut, si un client a été créé sans mot de passe. <br /><br />
                         Le gabarit de l'e-mail choisi est basé sur le thème d'origine lorsque l'option «par défaut» est sélectionné.",module,Magento_Customer
 Email Sender,Expéditeur du mail,module,Magento_Customer
 Require Emails Confirmation,Nécessite la confirmation par e-mail,module,Magento_Customer
 Confirmation Link Email,E-mail de lien de confirmation,module,Magento_Customer
 Welcome Email,E-mail de bienvenue,module,Magento_Customer
-"
-                        This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
-                        Email template chosen based on theme fallback when ""Default"" option is selected.
-                    ","
-                        Ce message sera envoyé à la place de l'e-mail d'accueil par défaut, après la confirmation du compte. <br /><br />
+"This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.","Ce message sera envoyé à la place de l'e-mail d'accueil par défaut, après la confirmation du compte. <br /><br />
                         Le gabarit de l'e-mail choisi est basé sur le thème d'origine lorsque l'option «par défaut» est sélectionné.
                     ",module,Magento_Customer
 Generate Human-Friendly Customer ID,Générer un ID client étant plus facile à lire,module,Magento_Customer
@@ -2861,9 +2847,7 @@ Leave empty for default (2). Valid range: 1-4,Laisser vide pour utiliser la vale
 Show Prefix,Afficher le préfixe,module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","Le préfixe vient avant le nom (Mr, Mme, etc.)",module,Magento_Customer
 Prefix Dropdown Options,Options de la liste déroulante des préfixes,module,Magento_Customer
-"
-                        Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.
-                    ",                        Point virgule (;) pour séparer les valeurs.<br/>Si vous le souhaitez mettez un point virgule pour commencer sans préfix<br/>Cela permettra d'avoir un champ vide de texte ouvert.,module,Magento_Customer
+Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.,Point virgule (;) pour séparer les valeurs.<br/>Si vous le souhaitez mettez un point virgule pour commencer sans préfix<br/>Cela permettra d'avoir un champ vide de texte ouvert.,module,Magento_Customer
 Show Middle Name (initial),Afficher les initiales,module,Magento_Customer
 Always optional.,Toujours optionnel.,module,Magento_Customer
 Show Suffix,Afficher le suffixe,module,Magento_Customer
@@ -3045,9 +3029,7 @@ Currency Update Warnings,Alertes de mise à jour des devises,module,Magento_Dire
 Currency Setup,Paramétrage des devises,module,Magento_Directory
 Currency Options,Options de devise,module,Magento_Directory
 Base Currency,Devise de base,module,Magento_Directory
-"
-                        Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
-                    ","La devis de base est utilisé dans toutes les paiements en ligne. Si vous avez plusieurs vues magasin, la portée de la devise de base est définie par la portée des prix catalogue (""Catalogue"" > ""Prix"" > ""Portée des prix catalogue"").",module,Magento_Directory
+"Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","La devis de base est utilisé dans toutes les paiements en ligne. Si vous avez plusieurs vues magasin, la portée de la devise de base est définie par la portée des prix catalogue (""Catalogue"" > ""Prix"" > ""Portée des prix catalogue"").",module,Magento_Directory
 Default Display Currency,Devise à afficher par défaut,module,Magento_Directory
 Allowed Currencies,Devises autorisées,module,Magento_Directory
 Webservicex,Webservicex,module,Magento_Directory
@@ -4711,10 +4693,7 @@ Sign a billing agreement to streamline further purchases  with PayPal.,Signer un
 Merchant Location,Localisation du marchand,module,Magento_Paypal
 Merchant Country,Pays du marchand,module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","S'il n'est pas spécifié, le pays par défaut dans la configuration général sera utilisé",module,Magento_Paypal
-"
-                    PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>
-                ","
-                    PayPal All-in-One Solutions de paiement&nbsp;&nbsp;<i>Accepter les cartes de crédit et des processus et des paiements PayPal.</i>
+PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>,"PayPal All-in-One Solutions de paiement&nbsp;&nbsp;<i>Accepter les cartes de crédit et des processus et des paiements PayPal.</i>
                 ",module,Magento_Paypal
 Choose a secure bundled payment solution for your business.,Choisissez une solution de paiement sécurisé fourni pour votre entreprise.,module,Magento_Paypal
 Payments Pro and Express Checkout,Payments Pro et Express Checkout,module,Magento_Paypal
@@ -4730,10 +4709,7 @@ Express Checkout,Express Checkout,module,Magento_Paypal
 Add PayPal as an additional payment method to your checkout page.,Ajouter PayPal comme moyen de paiement supplémentaire à votre page de paiement.,module,Magento_Paypal
 Required PayPal Settings,Réglages PayPal requis,module,Magento_Paypal
 Email Associated with PayPal Merchant Account,E-mail associée à Compte Marchand PayPal,module,Magento_Paypal
-"
-                        <a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>
-                    ","
-                        <a href=""http://www.magentocommerce.com/paypal"">Commencez à accepter les paiements via PayPal!</a>
+"<a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>","<a href=""http://www.magentocommerce.com/paypal"">Commencez à accepter les paiements via PayPal!</a>
                     ",module,Magento_Paypal
 Don't have a PayPal account? Simply enter your email address.,Vous n'avez pas de compte PayPal ? Il suffit d'entrer votre adresse e-mail.,module,Magento_Paypal
 API Authentication Methods,Modes d'authentification de l'API,module,Magento_Paypal
@@ -4755,15 +4731,12 @@ Enable PayPal Credit,Activer Crédit PayPal,module,Magento_Paypal
                         <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
                 ",module,Magento_Paypal
 Advertise PayPal Credit,Faites de la publicité crédit PayPal,module,Magento_Paypal
-"
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
                         <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
                         from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
                         Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                         The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
-                ","
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Pourquoi annoncer le financement?</a><br/>
+                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Pourquoi annoncer le financement?</a><br/>
                         <strong>Donnez a vos ventes un coup de pouce lorsque vous annoncez financement.</strong><br/>PayPal contribue à son tour les navigateurs clients avec financement&#174;. Vos clients ont plus de temps pour payer, alors que vous êtes payé à l'avant - sans coût supplémentaire pour vous.
                         Utilisez des bannières publicitaires gratuits de PayPal qui vous permettent de annoncez crédit PayPal&#174; financement comme une option de paiement lorsque vos clients de vérifier avec PayPal.
                         Le Programme PayPal publicité a été montré pour générer des achats supplémentaires ainsi que les tailles d'achat moyen des consommateurs en augmentation 15%
@@ -4808,16 +4781,11 @@ Require Customer's Billing Address,Nécessite l'adresse de facturation du client
 This feature needs be enabled first for the merchant account through PayPal technical support.,Cette fonctionnalité doit d'abord être activée pour le compte commerçant via le support technique de PayPal.,module,Magento_Paypal
 Billing Agreement Signup,Engagement d'entente de facturation ,module,Magento_Paypal
 "Whether to create a billing agreement, if there are no active billing agreements available.","Créer une entente de facturation, s'il n'y a aucune entente de facturation active disponible.",module,Magento_Paypal
-"
-                        Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.
-                    ",Les commerçants doivent demander à PayPal pour permettre la fonction d''entente de facturation. Ne pas activer cette option jusqu'à ce que PayPal confirme que l'entente de facturation sont activés pour votre compte marchand.,module,Magento_Paypal
+Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.,Les commerçants doivent demander à PayPal pour permettre la fonction d''entente de facturation. Ne pas activer cette option jusqu'à ce que PayPal confirme que l'entente de facturation sont activés pour votre compte marchand.,module,Magento_Paypal
 Skip Order Review Step,Aller directement Revoir les étapes de Commande ,module,Magento_Paypal
 PayPal Billing Agreement Settings,Paramètres d'entente de facturation PayPal,module,Magento_Paypal
 Enabled,Activé,module,Magento_Paypal
-"
-                            Will appear as a payment option only for customers who have at least one active billing agreement.
-                        ","
-                            Apparaît comme une option de paiement uniquement pour les clients qui ont au moins un accord de facturation actif.",module,Magento_Paypal
+Will appear as a payment option only for customers who have at least one active billing agreement.,Apparaît comme une option de paiement uniquement pour les clients qui ont au moins un accord de facturation actif.,module,Magento_Paypal
 Allow in Billing Agreement Wizard,Autoriser dans l'assistant d'entente de facturation,module,Magento_Paypal
 Settlement Report Settings,Les paramètres du rapport de règlement,module,Magento_Paypal
 SFTP Credentials,Informations d'accès SFTP,module,Magento_Paypal
@@ -4837,31 +4805,15 @@ PayPal Product Logo,Logo du produit PayPal,module,Magento_Paypal
 Displays on catalog pages and homepage.,L'affichage sur les pages de catalogue et l'accueil.,module,Magento_Paypal
 PayPal Merchant Pages Style,PayPal marchand pages de style,module,Magento_Paypal
 Page Style,Style de page,module,Magento_Paypal
-"
-                            Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).
-                        ","
-                            Les valeurs autorisées: ""paypal"", ""primary"" (default), your_custom_value (une page de paiement personnalisé le style de votre profil de compte marchand).
-                        ",module,Magento_Paypal
+"Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).","Les valeurs autorisées: ""paypal"", ""primary"" (default), your_custom_value (une page de paiement personnalisé le style de votre profil de compte marchand).",module,Magento_Paypal
 Header Image URL,URL de l'image d'entête,module,Magento_Paypal
-"
-                            The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.
-                        ","
-                            L'image en haut à gauche de la page de paiement. Taille maximale est 750x90 pixels. <strong style=""color:red"">https</strong> est fortement encouragée.
-                        ",module,Magento_Paypal
+"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.","L'image en haut à gauche de la page de paiement. Taille maximale est 750x90 pixels. <strong style=""color:red"">https</strong> est fortement encouragée.",module,Magento_Paypal
 Header Background Color,Couleur d'arrière plan de l'entête,module,Magento_Paypal
-"
-                            The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.
-                        ","
-                            La couleur de fond de l'en-tête de la page de paiement. Insensible à la casse de six caractères HTML code de couleur hexadécimal en ASCII.
-                        ",module,Magento_Paypal
+The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.,La couleur de fond de l'en-tête de la page de paiement. Insensible à la casse de six caractères HTML code de couleur hexadécimal en ASCII.,module,Magento_Paypal
 Header Border Color,Couleur de la bordure de l'entête,module,Magento_Paypal
 2-pixel perimeter around the header space.,Périmètre de 2 pixels autour de l'espace d'en-tête.,module,Magento_Paypal
 Page Background Color,Couleur d'arrière plan de la page,module,Magento_Paypal
-"
-                            The background color for the checkout page around the header and payment form.
-                        ","
-                            La couleur de fond de la page de paiement autour de la tête et le formulaire de paiement.
-                        ",module,Magento_Paypal
+The background color for the checkout page around the header and payment form.,La couleur de fond de la page de paiement autour de la tête et le formulaire de paiement.,module,Magento_Paypal
 Payments Advanced (Includes Express Checkout),Paiements avancée (Comprend Express Checkout),module,Magento_Paypal
 Accept payments with a PCI-compliant checkout that keeps customers on your site.,Accepter les paiements avec un départ de la conformité PCI qui garde les clients sur votre site.,module,Magento_Paypal
 Payments Advanced and Express Checkout,Paiements Avancée et Express Checkout,module,Magento_Paypal
@@ -4872,15 +4824,12 @@ PayPal recommends that you set up an additional User on your account at manager.
 "PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","PayPal vous recommande de mettre en place un utilisateur supplémentaire dans votre compte à manager.paypal.com, au lieu d'entrer votre nom d'utilisateur et mot de passe admin ici. Cela permettra d'améliorer votre sécurité et éviter les interruptions de service si vous changez votre mot de passe plus tard. Si vous ne voulez pas mettre en place un utilisateur supplémentaire, vous pouvez réintégrer votre compte marchand ici.",module,Magento_Paypal
 Test Mode,Mode test,module,Magento_Paypal
 Use Proxy,Utiliser un proxy,module,Magento_Paypal
-"
-                    <a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+"<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
                                             <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
                                             from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
                                             Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                                             The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                                            or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
-                ","
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Pourquoi annoncer le financement?</a><br/>
+                                            or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Pourquoi annoncer le financement?</a><br/>
                         <strong>Donnez a vos ventes un coup de pouce lorsque vous annoncez financement.</strong><br/>PayPal contribue à son tour les navigateurs clients avec financement&#174;. Vos clients ont plus de temps pour payer, alors que vous êtes payé à l'avant - sans coût supplémentaire pour vous.
                         Utilisez des bannières publicitaires gratuits de PayPal qui vous permettent de annoncez crédit PayPal&#174; financement comme une option de paiement lorsque vos clients de vérifier avec PayPal.
                         Le Programme PayPal publicité a été montré pour générer des achats supplémentaires ainsi que les tailles d'achat moyen des consommateurs en augmentation 15%
@@ -4902,15 +4851,12 @@ Basic Settings - PayPal Payflow Link,Paramètres de base - PayPal Payflow Link,m
 Website Payments Pro Hosted Solution,Solution hébergée Website Payments Pro,module,Magento_Paypal
 Accept payments with a PCI compliant checkout that keeps customers on your site.,Accepter les paiements avec une caisse compatible PCI qui garde les clients sur votre site.,module,Magento_Paypal
 Payments Pro Hosted Solution,Paiements Pro Solution Hébergé,module,Magento_Paypal
-"
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
                             <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
                             from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
                             Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                             The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                            or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
-                ","
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Pourquoi annoncer le financement?</a><br/>
+                            or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Pourquoi annoncer le financement?</a><br/>
                         <strong>Donnez a vos ventes un coup de pouce lorsque vous annoncez financement.</strong><br/>PayPal contribue à son tour les navigateurs clients avec financement&#174;. Vos clients ont plus de temps pour payer, alors que vous êtes payé à l'avant - sans coût supplémentaire pour vous.
                         Utilisez des bannières publicitaires gratuits de PayPal qui vous permettent de annoncez crédit PayPal&#174; financement comme une option de paiement lorsque vos clients de vérifier avec PayPal.
                         Le Programme PayPal publicité a été montré pour générer des achats supplémentaires ainsi que les tailles d'achat moyen des consommateurs en augmentation 15%
@@ -4925,11 +4871,7 @@ Connect your merchant account with a fully customizable gateway that lets custom
 Basic Settings - PayPal Payflow Pro,Réglages de base - PayPal Payflow Pro,module,Magento_Paypal
 Credit Card Settings,Paramètres de carte de crédit,module,Magento_Paypal
 Allowed Credit Card Types,Types de cartes de crédit autorisées,module,Magento_Paypal
-"
-                    Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.
-                ","
-                    Supporter des cartes American Express nécessitent un accord supplémentaire. En savoir plus au <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.
-                ",module,Magento_Paypal
+"Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.","Supporter des cartes American Express nécessitent un accord supplémentaire. En savoir plus au <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.",module,Magento_Paypal
 CVV and AVS Settings,CVV et AVS Paramètres,module,Magento_Paypal
 Reject Transaction if:,Rejeter la transaction si:,module,Magento_Paypal
 AVS Street Does Not Match,AVS l'adresse de rue ne correspond pas,module,Magento_Paypal
@@ -4938,19 +4880,16 @@ International AVS Indicator Does Not Match,Indicateur internationale AVS ne corr
 Card Security Code Does Not Match,Code de sécurité de la carte ne correspond pas,module,Magento_Paypal
 Payflow Pro (Includes Express Checkout),Payflow Pro (Comprend Express Checkout),module,Magento_Paypal
 Payflow Pro and Express Checkout,Payflow Pro et Express Checkout,module,Magento_Paypal
-"
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
                                 <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
                                 from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
                                 Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                                 The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
-                ","
-                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Pourquoi annoncer le financement?</a><br/>
+                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Pourquoi annoncer le financement?</a><br/>
                         <strong>Donnez a vos ventes un coup de pouce lorsque vous annoncez financement.</strong><br/>PayPal contribue à son tour les navigateurs clients avec financement&#174;. Vos clients ont plus de temps pour payer, alors que vous êtes payé à l'avant - sans coût supplémentaire pour vous.
                         Utilisez des bannières publicitaires gratuits de PayPal qui vous permettent de annoncez crédit PayPal&#174; financement comme une option de paiement lorsque vos clients de vérifier avec PayPal.
                         Le Programme PayPal publicité a été montré pour générer des achats supplémentaires ainsi que les tailles d'achat moyen des consommateurs en augmentation 15%
-                        Ou plus. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.",module,Magento_Paypal
+                        Ou plus. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.7",module,Magento_Paypal
 Not you?,Ce n'est pas vous ?,module,Magento_Persistent
 Your shopping cart has been updated with new prices.,Votre panier a été mis à jour avec les nouveaux prix.,module,Magento_Persistent
 "Welcome, %1!","Bienvenue, %1 !",module,Magento_Persistent
@@ -6137,14 +6076,10 @@ Checkout Totals Sort Order,Ordre de tri des totaux de commande,module,Magento_Sa
 Allow Reorder,Autoriser le renouvellement de commande,module,Magento_Sales
 Invoice and Packing Slip Design,Design de facture et de bordereau de livraison,module,Magento_Sales
 Logo for PDF Print-outs (200x50),Logo pour les impressions PDF (200x50),module,Magento_Sales
-"
-                        Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.
-                    ","Le logo par défaut sera utilisé dans les documents PDF et HTML.<br />(jpeg, gif, png)
+"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Le logo par défaut sera utilisé dans les documents PDF et HTML.<br />(jpeg, gif, png)
 Si l'image dans les PDF est déformée, essayez d'utiliser une image plus grande.",module,Magento_Sales
 Logo for HTML Print View,Logo pour l'aperçu avant impression HTML,module,Magento_Sales
-"
-                        Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)
-                    ","Logo uniquement pour les documents HTML. Si vide, celui par défaut sera utilisé.<br />(jpeg, gif, png)",module,Magento_Sales
+"Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)","Logo uniquement pour les documents HTML. Si vide, celui par défaut sera utilisé.<br />(jpeg, gif, png)",module,Magento_Sales
 Address,Adresse,module,Magento_Sales
 Minimum Order Amount,Montant de commande minimum,module,Magento_Sales
 Enable,Activer,module,Magento_Sales
