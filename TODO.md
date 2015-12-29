@@ -11,3 +11,4 @@
 * [x] Please => Veuillez
 * [x] Invalid => Invalide
 * [x] Provided => Fourni
+* [ ] Storefront => Vue client
