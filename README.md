@@ -30,7 +30,7 @@ Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-
 
 # Version
 
-Les versions du package suivent les recommendations de la [Gestion sémantique de version](http://semver.org/lang/fr/).
+Les versions du package suivent les recommandations de la [Gestion sémantique de version](http://semver.org/lang/fr/).
 
 Destinée initialement au développement logiciel, voici les règles utilisées pour notre numérotation :
 
