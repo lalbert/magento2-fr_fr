@@ -1065,7 +1065,7 @@ Products Information,Informations produits,module,Magento_Catalog
 Category Name,Nom de catégorie,module,Magento_Catalog
 Parent Category,Catégorie parente,module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","Si il n'y a pas de sous-catégorie personnalisé, veuillez utiliser la catégorie racine par défaut. Vous pouvez réaffecter la catégorie à tout moment dans <a href=""%1"" target=""_blank""> Produits > Catégories </a>.",module,Magento_Catalog
-We saved the price alert subscription.,Nous avons enregsitré votre abonnement concernant l'alerte de ce prix.,module,Magento_Catalog
+We saved the price alert subscription.,Nous avons enregistré votre abonnement concernant l'alerte de ce prix.,module,Magento_Catalog
 We saved the stock notification.,Nous avons enregistré la notification de stock.,module,Magento_Catalog
 There are no customers for this alert.,Aucun client pour cette alerte.,module,Magento_Catalog
 First Name,Prénom,module,Magento_Catalog
@@ -1163,7 +1163,7 @@ An attribute set named '%1' already exists.,Un groupe d'attributs nommé '%1' ex
 Something went wrong while saving the attribute.,Une erreur s'est produite lors de l'enregistrement de l'attribut.,module,Magento_Catalog
 "Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Code d'attribut ""%1"" invalide. Veuillez utiliser uniquement des lettres (az), des chiffres (0-9) ou de soulignement (_) dans ce domaine, le premier caractère doit être une lettre.",module,Magento_Catalog
 We can't update the attribute.,Nous ne pouvons pas mettre à jour l'attribut.,module,Magento_Catalog
-You saved the product attribute.,Vous avez enregsitré l'attribut du produit.,module,Magento_Catalog
+You saved the product attribute.,Vous avez enregistré l'attribut du produit.,module,Magento_Catalog
 An attribute with this code already exists.,Un attribut avec ce code existe déjà.,module,Magento_Catalog
 An attribute with the same code (%1) already exists.,Un attribut avec le même code (%1) existe déjà.,module,Magento_Catalog
 You duplicated the product.,Vous dupliqué le produit.,module,Magento_Catalog
