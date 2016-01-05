@@ -26,7 +26,7 @@ Si vous désirez installer le package sans utiliser composer, téléchargez-le e
     
 # Contribuer à la traduction
 
-Référez-vous au fichier [CONTRIBUTING.md](https://github.com/lalbert/magento2-fr_fr/blob/master/CONTRIBUTING.md) si vous désirez contribuer aux traductions.
+Référez-vous au fichier [CONTRIBUTING.md](CONTRIBUTING.md) si vous désirez contribuer aux traductions.
 
 # Version
 

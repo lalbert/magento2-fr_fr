@@ -4,9 +4,9 @@ Toute aide à la traduction de Magento 2 en français est la bienvenue !
 
 Le package est basé sur 3 fichiers de traduction :
 
-* [fr_fr.csv](https://github.com/lalbert/magento2-fr_fr/blob/develop/fr_fr.csv) : toutes ces chaînes ont été extraites de [Magento 2.0.0](https://github.com/magento/magento2/tree/2.0) en utilisant la commande [`i18n:collect-phrases`](http://devdocs.magento.com/guides/v2.0/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict).
-* [fr_fr.missing.csv](https://github.com/lalbert/magento2-fr_fr/blob/develop/fr_fr.missing.csv) : contient des chaînes supplémentaires qui n'ont pas pas été extraites avec la commande précédente.
-* [fr_fr.script.csv](https://github.com/lalbert/magento2-fr_fr/blob/develop/fr_fr.script.csv) : contient des chaînes dont les apostrophes sont échappées pour corriger des erreurs dans les scripts.
+* [fr_fr.csv](fr_fr.csv) : toutes ces chaînes ont été extraites de [Magento 2.0.0](https://github.com/magento/magento2/tree/2.0) en utilisant la commande [`i18n:collect-phrases`](http://devdocs.magento.com/guides/v2.0/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict).
+* [fr_fr.missing.csv](fr_fr.missing.csv) : contient des chaînes supplémentaires qui n'ont pas pas été extraites avec la commande précédente.
+* [fr_fr.script.csv](fr_fr.script.csv) : contient des chaînes dont les apostrophes sont échappées pour corriger des erreurs dans les scripts.
 
 *Les 2 fichiers `fr_fr.missing.csv` et `fr_fr.script.csv` ne devraient théoriquement pas exister puisque Magento devrait d'une part extraire correctement toutes les chaînes traductibles, et devrait d'autre part correctement échapper les caractères posant d'éventuels problèmes.
 Ces problèmes ayant été remonté aux équipes de développement de Magento, nous sommes optimistes pour qu'ils soient corrigés dans une future version et seront donc inutiles.*
