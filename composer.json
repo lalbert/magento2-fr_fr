@@ -1,7 +1,26 @@
 {
 	"name" : "lalbert/magento2-fr_fr",
 	"description" : "French (France) language pack for Magento 2",
+	"type" : "magento2-language",
 	"license" : "MIT",
+	"authors" : [{
+			"name" : "Luc ALBERT",
+			"homepage" : "https://github.com/orgs/lalbert/people/lucalbert"
+		}, {
+			"name" : "Denis",
+			"email" : "contact@bkm.uno",
+			"homepage" : "http://www.bkm.uno"
+		}
+	],
+	"homepage" : "https://github.com/lalbert/magento2-fr_fr",
+	"support" : {
+		"issues" : "https://github.com/lalbert/magento2-fr_fr/issues"
+	},
+	"keywords" : [
+		"magento2",
+		"language pack",
+		"fr_FR"
+	],
 	"repositories" : [{
 			"type" : "composer",
 			"url" : "https://repo.magento.com/"
@@ -13,28 +32,14 @@
 	"require-dev" : {
 		"phpunit/phpunit" : "~4.8"
 	},
-	"type" : "magento2-language",
 	"autoload" : {
 		"files" : [
 			"registration.php"
 		]
 	},
-	"homepage" : "https://github.com/lalbert/magento2-fr_fr",
-	"support" : {
-		"issues" : "https://github.com/lalbert/magento2-fr_fr/issues"
-	},
-	"authors" : [{
-			"name" : "Luc ALBERT",
-			"homepage" : "https://github.com/orgs/lalbert/people/lucalbert"
-		}, {
-			"name" : "Denis",
-			"email" : "contact@bkm.uno",
-			"homepage" : "http://www.bkm.uno"
-		}
-	],
-	"keywords" : [
-		"magento2",
-		"language pack",
-		"fr_FR"
-	]
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
 }
