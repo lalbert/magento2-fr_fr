@@ -6,23 +6,24 @@ Traduction de l'interface de Magento 2 en Français.
 
 ## Via composer
 
-La méthode la plus simple est d'utiliser composer pour installer et mettre à jour le package de traduction :
+La méthode la plus simple est d'utiliser [Composer](https://getcomposer.org/) pour installer et mettre à jour le package de traduction :
 
 Ajouter le composant dans le fichier composer.json :
 
-    composer require lalbert/magento2-fr_fr:@alpha
+    $ composer require lalbert/magento2-fr_fr:*
     
-Vider le cacher
+Vider les caches
 
-    bin/magento cache:clean
+    $ bin/magento cache:clean
     
 Pour effectuer la mise à jour :
 
-	composer update
+	$ composer update lalbert/magento2-fr_fr
+	$ bin/magento cache:clean
 	
 ## Téléchargement du package
 
-Si vous désirez installer le package sans utiliser composer, téléchargez-le et décompressez-le dans le répertoire `app/i18n/lalbert/fr_fr`
+Si vous désirez installer le package sans utiliser composer, [téléchargez-le](https://github.com/lalbert/magento2-fr_fr/archive/master.zip) et décompressez-le dans le répertoire `app/i18n/lalbert/fr_fr`
     
 # Contribuer à la traduction
 
