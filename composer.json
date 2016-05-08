@@ -1,6 +1,7 @@
 {
 	"name" : "lalbert/magento2-fr_fr",
 	"description" : "French (France) language pack for Magento 2",
+	"version" : "1.0.0",
 	"type" : "magento2-language",
 	"license" : "MIT",
 	"authors" : [{
