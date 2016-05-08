@@ -1,37 +1,46 @@
 <?php
-class CsvFileIterator implements Iterator {
+
+class CsvFileIterator implements Iterator
+{
     protected $file;
     protected $key = 0;
     protected $current;
 
-    public function __construct($file) {
+    public function __construct($file)
+    {
         $this->file = fopen($file, 'r');
     }
 
-    public function __destruct() {
+    public function __destruct()
+    {
         fclose($this->file);
     }
 
-    public function rewind() {
+    public function rewind()
+    {
         rewind($this->file);
         $this->current = fgetcsv($this->file);
         $this->key = 0;
     }
 
-    public function valid() {
+    public function valid()
+    {
         return !feof($this->file);
     }
 
-    public function key() {
+    public function key()
+    {
         return $this->key;
     }
 
-    public function current() {
+    public function current()
+    {
         return $this->current;
     }
 
-    public function next() {
+    public function next()
+    {
         $this->current = fgetcsv($this->file);
-        $this->key++;
+        ++$this->key;
     }
 }
