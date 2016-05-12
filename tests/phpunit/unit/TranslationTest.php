@@ -53,17 +53,32 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
         if (\strlen($en) !== \strlen(\ltrim($en))) {
             // Ignore si le premier caractère est "\n"
             if (10 != \ord($en)) {
-                $this->assertNotEquals($fr, \ltrim($fr), "Un espace en début de chaîne n'est pas respecté dans la traduction.");
+                $this->assertNotEquals(
+                    $fr,
+                    \ltrim($fr),
+                    "Un espace en début de chaîne n'est pas respecté dans la ".
+                    "traduction."
+                );
             }
         } else {
-            $this->assertEquals($fr, \ltrim($fr), 'Un espace en début de chaîne semble avoir été ajouté dans la traduction.');
+            $this->assertEquals(
+                $fr,
+                \ltrim($fr),
+                'Un espace en début de chaîne semble avoir été ajouté dans la ".
+                "traduction.'
+            );
         }
 
         // After
         if (\strlen($en) !== \strlen(\rtrim($en))) {
             // Ignore si le premier caractère est "\n"
             if (10 != \ord($en)) {
-                $this->assertNotEquals($fr, \rtrim($fr), "Un espace en fin de chaîne n'est pas respecté dans la traduction.");
+                $this->assertNotEquals(
+                    $fr,
+                    \rtrim($fr),
+                    "Un espace en fin de chaîne n'est pas respecté dans la ".
+                    "traduction."
+                );
             }
         }
     }
@@ -88,7 +103,8 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
         $firstWordEn = current(explode(' ', $en));
         $firstWordFr = current(explode(' ', $fr));
 
-        $isIgnored = \in_array($firstWordEn, $ignoreBeginBy) || \in_array($firstWordFr, $ignoreBeginBy);
+        $isIgnored = \in_array($firstWordEn, $ignoreBeginBy)
+        || \in_array($firstWordFr, $ignoreBeginBy);
 
         if (!$isIgnored) {
             $firstLetterEn = \substr($en, 0, 1);
@@ -96,9 +112,17 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
 
             if (\ctype_alpha($firstLetterEn) && \ctype_alpha($firstLetterFr)) {
                 if (\ctype_upper($firstLetterEn)) {
-                    $this->assertTrue(\ctype_upper($firstLetterFr), 'La 1ère lettre de la traduction devrait être en majuscule.');
+                    $this->assertTrue(
+                        \ctype_upper($firstLetterFr),
+                        'La 1ère lettre de la traduction devrait être en".
+                        " majuscule.'
+                    );
                 } elseif (\ctype_lower($firstLetterEn)) {
-                    $this->assertTrue(\ctype_lower($firstLetterFr), 'La 1ère lettre de la traduction devrait être en minuscule.');
+                    $this->assertTrue(
+                        \ctype_lower($firstLetterFr),
+                        'La 1ère lettre de la traduction devrait être en".
+                        " minuscule.'
+                    );
                 }
             }
         }
@@ -115,9 +139,14 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
         $lastLetterEn = \substr($en, -1);
         $lastLetterFr = \substr($fr, -1);
 
-        if (!\in_array($lastLetterEn, $ignoredPunctuation) && \ctype_punct($lastLetterEn)) {
+        if (!\in_array($lastLetterEn, $ignoredPunctuation)
+            && \ctype_punct($lastLetterEn)) {
             if (!\in_array($lastLetterFr, $ignoredPunctuation)) {
-                $this->assertTrue(\ctype_punct($lastLetterFr), "Il semble qu'il manque la ponctuation de la fin de chaîne.");
+                $this->assertTrue(
+                    \ctype_punct($lastLetterFr),
+                    "Il semble qu'il manque la ponctuation de la".
+                    " fin de chaîne."
+                );
             }
         }
     }
@@ -130,7 +159,11 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
 
         foreach ($trans as $enPronoun => $frPronoun) {
             if (0 === \strpos($enClean, $enPronoun)) {
-                $this->assertTrue((0 === \strpos($frClean, $frPronoun)), 'La traduction doit commencer par "'.\ucfirst($frPronoun).'"');
+                $this->assertTrue(
+                    (0 === \strpos($frClean, $frPronoun)),
+                    'La traduction doit commencer par "'
+                    .\ucfirst($frPronoun).'"')
+                ;
             }
         }
     }
