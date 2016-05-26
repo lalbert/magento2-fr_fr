@@ -1,0 +1,53 @@
+"Europe First Priority","Prioritaire Europe"
+"1 Day Freight","Frêt 1 jour"
+"2 Day Freight","Frêt 2 jours"
+"2 Day","2 jours"
+"2 Day AM","J+2 matin"
+"3 Day Freight","Frêt 3 jours"
+"Express Saver","Express économe"
+Ground,Sol
+"First Overnight",Lendemain
+"Home Delivery","Livraison à domicile"
+"International Economy","International éco"
+"Intl Economy Freight","Frêt éco international"
+"International First","Premier international"
+"International Ground","Sol international"
+"International Priority","Priorité internationale"
+"Intl Priority Freight","Frêt prioritaire international"
+"Priority Overnight","Lendemain (prioritaire)"
+"Smart Post","Smart Post"
+"Standard Overnight","Standard Overnight"
+Freight,Fret
+"National Freight","Fret National"
+"Regular Pickup","Ramassage régulier"
+"Request Courier","Demander un coursier"
+"Drop Box","Boîte de dépôt"
+"Business Service Center","Centre de service d'affaires"
+Station,Gare
+"FedEx Envelope","Enveloppe FedEx"
+"FedEx Pak","Pack FedEx"
+"FedEx Box","Boîte FedEx"
+"FedEx Tube","Tube FedEx"
+"FedEx 10kg Box","Boîte 10kg FedEx"
+"FedEx 25kg Box","Boîte 25kg FedEx"
+"Your Packaging","Votre paquet"
+"Not Required","Non requis"
+Adult,Adulte
+Direct,Directe
+Indirect,Indirecte
+status,statut
+"Empty response","Réponse vide"
+FedEx,FedEx
+"Account ID","ID de compte"
+"Please make sure to use only digits here. No dashes are allowed.","Veuillez utiliser uniquement des chiffres. Les tirets ne sont pas acceptés."
+"Meter Number","Numéro du compteur"
+"Sandbox Mode","Mode Sandbox"
+"Web-Services URL (Production)","URL du web-service (Production)"
+"Web-Services URL (Sandbox)","URL du web-service (Développement)"
+"Packages Request Type","Type de demande de paquets"
+Packaging,Emballage
+Dropoff,Déposer
+"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","Poids maxi du paquet (consultez votre transporteur)"
+"Residential Delivery","Residential Delivery"
+"Hub ID","Identifiant de hub"
+"The field is applicable if the Smart Post method is selected.","Le champ est applicable si le mode Smart Post est choisi."

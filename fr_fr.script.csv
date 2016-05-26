@@ -1,8 +1,0 @@
-Are you sure you want to send a Shipment email to customer?,Êtes-vous sûr de vouloir envoyer un e-mail d\'expédition au client ?,module,Magento_Shipping
-The cache storage may contain additional data. Are you sure that you want to flush it?,Le stockage de cache peut contenir d\'autres données. Êtes-vous sûr de vouloir le vider ?,module,Magento_Backend
-Are you sure you want to send an invoice email to customer?,Êtes-vous sûr de vouloir envoyer l\'e-mail de la facture au client ?,module,Magento_Sales
-Are you sure you want to send an order email to customer?,Êtes-vous sûr de vouloir envoyer l\'e-mail de la commande au client ?,module,Magento_Sales
-"This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Cela créera un remboursement hors ligne. Si vous désirez créer un remboursement en ligne, ouvrez une facture et créer l\'avoir pour celle-ci. Voulez-vous continuer ?",module,Magento_Sales
-CMS Home Page,Page d\'accueil CMS,module,Magento_Cms
-Billing Agreement View,Vue de l\'entente de facturation,module,Magento_Paypal
-"An attribute group named ""/name/"" already exists"".","Un groupe d\'attributs nommé ""/name/"" existe déjà.",module,Magento_Catalog

@@ -1,0 +1,30 @@
+"Go to Home Page","Aller à la page d'accueil"
+"Catalog Advanced Search","Recherche avancée dans le catalogue"
+All,Tous
+Results,Résultats
+Grid,Grille
+List,Liste
+"Search Weight","Poids pour la recherche"
+Relevance,Pertinence
+"Search results for: '%1'","Résultats de recherche pour : '%1'"
+"Minimum Search query length is %1","La longueur mini de requête est %1"
+"Please specify at least one search term.","Spécifiez au moins un terme de recherche."
+"%1 and greater","%1 et plus"
+"up to %1","jusqu'à %1"
+Category,Catégorie
+"%1 and above","%1 et plus"
+"%1 - %2","%1 - %2"
+"Bucket do not exists","Le bucket n'existe pas"
+"Search Settings","Paramètres de recherche"
+"Advanced Search","Recherche avancée"
+"<strong>%1 item</strong> were found using the following search criteria","<strong>%1 article</strong> trouvé avec les critères de recherche suivants"
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 articles</strong> trouvés avec les critères de recherche suivants"
+"Modify your search","Modifier votre recherche"
+name,nom
+"Don't see what you're looking for?","Vous ne trouvez pas ce que vous cherchez ?"
+"Your search returned no results.","Votre recherche n'a donné aucun résultat."
+"Popular Search Terms","Termes de recherche populaires"
+"Catalog Search","Recherche catalogue"
+"Minimal Query Length","Longueur mini de requête"
+"Maximum Query Length","Longueur maxi de requête"
+"Rebuild Catalog product fulltext search index","Reconstruire l'index de recherche sur le texte complet du catalogue produit"

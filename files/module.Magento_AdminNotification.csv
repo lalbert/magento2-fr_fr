@@ -1,0 +1,45 @@
+"Read Details","Lire les détails"
+"Mark as Read","Marquer comme lu"
+"Are you sure?","Êtes-vous sûr ?"
+Remove,Supprimer
+"Messages Inbox","Messages reçus"
+"You have %1 new system messages","Vous avez %1 nouveaux messages système"
+"You have %1 new system message","Vous avez %1 nouveau message système"
+"Incoming Message","Message entrant"
+close,fermer
+Notifications,Notifications
+"The message has been marked as Read.","Le message a bien été marqué comme lu."
+"Please select messages.","Veuillez sélectionner des messages."
+"A total of %1 record(s) have been marked as Read.","%1 message(s) marqué(s) comme lu(s)."
+"Total of %1 record(s) have been removed.","%1 enregistrement(s) a (ont) bien été supprimé(s)."
+"The message has been removed.","Le message a bien été supprimé."
+"1 Hour","1 Heure"
+"2 Hours","2 Heures"
+"6 Hours","6 Heures"
+"12 Hours","12 Heures"
+"24 Hours","24 Heures"
+critical,critique
+major,majeur
+minor,mineur
+notice,annonce
+"Wrong message type","Mauvais type de message."
+"Wrong notification ID specified.","Mauvais ID de notification spécifié."
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","Il n'est pas recommandé d'utiliser la variable {{base_url}} en production pour spécifier les URLs de base (sécurisée et non-sécurisée). Il est fortement recommandé de modifier cette valeur dans la <a href=""%1"">configuration</a> de Magento. "
+"One or more of the Cache Types are invalidated: %1. ","Un ou plusieurs types de cache sont invalidés : %1. "
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Veuillez vous rendre dans <a href=""%1"">Gestion du cache</a> et rafraîchir les types de cache."
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","Nous n'avons pas été en mesure de synchroniser un ou plusieurs fichiers médias. Veuillez vérifier le journal des logs pour obtenir plus de détails."
+"Synchronization of media storages has been completed.","Synchronisation du stockage des médias terminée."
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Votre serveur web n'est pas correctement configuré et permet l'accès à des fichiers sensibles. Veuillez corriger le problème rapidement ou contacter votre prestataire d'hébergement."
+"Close popup","Fermez le popup"
+Close,Fermer
+"System Messages:","Messages système :"
+"Critical System Messages","Messages système critiques"
+"Major System Messages","Messages système majeurs"
+"System messages","Messages système"
+"See All (","Voir tout ("
+" unread)"," non lu)"
+"Use HTTPS to Get Feed","Utiliser HTTPS pour récupérer le flux"
+"Update Frequency","Fréquence de mise à jour"
+"Last Update","Dernière mise à jour"
+Severity,Importance
+"Date Added","Date d'ajout"

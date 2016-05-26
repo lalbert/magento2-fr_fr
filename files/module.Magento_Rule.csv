@@ -1,0 +1,25 @@
+"Please choose a valid discount amount.","Veuillez spécifier une valeur de remise valide."
+"End Date must follow Start Date.","La date de fin doit être supérieure à la date de début."
+"Please specify Customer Groups.","Veuillez spécifier les groupes de client."
+to,à
+by,sur
+"Please choose an action to add.","Veuillez choisir une action à ajouter."
+"Perform following actions","Effectuer les actions suivantes"
+is,"est égal(e) à"
+"is not","est différent(e) de"
+"equals or greater than","est supérieur(e) ou égal(e) à"
+"equals or less than","est inférieur(e) ou égal(e) à"
+"greater than","est supérieur(e) à"
+"less than","est inférieur(e) à"
+contains,contient
+"does not contain","ne contient pas"
+"is one of","fait partie de"
+"is not one of","ne fait pas partie de"
+ALL,Tous
+ANY,"Un(e) ou plusieurs"
+TRUE,VRAIES
+FALSE,FAUSSES
+"If %1 of these conditions are %2:","Si %1 ces conditions sont %2 :"
+"Open Chooser","Ouvrir le sélecteur"
+"Unknown condition operator","Opérateur de condition inconnu"
+"There is no information about associated entity type ""%1"".","Il n'y a pas d'information sur le type d'entité associée ""%1""."
