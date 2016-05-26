@@ -1,3 +1,3 @@
 "Please correct the data sent.","Veuillez corriger les données envoyées."
-"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Le modèle du type d\'entité doit être une instance de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
-"There are no product types available for export","Aucun type de produit disponible pour l\'export"
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Le modèle du type d'entité doit être une instance de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
+"There are no product types available for export","Aucun type de produit disponible pour l'export"

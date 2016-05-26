@@ -17,16 +17,16 @@ Condition,Condition
 Sales,Ventes
 "Checkout Conditions","Conditions de commande"
 "Checkout Terms and Conditions","Conditions générales de ventes"
-"This condition no longer exists.","Cette condition n\'existe plus."
+"This condition no longer exists.","Cette condition n'existe plus."
 "You deleted the condition.","Vous avez supprimé la condition."
-"Something went wrong  while deleting this condition.","Une erreur s\'est produite durant la suppression de cette condition."
+"Something went wrong  while deleting this condition.","Une erreur s'est produite durant la suppression de cette condition."
 "Edit Condition","Modifier la condition"
 "New Condition","Nouvelle condition"
 "You saved the condition.","La condition a été enregistrée."
-"Something went wrong while saving this condition.","Une erreur s\'est produite lors de l\'enregistrement de cette condition."
+"Something went wrong while saving this condition.","Une erreur s'est produite lors de l'enregistrement de cette condition."
 Automatically,Automatiquement
 Manually,Manuellement
-"Unable to save checkout agreement %1","Impossible d\'enregistrer la condition de vente %1"
+"Unable to save checkout agreement %1","Impossible d'enregistrer la condition de vente %1"
 "Unable to remove checkout agreement %1","Impossible de supprimer la condition de vente %1"
-"Checkout agreement with specified ID ""%1"" not found.","La condition de vente liée à l\'identifiant fourni ""%1"" n\'a pas été trouvée."
+"Checkout agreement with specified ID ""%1"" not found.","La condition de vente liée à l'identifiant fourni ""%1"" n'a pas été trouvée."
 "Enable Terms and Conditions","Activer les conditions générales de vente"

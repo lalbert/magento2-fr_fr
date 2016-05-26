@@ -5,4 +5,4 @@
 "Customer Service","Service client"
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>"
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Service client :<br /><span class=""no-link"">%store_hours</span>."
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Si vous avez des questions concernant votre commande, vous pouvez nous envoyer un e-mail à l\'adresse <a href=""mailto:%store_e-mail"">%store_e-mail</a>"
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Si vous avez des questions concernant votre commande, vous pouvez nous envoyer un e-mail à l'adresse <a href=""mailto:%store_e-mail"">%store_e-mail</a>"
