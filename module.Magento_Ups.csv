@@ -60,11 +60,11 @@ Commercial,Commercial
 error_message,error_message
 "Delivery Confirmation","Confirmation de livraison"
 "Signature Required","Signature obligatoire"
-"Adult Signature Required","La signature d'un adulte est requise"
+"Adult Signature Required","La signature d\'un adulte est requise"
 "United Parcel Service","United Parcel Service"
 "United Parcel Service XML","XML UPS"
 UPS,UPS
-"Access License Number","Numéro de permis d'accès"
+"Access License Number","Numéro de permis d\'accès"
 "Destination Type","Type de destination"
 "Gateway XML URL","URL XML de passerelle"
 "Minimum Package Weight (Please consult your shipping carrier for minimum supported shipping weight)","Poids mini du paquet (consultez votre transporteur)"

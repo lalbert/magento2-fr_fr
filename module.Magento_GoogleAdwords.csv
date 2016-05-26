@@ -1,6 +1,6 @@
 Constant,Fixe
-"Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","%1 n'est pas une valeur valide pour la couleur de conversion. Veuillez renseigner une valeur héxadécimal sur 6 chiffres."
-"Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","""%1"" n'est pas une valeur valide pour l'ID de conversion. L'ID de conversion doit être un entier."
+"Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","%1 n\'est pas une valeur valide pour la couleur de conversion. Veuillez renseigner une valeur héxadécimal sur 6 chiffres."
+"Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","""%1"" n\'est pas une valeur valide pour l\'ID de conversion. L\'ID de conversion doit être un entier."
 "Google AdWords","Google AdWords"
 "Conversion ID","ID de conversion"
 "Conversion Language","Langue de conversion"

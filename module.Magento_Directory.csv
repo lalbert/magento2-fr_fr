@@ -1,10 +1,10 @@
 lbs,lbs
 kgs,kgs
-"Requested country is not available.","Le pays demandé n'est pas disponible."
+"Requested country is not available.","Le pays demandé n\'est pas disponible."
 "Please correct the target currency.","Veuillez corriger la devise cibles."
 "Undefined rate from ""%1-%2"".","Taux indéfini depuis ""%1-%2""."
 "FATAL ERROR:","ERREUR FATALE :"
-"Please specify the correct Import Service.","Veuillez spécifier un service d'importation valide."
+"Please specify the correct Import Service.","Veuillez spécifier un service d\'importation valide."
 WARNING:,"ATTENTION :"
 "Please correct the country code: %1.","Veuillez corriger le code pays : %1."
 "Country and Format Type combination should be unique","La combinaison Pays et Type de format doit être unique"
@@ -20,13 +20,13 @@ Continue,Continuer
 "Allowed Currencies","Devises autorisées"
 Webservicex,Webservicex
 "Connection Timeout in Seconds","Timeout de connexion"
-"Scheduled Import Settings","Paramètres d'import programmé"
-"Error Email Recipient","Destinataire du mail d'erreur"
-"Error Email Sender","Expéditeur du mail d'erreur"
-"Error Email Template","Gabarit du mail d'erreur"
+"Scheduled Import Settings","Paramètres d\'import programmé"
+"Error Email Recipient","Destinataire du mail d\'erreur"
+"Error Email Sender","Expéditeur du mail d\'erreur"
+"Error Email Template","Gabarit du mail d\'erreur"
 Service,Service
 "Installed Currencies","Devises installées"
 "Zip/Postal Code is Optional for","Le code postal est optionnel pour"
 "State Options","Options des états"
-"State is Required for","L'état est obligatoire pour"
-"Allow to Choose State if It is Optional for Country","Afficher l'état s'il n'est pas obligatoire"
+"State is Required for","L\'état est obligatoire pour"
+"Allow to Choose State if It is Optional for Country","Afficher l\'état s\'il n\'est pas obligatoire"
