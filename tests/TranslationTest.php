@@ -1,6 +1,6 @@
 <?php
 
-namespace Lalbert\Magento2Fr\Tests\Unit;
+namespace Lalbert\Magento2Fr\Tests;
 
 class TranslationTest extends \PHPUnit_Framework_TestCase
 {
