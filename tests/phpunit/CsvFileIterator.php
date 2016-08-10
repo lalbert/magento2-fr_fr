@@ -2,7 +2,7 @@
 
 namespace Lalbert\Magento2Fr\Tests\Phpunit;
 
-class CsvFileIterator implements Iterator
+class CsvFileIterator implements \Iterator
 {
     protected $file;
     protected $key = 0;
