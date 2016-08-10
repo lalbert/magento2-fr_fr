@@ -6,3 +6,5 @@ Are you sure you want to send an order email to customer?,Êtes-vous sûr de vou
 CMS Home Page,Page d\'accueil CMS,module,Magento_Cms
 Billing Agreement View,Vue de l\'entente de facturation,module,Magento_Paypal
 "An attribute group named ""/name/"" already exists"".","Un groupe d\'attributs nommé ""/name/"" existe déjà.",module,Magento_Catalog
+"Choose Affected Attribute Set","Choisissez le groupe d\'attribut visé",
+"Default welcome msg!","Message d\'accueil par défaut !",
