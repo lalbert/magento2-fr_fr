@@ -1,8 +1,8 @@
 <?php
 
-namespace Lalbert\fr_fr\Tests;
+namespace Lalbert\Magento2Fr\Tests\Phpunit\Unit;
 
-require __DIR__.'/../CsvFileIterator.php';
+use Lalbert\Magento2Fr\Tests\Phpunit\CsvFileIterator;
 
 class TranslationTest extends \PHPUnit_Framework_TestCase
 {
@@ -170,8 +170,9 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
 
     public function readSourceCsv()
     {
-        $sourcePath = LALBERT_FR_FR_ROOT.'/fr_fr.csv';
+        $root = __DIR__ . '/../../..';
+        $sourcePath = $root .'/fr_fr.csv';
 
-        return new \CsvFileIterator($sourcePath);
+        return new CsvFileIterator($sourcePath);
     }
 }

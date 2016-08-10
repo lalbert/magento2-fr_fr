@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
-         bootstrap="tests/phpunit/bootstrap.php"
+         bootstrap="vendor/autoload.php"
          colors="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
@@ -12,15 +13,8 @@
         >
 
     <testsuites>
-        <testsuite name="translation">
-            <directory>tests/phpunit/unit/</directory>
+        <testsuite name="Magento 2 French translation pack Test Suite">
+            <directory>./tests/phpunit/unit/</directory>
         </testsuite>
     </testsuites>
-    <filter>
-        <whitelist>
-            
-        </whitelist>
-    </filter>
-    <logging>
-    </logging>
 </phpunit>
