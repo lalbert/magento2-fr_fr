@@ -2,6 +2,11 @@
 
 namespace Lalbert\Magento2Fr\Tests;
 
+/**
+ * Test les chaines de traduction pour vérifier la cohérence.
+ *
+ * @author lalbert
+ */
 class TranslationTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -54,16 +59,16 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
                 $this->assertNotEquals(
                     $fr,
                     \ltrim($fr),
-                    "Un espace en début de chaîne n'est pas respecté dans la ".
-                    "traduction."
+                    'Un espace en début de chaîne n\'est pas respecté dans la '.
+                    'traduction.'
                 );
             }
         } else {
             $this->assertEquals(
                 $fr,
                 \ltrim($fr),
-                'Un espace en début de chaîne semble avoir été ajouté dans la ".
-                "traduction.'
+                'Un espace en début de chaîne semble avoir été ajouté dans la '.
+                'traduction.'
             );
         }
 
@@ -74,8 +79,8 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
                 $this->assertNotEquals(
                     $fr,
                     \rtrim($fr),
-                    "Un espace en fin de chaîne n'est pas respecté dans la ".
-                    "traduction."
+                    'Un espace en fin de chaîne n\'est pas respecté dans la '.
+                    'traduction.'
                 );
             }
         }
@@ -112,14 +117,14 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
                 if (\ctype_upper($firstLetterEn)) {
                     $this->assertTrue(
                         \ctype_upper($firstLetterFr),
-                        'La 1ère lettre de la traduction devrait être en".
-                        " majuscule.'
+                        'La 1ère lettre de la traduction devrait être en'.
+                        ' majuscule.'
                     );
                 } elseif (\ctype_lower($firstLetterEn)) {
                     $this->assertTrue(
                         \ctype_lower($firstLetterFr),
-                        'La 1ère lettre de la traduction devrait être en".
-                        " minuscule.'
+                        'La 1ère lettre de la traduction devrait être en'.
+                        ' minuscule.'
                     );
                 }
             }
@@ -142,8 +147,8 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
             if (!\in_array($lastLetterFr, $ignoredPunctuation)) {
                 $this->assertTrue(
                     \ctype_punct($lastLetterFr),
-                    "Il semble qu'il manque la ponctuation de la".
-                    " fin de chaîne."
+                    'Il semble qu\'il manque la ponctuation de la'.
+                    ' fin de chaîne.'
                 );
             }
         }
@@ -168,8 +173,7 @@ class TranslationTest extends \PHPUnit_Framework_TestCase
 
     public function readSourceCsv()
     {
-        $root = __DIR__ . '/../../..';
-        $sourcePath = $root .'/fr_fr.csv';
+        $sourcePath = __DIR__.'/../fr_fr.csv';
 
         return new CsvFileIterator($sourcePath);
     }

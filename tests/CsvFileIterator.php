@@ -2,6 +2,11 @@
 
 namespace Lalbert\Magento2Fr\Tests;
 
+/**
+ * @author lalbert
+ *
+ * @see https://phpunit.de/manual/current/en/writing-tests-for-phpunit.html#writing-tests-for-phpunit.data-providers.examples.CsvFileIterator.php
+ */
 class CsvFileIterator implements \Iterator
 {
     protected $file;
