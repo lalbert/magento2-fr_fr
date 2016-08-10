@@ -1,6 +1,6 @@
 <?php
 
-namespace Lalbert\Magento2Fr\Tests\Phpunit;
+namespace Lalbert\Magento2Fr\Tests\Unit;
 
 class CsvFileIterator implements \Iterator
 {

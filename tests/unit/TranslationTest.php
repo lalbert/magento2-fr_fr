@@ -1,8 +1,6 @@
 <?php
 
-namespace Lalbert\Magento2Fr\Tests\Phpunit\Unit;
-
-use Lalbert\Magento2Fr\Tests\Phpunit\CsvFileIterator;
+namespace Lalbert\Magento2Fr\Tests\Unit;
 
 class TranslationTest extends \PHPUnit_Framework_TestCase
 {

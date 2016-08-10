@@ -14,7 +14,7 @@
 
     <testsuites>
         <testsuite name="Magento 2 French translation pack Test Suite">
-            <directory>./tests/phpunit/unit/</directory>
+            <directory>./tests/unit/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
